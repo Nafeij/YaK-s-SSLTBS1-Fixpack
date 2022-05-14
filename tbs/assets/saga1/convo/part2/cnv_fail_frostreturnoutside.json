@@ -1,0 +1,31 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"rookTheDredgeGiv": {
+				"content": [
+					"[rook] The dredge give you a sound thrashing, but go back to tearing at houses or meandering around, almost aimlessly. The other villagers scatter in terror. Perplexed, you manage to crawl back to the rest house and lick your wounds.",
+					{
+						"flagName": "morale-5"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "rookTheDredgeGiv",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "5c9h"
+}

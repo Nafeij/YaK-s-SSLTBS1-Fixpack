@@ -1,0 +1,246 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"hakonHakonJoinsY": {
+				"content": [
+					"[hakon] Hakon joins you with his personal bodyguard, Mogr. Behind him the prince, Ludin, and his entourage are in tow, though looking less than pleased to be here.",
+					{
+						"divert": "hakonHakonJoinsY1"
+					},
+					{
+						"flagName": "num_varl+280"
+					},
+					{
+						"flagName": "num_fighters+62"
+					},
+					{
+						"flagName": "supplies+303"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "ludindied"
+					},
+					{
+						"notIfCondition": "yrsadied"
+					},
+					{
+						"notIfCondition": "mogrdied"
+					}
+				]
+			},
+			"hakonHakonJoinsY1": {
+				"content": [
+					"[hakon] Hakon joins you on the wall. Behind him the prince, Ludin, and his entourage are in tow, though looking less than pleased to be here.",
+					{
+						"divert": "hakonHakonJoinsY2"
+					},
+					{
+						"flagName": "num_varl+280"
+					},
+					{
+						"flagName": "num_fighters+62"
+					},
+					{
+						"flagName": "supplies+303"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "ludindied"
+					},
+					{
+						"notIfCondition": "yrsadied"
+					},
+					{
+						"ifCondition": "mogrdied"
+					}
+				]
+			},
+			"hakonHakonJoinsY2": {
+				"content": [
+					"[hakon] Hakon joins you on the wall with his personal bodyguard, Mogr. Behind him the prince, Ludin, stands alone, looking miserable.",
+					{
+						"divert": "hakonHakonJoinsY3"
+					},
+					{
+						"flagName": "num_varl+280"
+					},
+					{
+						"flagName": "num_fighters+62"
+					},
+					{
+						"flagName": "supplies+303"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "mogrdied"
+					},
+					{
+						"notIfCondition": "ludindied"
+					},
+					{
+						"ifCondition": "yrsadied"
+					}
+				]
+			},
+			"hakonHakonJoinsY3": {
+				"content": [
+					"[hakon] Hakon joins you on the wall. Behind him the prince, Ludin, stands alone, looking miserable. It's clear they have no love for each other.",
+					{
+						"divert": "hakonHakonJoinsY4"
+					},
+					{
+						"flagName": "num_varl+280"
+					},
+					{
+						"flagName": "num_fighters+62"
+					},
+					{
+						"flagName": "supplies+303"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "ludindied"
+					},
+					{
+						"ifCondition": "yrsadied"
+					},
+					{
+						"ifCondition": "mogrdied"
+					}
+				]
+			},
+			"hakonHakonJoinsY4": {
+				"content": [
+					"[hakon] Hakon joins you on the wall with his personal bodyguard, Mogr. You discuss what to do next.",
+					{
+						"divert": "hakonHakonJoinsY5"
+					},
+					{
+						"flagName": "num_varl+280"
+					},
+					{
+						"flagName": "supplies+315"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "mogrdied"
+					},
+					{
+						"ifCondition": "yrsadied"
+					},
+					{
+						"ifCondition": "ludindied"
+					}
+				]
+			},
+			"hakonHakonJoinsY5": {
+				"content": [
+					"[hakon] Hakon joins you on the wall by himself, having sent his warriors to prepare below. You discuss what to do next.",
+					{
+						"divert": "junoIHaveOneLast"
+					},
+					{
+						"flagName": "num_varl+280"
+					},
+					{
+						"flagName": "supplies+315"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "ludindied"
+					},
+					{
+						"ifCondition": "yrsadied"
+					},
+					{
+						"ifCondition": "mogrdied"
+					}
+				]
+			},
+			"hakonHakonsCarav": {
+				"content": [
+					"[hakon] Hakon's caravan enters the city, fighting off waves of dredge as they go. To your relief hundreds of skilled warriors are now safely in Boersgard.",
+					{
+						"divert": "hakonHakonJoinsY"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"junoIHaveOneLast": {
+				"content": [
+					"[juno] \"I have one last trip to make. I need this one to come with me,\" she says, pointing to you. \"I'm sorry, Eyvind. You must wait for me one last time. Do not let the city fall before I return.\" It takes everything within Eyvind's power to hold back, but he does.",
+					{
+						"divert": "rookSheTurnsToYo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"junoJunoPausesAn": {
+				"content": [
+					"[juno] Juno pauses and something shifts in your vision, for just a moment. \"I know it's hard,\" she says, her voice filling your head, \"And you've already been through a lot.\" As she speaks again the rest of the world melts away. \"But you're needed.\" You can't find the words to argue.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"junoNotFarSaysJu": {
+				"content": [
+					"[juno] \"Not far,\" says Juno. She pauses and something shifts in your vision, for just a moment. \"I know it's hard,\" she says, her voice filling your head, \"And you've already been through a lot.\" As she speaks again the rest of the world melts away. \"But you're needed.\" You can't find the words to argue.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookSheTurnsToYo": {
+				"content": [
+					"[rook] She turns to you. \"Rook? Come with me. We'll return in two days, maybe less if you're as quick as you look. Tell anyone who needs to know.\"",
+					{
+						"linkPath": "junoJunoPausesAn",
+						"option": "\"I'm not going anywhere\""
+					},
+					{
+						"linkPath": "junoJunoPausesAn",
+						"option": "\"We'll be slaughtered out there!\""
+					},
+					{
+						"linkPath": "junoNotFarSaysJu",
+						"option": "\"Where? Why?\""
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "hakonHakonsCarav",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "8bj6"
+}

@@ -1,0 +1,353 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"atLeastItsNotAsB": {
+				"content": [
+					"At least it's not as bad as it could have been if you hadn't taken out a good portion of them already, you think to yourself.",
+					{
+						"divert": "mogrYouCallMogrA"
+					},
+					{
+						"flagName": "danger-2"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "1_forestfight1"
+					}
+				]
+			},
+			"hakonDeepInsideT": {
+				"content": [
+					"[hakon] Deep inside the woods you get the distinct sense that dredge have more or less surrounded you, and in great numbers. Their dark shapes create unsettling patterns as they slide between the trees in every direction.",
+					{
+						"divert": "atLeastItsNotAsB"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonNoFireYouSa": {
+				"content": [
+					"[hakon] \"No fire,\" you say. \"But an ambush is our best option.\" Yrsa's eyes narrow, but she says nothing. Your shieldbangers form a line and harass the dredge while archers pepper them with arrows. The frustrated dredge follow you back into the woods.",
+					{
+						"divert": "yrsaThenThingsGo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonWeMayHaveAn": {
+				"content": [
+					"[hakon] \"We may have an advantage if we can isolate them up in the trees,\" you say. You send shieldbangers forward to taunt them, then pepper them with arrows until many are frustrated enough to follow you back. It works... to a degree. The varl have just as much trouble maneuvering in the thick foliage as the dredge. You can't tell exactly how well the fight is going when you join in the fray, but you're already stumbling over the bodies of both.",
+					{
+						"flagName": "danger+1"
+					},
+					{
+						"flagName": "num_varl-10"
+					},
+					{
+						"flagName": "1 forestfight2"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonYouCreateAL": {
+				"content": [
+					"[hakon] You create a line of shieldbangers and unleash volleys of arrows in their direction, luring frustrated swathes of them into the trees. At your command, Yrsa flings flaming arrows into key locations. The trees erupt and fire spreads quickly.",
+					{
+						"divert": "yrsaManyFallImme"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonYouEscortYr": {
+				"content": [
+					"[hakon] You escort Yrsa about an hour's trek to the far edge of the trees, where she sets up a few soaked rags in key locations. With a volley of flaming arrows, the rags catch in dramatic fashion, sending the area up in flames despite the thickening snow.",
+					{
+						"divert": "yrsaYouHightailI"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrAfterALongHa": {
+				"content": [
+					"[mogr] After a long half hour their numbers have thinned. \"We better get out of here before that really spreads,\" suggests Mogr. You break through the trees and plow into the dredge who remained behind, hoping to cut through them before the others notice.",
+					{
+						"flagName": "1 forestfight2"
+					},
+					{
+						"flagName": "danger-4"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrYeahPrayToWh": {
+				"content": [
+					"[mogr] \"Yeah, pray to whatever god you like. There's more of them waiting on the other side of the woods than we've seen so far. We may be seriously outnumbered, especially if we wait.\"",
+					{
+						"divert": "yrsaYrsaAppearsU"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrYouCallMogrA": {
+				"content": [
+					"[mogr] You call Mogr around.",
+					{
+						"linkPath": "mogrYeahPrayToWh",
+						"option": "\"Any ideas, Mogr?\""
+					},
+					{
+						"linkPath": "youSoonRegretThe",
+						"option": "\"We're going to wait them out\""
+					},
+					{
+						"linkPath": "withTheWarriorsR",
+						"option": "\"Get the others ready to fight\""
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "hakonDeepInsideT",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"withTheWarriorsR": {
+				"content": [
+					"With the warriors readied, you burst from the woods at full tilt, weapons and shields at the ready, battle cries on the wind. The dredge may have known you were coming but still found themselves surprised. As you cut one wide-eyed slag nearly in half you bark orders and engage!",
+					{
+						"flagName": "1 forestfight2"
+					},
+					{
+						"flagName": "danger-1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"youConsiderYourO": {
+				"content": [
+					"You consider your options.",
+					{
+						"linkPath": "withTheWarriorsR",
+						"option": "Fight your way out as usual"
+					},
+					{
+						"linkPath": "youSoonRegretThe1",
+						"notIfConditions": [
+							{
+								"notIfCondition": "waited"
+							}
+						],
+						"option": "Wait and see if they disperse"
+					},
+					{
+						"linkPath": "hakonYouEscortYr",
+						"notIfConditions": [
+							{
+								"notIfCondition": "1_ludingone"
+							}
+						],
+						"option": "Create a forest fire as a distraction"
+					},
+					{
+						"linkPath": "hakonYouCreateAL",
+						"notIfConditions": [
+							{
+								"notIfCondition": "1_ludingone"
+							}
+						],
+						"option": "Draw them into the woods and set them on fire"
+					},
+					{
+						"linkPath": "hakonNoFireYouSa",
+						"notIfConditions": [
+							{
+								"notIfCondition": "1_ludingone"
+							}
+						],
+						"option": "Lure them into the woods without the fire"
+					},
+					{
+						"linkPath": "hakonWeMayHaveAn",
+						"ifConditions": [
+							{
+								"ifCondition": "1_ludingone"
+							}
+						],
+						"option": "Lure them into the woods"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"youSoonRegretThe": {
+				"content": [
+					"You soon regret the decision. Guards report more dredge piling up on the wood's border by the hour and everyone bemoans the dark and claustrophobic surroundings. It's time to make a call.",
+					{
+						"divert": "yrsaYrsaAppearsU"
+					},
+					{
+						"flagName": "danger+1"
+					},
+					{
+						"flagName": "day+1"
+					},
+					{
+						"flagName": "waited"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"youSoonRegretThe1": {
+				"content": [
+					"You soon regret the decision. The watch report more dredge piling up on the wood's border by the hour and everyone bemoans the dark and claustrophobic surroundings. You were able to get some rest, but you know it's time to make a call.",
+					{
+						"linkPath": "withTheWarriorsR",
+						"option": "Fight your way out as usual"
+					},
+					{
+						"linkPath": "hakonWeMayHaveAn",
+						"ifConditions": [
+							{
+								"ifCondition": "1_ludingone"
+							}
+						],
+						"option": "Lure them into the woods"
+					},
+					{
+						"linkPath": "hakonYouCreateAL",
+						"notIfConditions": [
+							{
+								"notIfCondition": "1_ludingone"
+							}
+						],
+						"option": "Draw them into the woods and set them on fire"
+					},
+					{
+						"linkPath": "hakonNoFireYouSa",
+						"notIfConditions": [
+							{
+								"notIfCondition": "1_ludingone"
+							}
+						],
+						"option": "Lure them into the woods without the fire"
+					},
+					{
+						"linkPath": "hakonYouEscortYr",
+						"notIfConditions": [
+							{
+								"notIfCondition": "1_ludingone"
+							}
+						],
+						"option": "Create a fire as a distraction"
+					},
+					{
+						"flagName": "day+1"
+					},
+					{
+						"flagName": "danger+1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"yrsaManyFallImme": {
+				"content": [
+					"[yrsa] Many fall immediately, but the varl start to lose their nerve. Soon the caravan is in disarray, some fighting, others fleeing from the growing inferno. Yrsa has vanished. Ludin rushes past in a state of terror. You break from trees, hoping to regroup.",
+					{
+						"flagName": "1 forestfire"
+					},
+					{
+						"flagName": "num_varl-35"
+					},
+					{
+						"flagName": "num_fighters-8"
+					},
+					{
+						"flagName": "yrsadied"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"yrsaThenThingsGo": {
+				"content": [
+					"[yrsa] Then things go wrong. You see Yrsa flinging her fire arrows despite your orders. Dead trees erupt, the flames spreading quickly. \"I said no fire!\" you shout, but now both dredge and varl are panicking in the growing inferno. Ludin rushes past in a state of terror. You break from trees, hoping to regroup.",
+					{
+						"flagName": "num_varl-20"
+					},
+					{
+						"flagName": "1 forestfire"
+					},
+					{
+						"flagName": "1 yrsadisobeyed"
+					},
+					{
+						"flagName": "yrsadied"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"yrsaYouHightailI": {
+				"content": [
+					"[yrsa] You high-tail it back to the caravan, where Mogr is already reporting that dredge are heading toward the fires. Yrsa cackles with delight, all but reinforcing the nickname the varl have given her as \"the witch\".",
+					{
+						"divert": "mogrAfterALongHa"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"yrsaYrsaAppearsU": {
+				"content": [
+					"[yrsa] Yrsa appears, unexpectedly. \"What if,\" she says patting her arrows knowingly, \"you could set part of the woods on fire to draw their attention while you escape, or try to draw them into a trap?\" \"Was this your idea?\" you ask. She shrugs innocently.",
+					{
+						"divert": "youConsiderYourO"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "1_ludingone"
+					}
+				]
+			}
+		}
+	},
+	"url_key": "32j5"
+}

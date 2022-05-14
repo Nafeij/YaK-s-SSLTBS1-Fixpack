@@ -1,0 +1,196 @@
+{
+	"data": {
+		"initial": "mogrMogrComesToY",
+		"stitches": {
+			"aQuickAndMeasure": {
+				"content": [
+					"A quick and measured blow takes him by complete surprise. He falls to the ground like a sack of potatoes. Mogr sighs, \"This'll make negotiations difficult.\" Rumor spreads like a brush fire. A day later a stack of gold and silver appears before your tent, and you return it to Ubin, who simply shakes his head.",
+					{
+						"flagName": "1 hitludin"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonTheyReturnT": {
+				"content": [
+					"[hakon] They return the valuables they took and agree to silence. You're not sure what Ludin's up to but decide to keep it to yourself for now.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonYouAnnounce": {
+				"content": [
+					"[hakon] You announce to the caravan that a few specific warriors won't be receiving rations for abandoning their posts, with some physical punishment thrown in for good measure. Next time it will be considered desertion. It sobers up the others for certain.",
+					{
+						"flagName": "morale-5"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonYouCallTheN": {
+				"content": [
+					"[hakon] You call the named varl to your tent and demand an explanation. They tell you they saw Ludin's men going back to the wrecked wagon to gather gold, and followed. They admit to taking some for themselves.",
+					{
+						"linkPath": "ludinIOrderedItS",
+						"option": "Punish them and speak with Ludin"
+					},
+					{
+						"linkPath": "ludinIOrderedItS",
+						"option": "Dismiss them and speak with Ludin"
+					},
+					{
+						"linkPath": "hakonTheyReturnT",
+						"option": "Keep the news to yourself"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonYouLeaveNoD": {
+				"content": [
+					"[hakon] You leave no doubt in Ludin's mind that another stunt like this won't end peacefully. He shrugs indifferently.",
+					{
+						"flagName": "morale-10"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ludinIOrderedItS": {
+				"content": [
+					"[ludin] \"I ordered it,\" says Ludin when you confront him. \"I sent my men to bring back gold from the cart you left behind. If you have a problem with your warriors joining them maybe you should keep them under control.\"",
+					{
+						"linkPath": "ludinIveAlreadyS",
+						"option": "Threaten him if he doesn't stop"
+					},
+					{
+						"linkPath": "mogrNoHeSaysUnfl",
+						"option": "Demand he turn over the loot"
+					},
+					{
+						"linkPath": "ludinYouLeftAPil",
+						"option": "Insist he explain his actions"
+					},
+					{
+						"linkPath": "aQuickAndMeasure",
+						"option": "Pummel him in his stupid face"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ludinIveAlreadyS": {
+				"content": [
+					"[ludin] \"I've already stopped,\" he says, \"We're too far now for anyone to catch back up to the caravan.\" His smug demeanor is nearly unbearable.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ludinYouLeftAPil": {
+				"content": [
+					"[ludin] \"You left a pile of gold at the bottom of a hill,\" says Ludin. \"What are the chances it'll still be there months from now? The only reason we aren't each carrying a share is because you don't trust us.\"",
+					{
+						"linkPath": "ludinIveAlreadyS",
+						"option": "Threaten him if he doesn't stop"
+					},
+					{
+						"linkPath": "mogrNoHeSaysUnfl",
+						"option": "Demand he turn over the loot"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHeAgreesButW": {
+				"content": [
+					"[mogr] He agrees, but worries about leaving the caravan unattended. You assure him it'll be fine. By the next day you haven't learned anything more, and you have to push on.",
+					{
+						"flagName": "day+1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrICouldntGetA": {
+				"content": [
+					"[mogr] \"I couldn't get a straight answer out of them,\" he says on return. \"And others denied it outright. I can't question the humans directly, but I'll be damned if Ludin doesn't have something to do with this.\"",
+					{
+						"linkPath": "youreNotSureWhat",
+						"option": "Keep the news to yourself"
+					},
+					{
+						"linkPath": "ludinIOrderedItS",
+						"option": "Speak with Ludin"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrMogrComesToY": {
+				"content": [
+					"[mogr] Mogr comes to you privately. \"I've seen some of the warriors disappearing,\" he says. \"At first, thought it was my imagination, now I'm certain several have just gone missing. Mostly men, but some varl too. Can't quite figure it. If it's abandonment you can't let it stand.\"",
+					{
+						"linkPath": "mogrICouldntGetA",
+						"option": "Have Mogr question the ones who have returned"
+					},
+					{
+						"linkPath": "hakonYouCallTheN",
+						"option": "Demand answers personally"
+					},
+					{
+						"linkPath": "hakonYouAnnounce",
+						"option": "Make an example of a few"
+					},
+					{
+						"linkPath": "ludinIOrderedItS",
+						"option": "Ask Ludin if he knows anything about this"
+					},
+					{
+						"linkPath": "mogrHeAgreesButW",
+						"option": "Have Mogr watch and follow anyone else"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"mogrNoHeSaysUnfl": {
+				"content": [
+					"[mogr] \"No,\" he says, unflinchingly. Mogr pulls you aside. \"He has no claim to the gold, but he takes no orders from us, either. Like it or not he's an equal. They'll repay us when this is over and you'll look the better for it.\" Ludin folds his arms.",
+					{
+						"linkPath": "hakonYouLeaveNoD",
+						"option": "Back down"
+					},
+					{
+						"linkPath": "aQuickAndMeasure",
+						"option": "Pummel him into the ground"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"youreNotSureWhat": {
+				"content": [
+					"You're not sure what Ludin's up to but decide to keep it to yourself for now, and keep a closer watch on Ludin.",
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "rc9r"
+}

@@ -1,0 +1,112 @@
+{
+	"data": {
+		"initial": "convoySomeClansm",
+		"stitches": {
+			"convoyManyClansm": {
+				"content": [
+					"[convoy] Many clansmen follow your lead while others continue eating and collecting. Later that day, a few fruit-stained peasants stumble around with drunken grins. Apparently the fruit was fermented, not poisonous.",
+					{
+						"flagName": "supplies+5"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoySomeClansm": {
+				"content": [
+					"[convoy] Some clansmen have discovered a large patch of wild fruit. When you approach, you see some people have begun to sample them. A mother frets about whether they’re safe after overhearing one of the children say that it tastes funny. Others start gathering by the basketful.",
+					{
+						"linkPath": "rookSeveralWatch",
+						"option": "Take a bite yourself"
+					},
+					{
+						"linkPath": "convoyManyClansm",
+						"option": "Discourage them from eating the fruit"
+					},
+					{
+						"linkPath": "rookAfterAShortT",
+						"option": "Observe someone who already ate some"
+					},
+					{
+						"linkPath": "rookLackingAPois",
+						"option": "Offer a piece to one of the animals in the caravan"
+					},
+					{
+						"linkPath": "rookGatherWhatYo",
+						"option": "Gather as much as you can"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"rookAfterAShortT": {
+				"content": [
+					"[rook] After a short time, you note the slurred speech of a young man partaking of the fruit. Besides a little drunk, he seems perfectly fine.",
+					{
+						"linkPath": "rookSeveralWatch",
+						"option": "Take a bite yourself"
+					},
+					{
+						"linkPath": "convoyManyClansm",
+						"option": "Discourage others from eating the fruit"
+					},
+					{
+						"linkPath": "rookGatherWhatYo",
+						"option": "Gather as much as you can"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookGatherWhatYo": {
+				"content": [
+					"[rook] \"Gather what you can,\" you tell the others, thankful to add any amount of food to your stores. Though a few people become a little drunk from the fermented fruits nobody becomes sick.",
+					{
+						"flagName": "supplies+16"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookLackingAPois": {
+				"content": [
+					"[rook] Lacking a poison taster, you hold out the fruit to a goat. The beast sniffs it before eating the entire fruit. Only the pit falls to the ground as the goat licks its mouth and leans toward your hand  wanting more.",
+					{
+						"linkPath": "rookSeveralWatch",
+						"option": "Take a bite yourself"
+					},
+					{
+						"linkPath": "convoyManyClansm",
+						"option": "Discourage others from eating the fruit"
+					},
+					{
+						"linkPath": "rookGatherWhatYo",
+						"option": "Gather as much as you can"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookSeveralWatch": {
+				"content": [
+					"[rook] Several watch as you taste the fruit. You pause after swallowing and feign choking. Alette rushes to your side in a panic, but your laughter soothes everyone’s concern. Soon, everyone is a little tipsy from the fermented fruit and spirits are high.",
+					{
+						"flagName": "supplies+12"
+					},
+					{
+						"flagName": "morale+5"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "d4z3"
+}

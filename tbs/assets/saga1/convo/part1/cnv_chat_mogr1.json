@@ -1,0 +1,624 @@
+{
+	"data": {
+		"initial": "skipMarkhakonMar",
+		"stitches": {
+			"hakonAnyoneIShou": {
+				"content": [
+					"[hakon] Anyone I should keep an eye on?",
+					{
+						"divert": "mogrTheresACoupl"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonDammitWeSho": {
+				"content": [
+					"[hakon] Dammit. We should keep an eye on that bastard. If you see anything else tell me.",
+					{
+						"divert": "mogrIWill"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonIdAskHowYou": {
+				"content": [
+					"[hakon] I'd ask how you're dealing with Vognir's death but I already know the answer.",
+					{
+						"divert": "mogrHakonDoYou"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonIDontLikeBe": {
+				"content": [
+					"[hakon] I don't like being the one to send varl to their deaths. I like worrying about myself, and that's the extent of it.",
+					{
+						"divert": "mogrHakonWhoWoul"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonImStillWond": {
+				"content": [
+					"[hakon] I'm still wondering what happened. He had hundreds of  dead slag to his name. I don't get it.",
+					{
+						"divert": "mogrJustHappensS"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonIWill": {
+				"content": [
+					"[hakon] I will.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonMogrAnyProb": {
+				"content": [
+					"[hakon mogr] Any problems?",
+					{
+						"divert": "mogrCouldBeLudin"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonMogrHeRanIn": {
+				"content": [
+					"[hakon mogr] He ran into dredge. Wasn't expecting it.",
+					{
+						"divert": "mogrWhenWeFoundH"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonMogrIDoubtT": {
+				"content": [
+					"[hakon mogr] I doubt that.",
+					{
+						"divert": "mogrIForgetYouWe"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonMogrWhatAbo": {
+				"content": [
+					"[hakon mogr] What about Ludin's men?",
+					{
+						"divert": "mogrTheyDontWant"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonMogrWhy": {
+				"content": [
+					"[hakon mogr] Why?",
+					{
+						"divert": "mogrTheFlamingAr"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonMogrWhyNot": {
+				"content": [
+					"[hakon mogr] Why not?",
+					{
+						"divert": "mogrItsTheKindOf"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonSteadyOldMo": {
+				"content": [
+					"[hakon] Steady old Mogr, which is good. I know most of these varl, but they're not under my command. They came to follow Vognir.",
+					{
+						"divert": "mogrTellYouTheTr"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonStillDoesnt": {
+				"content": [
+					"[hakon] Still doesn't make much sense. Witch?",
+					{
+						"divert": "mogrHakonTheyreN"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonThanks": {
+				"content": [
+					"[hakon] Thanks.",
+					{
+						"divert": "whatDoYouAsk"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonThatMakesMo": {
+				"content": [
+					"[hakon] That makes more sense. Don't let her find out.",
+					{
+						"divert": "whatDoYouAsk"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonThatsAsking": {
+				"content": [
+					"[hakon] That's asking a lot.",
+					{
+						"divert": "whatDoYouAsk"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonYouThinkLud": {
+				"content": [
+					"[hakon] You think Ludin...?",
+					{
+						"divert": "mogrHakonHeProba"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrAlthoughIHav": {
+				"content": [
+					"[mogr] Although, I have to wonder... nah, nevermind.",
+					{
+						"divert": "mogrAnywayIllWor"
+					},
+					{
+						"flagName": "mogrchoice4"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrAndThereAreA": {
+				"content": [
+					"[mogr] And there are a few moaning about fighting for you, instead of Vognir. Those are the ones to worry about.",
+					{
+						"divert": "hakonMogrWhatAbo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrAnywayIllWor": {
+				"content": [
+					"[mogr] Anyway, I'll worry about the warriors. You worry about not doing something stupid.",
+					{
+						"divert": "hakonThatsAsking"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrCouldBeLudin": {
+				"content": [
+					"[mogr] Could be. Ludin's pet varl is named Bersi. I'm not sure where he came from or what his deal is. Bastard knows how to fight but there's something I don't like about him.",
+					{
+						"divert": "mogrHisGirlInRed"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrDidHeReallyG": {
+				"content": [
+					"[mogr] Did he really get taken down by some random slag? Who else was there?",
+					{
+						"divert": "hakonYouThinkLud"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHakonDoYou": {
+				"content": [
+					"[mogr hakon] Do you?",
+					{
+						"divert": "hakonSteadyOldMo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHakonHeProba": {
+				"content": [
+					"[mogr hakon] He probably didn't, but...",
+					{
+						"divert": "hakonDammitWeSho"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHakonItsBett": {
+				"content": [
+					"[mogr hakon] It's better if you let me worry about it.",
+					{
+						"linkPath": "mogrIfTheresARea",
+						"option": "If you say so. Keep it to yourself."
+					},
+					{
+						"linkPath": "mogrHowDidVognir",
+						"option": "Sounds important. Tell me."
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHakonLetMeKn": {
+				"content": [
+					"[mogr hakon] Let me know if you need anything else.",
+					{
+						"divert": "hakonIWill"
+					},
+					{
+						"flagName": "mogrchoice1=0"
+					},
+					{
+						"flagName": "mogrchoice2=0"
+					},
+					{
+						"flagName": "mogrchoice3=0"
+					},
+					{
+						"flagName": "mogrchoice4=0"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHakonTheyreN": {
+				"content": [
+					"[mogr hakon] They're not scholars, Hakon. I think they're mostly just afraid of her.",
+					{
+						"divert": "hakonThatMakesMo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHakonThisMan": {
+				"content": [
+					"[mogr hakon] This many varl? No, we should be alright. Things could get rough though.",
+					{
+						"divert": "hakonIDontLikeBe"
+					},
+					{
+						"flagName": "mogrchoice3"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHakonWhoWoul": {
+				"content": [
+					"[mogr hakon] Who would've expected Vognir to drop like that to a couple of slag?",
+					{
+						"divert": "hakonImStillWond"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHisGirlInRed": {
+				"content": [
+					"[mogr] His girl in red is scary, too. Yrsa. She's probably the best fighter Ludin's got, to be honest. I've overheard some of the varl call her \"the witch\".",
+					{
+						"divert": "hakonMogrWhy"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHowDidVognir": {
+				"content": [
+					"[mogr] How did Vognir die?",
+					{
+						"divert": "hakonMogrHeRanIn"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrIdRatherNotS": {
+				"content": [
+					"[mogr] I'd rather not say, Hakon.",
+					{
+						"divert": "hakonMogrWhyNot"
+					},
+					{
+						"flagName": "mogrchoice4=0"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrIForgetYouWe": {
+				"content": [
+					"[mogr] I forget, you weren't around back then. At one point I had more rope. I hung myself.",
+					{
+						"divert": "mogrSoNoImNotInt"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrIfTheresARea": {
+				"content": [
+					"[mogr] If there's a reason to bring it up again, I will.",
+					{
+						"divert": "whatDoYouAsk"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrItsBetterIfY": {
+				"content": [
+					"[mogr] It's better if you let me worry about it.",
+					{
+						"divert": "mogrHakonItsBett"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrItsTheKindOf": {
+				"content": [
+					"[mogr] It's the kind of thing that'd get stuck in your head, and you need a clear one.",
+					{
+						"divert": "mogrItsBetterIfY"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrIWill": {
+				"content": [
+					"[mogr] I will.",
+					{
+						"divert": "whatDoYouAsk"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrJustHappensS": {
+				"content": [
+					"[mogr] Just happens sometimes. No big moment. I'm sure it surprised him even more than us.",
+					{
+						"divert": "mogrAlthoughIHav"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrMoreThanIAmA": {
+				"content": [
+					"[mogr] More than I am? Any more rope and I'd hang myself.",
+					{
+						"divert": "hakonMogrIDoubtT"
+					},
+					{
+						"flagName": "mogrchoice2"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrSoNoImNotInt": {
+				"content": [
+					"[mogr] So no, I'm not interested in command, it's all yours.",
+					{
+						"divert": "hakonThanks"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrTellYouTheTr": {
+				"content": [
+					"[mogr] Tell you the truth? I wouldn't want to be in your position either.",
+					{
+						"divert": "whatDoYouAsk"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrTheFightersW": {
+				"content": [
+					"[mogr] The fighters we just got from Strand aren't bad, but they're unruly. Give it a few days.",
+					{
+						"divert": "mogrAndThereAreA"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrTheFlamingAr": {
+				"content": [
+					"[mogr] The flaming arrows, I think. It's a good trick, but the fire upsets our varl more than the dredge.",
+					{
+						"divert": "hakonStillDoesnt"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrTheresACoupl": {
+				"content": [
+					"[mogr] There's a couple of clan leaders trying to show off for each other. Not a big deal, I've got it under control.",
+					{
+						"divert": "mogrTheFightersW"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrTheyDontWant": {
+				"content": [
+					"[mogr] They don't want to hear anything from me, I know that.",
+					{
+						"divert": "hakonMogrAnyProb"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrThrowTogethe": {
+				"content": [
+					"[mogr] Throw together this many varl, half of them want to hit each other, the rest want to be left alone.",
+					{
+						"divert": "hakonAnyoneIShou"
+					},
+					{
+						"flagName": "mogrchoice1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrWhenWeFoundH": {
+				"content": [
+					"[mogr] When we found him he was lying face down, like he was struck from behind.",
+					{
+						"divert": "mogrDidHeReallyG"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skipMarkhakonMar": {
+				"content": [
+					"{skip} mark1=hakon mark2=mogr",
+					{
+						"divert": "hakonIdAskHowYou"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"whatDoYouAsk": {
+				"content": [
+					"/=What do you ask?=/",
+					{
+						"linkPath": "mogrThrowTogethe",
+						"notIfConditions": [
+							{
+								"notIfCondition": "mogrchoice1"
+							}
+						],
+						"option": "Anything you can tell me about the caravan?"
+					},
+					{
+						"linkPath": "mogrMoreThanIAmA",
+						"notIfConditions": [
+							{
+								"notIfCondition": "mogrchoice2"
+							}
+						],
+						"option": "Haven't you ever wanted to be in command?"
+					},
+					{
+						"linkPath": "mogrHakonThisMan",
+						"notIfConditions": [
+							{
+								"notIfCondition": "mogrchoice3"
+							}
+						],
+						"option": "You think we're walking into a death trap?"
+					},
+					{
+						"linkPath": "mogrIdRatherNotS",
+						"ifConditions": [
+							{
+								"ifCondition": "mogrchoice4"
+							}
+						],
+						"option": "What were you holding back about Vognir?"
+					},
+					{
+						"linkPath": "mogrHakonLetMeKn",
+						"option": "Let's get back to it"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "j9p6"
+}

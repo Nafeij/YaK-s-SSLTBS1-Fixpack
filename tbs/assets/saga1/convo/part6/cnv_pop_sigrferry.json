@@ -1,0 +1,43 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"convoyDespiteOrY": {
+				"content": [
+					"[convoy] Despite, or you suspect, because of your vigilance, the locals from Sigrholm don't try anything underhanded as they take you in their small boats to the other side of the lake over several trips. You leave them with a generous amount of food and they row back to their town. You hope it's worth it to buy some space from Bellower, who will have to drag his armies through the mud on foot.",
+					{
+						"flagName": "6 sigrferry"
+					},
+					{
+						"flagName": "day+1"
+					},
+					{
+						"flagName": "morale+5"
+					},
+					{
+						"flagName": "suppies-25"
+					},
+					{
+						"flagName": "renown+10"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "convoyDespiteOrY",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "3qwx"
+}

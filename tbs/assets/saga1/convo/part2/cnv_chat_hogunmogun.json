@@ -1,0 +1,364 @@
+{
+	"data": {
+		"initial": "skipMarkrookMark",
+		"stitches": {
+			"behindTheAngryVi": {
+				"content": [
+					"/=Behind the angry villager, a mob of armed thugs have appeared, all furrowed brows and nervous stares.=/",
+					{
+						"divert": "peasantmaleYouBo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hogunAndMogunLos": {
+				"content": [
+					"/=Hogun and Mogun lose some of their bravado as Iver approaches the scene, shield raised. They drop their axes.=/",
+					{
+						"divert": "mogunHogunDidntE"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hogunMogunWhatDo": {
+				"content": [
+					"[hogun] Mogun, what do you say? Thought it was unfair that he only asked me.",
+					{
+						"divert": "mogunDrawsHisAxe"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hogunNahCantGoAr": {
+				"content": [
+					"[hogun] Nah. Can't go around killing for no good reason. This was a good reason.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hogunNotSeeingAs": {
+				"content": [
+					"[hogun] Not seeing as they fled their own town.",
+					{
+						"divert": "peasantmaleWeWou"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hogunThatsUsuall": {
+				"content": [
+					"[hogun] That's usually how it goes.",
+					{
+						"divert": "youStepBackAsOne"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hogunTrueYouCanK": {
+				"content": [
+					"[hogun] True. You can keep whoever wants to stay and die.",
+					{
+						"divert": "mogunTheRestOfUs"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hogunWeThoughtTh": {
+				"content": [
+					"[hogun] We thought that's how it went, ourselves.",
+					{
+						"divert": "mogunHogunAGoodN"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hogunYouHurtMogu": {
+				"content": [
+					"[hogun] You hurt, Mogun?",
+					{
+						"divert": "mogunNoWeShouldH"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverStepsForward": {
+				"content": [
+					"/=Iver steps forward. The thugs hesitate. As you pull out your axe you notice that Alette is nowhere to be seen.=/",
+					{
+						"flagName": "2 village1fight"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogunDrawsHisAxe": {
+				"content": [
+					"/=Mogun draws his axe slowly, followed by Hogun. Despite their confidence, the brothers are significantly outnumbered.=/",
+					{
+						"divert": "mogunIThinkIMake"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogunHogunAGoodN": {
+				"content": [
+					"[mogun hogun] A good number told me to my face they didn't want to be beaten to death by dredge.",
+					{
+						"divert": "peasantmaleDredg"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogunHogunDidntE": {
+				"content": [
+					"[mogun hogun] Didn't expect that.",
+					{
+						"divert": "hogunNotSeeingAs"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogunIThinkIMake": {
+				"content": [
+					"[mogun] I think I make a poor farmer.",
+					{
+						"divert": "mogunRookIThinkI"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogunNoWeShouldH": {
+				"content": [
+					"[mogun] No. We should have done that years ago.",
+					{
+						"divert": "hogunNahCantGoAr"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogunRookIThinkI": {
+				"content": [
+					"[mogun rook] I think I make a poor farmer.",
+					{
+						"linkPath": "youStepBackAsOne",
+						"option": "Settle this yourselves (don't get involved)"
+					},
+					{
+						"linkPath": "hogunAndMogunLos",
+						"option": "I won't kill men for defending their homes (side with the villagers)"
+					},
+					{
+						"linkPath": "iverStepsForward",
+						"option": "Iver, let's make this a fair fight (side with the brothers)"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogunTheRestOfUs": {
+				"content": [
+					"[mogun] The rest of us will go with the reasonable people of Skogr.",
+					{
+						"divert": "peasantmaleIllHa"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleDredg": {
+				"content": [
+					"[peasant_male3] Dredge, my ass!",
+					{
+						"divert": "peasantmaleIDont"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleGetBa": {
+				"content": [
+					"[peasant_male3] Get back to work, or I'm finally putting you in the ground.",
+					{
+						"divert": "hogunMogunWhatDo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleIDont": {
+				"content": [
+					"[peasant_male3] I don't know what the scam is this time, Hogun, but you got two choices.",
+					{
+						"divert": "peasantmaleGetBa"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleIllHa": {
+				"content": [
+					"[peasant_male3] I'll have you both gutted before I let half the village desert!",
+					{
+						"divert": "behindTheAngryVi"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleRookY": {
+				"content": [
+					"[peasant_male3 rook] You both know what will happen to the rest of us if the fields are abandoned! Nobody leaves!",
+					{
+						"linkPath": "peasantmaleDredg",
+						"option": "There won't be anything to tend once the dredge arrive."
+					},
+					{
+						"linkPath": "hogunWeThoughtTh",
+						"option": "Let your people decide on their own."
+					},
+					{
+						"linkPath": "hogunThatsUsuall",
+						"option": "I don't want anything to do with this."
+					},
+					{
+						"linkPath": "peasantmaleIDont",
+						"option": "Say nothing"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleThese": {
+				"content": [
+					"[peasant_male3] These bastards don't speak for us! They've been trying to divide the village since you got here.",
+					{
+						"divert": "hogunTrueYouCanK"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleWereN": {
+				"content": [
+					"[peasant_male3] We're not ungrateful. I'll have something sent to you before you go.",
+					{
+						"flagName": "2 village1betray"
+					},
+					{
+						"flagName": "hogundied"
+					},
+					{
+						"flagName": "mogundied"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleWeWou": {
+				"content": [
+					"[peasant_male3] We wouldn't survive the next winter with neglected farms. These bastards know that.",
+					{
+						"divert": "peasantmaleWereN"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleYouBo": {
+				"content": [
+					"[peasant_male3] You both know what will happen to the rest of us if the fields are abandoned! Nobody leaves!",
+					{
+						"divert": "peasantmaleRookY"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookImNotGoingTo": {
+				"content": [
+					"[rook] I'm not going to kill people for defending their homes.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookWhatsGoingOn": {
+				"content": [
+					"[rook] What's going on?",
+					{
+						"divert": "peasantmaleThese"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skipMarkrookMark": {
+				"content": [
+					"{skip} mark1=rook mark2=hogun mark3=peasant_male3 mark4=mogun",
+					{
+						"linkPath": "rookWhatsGoingOn",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"youStepBackAsOne": {
+				"content": [
+					"/=You step back as one of the thugs lunges forward, and is caught in the ribs by Hogun's axe. The air soon rings with the sound of screams and axeheads against shields. Four men lie dead on the ground before the others run.=/",
+					{
+						"divert": "hogunYouHurtMogu"
+					},
+					{
+						"flagName": "@hide=peasant_male3"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "vqc8"
+}

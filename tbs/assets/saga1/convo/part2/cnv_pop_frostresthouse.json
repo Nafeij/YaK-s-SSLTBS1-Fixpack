@@ -1,0 +1,459 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"aletteYouSpendAW": {
+				"content": [
+					"[alette] You spend a whole day at the rest houses. Everyone gives you the same story: the chieftain just shut himself in his great hall and closed the gates. \"There are a lot of wounded people here,\" adds Alette. \"We could help them.\"",
+					{
+						"divert": "egilEgilPullsYou"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "aletterest"
+					}
+				]
+			},
+			"archersOnTheCity": {
+				"content": [
+					"Archers on the city walls don't hesitate to fling arrows at them, and many fall immediately, the rest powerless to do anything to the gates. Soon the disillusioned mob has been scattered, with nothing to show for it but dead bodies. You turn back to the caravan.",
+					{
+						"divert": "archersOnTheCity1"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "hogundied"
+					}
+				]
+			},
+			"archersOnTheCity1": {
+				"content": [
+					"Archers on the city walls don't hesitate to fling arrows at them, and many fall immediately, the rest powerless to do anything to the gates. Soon the disillusioned mob has been scattered, with nothing to show for it but dead bodies, amongst which you spot two red tunics, filled with arrows. You curse and turn away.",
+					{
+						"divert": "rookTheRestHouse"
+					},
+					{
+						"flagName": "hogundied"
+					},
+					{
+						"flagName": "mogundied"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "hogundied"
+					}
+				]
+			},
+			"egilEgilPullsYou": {
+				"content": [
+					"[egil] Egil pulls you aside. \"I followed the outside of the city walls,\" he says, \"And there's a water passage we could squeeze through, I think. Not the whole caravan, but if a handful of us get in we might open the gates from the inside.\"",
+					{
+						"divert": "rookTheRestHouse"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "egildied"
+					},
+					{
+						"notIfCondition": "egilwater"
+					}
+				]
+			},
+			"hogunBetterWeBeg": {
+				"content": [
+					"[hogun] \"Better we beg you not to stay,\" says Hogun. \"We'll not wait out here another day.\" Despite your protests, they join the growing mob heading toward the gates.",
+					{
+						"divert": "archersOnTheCity"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hogunHogunAndMog": {
+				"content": [
+					"[hogun] Hogun and Mogun join in and fan the rising flames. \"I won't let my family die in a field like dogs!\" shouts Hogun. He turns to you: \"Do this thing, Rook! We need you again!\"",
+					{
+						"linkPath": "rookIverAgreesAn",
+						"option": "Join them in an assault on the gate"
+					},
+					{
+						"linkPath": "hogunBetterWeBeg",
+						"notIfConditions": [
+							{
+								"notIfCondition": "hogundied"
+							}
+						],
+						"option": "Ask them not to go"
+					},
+					{
+						"linkPath": "rookYouDeclineYo",
+						"option": "Wish them good fortune"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "hogundied"
+					}
+				]
+			},
+			"ivershieldAfterA": {
+				"content": [
+					"[iver_shield] After a long day of argument, you all finally agree to digging in with the other refugees if you have to. \"Are you sure there's no other option?\" asks Iver. \"Sooner or later the dredge will come. Probably sooner.\"",
+					{
+						"linkPath": "rookYouSettleInY",
+						"option": "\"All we can do is be ready.\""
+					},
+					{
+						"linkPath": "ivershieldYouKno",
+						"option": "\"Let's make sure we haven't missed anything.\""
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldCouldB": {
+				"content": [
+					"[iver_shield] \"Could be a way in,\" Iver replies. \"Next time they send a cart we bring it back in.\" Oddleif protests - aside from leading to a fight, it would probably mean no more food for the refugees.",
+					{
+						"linkPath": "rookYouDontHaveT",
+						"option": "Wait and ambush the next cart"
+					},
+					{
+						"linkPath": "rookKeepYourSwor",
+						"option": "We'll wait and confront them"
+					},
+					{
+						"linkPath": "rookIDontWantToG",
+						"option": "Leave the food cart alone"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldImNotF": {
+				"content": [
+					"[iver_shield] \"I'm not fitting through there,\" says Iver, when you arrive at the narrow ducts. \"Go without me. It looks like it'll get you  on top of the walls and then down to the gate where you can open it.\"",
+					{
+						"linkPath": "rookWhenEgilSaid",
+						"option": "\"Wait for us at the gate, Iver. We'll be quick.\""
+					},
+					{
+						"linkPath": "rookYouDontLearn",
+						"option": "\"I have a bad feeling about this. Let's go back.\""
+					},
+					{
+						"flagName": "egilwater"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldThenUn": {
+				"content": [
+					"[iver_shield] Then, unbelievably, the doors start trembling. The archers shout, more to those inside the walls than out. The creaking becomes louder, than a crack. Then the doors part, slightly. \"Help him!\" you shout to the others.",
+					{
+						"divert": "rookWhenYouLookB"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldYouKno": {
+				"content": [
+					"[iver_shield] \"You know my thoughts already,\" says Iver. \"We need to get in the city somehow.\"",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldYouPut": {
+				"content": [
+					"[iver_shield] You put the clamor of the rest house behind you. \"I still think we should be getting in that city,\" says Iver, spying the gates on the hill.",
+					{
+						"flagName": "aletterest"
+					},
+					{
+						"flagName": "egilwater"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"oddleifAletteAnd": {
+				"content": [
+					"[oddleif] Alette and Oddleif spend the day along with others in your caravan treating wounds, most of which came from the archers at the gates. \"I overheard from one woman that the city has been sending carts with food around,\" Oddleif tells you.",
+					{
+						"divert": "ivershieldCouldB"
+					},
+					{
+						"flagName": "day+1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookADayPassesWi": {
+				"content": [
+					"[rook] A day passes without incident.",
+					{
+						"divert": "rookTheRestHouse"
+					},
+					{
+						"flagName": "day+1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookAfterSomeTim": {
+				"content": [
+					"[rook] After some time, you see the angry mob leaving the rest house, shouting about breaking into the city. You watch from afar as they surge forward.",
+					{
+						"divert": "archersOnTheCity"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookIDontWantToG": {
+				"content": [
+					"[rook] \"I don't want to get involved if others are going suffer for it,\" you say. You return to what you were doing.",
+					{
+						"divert": "rookTheRestHouse"
+					},
+					{
+						"flagName": "nofoodcart"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookIverAgreesAn": {
+				"content": [
+					"[rook] Iver agrees, and you think you have a chance of pulling this off. As you approach the gates, Iver stops you. He steps up to the gates, alone. Archers above watch, more curious than anything else. Planting his feet, he puts his full weight into the massive door. Aside from a long wooden creak, nothing is happening.",
+					{
+						"divert": "ivershieldThenUn"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookKeepYourSwor": {
+				"content": [
+					"[rook] \"Keep your sword down until we need it,\" you tell Iver. \"We'll make a deal unless they're looking for a fight.\" Early the next day you spot another cart leaving the gates of the city. After they've thrown their scraps to the refugees you approach.",
+					{
+						"flagName": "2 frostcartdeal"
+					},
+					{
+						"flagName": "day+1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookTheCommotion": {
+				"content": [
+					"[rook] The commotion is turning into an angry mob, who are becoming ever more furious about being kept out of the city. You overhear them talking about attacking the archers on the walls and breaking through the gate.",
+					{
+						"divert": "hogunHogunAndMog"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookTheRestHouse": {
+				"content": [
+					"[rook] The rest house is overflowing with refugees, the sick and wounded, and noise.",
+					{
+						"linkPath": "ivershieldImNotF",
+						"notIfConditions": [
+							{
+								"notIfCondition": "egilwater"
+							},
+							{
+								"notIfCondition": "egildied"
+							}
+						],
+						"option": "Check out the water passage."
+					},
+					{
+						"linkPath": "oddleifAletteAnd",
+						"notIfConditions": [
+							{
+								"notIfCondition": "nofoodcart"
+							}
+						],
+						"option": "Tend to the wounded"
+					},
+					{
+						"linkPath": "ivershieldAfterA",
+						"option": "Settle in for the long haul"
+					},
+					{
+						"linkPath": "rookYouTakeTheOp",
+						"notIfConditions": [
+							{
+								"notIfCondition": "restcrowd"
+							}
+						],
+						"option": "Rest for a day"
+					},
+					{
+						"linkPath": "rookADayPassesWi",
+						"ifConditions": [
+							{
+								"ifCondition": "restcrowd"
+							}
+						],
+						"option": "Rest for a day"
+					},
+					{
+						"linkPath": "ivershieldYouPut",
+						"option": "Leave and try something else"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookWhenEgilSaid": {
+				"content": [
+					"[rook] When Egil said water, you should have guessed runoff. Still, you manage to squeeze your way through tight stonework and force your way past an iron grate. You take stairs to the top of the walls. As you approach the gates, armed men take notice. They don't ask questions.",
+					{
+						"flagName": "2 frostsneak"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookWhenYouLookB": {
+				"content": [
+					"[rook] When you look back again, you see that the entire mob have thrown in to push. The gate finally succumbs under your combined effort, and you find yourself face to face with dumbfounded guards. You bark at the mob to attack!",
+					{
+						"flagName": "2 frostgatefight"
+					},
+					{
+						"flagName": "2 frostmobfight"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookYouDeclineYo": {
+				"content": [
+					"[rook] You decline. You don't really see how they'll get through the gates, and who knows how many armed men await you inside?",
+					{
+						"divert": "rookAfterSomeTim"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookYouDontHaveT": {
+				"content": [
+					"[rook] You don't have to wait long. Early the next day you spot a cart leaving the gates of the city. After they've thrown their scraps to the refugees you make your move!",
+					{
+						"flagName": "day+1"
+					},
+					{
+						"flagName": "2 frostcartfight"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookYouDontLearn": {
+				"content": [
+					"[rook] You don't learn much more. A gathering of people catches your attention.",
+					{
+						"flagName": "aletterest"
+					},
+					{
+						"flagName": "day+1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookYouSettleInY": {
+				"content": [
+					"[rook] You settle in. You're not sure how long, but you know it's the best you can do for now.",
+					{
+						"flagName": "2 frostoutside"
+					},
+					{
+						"flagName": "2 frostgate=0"
+					},
+					{
+						"flagName": "2 frostrest=0"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookYouTakeTheOp": {
+				"content": [
+					"[rook] You take the opportunity to rest. The caravan eats, talks with others and feels a little better in general. Everyone but Iver, who is anxious about being out in the open. Late in the day you notice a crowd forming around a man shouting about... something.",
+					{
+						"linkPath": "rookTheCommotion",
+						"option": "Investigate the commotion"
+					},
+					{
+						"linkPath": "rookAfterSomeTim",
+						"option": "Stay out of their business"
+					},
+					{
+						"flagName": "day+1"
+					},
+					{
+						"flagName": "restcrowd"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "aletteYouSpendAW",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "hvp6"
+}

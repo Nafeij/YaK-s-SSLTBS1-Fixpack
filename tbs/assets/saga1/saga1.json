@@ -1,0 +1,7864 @@
+{
+  "abilityParamsUrl": "saga1/ability/ability_params1.json.z",
+  "achievementsUrl": "saga1/achievement/achievement1.json.z",
+  "banners": [
+    {
+      "lengths_close": [
+        {
+          "min_population": 500,
+          "url": "common/caravan/caravan/banner_long_red.clip"
+        },
+        {
+          "min_population": 300,
+          "url": "common/caravan/caravan/banner_med_red.clip"
+        },
+        {
+          "min_population": 0,
+          "url": "common/caravan/caravan/banner_small_red.clip"
+        }
+      ],
+      "lengths_world": [
+        {
+          "min_population": 500,
+          "url": "common/caravan/caravan/banner_world_long_red.clip"
+        },
+        {
+          "min_population": 300,
+          "url": "common/caravan/caravan/banner_world_med_red.clip"
+        },
+        {
+          "min_population": 0,
+          "url": "common/caravan/caravan/banner_world_small_red.clip"
+        }
+      ]
+    },
+    {
+      "lengths_close": [
+        {
+          "min_population": 300,
+          "url": "common/caravan/caravan/banner_long_gold.clip"
+        },
+        {
+          "min_population": 150,
+          "url": "common/caravan/caravan/banner_long_gold.clip"
+        },
+        {
+          "min_population": 0,
+          "url": "common/caravan/caravan/banner_long_gold.clip"
+        }
+      ],
+      "lengths_world": [
+        {
+          "min_population": 300,
+          "url": "common/caravan/caravan/banner_world_long_gold.clip"
+        },
+        {
+          "min_population": 150,
+          "url": "common/caravan/caravan/banner_world_long_gold.clip"
+        },
+        {
+          "min_population": 0,
+          "url": "common/caravan/caravan/banner_world_long_gold.clip"
+        }
+      ]
+    }
+  ],
+  "battleMusicUrl": "saga1/scene/battle/music/default.btlmusic.json.z",
+  "battleMusicUrls": [],
+  "buckets": [
+    {
+      "ents": [
+        "dredge_grunt_3",
+        "dredge_scourge_2",
+        "dredge_scourge_3",
+        "dredge_stoneguard_2",
+        "dredge_fire_slinger_3",
+        "dredge_sun_slinger_3",
+        "dredge_slag_slinger_3",
+        "dredge_stoneguard_3"
+      ],
+      "name": "1_dredge_hard"
+    },
+    {
+      "ents": [
+        "dredge_grunt_3"
+      ],
+      "name": "dredge_test_melee"
+    },
+    {
+      "ents": [
+        "dredge_grunt_a"
+      ],
+      "name": "dredge_micro"
+    },
+    {
+      "ents": [
+        "dredge_grunt_a",
+        "dredge_slag_slinger_a",
+        "dredge_scourge_1",
+        "dredge_stoneguard_1",
+        "dredge_fire_slinger_a",
+        "dredge_sun_slinger_a"
+      ],
+      "name": "dredge_test"
+    },
+    {
+      "ents": [
+        "thug_thrasher",
+        "thug_backbiter",
+        "thug_raider_a",
+        "thug_raider_b"
+      ],
+      "name": "1_thugs"
+    },
+    {
+      "ents": [
+        "dredge_slag_slinger_a",
+        "dredge_slag_slinger_b",
+        "dredge_slag_slinger_c",
+        "dredge_slag_slinger_2",
+        "dredge_slag_slinger_3",
+        "dredge_grunt_a",
+        "dredge_stoneguard_2"
+      ],
+      "name": "1_dredge_slingers"
+    },
+    {
+      "ents": [
+        "dredge_grunt_a",
+        "dredge_grunt_b",
+        "dredge_grunt_c",
+        "dredge_scourge_1",
+        "dredge_stoneguard_1"
+      ],
+      "name": "1_dredge_easy"
+    },
+    {
+      "ents": [
+        "dredge_grunt_a",
+        "dredge_grunt_b",
+        "dredge_grunt_2",
+        "dredge_grunt_3",
+        "dredge_scourge_1",
+        "dredge_scourge_2",
+        "dredge_stoneguard_1",
+        "dredge_stoneguard_2"
+      ],
+      "name": "1_dredge_med"
+    },
+    {
+      "ents": [
+        "dredge_grunt_a",
+        "dredge_grunt_2",
+        "dredge_grunt_3",
+        "dredge_scourge_1",
+        "dredge_scourge_2",
+        "dredge_stoneguard_1",
+        "dredge_stoneguard_2",
+        "dredge_stoneguard_3",
+        "dredge_slag_slinger_a",
+        "dredge_slag_slinger_2",
+        "dredge_slag_slinger_3",
+        "dredge_fire_slinger_1",
+        "dredge_sun_slinger_1",
+        "dredge_fire_slinger_2",
+        "dredge_fire_slinger_3",
+        "dredge_sun_slinger_2",
+        "dredge_sun_slinger_3",
+        "dredge_scourge_3"
+      ],
+      "name": "1_dredge_all"
+    },
+    {
+      "ents": [
+        "dredge_grunt_a",
+        "dredge_grunt_b",
+        "dredge_grunt_c",
+        "dredge_grunt_2",
+        "dredge_grunt_3"
+      ],
+      "name": "1_dredge_grunts"
+    },
+    {
+      "ents": [
+        "fighter_raider_a",
+        "fighter_raider_b",
+        "fighter_raider_c",
+        "fighter_archer_a",
+        "fighter_archer_b"
+      ],
+      "name": "2_fighters_base"
+    },
+    {
+      "ents": [
+        "fighter_raider_a",
+        "fighter_raider_b",
+        "fighter_archer_a",
+        "fighter_thrasher_1",
+        "fighter_backbiter_1"
+      ],
+      "name": "2_fighters_easy"
+    },
+    {
+      "ents": [
+        "fighter_raider_a",
+        "fighter_archer_b",
+        "fighter_thrasher_1",
+        "fighter_thrasher_2",
+        "fighter_backbiter_1",
+        "fighter_bowmaster_1",
+        "fighter_raidmaster_1"
+      ],
+      "name": "2_fighters_med"
+    },
+    {
+      "ents": [
+        "fighter_thrasher_1",
+        "fighter_thrasher_2",
+        "fighter_backbiter_1",
+        "fighter_backbiter_2",
+        "fighter_bowmaster_1",
+        "fighter_bowmaster_2",
+        "fighter_raidmaster_1",
+        "fighter_raidmaster_2"
+      ],
+      "name": "2_fighters_hard"
+    },
+    {
+      "ents": [
+        "fighter_raider_a",
+        "fighter_raider_b",
+        "fighter_raider_c",
+        "fighter_archer_a",
+        "fighter_archer_b",
+        "fighter_thrasher_1",
+        "fighter_thrasher_2",
+        "fighter_backbiter_1",
+        "fighter_backbiter_2",
+        "fighter_bowmaster_1",
+        "fighter_bowmaster_2",
+        "fighter_raidmaster_1",
+        "fighter_raidmaster_2"
+      ],
+      "name": "2_fighters_all"
+    },
+    {
+      "ents": [
+        "varl_shieldbanger_a",
+        "varl_shieldbanger_b",
+        "varl_warrior_a",
+        "varl_warrior_b"
+      ],
+      "name": "2_varl_easy"
+    },
+    {
+      "ents": [
+        "varl_shieldbanger_a",
+        "varl_warrior_a",
+        "varl_strongarm_3",
+        "varl_shieldmaster_1",
+        "varl_strongarm_1"
+      ],
+      "name": "2_varl_hard"
+    },
+    {
+      "ents": [
+        "fighter_raider_a",
+        "fighter_raider_b",
+        "fighter_raider_c",
+        "fighter_archer_a",
+        "fighter_archer_b",
+        "fighter_thrasher_1",
+        "fighter_thrasher_2",
+        "fighter_backbiter_1",
+        "fighter_backbiter_2",
+        "fighter_bowmaster_1",
+        "fighter_bowmaster_2",
+        "fighter_raidmaster_1",
+        "fighter_raidmaster_2",
+        "fighter_thrasher_3",
+        "fighter_backbiter_3",
+        "fighter_bowmaster_3",
+        "fighter_raidmaster_3"
+      ],
+      "name": "training_human"
+    },
+    {
+      "ents": [
+        "varl_shieldbanger_a",
+        "varl_shieldbanger_b",
+        "varl_warrior_a",
+        "varl_warrior_b",
+        "varl_warrior_3",
+        "varl_warmaster_1",
+        "varl_warmaster_3",
+        "varl_shieldmaster_1",
+        "varl_shieldmaster_3",
+        "varl_strongarm_1",
+        "varl_strongarm_3"
+      ],
+      "name": "training_varl"
+    },
+    {
+      "ents": [
+        "fighter_raider_a",
+        "fighter_raider_b",
+        "fighter_raider_c",
+        "fighter_archer_a",
+        "fighter_archer_b",
+        "fighter_thrasher_1",
+        "fighter_thrasher_2",
+        "fighter_backbiter_1",
+        "fighter_backbiter_2",
+        "fighter_bowmaster_1",
+        "fighter_bowmaster_2",
+        "fighter_raidmaster_1",
+        "fighter_raidmaster_2",
+        "varl_shieldbanger_a",
+        "varl_shieldbanger_b",
+        "varl_warrior_a",
+        "varl_warrior_b",
+        "varl_warrior_3",
+        "varl_warhawk_1",
+        "varl_warhawk_3",
+        "varl_warmaster_1",
+        "varl_warmaster_3",
+        "varl_shieldmaster_1",
+        "varl_shieldmaster_3",
+        "varl_strongarm_1",
+        "varl_strongarm_3",
+        "fighter_thrasher_3",
+        "fighter_backbiter_3",
+        "fighter_bowmaster_3",
+        "fighter_raidmaster_3"
+      ],
+      "name": "training_all"
+    }
+  ],
+  "campMusic": {
+    "entries": [
+      {
+        "event": "saga1/music/camp/1mT1"
+      },
+      {
+        "event": "saga1/music/camp/1mT2"
+      },
+      {
+        "event": "saga1/music/camp/1mT3"
+      },
+      {
+        "conditional_if": "acv_godstone_denglr",
+        "event": "saga1/music/camp/1mT4"
+      },
+      {
+        "event": "saga1/music/camp/1mT5"
+      },
+      {
+        "conditional_if": "acv_godstone_radormyr",
+        "event": "saga1/music/camp/1mT9"
+      },
+      {
+        "conditional_if": "acv_godstone_hatteberg",
+        "event": "saga1/music/camp/1mT10"
+      },
+      {
+        "conditional_if": "2_einardeparted",
+        "event": "saga1/music/camp/1mT14"
+      },
+      {
+        "conditional_if": "acv_godstone_dundr",
+        "event": "saga1/music/camp/1mT15"
+      },
+      {
+        "conditional_if": "acv_godstone_ingrid",
+        "event": "saga1/music/camp/1mT16"
+      },
+      {
+        "conditional_if": "acv_godstone_bjorulf",
+        "event": "saga1/music/camp/1mT17"
+      },
+      {
+        "conditional_if": "acv_godstone_marek",
+        "event": "saga1/music/camp/1mT18"
+      }
+    ]
+  },
+  "campUrls": [
+    "",
+    "saga1/scene/camp/cmp_snow/cmp_snow.json.z",
+    "saga1/scene/camp/cmp_forest/cmp_forest.json.z"
+  ],
+  "caravanAnimBaseUrl": "common/caravan/caravan/",
+  "caravanClosePoleUrl": "common/caravan/caravan/banner_pole.clip",
+  "caravans": [
+    {
+      "banner": 1,
+      "leader": "",
+      "name": "cin_start",
+      "party": [],
+      "roster": [],
+      "saves": false
+    },
+    {
+      "banner": 2,
+      "heraldryEnabled": true,
+      "leader": "hakon",
+      "name": "hakoncaravan",
+      "party": [
+        "hakon",
+        "mogr",
+        "gunnulf"
+      ],
+      "roster": [
+        "hakon",
+        "mogr",
+        "gunnulf"
+      ]
+    },
+    {
+      "banner": 2,
+      "heraldryEnabled": true,
+      "leader": "narrator",
+      "name": "narratorcaravan",
+      "party": [],
+      "roster": [
+        "gunnulf",
+        "narrator"
+      ]
+    },
+    {
+      "banner": 2,
+      "disable_metrics": true,
+      "heraldryEnabled": true,
+      "leader": "hakon",
+      "name": "hakonfullcaravan",
+      "party": [
+        "hakon",
+        "ludin",
+        "mogr",
+        "yrsa",
+        "gunnulf",
+        "bersi"
+      ],
+      "roster": [
+        "mogr",
+        "ludin",
+        "hakon",
+        "yrsa",
+        "fasolt",
+        "griss",
+        "eirik",
+        "gunnulf",
+        "bersi",
+        "narrator"
+      ],
+      "saves": false
+    },
+    {
+      "banner": 1,
+      "heraldryEnabled": true,
+      "leader": "rook",
+      "name": "rookcaravan",
+      "party": [
+        "rook",
+        "alette"
+      ],
+      "roster": [
+        "rook",
+        "alette"
+      ]
+    },
+    {
+      "banner": 1,
+      "disable_metrics": true,
+      "heraldryEnabled": true,
+      "leader": "rook",
+      "name": "rookfullcaravan",
+      "party": [
+        "rook",
+        "iver",
+        "alette",
+        "egil",
+        "oddleif"
+      ],
+      "roster": [
+        "rook",
+        "iver",
+        "alette",
+        "egil",
+        "oddleif",
+        "hogun",
+        "mogun",
+        "krumr",
+        "onef",
+        "ekkill",
+        "eyvind",
+        "tryggvi",
+        "fasolt",
+        "sigbjorn",
+        "gunnulf",
+        "mogr",
+        "hakon",
+        "griss",
+        "eirik",
+        "ludin",
+        "yrsa",
+        "bersi",
+        "iver_shield",
+        "narrator"
+      ],
+      "saves": false
+    },
+    {
+      "banner": 1,
+      "disable_metrics": true,
+      "leader": "",
+      "name": "junocaravan",
+      "party": [
+        "juno",
+        "rook"
+      ],
+      "roster": [
+        "juno",
+        "rook"
+      ]
+    }
+  ],
+  "castUrl": "saga1/cast1.json.z",
+  "classesUrl": "saga1/classes1.json.z",
+  "convoAudioUrl": "saga1/convo_audio1.json.z",
+  "credits": {
+    "texts": {
+      "en": {
+        "logo": "saga1/credits_tbs_banner.png",
+        "url": "saga1/credits1.txt.z"
+      },
+      "zh": {
+        "url": "saga1/locale/zh/credits1.txt.z"
+      }
+    }
+  },
+  "difficulties": [
+    {
+      "armor": -3,
+      "danger": -1,
+      "strength": -2
+    },
+    {
+      "armor": 0,
+      "danger": 0,
+      "strength": 0
+    },
+    {
+      "armor": 1,
+      "danger": 3,
+      "strength": 1
+    }
+  ],
+  "dlcsUrl": "saga1/dlcs1.json.z",
+  "fmodPreloadUrl": "saga1/fmod/preload_banks.json.z",
+  "fmodProjectInfos": [],
+  "happenings": [
+    {
+      "actions": [
+        {
+          "happening": "setup_1",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "scene": "saga1/scene/part1/cls_godstone/cls_godstone.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_horn_enabled",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters",
+          "varvalue": 920
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 10
+        },
+        {
+          "happening": "test_war_loop",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_war"
+    },
+    {
+      "actions": [
+        {
+          "bucket": "1_dredge_all",
+          "restore_scene": false,
+          "scene": "saga1/scene/battle/btl_forest_wilderness/btl_forest_wilderness.json.z",
+          "type": "WAR"
+        },
+        {
+          "happening": "test_war_loop",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "test_war_loop"
+    },
+    {
+      "actions": [
+        {
+          "also_party": true,
+          "id": "rook",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "bersi",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "eyvind",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "alette",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "egil",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "iver_shield",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "oddleif",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "tryggvi",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "ekkill",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "hogun",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "mogun",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "onef",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "krumr",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "sigbjorn",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "nid",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "juno",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "narrator",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_horn_enabled",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 10
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hakon.talk",
+          "varvalue": -1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "yrsa.talk",
+          "varvalue": 3
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 1000
+        },
+        {
+          "type": "ITEM_ALL"
+        },
+        {
+          "id": "hakon",
+          "type": "UNIT_KILL_ADD",
+          "varvalue": 15
+        },
+        {
+          "id": "oddleif",
+          "type": "UNIT_KILL_ADD",
+          "varvalue": 15
+        },
+        {
+          "id": "yrsa",
+          "type": "UNIT_KILL_ADD",
+          "varvalue": 15
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 10
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "market_available_supplies",
+          "varvalue": 1000
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "market_supplies_per_renown",
+          "varvalue": 5
+        },
+        {
+          "id": "griss",
+          "param": "RANK",
+          "type": "UNIT_STAT",
+          "varvalue": 6
+        },
+        {
+          "id": "rook",
+          "type": "UNIT_INJURE"
+        }
+      ],
+      "id": "test_setup_allunits"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "type": "PARTY_CLEAR"
+        },
+        {
+          "also_party": true,
+          "id": "ludin",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "ludin",
+          "param": "RANK",
+          "type": "UNIT_STAT",
+          "varvalue": 6
+        },
+        {
+          "id": "itm_knockback_3",
+          "speaker": "ludin",
+          "type": "ITEM_ADD"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 10
+        },
+        {
+          "board_id": "board_0",
+          "bucket": "dredge_test_melee",
+          "restore_scene": false,
+          "scene": "saga1/scene/battle/btl_forest_wilderness/btl_forest_wilderness.json.z",
+          "type": "BATTLE"
+        }
+      ],
+      "id": "bk_battle"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 10
+        },
+        {
+          "happening": "test_battle_thugs_loop",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_battle_thugs"
+    },
+    {
+      "actions": [
+        {
+          "bucket": "training_all",
+          "restore_scene": false,
+          "scene": "saga1/scene/battle/btl_forest_wilderness/btl_forest_wilderness.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "happening": "test_battle_thugs_loop",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "test_battle_thugs_loop"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 10
+        },
+        {
+          "happening": "test_battle_dredge_loop",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_battle_dredge"
+    },
+    {
+      "actions": [
+        {
+          "bucket": "1_dredge_all",
+          "restore_scene": false,
+          "scene": "saga1/scene/battle/btl_forest_wilderness/btl_forest_wilderness.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "happening": "test_battle_dredge_loop",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "test_battle_dredge_loop"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_roster_items",
+          "varvalue": 1
+        },
+        {
+          "id": "wld_ridgehorn",
+          "type": "MAP_SPLINE",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 10
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 1000
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "map_tutorial",
+          "varvalue": 1
+        },
+        {
+          "instant": true,
+          "type": "CAMP"
+        }
+      ],
+      "id": "bk_camp"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "type": "PARTY_CLEAR"
+        },
+        {
+          "id": "rook",
+          "type": "PARTY_ADD"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_horn_enabled",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 1
+        },
+        {
+          "id": "saga1/scene/battle/music/frostvellr.btlmusic.json.z",
+          "type": "BATTLE_MUSIC"
+        },
+        {
+          "happening": "jww_test_battle_loop",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "jww_test_battle"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookfullcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "type": "PARTY_CLEAR"
+        },
+        {
+          "also_party": true,
+          "id": "rook",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "alette",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "hakon",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "hogun",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "gunnulf",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "tryggvi",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "playstation_demo",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tut_heroes_details",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 641
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 37
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants",
+          "varvalue": 785
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters",
+          "varvalue": 134
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl",
+          "varvalue": 52
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "day",
+          "varvalue": 35
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale",
+          "varvalue": 75
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 5
+        },
+        {
+          "location": "save_einar",
+          "scene": "saga1/scene/part4/wld_boersgard/wld_boersgard.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "enabled": false,
+          "scene": "saga1/scene/stage/stg_wilderness_snow/stg_wilderness_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_ludin2.json.z"
+        }
+      ],
+      "id": "playstation_demo"
+    },
+    {
+      "actions": [
+        {
+          "assemble_heroes": false,
+          "restore_scene": false,
+          "scene": "saga1/scene/battle/btl_test/btl_test.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 1
+        },
+        {
+          "happening": "jww_test_battle_loop",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "jww_test_battle_loop"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "type": "HAPPENING"
+        },
+        {
+          "type": "PARTY_CLEAR"
+        },
+        {
+          "also_party": true,
+          "id": "alfrun",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "dagr",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "msg": "how many globs?",
+          "time": 10,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.text_page_gameover"
+        },
+        {
+          "msg": "that many.",
+          "time": 10,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.text_page_gameover"
+        }
+      ],
+      "id": "jww"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "type": "HAPPENING"
+        },
+        {
+          "id": "narrator",
+          "type": "LEADER"
+        },
+        {
+          "id": "wld_ridgehorn",
+          "type": "MAP_SPLINE",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "map_tutorial",
+          "varvalue": 1
+        },
+        {
+          "restore_scene": false,
+          "type": "CAMP_MAP"
+        }
+      ],
+      "id": "bk_map"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "type": "HAPPENING"
+        },
+        {
+          "id": "narrator",
+          "type": "LEADER"
+        },
+        {
+          "id": "wld_ridgehorn",
+          "type": "MAP_SPLINE",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "map_tutorial",
+          "varvalue": 0
+        },
+        {
+          "restore_scene": false,
+          "type": "CAMP_MAP"
+        }
+      ],
+      "id": "bk_map_tutorial"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "instant": true,
+          "location": "start",
+          "scene": "saga1/scene/part2/cls_godstone_hatteberg/cls_godstone_hatteberg.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "bk_4_godstone_hatteberg"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "instant": true,
+          "location": "einartoft_enter",
+          "scene": "saga1/scene/part2/cls_einartoft/cls_einartoft.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "bk_4_einartoft"
+    },
+    {
+      "actions": [
+        {
+          "id": "narratorcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "type": "PARTY_CLEAR"
+        },
+        {
+          "also_party": true,
+          "id": "shieldbanger_tut",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "warhawk_tut",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "assemble_heroes": false,
+          "restore_scene": false,
+          "scene": "saga1/scene/part1/btl_tut_greathall/btl_tut_greathall.json.z",
+          "type": "BATTLE"
+        }
+      ],
+      "id": "bk_tutorial"
+    },
+    {
+      "actions": [
+        {
+          "id": "narratorcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "type": "PARTY_CLEAR"
+        },
+        {
+          "also_party": true,
+          "id": "ludin",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "hakon",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "mogr",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "gunnulf",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 1000
+        },
+        {
+          "id": "ludin",
+          "type": "UNIT_KILL_ADD",
+          "varvalue": 15
+        },
+        {
+          "assemble_heroes": true,
+          "restore_scene": false,
+          "scene": "saga1/scene/part1/btl_vedrfell/btl_vedrfell.json.z",
+          "type": "BATTLE"
+        }
+      ],
+      "id": "bk_tutorial_ludin"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "assemble_heroes": false,
+          "happening": "rook_chat",
+          "restore_scene": false,
+          "scene": "saga1/scene/part2/btl_rook_alette/btl_rook_alette.json.z",
+          "type": "BATTLE"
+        }
+      ],
+      "id": "bk_tutorial_rook"
+    },
+    {
+      "actions": [
+        {
+          "scene": "saga1/scene/part2/cin_einartoft_bridge/cin_einartoft_bridge.json.z",
+          "type": "SCENE"
+        }
+      ],
+      "id": "bk_cin_einartoft_bridge"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "id": "saga1/scene/battle/music/chapter_6.btlmusic.json.z",
+          "type": "BATTLE_MUSIC"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "board_id": "board_entering",
+          "bucket": "training_all",
+          "scene": "saga1/scene/part5/btl_boersgard_gate/btl_boersgard_gate.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "happening": "bk_btlmusic_chapter_6",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_btlmusic_chapter_6"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "id": "saga1/scene/battle/music/chapter_3.btlmusic.json.z",
+          "type": "BATTLE_MUSIC"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_all",
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "happening": "bk_btlmusic_chapter_3",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_btlmusic_chapter_3"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "id": "saga1/scene/battle/music/chapter_4.btlmusic.json.z",
+          "type": "BATTLE_MUSIC"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_all",
+          "scene": "saga1/scene/battle/btl_forest_wilderness/btl_forest_wilderness.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "happening": "bk_btlmusic_chapter_4",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_btlmusic_chapter_4"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "id": "saga1/scene/battle/music/boersgard.btlmusic.json.z",
+          "type": "BATTLE_MUSIC"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "board_id": "board_entering",
+          "bucket": "1_dredge_all",
+          "scene": "saga1/scene/part5/btl_boersgard_gate/btl_boersgard_gate.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "happening": "bk_btlmusic_boersgard",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_btlmusic_boersgard"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "id": "saga1/scene/battle/part1/btl_ridgehorn/btl_ridgehorn.btlmusic.json.z",
+          "type": "BATTLE_MUSIC"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_all",
+          "scene": "saga1/scene/part1/btl_ridgehorn/btl_ridgehorn.json.z",
+          "type": "BATTLE"
+        }
+      ],
+      "id": "bk_btlmusic_ridgehorn"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "cin_snake",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_cin_snake"
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "weather_snow_gravity",
+          "varvalue": 0.1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "weather_wind",
+          "varvalue": -0.1
+        },
+        {
+          "scene": "saga1/scene/part3/cin_snake/cin_snake.json.z",
+          "type": "SCENE"
+        }
+      ],
+      "id": "cin_snake"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookfullcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "location": "bookmark_quake",
+          "scene": "saga1/scene/part2/wld_einartoft_2/wld_einartoft_2.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "bk_quake"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookfullcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "location": "depart_bjorulf",
+          "scene": "saga1/scene/part4/wld_boersgard/wld_boersgard.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "bk_6_reynivik"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup_7",
+          "type": "HAPPENING"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 boersheroes",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 boersmap",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 boersmarket",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7_boersdredge1",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7_boersdredge2",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7_boersbellower",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 clickbellower",
+          "varvalue": 1
+        }
+      ],
+      "id": "_bk_7_bellower"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_7_bellower",
+          "type": "HAPPENING"
+        },
+        {
+          "instant": true,
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/vlg_boersgard/vlg_boersgard.json.z",
+          "type": "CAMP"
+        }
+      ],
+      "id": "bk_7_bellower_rook"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_7_bellower",
+          "type": "HAPPENING"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 alettedoomed",
+          "varvalue": 1
+        },
+        {
+          "instant": true,
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/vlg_boersgard/vlg_boersgard.json.z",
+          "type": "CAMP"
+        }
+      ],
+      "id": "bk_7_bellower_alette"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_7_bellower",
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "_bellower_final_battle_2",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_7_bellower_2_rook"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_7_bellower",
+          "type": "HAPPENING"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 alettedoomed",
+          "varvalue": 1
+        },
+        {
+          "happening": "_bellower_final_battle_2",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_7_bellower_2_alette"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup_7",
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "7_junoarrives",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_7_juno"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rookdied",
+          "varvalue": 1
+        },
+        {
+          "scene": "saga1/scene/part5/cin_funeral/cin_funeral.json.z",
+          "type": "SCENE"
+        }
+      ],
+      "id": "bk_funeral_rook"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "alettedied",
+          "varvalue": 1
+        },
+        {
+          "scene": "saga1/scene/part5/cin_funeral/cin_funeral.json.z",
+          "type": "SCENE"
+        }
+      ],
+      "id": "bk_funeral_alette"
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 alettedoomed"
+        },
+        {
+          "id": "rookcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "scene": "saga1/scene/part5/cin_credits/cin_credits.json.z",
+          "type": "SCENE"
+        }
+      ],
+      "id": "bk_funeral_rook_credits"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookfullcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 alettedoomed",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "happening": "final_battle_bellower",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_final_battle_bellower_alette"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookfullcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 alettedoomed"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "tip_assemble_order",
+          "varvalue": 1
+        },
+        {
+          "happening": "final_battle_bellower",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_final_battle_bellower_rook"
+    },
+    {
+      "actions": [
+        {
+          "id": "game",
+          "location": "battle",
+          "param": "bellower",
+          "type": "GA_EVENT"
+        },
+        {
+          "happening": "final_battle_bellower_setup_alette",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "7 alettedoomed",
+              "varvalue": 1
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "final_battle_bellower_setup_rook",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "7 alettedoomed",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "alette.party_required",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rook.party_required",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_travel_hidden",
+          "varvalue": 1
+        },
+        {
+          "id": "saga1/scene/battle/music/bellower_final_a.btlmusic.json.z",
+          "type": "BATTLE_MUSIC"
+        },
+        {
+          "board_id": "board_a_1",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "difficulty",
+              "varvalue": 1
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/btl_boersgard_provinggrounds/btl_boersgard_provinggrounds.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "board_id": "board_a_2",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "difficulty",
+              "varvalue": 2
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/btl_boersgard_provinggrounds/btl_boersgard_provinggrounds.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "board_id": "board_a_3",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "difficulty",
+              "varvalue": 3
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/btl_boersgard_provinggrounds/btl_boersgard_provinggrounds.json.z",
+          "type": "BATTLE"
+        }
+      ],
+      "id": "final_battle_bellower"
+    },
+    {
+      "actions": [
+        {
+          "id": "alette",
+          "prereqs": [
+            {
+              "varname": "7 alettedoomed",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "alettedied",
+          "varvalue": 1
+        },
+        {
+          "id": "alette",
+          "prereqs": [
+            {
+              "varname": "7 alettedoomed",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "rook",
+          "prereqs": [
+            {
+              "varname": "7 alettedoomed",
+              "varvalue": 0
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "rookdied",
+          "varvalue": 1
+        },
+        {
+          "id": "rook",
+          "prereqs": [
+            {
+              "varname": "7 alettedoomed",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "id": "saga1/scene/battle/music/bellower_final_b.btlmusic.json.z",
+          "type": "BATTLE_MUSIC"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "weather_snow_density",
+          "varvalue": 2
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "weather_snow_gravity",
+          "varvalue": 3
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "weather_snow_variance",
+          "varvalue": 2
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "weather_wind",
+          "varvalue": -5
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 bellowerwounded",
+          "varvalue": 1
+        },
+        {
+          "assemble_heroes": false,
+          "battle_skip_finished": false,
+          "battle_vitalities": "dredge_bellower_b1",
+          "board_id": "board_b_1",
+          "happening": "pan_corpse",
+          "prereqs": [
+            {
+              "varname": "difficulty",
+              "varvalue": 1
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/btl_boersgard_provinggrounds/btl_boersgard_provinggrounds.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "assemble_heroes": false,
+          "battle_skip_finished": false,
+          "battle_vitalities": "dredge_bellower_b2",
+          "board_id": "board_b_2",
+          "happening": "pan_corpse",
+          "prereqs": [
+            {
+              "varname": "difficulty",
+              "varvalue": 2
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/btl_boersgard_provinggrounds/btl_boersgard_provinggrounds.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "assemble_heroes": false,
+          "battle_skip_finished": false,
+          "battle_vitalities": "dredge_bellower_b3",
+          "board_id": "board_b_3",
+          "happening": "pan_corpse",
+          "prereqs": [
+            {
+              "varname": "difficulty",
+              "varvalue": 3
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/btl_boersgard_provinggrounds/btl_boersgard_provinggrounds.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "happening": "bellower_fight_completed",
+          "instant": true,
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/vlg_boersgard/vlg_boersgard.json.z",
+          "type": "CAMP"
+        }
+      ],
+      "id": "_bellower_final_battle_2"
+    },
+    {
+      "actions": [
+        {
+          "id": "alette",
+          "param": "abl_arrow_bellower",
+          "type": "UNIT_ABILITY_ADD",
+          "varvalue": 1
+        },
+        {
+          "id": "alette",
+          "param": "abl_threadtheneedle",
+          "type": "UNIT_ABILITY_ENABLED"
+        }
+      ],
+      "id": "final_battle_bellower_setup_alette"
+    },
+    {
+      "actions": [
+        {
+          "id": "rook",
+          "param": "abl_arrow_bellower",
+          "type": "UNIT_ABILITY_ADD",
+          "varvalue": 1
+        },
+        {
+          "id": "rook",
+          "param": "abl_markprey",
+          "type": "UNIT_ABILITY_ENABLED"
+        }
+      ],
+      "id": "final_battle_bellower_setup_rook"
+    },
+    {
+      "actions": [
+        {
+          "id": "hakoncaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl",
+          "varvalue": 418
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters",
+          "varvalue": 92
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 6
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 85
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale",
+          "varvalue": 50
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 20
+        }
+      ],
+      "id": "setup_1"
+    },
+    {
+      "actions": [
+        {
+          "id": "hakonfullcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl",
+          "varvalue": 418
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters",
+          "varvalue": 92
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 1000
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale",
+          "varvalue": 50
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 20
+        }
+      ],
+      "id": "setup_1_fullcaravan"
+    },
+    {
+      "actions": [
+        {
+          "id": "narratorcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "type": "PARTY_CLEAR"
+        },
+        {
+          "also_party": true,
+          "id": "ludin",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "hakon",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "mogr",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "gunnulf",
+          "type": "PARTY_ADD"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl",
+          "varvalue": 200
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters",
+          "varvalue": 80
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 80
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale",
+          "varvalue": 50
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 20
+        },
+        {
+          "id": "narrator",
+          "type": "ROSTER_ADD"
+        }
+      ],
+      "id": "setup_1_vedrfell"
+    },
+    {
+      "actions": [
+        {
+          "id": "narratorcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl",
+          "varvalue": 32
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 6
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 85
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale",
+          "varvalue": 50
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 20
+        }
+      ],
+      "id": "setup_1_strand"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 6
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 4
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale",
+          "varvalue": 50
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 20
+        }
+      ],
+      "id": "setup_2"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookfullcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl",
+          "varvalue": 6
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters",
+          "varvalue": 180
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants",
+          "varvalue": 312
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 10
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 60
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale",
+          "varvalue": 50
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 20
+        }
+      ],
+      "id": "setup_2_fullcaravan"
+    },
+    {
+      "actions": [
+        {
+          "id": "junocaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 6
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 30
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale",
+          "varvalue": 50
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 20
+        }
+      ],
+      "id": "setup_7_junocaravan"
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_day_calc_morale",
+          "varvalue": 0
+        },
+        {
+          "prereq": "!camped",
+          "type": "VARIABLE_MODIFY",
+          "varname": "_day_calc_morale",
+          "varvalue": -10
+        },
+        {
+          "prereq": "starving",
+          "type": "VARIABLE_MODIFY",
+          "varname": "_day_calc_morale",
+          "varvalue": -10
+        },
+        {
+          "prereq": "camped && !starving",
+          "type": "VARIABLE_MODIFY",
+          "varname": "_day_calc_morale",
+          "varvalue": 20
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "_day_calc_supplies",
+          "varother": "supply_burn"
+        },
+        {
+          "param": "*",
+          "type": "VARIABLE_MODIFY",
+          "varname": "_day_calc_morale",
+          "varother": "_day_calc_count"
+        },
+        {
+          "param": "*",
+          "type": "VARIABLE_MODIFY",
+          "varname": "_day_calc_supplies",
+          "varother": "_day_calc_count"
+        },
+        {
+          "type": "VARIABLE_MODIFY",
+          "varname": "supplies",
+          "varother": "_day_calc_supplies"
+        },
+        {
+          "type": "VARIABLE_MODIFY",
+          "varname": "morale",
+          "varother": "_day_calc_morale"
+        },
+        {
+          "happening": "_death_toll_all",
+          "instant": true,
+          "prereq": "starving",
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "day",
+      "triggers": [
+        {
+          "type": "VARIABLE_INCREMENT",
+          "varname": "day",
+          "varvalue": 1
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "enabled": false,
+          "prereqs": [
+            {
+              "varname": "1_pop_lowmorale_triggered",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_lowmorale.json.z"
+        },
+        {
+          "enabled": false,
+          "prereqs": [
+            {
+              "varname": "1 makecamp",
+              "varvalue": 1
+            }
+          ],
+          "type": "CAMP"
+        },
+        {
+          "enabled": false,
+          "type": "VARIABLE_SET",
+          "varname": "1_pop_lowmorale_triggered",
+          "varvalue": 1
+        }
+      ],
+      "enabled": false,
+      "id": "1_pop_lowmorale",
+      "triggers": [
+        {
+          "type": "VARIABLE_THRESHOLD_DOWN",
+          "varname": "morale",
+          "varvalue": 30
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_mogr1.json.z"
+        }
+      ],
+      "id": "talk_mogr",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "mogr"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "talk_ludin",
+          "type": "GA_PAGE"
+        },
+        {
+          "scene": "saga1/scene/stage/stg_village_interior/stg_village_interior.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_ludin1.json.z"
+        }
+      ],
+      "id": "talk_ludin",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "ludin"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_yrsa1.json.z"
+        }
+      ],
+      "id": "talk_yrsa",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "yrsa"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_bersi1.json.z"
+        }
+      ],
+      "id": "talk_bersi",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "bersi"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "id": "talk_eirik",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "eirik"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "talk_hakon",
+          "type": "GA_PAGE"
+        },
+        {
+          "scene": "saga1/scene/stage/stg_village_interior/stg_village_interior.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_hakon1.json.z"
+        }
+      ],
+      "id": "talk_hakon",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "hakon"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "1 leftgold",
+              "varvalue": 0
+            }
+          ],
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_narrator1.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1 leftgold",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_narrator2.json.z"
+        }
+      ],
+      "id": "talk_narrator",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "narrator"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "7 iverstart",
+              "varvalue": 0
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "2 skogroutskirts"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 iverstart",
+              "varvalue": 0
+            }
+          ],
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part2/cnv_ally_iver1.json.z"
+        }
+      ],
+      "id": "talk_iver_shield",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "iver_shield"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "7 boersday5",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "7 junoarrives",
+          "varvalue": 1
+        },
+        {
+          "id": "saga1/music/part4/4m10b",
+          "prereqs": [
+            {
+              "varname": "7 boersday5",
+              "varvalue": 1
+            }
+          ],
+          "type": "MUSIC_ONESHOT"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 boersday5",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part7/cnv_pop_junoarrives.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "board_id": "board_leaving",
+          "bucket": "1_dredge_all",
+          "prereqs": [
+            {
+              "varname": "7 boersday5",
+              "varvalue": 1
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/btl_boersgard_gate/btl_boersgard_gate.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "board_id": "board_leaving",
+          "bucket": "1_dredge_all",
+          "prereqs": [
+            {
+              "varname": "7 boersday5",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "scene": "saga1/scene/part5/btl_boersgard_gate/btl_boersgard_gate.json.z",
+          "type": "POPUP",
+          "url": "saga1/convo/part7/cnv_fail_junoarrives.json.z"
+        },
+        {
+          "happening": "7_junoarrives",
+          "prereq": "7_junoarrives",
+          "type": "HAPPENING"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 iverstart",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part7/cnv_pop_iver1.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 iverstart",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part7/cnv_chat_iverwalls.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 iverstart"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 boersday5",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part7/cnv_pop_tasks.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "board_id": "board_leaving",
+          "bucket": "1_dredge_hard",
+          "prereqs": [
+            {
+              "varname": "7 boersfight1",
+              "varvalue": 1
+            },
+            {
+              "varname": "7 junoarrives",
+              "varvalue": 0
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/btl_boersgard_gate/btl_boersgard_gate.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "board_id": "board_leaving",
+          "bucket": "1_dredge_hard",
+          "prereqs": [
+            {
+              "varname": "7 boersfight2",
+              "varvalue": 1
+            },
+            {
+              "varname": "7 junoarrives",
+              "varvalue": 0
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/btl_boersgard_gate/btl_boersgard_gate.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "board_id": "board_stonesinger",
+          "bucket": "1_dredge_hard",
+          "prereqs": [
+            {
+              "varname": "7 boersfight3",
+              "varvalue": 1
+            },
+            {
+              "varname": "7 junoarrives",
+              "varvalue": 0
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/btl_boersgard_gate/btl_boersgard_gate.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "board_id": "board_leaving",
+          "bucket": "1_dredge_med",
+          "prereqs": [
+            {
+              "varname": "7 boersfight4",
+              "varvalue": 1
+            },
+            {
+              "varname": "7 junoarrives",
+              "varvalue": 0
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/btl_boersgard_gate/btl_boersgard_gate.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "board_id": "board_leaving",
+          "bucket": "1_dredge_all",
+          "prereqs": [
+            {
+              "varname": "7 boersfight1",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "scene": "saga1/scene/part5/btl_boersgard_gate/btl_boersgard_gate.json.z",
+          "type": "POPUP",
+          "url": "saga1/convo/part7/cnv_fail_wallfight.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 boersfight2",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part7/cnv_fail_wallfight.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 boersfight3",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part7/cnv_fail_wallfight.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 boersfight4",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part7/cnv_fail_wallfight.json.z"
+        },
+        {
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "7 junoarrives",
+              "varvalue": 0
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/vlg_boersgard/vlg_boersgard.json.z",
+          "type": "CAMP"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 junoarrives",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "iver.talk"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 junoarrives",
+              "varvalue": 0
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "iver.talk",
+          "varvalue": -1
+        }
+      ],
+      "id": "talk_iver",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "iver"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_grasslands/stg_grasslands.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part7/cnv_chat_junoarrives.json.z"
+        },
+        {
+          "scene": "saga1/scene/stage/stg_grasslands/stg_grasslands.json.z",
+          "type": "VARIABLE_SET",
+          "url": "saga1/convo/part7/cnv_chat_junoarrives.json.z",
+          "varname": "iver.talk"
+        },
+        {
+          "instant": true,
+          "location": "camped_boersgard",
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/vlg_boersgard/vlg_boersgard.json.z",
+          "type": "CAMP"
+        },
+        {
+          "id": "hakoncaravan",
+          "speaker": "rookcaravan",
+          "type": "CARAVAN_MERGE",
+          "url": "saga1/convo/part7/cnv_pop_junoarrives2.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "yrsa.talk"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "bersi.talk"
+        },
+        {
+          "id": "juno",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part7/cnv_pop_junoarrives2.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_travel_hidden",
+          "varvalue": 1
+        },
+        {
+          "happening": "juno_travel",
+          "id": "junocaravan",
+          "scene": "saga1/scene/part5/cls_godstone_stravhs/cls_godstone_stravhs.json.z",
+          "type": "CARAVAN"
+        },
+        {
+          "happening": "juno_travel",
+          "scene": "saga1/scene/part5/cls_godstone_stravhs/cls_godstone_stravhs.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "7_junoarrives"
+    },
+    {
+      "actions": [
+        {
+          "msg": "$saga1_ch5",
+          "time": 5,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.text_page_vinque"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_travel_hidden",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "weather_snow_density",
+          "varvalue": 0.5
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "weather_snow_gravity",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "weather_snow_variance",
+          "varvalue": 2.5
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "weather_wind",
+          "varvalue": 1
+        },
+        {
+          "happening": "cin_snake",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "5_start"
+    },
+    {
+      "actions": [
+        {
+          "msg": "$saga1_ch6",
+          "time": 6,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.text_page_vinque"
+        },
+        {
+          "type": "SHOW_CARAVAN",
+          "varvalue": 1
+        },
+        {
+          "id": "krumr",
+          "prereqs": [
+            {
+              "varname": "krumrdied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "fasolt",
+          "prereqs": [
+            {
+              "varname": "fasoltdied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "5 lefteinar",
+              "varvalue": 1
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 11
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rook.party_required"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "iver.party_required"
+        },
+        {
+          "location": "start",
+          "scene": "saga1/scene/part4/wld_boersgard/wld_boersgard.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "id": "saga1/scene/battle/music/chapter_6.btlmusic.json.z",
+          "type": "BATTLE_MUSIC"
+        }
+      ],
+      "id": "6_start"
+    },
+    {
+      "actions": [
+        {
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_village_interior/stg_village_interior.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part2/cnv_ally_eyvind2.json.z"
+        },
+        {
+          "happening": "5_start",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "_talk_eyvind_einartoft",
+      "prereq": "!7_bellowerdied && !6_sigreyvind"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_talk_eyvind_einartoft",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 bellowerdied",
+              "varvalue": 1
+            },
+            {
+              "varname": "6 sigreyvind",
+              "varvalue": 0
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "7 boerstrade",
+          "varvalue": 1
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 bellowerdied",
+              "varvalue": 1
+            },
+            {
+              "varname": "7 alettedoomed",
+              "varvalue": 0
+            },
+            {
+              "varname": "6 sigreyvind",
+              "varvalue": 0
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part7/cnv_chat_endingalette.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 bellowerdied",
+              "varvalue": 1
+            },
+            {
+              "varname": "7 alettedoomed",
+              "varvalue": 1
+            },
+            {
+              "varname": "6 sigreyvind",
+              "varvalue": 0
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part7/cnv_chat_endingrook.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 bellowerdied",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/part5/cin_funeral/cin_funeral.json.z",
+          "type": "VARIABLE_SET",
+          "varname": "hud_travel_hidden",
+          "varvalue": 1
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 bellowerdied",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/part5/cin_funeral/cin_funeral.json.z",
+          "type": "SCENE"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "7 bellowerdied",
+              "varvalue": 0
+            },
+            {
+              "varname": "6 sigreyvind",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part6/cnv_ally_eyvind.json.z"
+        }
+      ],
+      "id": "talk_eyvind",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "eyvind"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 clickbellower",
+          "varvalue": 1
+        },
+        {
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part7/cnv_chat_finalpush.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "juno.talk"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "sav_finale",
+          "varvalue": 1
+        },
+        {
+          "instant": true,
+          "restore_scene": false,
+          "scene": "saga1/scene/part5/vlg_boersgard/vlg_boersgard.json.z",
+          "type": "CAMP"
+        }
+      ],
+      "id": "talk_juno",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "juno"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part7/cnv_pop_breach.json.z"
+        }
+      ],
+      "id": "talk_alette",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "alette"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "6 onefstrikes",
+              "varvalue": 0
+            }
+          ],
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part2/cnv_ally_oddleif1.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 onefstrikes",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part6/cnv_ally_oddleif.json.z"
+        }
+      ],
+      "id": "talk_oddleif",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "oddleif"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "scene": "saga1/scene/stage/stg_wilderness_forest/stg_wilderness_forest.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_ally_egil.json.z"
+        }
+      ],
+      "id": "talk_egil",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "egil"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "id": "talk_hogun",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "hogun"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part2/cnv_ally_mogun.json.z"
+        }
+      ],
+      "id": "talk_mogun",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "mogun"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part4/cnv_ally_krumr.json.z"
+        }
+      ],
+      "id": "talk_krumr",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "krumr"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "id": "talk_fasolt",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "fasolt"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "scene": "saga1/scene/stage/stg_village_interior/stg_village_interior.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part2/cnv_chat_einarjorundr1.json.z"
+        }
+      ],
+      "id": "talk_jorundr",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "jorundr"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part2/cnv_ally_tryggvi.json.z"
+        }
+      ],
+      "id": "talk_tryggvi",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "tryggvi"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "id": "talk_sigbjorn",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "sigbjorn"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "talk_ekkill",
+          "type": "GA_PAGE"
+        },
+        {
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part6/cnv_ally_ekkill.json.z"
+        },
+        {
+          "id": "ekkill",
+          "prereqs": [
+            {
+              "varname": "ekkilldied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        }
+      ],
+      "id": "talk_ekkill",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "ekkill"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "talk_nid",
+          "type": "GA_PAGE"
+        },
+        {
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part6/cnv_ally_nid.json.z"
+        }
+      ],
+      "id": "talk_nid",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "nid"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part6/cnv_ally_gunnulf.json.z"
+        }
+      ],
+      "id": "talk_gunnulf",
+      "triggers": [
+        {
+          "type": "TALK",
+          "unit": "gunnulf"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "start",
+          "type": "GA_PAGE"
+        },
+        {
+          "id": "prg_start",
+          "type": "GMA_EVENT"
+        },
+        {
+          "id": "narratorcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "id": "prg_intro_video1",
+          "type": "GMA_EVENT"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "camp_music_suppressed",
+          "varvalue": 1
+        },
+        {
+          "id": "video1",
+          "type": "GA_PAGE"
+        },
+        {
+          "id": "saga1/music/part0/opener",
+          "type": "MUSIC_ONESHOT"
+        },
+        {
+          "time": 40,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.text_page_startup"
+        },
+        {
+          "subtitle": "saga1/locale/en/tutorial_intro_video1.sbv.z",
+          "type": "VIDEO",
+          "url": "saga1/video/tutorial_intro_video1.720.flv"
+        },
+        {
+          "type": "PARTY_CLEAR"
+        },
+        {
+          "also_party": true,
+          "id": "shieldbanger_tut",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "warhawk_tut",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "prg_tut1_start",
+          "type": "GMA_EVENT"
+        },
+        {
+          "id": "tutorial_start",
+          "type": "GA_PAGE"
+        },
+        {
+          "assemble_heroes": false,
+          "restore_scene": false,
+          "scene": "saga1/scene/part1/btl_tut_greathall/btl_tut_greathall.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "id": "prg_tut1_finish",
+          "type": "GMA_EVENT"
+        },
+        {
+          "id": "tutorial_finish",
+          "type": "GA_PAGE"
+        },
+        {
+          "id": "shieldbanger_tut",
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "warhawk_tut",
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "subtitle": "saga1/locale/en/tutorial_intro_video2.sbv.z",
+          "type": "VIDEO",
+          "url": "saga1/video/tutorial_intro_video2.720.flv"
+        },
+        {
+          "happening": "bk_1_strand",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "fa2013",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "bk_fa2013_part2",
+          "prereqs": [
+            {
+              "varname": "fa2013",
+              "varvalue": 1
+            }
+          ],
+          "type": "BOOKMARK"
+        }
+      ],
+      "id": "bk_1_start"
+    },
+    {
+      "actions": [
+        {
+          "id": "narratorcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "type": "PARTY_CLEAR"
+        },
+        {
+          "id": "shieldbanger_tut",
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "warhawk_tut",
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "camp_music_suppressed",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl",
+          "varvalue": 32
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 100
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale",
+          "varvalue": 100
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 6
+        },
+        {
+          "msg": "$saga1_ch1",
+          "time": 4,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.text_page_vinque"
+        },
+        {
+          "instant": true,
+          "scene": "saga1/scene/part1/vlg_strand/vlg_strand.json.z",
+          "type": "CAMP"
+        },
+        {
+          "id": "prg_strand",
+          "type": "GMA_EVENT"
+        },
+        {
+          "id": "strand_arrive",
+          "type": "GA_PAGE"
+        }
+      ],
+      "id": "bk_1_strand"
+    },
+    {
+      "actions": [
+        {
+          "id": "narratorcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "type": "PARTY_CLEAR"
+        },
+        {
+          "also_party": true,
+          "id": "hakon",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "mogr",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "ludin",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "gunnulf",
+          "type": "PARTY_ADD"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "camp_music_suppressed",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl",
+          "varvalue": 200
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters",
+          "varvalue": 80
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 6
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 80
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale",
+          "varvalue": 50
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 20
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "hud_horn_enabled"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "hud_map_enabled"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "hud_camp_enabled"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "hud_travel_enabled",
+          "varvalue": 1
+        },
+        {
+          "location": "start",
+          "scene": "saga1/scene/part1/wld_ridgehorn/wld_ridgehorn.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "bk_1_strand_depart"
+    },
+    {
+      "actions": [
+        {
+          "id": "narratorcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "type": "PARTY_CLEAR"
+        },
+        {
+          "also_party": true,
+          "id": "hakon",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "mogr",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "ludin",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "gunnulf",
+          "type": "PARTY_ADD"
+        },
+        {
+          "location": "chat_directions",
+          "scene": "saga1/scene/part1/wld_ridgehorn/wld_ridgehorn.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "bk_1_vedrfell"
+    },
+    {
+      "actions": [
+        {
+          "happening": "setup_1",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "id": "eirik",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_horn_enabled",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_map_enabled",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_travel_enabled",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_camp_enabled",
+          "varvalue": 1
+        },
+        {
+          "location": "depart_vedrfell",
+          "scene": "saga1/scene/part1/wld_ridgehorn/wld_ridgehorn.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "bk_3_vedrfell_depart"
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "game_progress",
+          "varvalue": 20
+        },
+        {
+          "id": "hakoncaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "id": "eirik",
+          "prereq": "!1_eirikdissed",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "narrator",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "mogr.talk",
+          "varvalue": 3
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "narrator.talk",
+          "varvalue": 3
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "1 hakoncaravan",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "2 rookcaravan"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "num_fighters",
+          "varvalue": 85
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "num_varl",
+          "varvalue": 366
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "supplies",
+          "varvalue": 320
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale",
+          "varvalue": 100
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "1 vedrheroes",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "1 vedrmap",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "1 vedrleave",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "1 vedrcamped",
+          "varvalue": 1
+        },
+        {
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_returnhakon.json.z"
+        },
+        {
+          "instant": true,
+          "type": "HALT",
+          "varvalue": 1
+        },
+        {
+          "instant": true,
+          "location": "return_hakon",
+          "scene": "saga1/scene/part1/cls_vedrfell/cls_vedrfell.json.z",
+          "type": "CAMP"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "id": "sav_chapter3",
+          "type": "SAVE_STORE"
+        }
+      ],
+      "id": "3_vedrfell"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "3_vedrfell",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_3_vedrfell"
+    },
+    {
+      "actions": [
+        {
+          "happening": "setup_1_fullcaravan",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_horn_enabled",
+          "varvalue": 1
+        },
+        {
+          "scene": "saga1/scene/part1/cls_ridgehorn/cls_ridgehorn.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "bk_3_ridgehorn"
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "morale_category",
+              "varvalue": 1
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_bonus_willpower",
+          "varvalue": -2
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "morale_category",
+              "varvalue": 2
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_bonus_willpower",
+          "varvalue": -1
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "morale_category",
+              "varvalue": 3
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_bonus_willpower"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "morale_category",
+              "varvalue": 4
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_bonus_willpower",
+          "varvalue": 1
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "morale_category",
+              "varvalue": 5
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_bonus_willpower",
+          "varvalue": 2
+        }
+      ],
+      "id": "morale_bonus_willpower",
+      "triggers": [
+        {
+          "type": "VARIABLE_INCREMENT",
+          "varname": "morale_category",
+          "varvalue": 0
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "max": 10,
+              "varname": "morale"
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_category",
+          "varvalue": 1
+        },
+        {
+          "prereqs": [
+            {
+              "max": 30,
+              "min": 11,
+              "varname": "morale"
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_category",
+          "varvalue": 2
+        },
+        {
+          "prereqs": [
+            {
+              "max": 69,
+              "min": 31,
+              "varname": "morale"
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_category",
+          "varvalue": 3
+        },
+        {
+          "prereqs": [
+            {
+              "max": 89,
+              "min": 70,
+              "varname": "morale"
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_category",
+          "varvalue": 4
+        },
+        {
+          "prereqs": [
+            {
+              "max": 100,
+              "min": 90,
+              "varname": "morale"
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_category",
+          "varvalue": 5
+        }
+      ],
+      "id": "morale_category",
+      "triggers": [
+        {
+          "type": "VARIABLE_INCREMENT",
+          "varname": "morale",
+          "varvalue": 0
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "morale_category",
+              "varvalue": 1
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_bonus_threat",
+          "varvalue": 2
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "morale_category",
+              "varvalue": 2
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_bonus_threat",
+          "varvalue": 1
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "morale_category",
+              "varvalue": 3
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_bonus_threat"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "morale_category",
+              "varvalue": 4
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_bonus_threat",
+          "varvalue": -1
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "morale_category",
+              "varvalue": 5
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "morale_bonus_threat",
+          "varvalue": -2
+        }
+      ],
+      "id": "morale_bonus_threat",
+      "triggers": [
+        {
+          "type": "VARIABLE_INCREMENT",
+          "varname": "morale_category",
+          "varvalue": 0
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "max": 100,
+              "varname": "num_combatants"
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "danger_bonus_combatants",
+          "varvalue": 2
+        },
+        {
+          "prereqs": [
+            {
+              "max": 300,
+              "min": 101,
+              "varname": "num_combatants"
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "danger_bonus_combatants",
+          "varvalue": 1
+        },
+        {
+          "prereqs": [
+            {
+              "max": 699,
+              "min": 301,
+              "varname": "num_combatants"
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "danger_bonus_combatants"
+        },
+        {
+          "prereqs": [
+            {
+              "max": 899,
+              "min": 700,
+              "varname": "num_combatants"
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "danger_bonus_combatants",
+          "varvalue": -1
+        },
+        {
+          "prereqs": [
+            {
+              "max": 100000000,
+              "min": 900,
+              "varname": "num_combatants"
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "danger_bonus_combatants",
+          "varvalue": -2
+        }
+      ],
+      "id": "danger_bonus_combatants",
+      "triggers": [
+        {
+          "type": "VARIABLE_INCREMENT",
+          "varname": "morale",
+          "varvalue": 0
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "narratorcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "hud_horn_enabled",
+          "varvalue": 1
+        },
+        {
+          "msg": "$saga1_ch2",
+          "time": 5,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.text_page_vinque"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "camp_music_suppressed",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "map_tutorial",
+          "varvalue": 8
+        },
+        {
+          "id": "wld_ridgehorn",
+          "type": "MAP_SPLINE",
+          "varvalue": 1
+        },
+        {
+          "id": "prg_chapter2",
+          "type": "GMA_EVENT"
+        },
+        {
+          "id": "chapter2",
+          "type": "GA_PAGE"
+        },
+        {
+          "happening": "cin_part2",
+          "id": "cin_part2",
+          "param": "cinema",
+          "type": "CAMP_MAP"
+        }
+      ],
+      "id": "bk_2_start"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup_2",
+          "type": "HAPPENING"
+        },
+        {
+          "location": "start",
+          "scene": "saga1/scene/part2/cls_skogr/cls_skogr.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "bk_2_skogr"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup_2",
+          "type": "HAPPENING"
+        },
+        {
+          "location": "dredgeintro",
+          "scene": "saga1/scene/part2/wld_einartoft_1/wld_einartoft_1.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "bk_2_skogr_approach"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "type": "HAPPENING"
+        },
+        {
+          "location": "skogr_depart",
+          "scene": "saga1/scene/part2/wld_einartoft_1/wld_einartoft_1.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "bk_2_skogr_depart"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "type": "HAPPENING"
+        },
+        {
+          "location": "bk_2_frostvellr",
+          "scene": "saga1/scene/part2/wld_einartoft_1/wld_einartoft_1.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "bk_2_frostvellr"
+    },
+    {
+      "actions": [
+        {
+          "happening": "bk_fa2013_tutorial",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_fa2013"
+    },
+    {
+      "actions": [
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "fa2013",
+          "varvalue": 1
+        },
+        {
+          "msg": "$saga1_ch2_intro",
+          "time": 5,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.text_page_vinque"
+        },
+        {
+          "happening": "bk_2_start",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_fa2013_part2"
+    },
+    {
+      "actions": [
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "fa2013",
+          "varvalue": 1
+        },
+        {
+          "happening": "bk_1_start",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_fa2013_tutorial"
+    },
+    {
+      "actions": [
+        {
+          "happening": "bk_1_start",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "id": "itm_r1_switch_bs1",
+          "prereq": "dlc_nx_item",
+          "suppress_flytext": true,
+          "type": "ITEM_ADD"
+        }
+      ],
+      "id": "start"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_death_toll_peasants",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "_death_toll_fighters",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "_death_toll_varl",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "param": "*",
+          "type": "VARIABLE_MODIFY",
+          "varname": "_death_toll_fighters",
+          "varother": "_day_calc_count"
+        },
+        {
+          "param": "*",
+          "type": "VARIABLE_MODIFY",
+          "varname": "_death_toll_peasants",
+          "varother": "_day_calc_count"
+        },
+        {
+          "param": "*",
+          "type": "VARIABLE_MODIFY",
+          "varname": "_death_toll_varl",
+          "varother": "_day_calc_count"
+        },
+        {
+          "type": "VARIABLE_MODIFY",
+          "varname": "num_fighters",
+          "varother": "_death_toll_fighters"
+        },
+        {
+          "type": "VARIABLE_MODIFY",
+          "varname": "num_peasants",
+          "varother": "_death_toll_peasants"
+        },
+        {
+          "type": "VARIABLE_MODIFY",
+          "varname": "num_varl",
+          "varother": "_death_toll_varl"
+        }
+      ],
+      "id": "_death_toll_all"
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_fighters"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_fighters",
+          "varvalue": -2
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_fighters",
+          "varvalue": -3
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_fighters",
+          "varvalue": -4
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_fighters",
+          "varvalue": -5
+        }
+      ],
+      "id": "_death_toll_fighters",
+      "random": true
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_peasants"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_peasants",
+          "varvalue": -3
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_peasants",
+          "varvalue": -4
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_peasants",
+          "varvalue": -5
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_peasants",
+          "varvalue": -6
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_peasants",
+          "varvalue": -7
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_peasants",
+          "varvalue": -8
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_peasants",
+          "varvalue": -9
+        }
+      ],
+      "id": "_death_toll_peasants",
+      "random": true
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_varl"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_varl",
+          "varvalue": -1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_varl",
+          "varvalue": -2
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "_death_toll_varl",
+          "varvalue": -3
+        }
+      ],
+      "id": "_death_toll_varl",
+      "random": true
+    },
+    {
+      "actions": [
+        {
+          "happening": "random_refugees",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_refugees",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_blizzard",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_blizzard",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_wildfruit",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_wildfruit",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_baby",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_baby",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_bribery",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_bribery",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_corneredvarl",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_corneredvarl",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_farmstead",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_farmstead",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_fireincamp",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_fireincamp",
+              "varvalue": 0
+            },
+            {
+              "max": 900,
+              "min": 5,
+              "varname": "num_varl"
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_humanambush",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_humanambush",
+              "varvalue": 0
+            },
+            {
+              "varname": "2 krumrjoins",
+              "varvalue": 1
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_woundedvarl",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_woundedvarl",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_lowmorale",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_lowmorale",
+              "varvalue": 0
+            },
+            {
+              "max": 30,
+              "varname": "morale"
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_overpop",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_overpop",
+              "varvalue": 0
+            },
+            {
+              "max": 800,
+              "min": 400,
+              "varname": "num_population"
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_varlfidget",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_varlfidget",
+              "varvalue": 0
+            },
+            {
+              "max": 900,
+              "min": 5,
+              "varname": "num_varl"
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_abandoned",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_abandoned",
+              "varvalue": 0
+            },
+            {
+              "max": 900,
+              "min": 5,
+              "varname": "num_varl"
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_poetry",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_poetry",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_lostchild1",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_lostchild1",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_lostchild2",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_lostchild2",
+              "varvalue": 1
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_lostchild3",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_lostchild3",
+              "varvalue": 1
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_quirky1",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_quirky1",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_quirky2",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_quirky2",
+              "varvalue": 1
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_outlaws1",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_outlaws1",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_outlaws2",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_outlaws2",
+              "varvalue": 1
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_missingsup1",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_missingsup1",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_missingsup2",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_missingsup2",
+              "varvalue": 1
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_missingsup3",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_missingsup3",
+              "varvalue": 1
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_familyfeud1",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_familyfeud1",
+              "varvalue": 0
+            }
+          ],
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "random_familyfeud2",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "rdm_familyfeud2",
+              "varvalue": 1
+            }
+          ],
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "random_quests",
+      "random": true,
+      "triggers": [
+        {
+          "location": "random_quests",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_refugees.json.z",
+          "varname": "num_peasants",
+          "varvalue": 10
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_refugees",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_refugees"
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_MODIFY",
+          "varname": "weather_snow_density",
+          "varvalue": 6
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "weather_snow_gravity",
+          "varvalue": 3
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "weather_wind",
+          "varvalue": 4
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_blizzard.json.z",
+          "varname": "num_peasants",
+          "varvalue": 20
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_blizzard",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "weather_snow_density",
+          "varvalue": -6
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "weather_snow_gravity",
+          "varvalue": -3
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "weather_wind",
+          "varvalue": -4
+        }
+      ],
+      "id": "random_blizzard"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_wildfruit.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_wildfruit",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_wildfruit"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_baby.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_baby",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_baby"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_bribery1.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_bribery",
+          "varvalue": 1
+        },
+        {
+          "bucket": "2_fighters_med",
+          "prereqs": [
+            {
+              "varname": "rdm_bribery_fight",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "rdm_bribery_fight",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_bribery2.json.z"
+        }
+      ],
+      "id": "random_bribery"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_corneredvarl.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_corneredvarl",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_corneredvarl"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_farmstead.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_farmstead",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_farmstead"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_fireincamp.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_fireincamp",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_fireincamp"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_humanambush.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_humanambush",
+          "varvalue": 1
+        },
+        {
+          "bucket": "2_fighters_hard",
+          "prereqs": [
+            {
+              "varname": "rdm_humanambush_fight",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "BATTLE"
+        }
+      ],
+      "id": "random_humanambush"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_woundedvarl.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_woundedvarl",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_woundedvarl"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_lowmorale.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_lowmorale",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_lowmorale"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_overpop.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_overpop",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_overpop"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_varlfidget.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_varlfidget",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_varlfidget"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_abandoned.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_abandoned",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_abandoned"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_poetry.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_poetry",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_poetry"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_lostchild1.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_lostchild1",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_lostchild1"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_lostchild2.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_lostchild2"
+        }
+      ],
+      "id": "random_lostchild2"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_lostchild3.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_lostchild3"
+        },
+        {
+          "bucket": "1_dredge_all",
+          "prereqs": [
+            {
+              "varname": "rdm_lostchild_fight",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "WAR"
+        }
+      ],
+      "id": "random_lostchild3"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_quirky1.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rdm_quirky1",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_quirky1"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_quirky2.json.z"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "rdm_quirky2"
+        }
+      ],
+      "id": "random_quirky2"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_outlaws1.json.z"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "rdm_outlaws1",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_outlaws1"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_outlaws2.json.z"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "rdm_outlaws2"
+        }
+      ],
+      "id": "random_outlaws2"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_missingsup1.json.z"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "rdm_missingsup1",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_missingsup1"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_missingsup2.json.z"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "rdm_missingsup2"
+        }
+      ],
+      "id": "random_missingsup2"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_missingsup3.json.z"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "rdm_missingsup3"
+        }
+      ],
+      "id": "random_missingsup3"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_familyfeud1.json.z"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "rdm_familyfeud1",
+          "varvalue": 1
+        }
+      ],
+      "id": "random_familyfeud1"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_rdm_familyfeud2.json.z"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "rdm_familyfeud2"
+        }
+      ],
+      "id": "random_familyfeud2"
+    },
+    {
+      "actions": [
+        {
+          "id": "one",
+          "prereqs": [
+            {
+              "max": 3,
+              "min": 1,
+              "varname": "day"
+            }
+          ],
+          "type": "ACHIEVEMENT"
+        },
+        {
+          "id": "two",
+          "prereqs": [
+            {
+              "max": 3,
+              "min": 2,
+              "varname": "day"
+            }
+          ],
+          "type": "ACHIEVEMENT",
+          "weights": [
+            {
+              "max": 3,
+              "min": 2,
+              "varname": "day"
+            }
+          ]
+        },
+        {
+          "id": "three",
+          "prereqs": [
+            {
+              "varname": "day",
+              "varvalue": 3
+            }
+          ],
+          "type": "ACHIEVEMENT",
+          "weights": [
+            {
+              "varname": "day",
+              "varvalue": 3
+            }
+          ]
+        }
+      ],
+      "id": "jww_rando",
+      "random": true
+    },
+    {
+      "actions": [
+        {
+          "id": "hakoncaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "map_tutorial",
+          "varvalue": 8
+        },
+        {
+          "anchor": "close_vedrfell",
+          "id": "wld_ridgehorn",
+          "type": "MAP_SPLINE",
+          "varvalue": 1
+        },
+        {
+          "happening": "cin_grofheim",
+          "id": "cin_grofheim",
+          "param": "cinema",
+          "type": "CAMP_MAP"
+        }
+      ],
+      "id": "bk_3_grofheim"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "msg": "$saga1_ch3",
+          "time": 5,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.text_page_vinque"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "camp_music_suppressed"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "map_tutorial",
+          "varvalue": 8
+        },
+        {
+          "anchor": "close_skogr",
+          "id": "wld_einartoft_1",
+          "type": "MAP_SPLINE",
+          "varvalue": 1
+        },
+        {
+          "id": "prg_chapter3",
+          "type": "GMA_EVENT"
+        },
+        {
+          "id": "chapter3",
+          "type": "GA_PAGE"
+        },
+        {
+          "happening": "cin_part3",
+          "id": "cin_part3",
+          "instant": true,
+          "param": "cinema",
+          "type": "CAMP_MAP"
+        }
+      ],
+      "id": "3_start"
+    },
+    {
+      "actions": [
+        {
+          "happening": "3_start",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_3_start"
+    },
+    {
+      "actions": [
+        {
+          "msg": "$saga1_ch4",
+          "time": 5,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.text_page_vinque"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "camp_music_suppressed",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_travel_hidden"
+        },
+        {
+          "id": "hakoncaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "map_tutorial",
+          "varvalue": 8
+        },
+        {
+          "id": "cin_grofheim",
+          "type": "MAP_SPLINE",
+          "varvalue": 1
+        },
+        {
+          "id": "prg_chapter4",
+          "type": "GMA_EVENT"
+        },
+        {
+          "id": "chapter4",
+          "type": "GA_PAGE"
+        },
+        {
+          "happening": "cin_part4",
+          "id": "cin_part4",
+          "instant": true,
+          "param": "cinema",
+          "type": "CAMP_MAP"
+        }
+      ],
+      "id": "4_start"
+    },
+    {
+      "actions": [
+        {
+          "happening": "4_start",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_4_start"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "happening": "5_start",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_5_start"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup_6",
+          "type": "HAPPENING"
+        },
+        {
+          "happening": "6_start",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "bk_6_start"
+    },
+    {
+      "actions": [
+        {
+          "id": "rookcaravan",
+          "type": "CARAVAN"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "biome",
+          "varvalue": 1
+        },
+        {
+          "happening": "test_setup_allunits",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "_bk_setup"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "type": "HAPPENING"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 641
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 37
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants",
+          "varvalue": 50
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters",
+          "varvalue": 60
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl",
+          "varvalue": 60
+        }
+      ],
+      "id": "_bk_setup_6"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "type": "HAPPENING"
+        },
+        {
+          "type": "ROSTER_CLEAR"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 641
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 37
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants",
+          "varvalue": 0
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters",
+          "varvalue": 0
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl",
+          "varvalue": 0
+        },
+        {
+          "also_party": true,
+          "id": "alette",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "rook",
+          "type": "ROSTER_ADD"
+        }
+      ],
+      "id": "_bk_setup_2"
+    },
+    {
+      "actions": [
+        {
+          "happening": "_bk_setup",
+          "type": "HAPPENING"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "supplies",
+          "varvalue": 641
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "renown",
+          "varvalue": 37
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_peasants",
+          "varvalue": 50
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_fighters",
+          "varvalue": 60
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "num_varl",
+          "varvalue": 60
+        },
+        {
+          "id": "alette",
+          "param": "RANK",
+          "type": "UNIT_STAT",
+          "varvalue": 6
+        },
+        {
+          "id": "rook",
+          "param": "RANK",
+          "type": "UNIT_STAT",
+          "varvalue": 6
+        },
+        {
+          "id": "iver",
+          "param": "RANK",
+          "type": "UNIT_STAT",
+          "varvalue": 6
+        },
+        {
+          "id": "oddleif",
+          "param": "RANK",
+          "type": "UNIT_STAT",
+          "varvalue": 6
+        },
+        {
+          "id": "hakon",
+          "param": "RANK",
+          "type": "UNIT_STAT",
+          "varvalue": 6
+        }
+      ],
+      "id": "_bk_setup_7"
+    },
+    {
+      "actions": [
+        {
+          "type": "SAVE_LOAD_MOST_RECENT"
+        }
+      ],
+      "id": "gameover_checkpoint"
+    },
+    {
+      "actions": [
+        {
+          "param": "resume",
+          "type": "SAVE_LOAD_SHOW_GUI"
+        }
+      ],
+      "id": "gameover_reload"
+    },
+    {
+      "actions": [
+        {
+          "type": "START_PAGE",
+          "varvalue": 1
+        }
+      ],
+      "id": "gameover_quit"
+    },
+    {
+      "actions": [
+        {
+          "enabled": false,
+          "happening": "_bk_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        },
+        {
+          "bucket": "1_dredge_easy",
+          "enabled": false,
+          "scene": "saga1/scene/battle/btl_forest_village/btl_forest_village.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "7 alettedoomed"
+        },
+        {
+          "scene": "saga1/scene/part5/cin_bellower_kill/cin_bellower_kill.json.z",
+          "type": "SCENE"
+        }
+      ],
+      "id": "arnie"
+    },
+    {
+      "actions": [
+        {
+          "msg": "$saga1_alette_guilty",
+          "speaker": "alette",
+          "time": 3,
+          "type": "SPEAK"
+        }
+      ],
+      "id": "trg_alette_guilty",
+      "triggers": [
+        {
+          "type": "VARIABLE_THRESHOLD_UP",
+          "varname": "prg_alette_guilty",
+          "varvalue": 1
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "msg": "$trig_low_morale_flytext",
+          "time": 3,
+          "type": "FLYTEXT",
+          "varvalue": 16711680
+        },
+        {
+          "instant": true,
+          "msg": "$trig_low_morale_speak",
+          "speaker": "rook",
+          "time": 3,
+          "type": "SPEAK"
+        },
+        {
+          "instant": true,
+          "msg": "$trig_low_morale_speak",
+          "speaker": "hakon",
+          "time": 3,
+          "type": "SPEAK"
+        }
+      ],
+      "id": "trig_low_morale",
+      "triggers": [
+        {
+          "type": "VARIABLE_THRESHOLD_DOWN",
+          "varname": "prg_min_morale_category",
+          "varvalue": 2
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "acv_complete_normal",
+          "prereqs": [
+            {
+              "varname": "prg_min_difficulty",
+              "varvalue": 2
+            }
+          ],
+          "type": "ACHIEVEMENT"
+        },
+        {
+          "id": "acv_complete_hard",
+          "prereqs": [
+            {
+              "varname": "prg_min_difficulty",
+              "varvalue": 3
+            }
+          ],
+          "type": "ACHIEVEMENT"
+        },
+        {
+          "id": "acv_complete_challenge",
+          "prereqs": [
+            {
+              "varname": "prg_min_difficulty",
+              "varvalue": 3
+            },
+            {
+              "varname": "prg_battles_lost",
+              "varvalue": 0
+            },
+            {
+              "varname": "prg_wars_lost",
+              "varvalue": 0
+            }
+          ],
+          "type": "ACHIEVEMENT"
+        },
+        {
+          "id": "acv_complete_quartermaster",
+          "prereqs": [
+            {
+              "varname": "prg_starvation_count",
+              "varvalue": 0
+            }
+          ],
+          "type": "ACHIEVEMENT"
+        },
+        {
+          "id": "acv_complete_high_spirits",
+          "prereqs": [
+            {
+              "max": 5,
+              "min": 3,
+              "varname": "prg_min_morale_category"
+            }
+          ],
+          "type": "ACHIEVEMENT"
+        },
+        {
+          "id": "acv_complete_innocent",
+          "prereqs": [
+            {
+              "varname": "prg_alette_guilty",
+              "varvalue": 0
+            }
+          ],
+          "type": "ACHIEVEMENT"
+        },
+        {
+          "id": "acv_complete_diplomat",
+          "prereqs": [
+            {
+              "varname": "5 day3fight",
+              "varvalue": 1
+            }
+          ],
+          "type": "ACHIEVEMENT"
+        },
+        {
+          "id": "acv_complete_beat_the_odds",
+          "prereqs": [
+            {
+              "varname": "egildied",
+              "varvalue": 0
+            }
+          ],
+          "type": "ACHIEVEMENT"
+        }
+      ],
+      "id": "trg_game_complete"
+    },
+    {
+      "actions": [],
+      "id": "trg_starve"
+    }
+  ],
+  "id": "saga1",
+  "itemDefsUrl": "saga1/items1.json.z",
+  "mapSceneUrl": "saga1/scene/map/map_camp.json.z",
+  "musicUrl": "saga1/sound/saga1_music.json.z",
+  "startCaravan": "cin_start",
+  "startUrl": "saga1/scene/cin_start/cin_start.json.z",
+  "talentDefsUrl": "common/character/talent/talents.json.z",
+  "title_id": "title_tbs1",
+  "unitStatCostsUrl": "saga1/saga_stat_costs.json.z",
+  "variables": [
+    {
+      "name": "achievements_suppressed"
+    },
+    {
+      "name": "locale_en"
+    },
+    {
+      "bind": {
+        "constant": 1,
+        "divisor": 1,
+        "multiplier": -1,
+        "src": "supplies"
+      },
+      "name": "starving",
+      "per_caravan": true
+    },
+    {
+      "max": 10,
+      "name": "_day_calc_count",
+      "type": "INTEGER"
+    },
+    {
+      "max": 100,
+      "min": -100,
+      "name": "_day_calc_morale",
+      "type": "INTEGER"
+    },
+    {
+      "max": 10000,
+      "min": -10000,
+      "name": "_day_calc_supplies",
+      "type": "INTEGER"
+    },
+    {
+      "max": 0,
+      "min": -100,
+      "name": "_death_toll_fighters",
+      "type": "INTEGER"
+    },
+    {
+      "max": 0,
+      "min": -100,
+      "name": "_death_toll_peasants",
+      "type": "INTEGER"
+    },
+    {
+      "max": 0,
+      "min": -100,
+      "name": "_death_toll_varl",
+      "type": "INTEGER"
+    },
+    {
+      "max": 100,
+      "min": 0,
+      "name": "game_progress",
+      "type": "INTEGER"
+    },
+    {
+      "max": 10000,
+      "min": 0,
+      "name": "quake_frame_vfx_foremountain_1",
+      "type": "INTEGER"
+    },
+    {
+      "max": 10000,
+      "min": 0,
+      "name": "quake_frame_vfx_nearmountains_1",
+      "type": "INTEGER"
+    },
+    {
+      "max": 10000,
+      "min": 0,
+      "name": "quake_frame_vfx_backmountain_1",
+      "type": "INTEGER"
+    },
+    {
+      "min": 0,
+      "name": "quake_near_frame",
+      "type": "INTEGER"
+    },
+    {
+      "name": "battle_hud_tips_disabled",
+      "start": 1
+    },
+    {
+      "name": "travel_hud_tips_disabled",
+      "start": 1
+    },
+    {
+      "name": "7_bellower_shot"
+    },
+    {
+      "name": "5_chapter_saved"
+    },
+    {
+      "name": "5_chapter_saving",
+      "transient": true
+    },
+    {
+      "name": "tut_heroes"
+    },
+    {
+      "name": "tut_heroes_details"
+    },
+    {
+      "name": "tut_heroes_ability"
+    },
+    {
+      "min": 0,
+      "name": "trn_speak_delay",
+      "type": "INTEGER"
+    },
+    {
+      "name": "tip_roster_injured"
+    },
+    {
+      "name": "tip_roster_items"
+    },
+    {
+      "name": "tip_assemble_order"
+    },
+    {
+      "name": "acv_class_axemaster"
+    },
+    {
+      "name": "acv_class_backbiter"
+    },
+    {
+      "name": "acv_class_thrasher"
+    },
+    {
+      "name": "acv_class_bowmaster"
+    },
+    {
+      "name": "acv_class_grudgewielder"
+    },
+    {
+      "name": "acv_class_siegearcher"
+    },
+    {
+      "name": "acv_class_skystriker"
+    },
+    {
+      "name": "acv_class_shieldmaster"
+    },
+    {
+      "name": "acv_class_strongarm"
+    },
+    {
+      "name": "acv_class_provoker"
+    },
+    {
+      "name": "acv_class_warhawk"
+    },
+    {
+      "name": "acv_class_warleader"
+    },
+    {
+      "name": "acv_class_warmaster"
+    },
+    {
+      "name": "acv_class_hunter"
+    },
+    {
+      "name": "acv_class_warden"
+    },
+    {
+      "name": "acv_class_spearmaster"
+    },
+    {
+      "name": "acv_class_mender_male"
+    },
+    {
+      "name": "acv_class_eagleeye"
+    },
+    {
+      "name": "acv_godstone_denglr"
+    },
+    {
+      "name": "acv_godstone_dundr"
+    },
+    {
+      "name": "acv_godstone_hatteberg"
+    },
+    {
+      "name": "acv_godstone_hridvaldyr"
+    },
+    {
+      "name": "acv_godstone_marek"
+    },
+    {
+      "name": "acv_godstone_radormyr"
+    },
+    {
+      "name": "acv_godstone_bjorulf"
+    },
+    {
+      "name": "acv_godstone_bjorulf"
+    },
+    {
+      "name": "acv_godstone_ingrid"
+    },
+    {
+      "name": "acv_godstone_stravhs"
+    },
+    {
+      "name": "acv_complete_normal"
+    },
+    {
+      "name": "acv_complete_hard"
+    },
+    {
+      "name": "acv_complete_challenge"
+    },
+    {
+      "name": "acv_complete_quartermaster"
+    },
+    {
+      "name": "acv_complete_high_spirits"
+    },
+    {
+      "name": "acv_complete_innocent"
+    },
+    {
+      "name": "acv_complete_forced_march"
+    },
+    {
+      "name": "acv_complete_treasure_hunter"
+    },
+    {
+      "name": "acv_complete_diplomat"
+    },
+    {
+      "name": "acv_complete_warmonger"
+    },
+    {
+      "name": "acv_complete_beat_the_odds"
+    },
+    {
+      "name": "acv_complete_master_tactician"
+    },
+    {
+      "name": "camp_music_suppressed"
+    },
+    {
+      "achievement_stat": "prg_class_axemaster",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_axemaster",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_backbiter",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_backbiter",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_thrasher",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_thrasher",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_bowmaster",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_bowmaster",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_grudgewielder",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_grudgewielder",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_siegearcher",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_siegearcher",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_skystriker",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_skystriker",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_shieldmaster",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_shieldmaster",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_strongarm",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_strongarm",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_provoker",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_provoker",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_warhawk",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_warhawk",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_warleader",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_warleader",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_warmaster",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_warmaster",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_hunter",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_hunter",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_warden",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_warden",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_spearmaster",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_spearmaster",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_mender_male",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_mender_male",
+      "type": "INTEGER"
+    },
+    {
+      "achievement_stat": "prg_class_eagleeye",
+      "max": 10000,
+      "min": 0,
+      "name": "prg_class_eagleeye",
+      "type": "INTEGER"
+    },
+    {
+      "name": "prg_map_click"
+    },
+    {
+      "name": "prg_heroes_click"
+    },
+    {
+      "name": "prg_training_click"
+    },
+    {
+      "name": "prg_rest_click"
+    },
+    {
+      "name": "prg_market_click"
+    },
+    {
+      "name": "prg_promote"
+    },
+    {
+      "name": "previewbuild"
+    },
+    {
+      "achievement_stat": "prg_items_gained_5",
+      "max": 5,
+      "min": 0,
+      "name": "prg_items_gained_5",
+      "type": "INTEGER"
+    },
+    {
+      "max": 100000,
+      "min": 0,
+      "name": "prg_battles_lost",
+      "type": "INTEGER"
+    },
+    {
+      "max": 100000,
+      "min": 0,
+      "name": "prg_wars_lost",
+      "type": "INTEGER"
+    },
+    {
+      "max": 100000,
+      "min": 0,
+      "name": "prg_battles_won",
+      "type": "INTEGER"
+    },
+    {
+      "max": 100000,
+      "min": 0,
+      "name": "prg_battles_fought",
+      "type": "INTEGER"
+    },
+    {
+      "max": 3,
+      "name": "prg_min_difficulty",
+      "start": 3,
+      "type": "INTEGER"
+    },
+    {
+      "max": 5,
+      "min": 0,
+      "name": "prg_min_morale_category",
+      "start": 5,
+      "type": "INTEGER"
+    },
+    {
+      "name": "prg_alette_guilty"
+    },
+    {
+      "max": 1000000,
+      "min": 0,
+      "name": "prg_starvation_count",
+      "type": "INTEGER"
+    },
+    {
+      "max": 10000,
+      "min": 0,
+      "name": "market_available_supplies",
+      "type": "INTEGER"
+    },
+    {
+      "max": 100,
+      "name": "market_supplies_per_renown",
+      "type": "INTEGER"
+    },
+    {
+      "max": 5,
+      "name": "market_items_max",
+      "start": 5,
+      "type": "INTEGER"
+    },
+    {
+      "max": 5,
+      "name": "market_items_min",
+      "start": 2,
+      "type": "INTEGER"
+    },
+    {
+      "ga_custom_dimension": 2,
+      "ga_custom_metric": 3,
+      "max": 3,
+      "name": "difficulty",
+      "start": 3,
+      "type": "INTEGER"
+    },
+    {
+      "name": "battle_victory"
+    },
+    {
+      "name": "hud_horn_enabled",
+      "start": 1
+    },
+    {
+      "name": "hud_camp_enabled",
+      "start": 1
+    },
+    {
+      "name": "hud_travel_enabled",
+      "start": 1
+    },
+    {
+      "name": "hud_travel_hidden"
+    },
+    {
+      "name": "hud_map_enabled",
+      "start": 1
+    },
+    {
+      "name": "sound_day_suppressed"
+    },
+    {
+      "name": "war_danger",
+      "type": "INTEGER"
+    },
+    {
+      "name": "war_threat",
+      "type": "INTEGER"
+    },
+    {
+      "max": 100,
+      "min": 0,
+      "name": "war_injury",
+      "type": "INTEGER"
+    },
+    {
+      "max": 10000,
+      "name": "war_enemy_power",
+      "type": "INTEGER"
+    },
+    {
+      "name": "war_player_power",
+      "type": "INTEGER"
+    },
+    {
+      "min": 0,
+      "name": "war_renown",
+      "type": "INTEGER"
+    },
+    {
+      "name": "war_battle"
+    },
+    {
+      "name": "war_continue"
+    },
+    {
+      "name": "war_retreat"
+    },
+    {
+      "min": 0,
+      "name": "war_continue_renown",
+      "type": "INTEGER"
+    },
+    {
+      "min": -20,
+      "name": "war_continue_morale",
+      "type": "INTEGER"
+    },
+    {
+      "min": -20,
+      "name": "war_continue_threat",
+      "type": "INTEGER"
+    },
+    {
+      "bind": {
+        "constant": 0,
+        "divisor": 2,
+        "multiplier": 1,
+        "src": "war_enemy_power"
+      },
+      "max": 10000,
+      "name": "war_dredge_count",
+      "type": "INTEGER"
+    },
+    {
+      "bind": {
+        "constant": 0,
+        "divisor": 5,
+        "multiplier": 1,
+        "src": "war_threat"
+      },
+      "name": "war_threat_low"
+    },
+    {
+      "bind": {
+        "constant": 0,
+        "divisor": 10,
+        "multiplier": 1,
+        "src": "war_threat"
+      },
+      "name": "war_threat_med"
+    },
+    {
+      "bind": {
+        "constant": 0,
+        "divisor": 15,
+        "multiplier": 1,
+        "src": "war_threat"
+      },
+      "name": "war_threat_high"
+    },
+    {
+      "name": "biome",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "name": "banner",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "ga_custom_dimension": 1,
+      "ga_custom_metric": 1,
+      "ga_report_event_cur": true,
+      "max": 10000,
+      "metrics_dim": true,
+      "min": 0,
+      "name": "day",
+      "type": "DECIMAL"
+    },
+    {
+      "name": "VAR_DAY_LOGIC_SUPPRESS",
+      "type": "BOOLEAN"
+    },
+    {
+      "ga_custom_metric": 2,
+      "ga_report_event_cur": true,
+      "max": 2000000000,
+      "metrics_var": true,
+      "min": 0,
+      "name": "play_minutes",
+      "type": "DECIMAL"
+    },
+    {
+      "ga_custom_dimension": 3,
+      "ga_custom_metric": 4,
+      "ga_report_event_cur": true,
+      "name": "danger",
+      "per_caravan": true,
+      "type": "DECIMAL"
+    },
+    {
+      "name": "heraldry_enabled",
+      "per_caravan": true
+    },
+    {
+      "name": "hero",
+      "start_str": "rook",
+      "type": "STRING"
+    },
+    {
+      "max": 50000,
+      "min": 0,
+      "name": "num_fighters",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "max": 50000,
+      "min": 0,
+      "name": "num_varl",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "max": 100000,
+      "min": 0,
+      "name": "num_peasants",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "bind": {
+        "constant": 0,
+        "divisor": 1,
+        "multiplier": 1,
+        "src": "num_peasants",
+        "src_constant": "num_combatants"
+      },
+      "ga_report_event_cur": true,
+      "max": 100000,
+      "metrics_var": true,
+      "min": 0,
+      "name": "num_population",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "ga_report_event_cur": true,
+      "max": 100,
+      "min": 0,
+      "name": "morale",
+      "per_caravan": true,
+      "start": 100,
+      "type": "INTEGER"
+    },
+    {
+      "ga_report_event_cur": true,
+      "max": 1000,
+      "metrics_var": true,
+      "min": 0,
+      "name": "supplies",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "ga_report_event_cur": true,
+      "max": 1000,
+      "metrics_var": true,
+      "min": 0,
+      "name": "renown",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "max": 2,
+      "min": -2,
+      "name": "morale_bonus_willpower",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "max": 2,
+      "min": -2,
+      "name": "morale_bonus_threat",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "max": 5,
+      "name": "morale_category",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "name": "ludin_killed"
+    },
+    {
+      "name": "1 ludingone"
+    },
+    {
+      "bind": {
+        "constant": 0,
+        "divisor": 1,
+        "multiplier": 1,
+        "src": "num_fighters",
+        "src_constant": "num_varl"
+      },
+      "max": 100000,
+      "min": 0,
+      "name": "num_combatants",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "max": 10000,
+      "min": -1,
+      "name": "talk",
+      "per_unit": true,
+      "type": "INTEGER"
+    },
+    {
+      "name": "party_required",
+      "per_unit": true
+    },
+    {
+      "bind": {
+        "constant": 0,
+        "divisor": 300,
+        "multiplier": 1,
+        "src": "num_population"
+      },
+      "name": "camp_num_med",
+      "per_caravan": true
+    },
+    {
+      "bind": {
+        "constant": 0,
+        "divisor": 500,
+        "multiplier": 1,
+        "src": "num_population"
+      },
+      "name": "camp_num_lrg",
+      "per_caravan": true
+    },
+    {
+      "name": "1 chatvognir2"
+    },
+    {
+      "name": "1 leftgold"
+    },
+    {
+      "name": "1 assaultsplit"
+    },
+    {
+      "name": "1 assaultfight"
+    },
+    {
+      "name": "1 badfood"
+    },
+    {
+      "name": "1 firefight"
+    },
+    {
+      "name": "1 forestfight1"
+    },
+    {
+      "name": "1 forestfight2"
+    },
+    {
+      "name": "1 grissjoins1"
+    },
+    {
+      "name": "1 grissjoins2"
+    },
+    {
+      "name": "1 fasoltjoins"
+    },
+    {
+      "name": "1 quickfight"
+    },
+    {
+      "bind": {
+        "constant": -1,
+        "divisor": 100,
+        "multiplier": -1,
+        "src": "num_population"
+      },
+      "max": -1,
+      "min": -100,
+      "name": "supply_burn",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "name": "1_pop_lowmorale_triggered",
+      "per_caravan": true
+    },
+    {
+      "name": "camped",
+      "per_caravan": true
+    },
+    {
+      "name": "1 rhrun"
+    },
+    {
+      "name": "1 rhstay"
+    },
+    {
+      "name": "1 rhludinrun"
+    },
+    {
+      "name": "1 rhbattle1"
+    },
+    {
+      "name": "ludindied"
+    },
+    {
+      "name": "yrsadied"
+    },
+    {
+      "name": "mogrdied"
+    },
+    {
+      "name": "bersidied"
+    },
+    {
+      "name": "gunnulfdied"
+    },
+    {
+      "bind": {
+        "constant": 0,
+        "divisor": 200,
+        "multiplier": 1,
+        "src": "num_varl"
+      },
+      "name": "1 varlmany",
+      "per_caravan": true
+    },
+    {
+      "name": "1 rhbattle2"
+    },
+    {
+      "name": "1 rhbattlewaited"
+    },
+    {
+      "name": "1 rhwatching"
+    },
+    {
+      "name": "1 rhscouting"
+    },
+    {
+      "name": "1 strandpg"
+    },
+    {
+      "name": "1 strandmeadhouse"
+    },
+    {
+      "name": "1 strandmarketplace"
+    },
+    {
+      "name": "1 stranddocks"
+    },
+    {
+      "name": "1 strandgreathall"
+    },
+    {
+      "name": "camp_tips_disabled"
+    },
+    {
+      "name": "1 forestfire"
+    },
+    {
+      "name": "1 eirikgone"
+    },
+    {
+      "bind": {
+        "constant": 0,
+        "divisor": 1,
+        "multiplier": -1,
+        "src": "supplies",
+        "src_divisor": "supply_burn"
+      },
+      "max": 100000,
+      "min": 0,
+      "name": "supply_days",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "max": 2,
+      "min": -2,
+      "name": "danger_bonus_combatants",
+      "per_caravan": true,
+      "type": "INTEGER"
+    },
+    {
+      "name": "1 yrsadisobeyed"
+    },
+    {
+      "name": "1 makecamp"
+    },
+    {
+      "name": "1 strandmeadfight"
+    },
+    {
+      "name": "1 eirikdissed"
+    },
+    {
+      "name": "1 rhleave"
+    },
+    {
+      "name": "1 rhrest"
+    },
+    {
+      "name": "1 rhholdon"
+    },
+    {
+      "name": "1 rhtower"
+    },
+    {
+      "name": "1 rhheroes"
+    },
+    {
+      "name": "1 hakoncaravan"
+    },
+    {
+      "name": "2 rookcaravan"
+    },
+    {
+      "name": "2 kidsfight"
+    },
+    {
+      "name": "2 skogrhall"
+    },
+    {
+      "name": "2 skogrhouses"
+    },
+    {
+      "name": "2 skograrrived"
+    },
+    {
+      "name": "egildied"
+    },
+    {
+      "name": "2 alettejoins"
+    },
+    {
+      "name": "2 skogrrun"
+    },
+    {
+      "name": "2 skogrdivert"
+    },
+    {
+      "name": "2 skogrsupply"
+    },
+    {
+      "name": "2 chieftaindied"
+    },
+    {
+      "name": "2 skogrfighters"
+    },
+    {
+      "name": "2 skogrkeepsupply"
+    },
+    {
+      "name": "2 savedcart"
+    },
+    {
+      "name": "2 fightcart"
+    },
+    {
+      "name": "2 village1betray"
+    },
+    {
+      "name": "2 village1fight"
+    },
+    {
+      "name": "fa2013"
+    },
+    {
+      "name": "2 frostrest"
+    },
+    {
+      "name": "2 frostgate"
+    },
+    {
+      "name": "2 frostheroes"
+    },
+    {
+      "name": "2 frostheroes2"
+    },
+    {
+      "name": "2 frostmarket"
+    },
+    {
+      "name": "2 frostsupplies"
+    },
+    {
+      "name": "2 frostleave"
+    },
+    {
+      "name": "2 frostmap"
+    },
+    {
+      "name": "2 frostcamped"
+    },
+    {
+      "name": "2 frostsneak"
+    },
+    {
+      "name": "2 frostgatefight"
+    },
+    {
+      "name": "2 frostjoined"
+    },
+    {
+      "name": "2 frostinside"
+    },
+    {
+      "name": "2 frostoutside"
+    },
+    {
+      "name": "2 frostsupply"
+    },
+    {
+      "name": "2 frostleaving"
+    },
+    {
+      "name": "2 frostcartfight"
+    },
+    {
+      "name": "2 frostcartdeal"
+    },
+    {
+      "name": "onefdied"
+    },
+    {
+      "name": "hogundied"
+    },
+    {
+      "name": "mogundied"
+    },
+    {
+      "name": "2 onefknockedout"
+    },
+    {
+      "name": "2 frostmobfight"
+    },
+    {
+      "name": "2 onefjoins"
+    },
+    {
+      "name": "2 frostsupplyfight"
+    },
+    {
+      "name": "2 frostsupplyfire"
+    },
+    {
+      "name": "2 frostescapefight"
+    },
+    {
+      "name": "2 frostoutsidefight1"
+    },
+    {
+      "name": "2 frostoutsidefight2"
+    },
+    {
+      "name": "2 frostoutsidefight3"
+    },
+    {
+      "name": "2 frostfailgate"
+    },
+    {
+      "name": "2 frostgold"
+    },
+    {
+      "name": "2 frostnecklace"
+    },
+    {
+      "name": "2 oddleiftrains"
+    },
+    {
+      "name": "2 einarcamped"
+    },
+    {
+      "name": "2 einargreathall"
+    },
+    {
+      "name": "2 einarheroes"
+    },
+    {
+      "name": "2 einarmarket"
+    },
+    {
+      "name": "2 einarmap"
+    },
+    {
+      "name": "2 einarrest"
+    },
+    {
+      "name": "2 einarleave"
+    },
+    {
+      "name": "2 einarfightonbridge"
+    },
+    {
+      "name": "2 einardestroybridge"
+    },
+    {
+      "name": "2 einarallfight"
+    },
+    {
+      "name": "2 einaraudience"
+    },
+    {
+      "name": "2 einartalkjorundr"
+    },
+    {
+      "name": "2 einarfirstrest"
+    },
+    {
+      "max": 4294967295,
+      "min": 0,
+      "name": "weather_snow_color",
+      "per_caravan": true,
+      "start": 4294967295,
+      "type": "INTEGER"
+    },
+    {
+      "max": 10,
+      "min": 0,
+      "name": "weather_snow_density",
+      "per_caravan": true,
+      "start": 1,
+      "type": "DECIMAL"
+    },
+    {
+      "max": 10,
+      "min": -10,
+      "name": "weather_snow_gravity",
+      "per_caravan": true,
+      "start": 1,
+      "type": "DECIMAL"
+    },
+    {
+      "max": 2,
+      "min": 0,
+      "name": "weather_snow_variance",
+      "per_caravan": true,
+      "start": 1,
+      "type": "DECIMAL"
+    },
+    {
+      "max": 4294967295,
+      "name": "weather_gust_color",
+      "per_caravan": true,
+      "start": 4294967295,
+      "type": "INTEGER"
+    },
+    {
+      "max": 10,
+      "name": "weather_gust_density",
+      "per_caravan": true,
+      "type": "DECIMAL"
+    },
+    {
+      "max": 10,
+      "min": -10,
+      "name": "weather_gust_gravity",
+      "per_caravan": true,
+      "start": 1,
+      "type": "DECIMAL"
+    },
+    {
+      "max": 2,
+      "name": "weather_gust_variance",
+      "per_caravan": true,
+      "start": 1,
+      "type": "DECIMAL"
+    },
+    {
+      "max": 4294967295,
+      "name": "weather_spark_color",
+      "per_caravan": true,
+      "start": 4294967295,
+      "type": "INTEGER"
+    },
+    {
+      "max": 10,
+      "name": "weather_spark_density",
+      "per_caravan": true,
+      "type": "DECIMAL"
+    },
+    {
+      "max": 10,
+      "min": -10,
+      "name": "weather_spark_gravity",
+      "per_caravan": true,
+      "start": 1,
+      "type": "DECIMAL"
+    },
+    {
+      "max": 2,
+      "name": "weather_spark_variance",
+      "per_caravan": true,
+      "start": 1,
+      "type": "DECIMAL"
+    },
+    {
+      "max": 10,
+      "min": 0.1,
+      "name": "weather_spark_blink_rate",
+      "per_caravan": true,
+      "start": 1,
+      "type": "DECIMAL"
+    },
+    {
+      "max": 10,
+      "min": -10,
+      "name": "weather_wind",
+      "per_caravan": true,
+      "start": 1,
+      "type": "DECIMAL"
+    },
+    {
+      "name": "tryggviunlocked",
+      "start": 1
+    },
+    {
+      "name": "tryggvidied"
+    },
+    {
+      "name": "ekkilldied"
+    },
+    {
+      "name": "1 strandroyalty"
+    },
+    {
+      "name": "1 strand_has_started"
+    },
+    {
+      "name": "1 chapter_saved"
+    },
+    {
+      "name": "1 chapter_saving",
+      "transient": true
+    },
+    {
+      "name": "2 chapter_saved"
+    },
+    {
+      "name": "2 chapter_saving",
+      "transient": true
+    },
+    {
+      "name": "2 skogrheroes"
+    },
+    {
+      "name": "2 skogrmarket"
+    },
+    {
+      "name": "2 skogroutskirts"
+    },
+    {
+      "name": "2 travelnostop"
+    },
+    {
+      "name": "travelcamped"
+    },
+    {
+      "name": "2 hridgift"
+    },
+    {
+      "name": "2 traveldrunkard2"
+    },
+    {
+      "name": "2 traveldrunkard3"
+    },
+    {
+      "name": "1 giftdenglr"
+    },
+    {
+      "name": "map_tutorial"
+    },
+    {
+      "name": "7 boersheroes"
+    },
+    {
+      "name": "7 boersrest"
+    },
+    {
+      "name": "7 boersmarket"
+    },
+    {
+      "name": "7 boersmap"
+    },
+    {
+      "name": "7 boersgate"
+    },
+    {
+      "name": "7 boersdredge1"
+    },
+    {
+      "name": "7 boersdredge2"
+    },
+    {
+      "name": "7 boersbellower"
+    },
+    {
+      "name": "7 boersrich"
+    },
+    {
+      "name": "7 boerspoor"
+    },
+    {
+      "name": "7 boerscraft"
+    },
+    {
+      "name": "7 boerstrade"
+    },
+    {
+      "name": "7 clickbellower"
+    },
+    {
+      "name": "7_show_pop_arriveboers"
+    },
+    {
+      "name": "5 eyvinddestroy"
+    },
+    {
+      "name": "5 varlattack"
+    },
+    {
+      "name": "5 surrendered"
+    },
+    {
+      "name": "5 blewitup"
+    },
+    {
+      "name": "5 lefteinar"
+    },
+    {
+      "name": "5 day1help"
+    },
+    {
+      "name": "5 day2help"
+    },
+    {
+      "name": "5 day3help"
+    },
+    {
+      "name": "5 day1fight"
+    },
+    {
+      "name": "5 day2fight"
+    },
+    {
+      "name": "5 day3fight"
+    },
+    {
+      "name": "fasoltdied"
+    },
+    {
+      "name": "sigbjorndied"
+    },
+    {
+      "name": "4 sunoil"
+    },
+    {
+      "name": "4 varlbelt"
+    },
+    {
+      "name": "6 sigrrest"
+    },
+    {
+      "name": "6 sigrheroes"
+    },
+    {
+      "name": "6 sigrmap"
+    },
+    {
+      "name": "6 sigrmarket"
+    },
+    {
+      "name": "6 sigrleave"
+    },
+    {
+      "name": "6 sigrfirstday"
+    },
+    {
+      "name": "6 reynfight"
+    },
+    {
+      "name": "6 reyndrawaway"
+    },
+    {
+      "name": "6 bjorulfblessing"
+    },
+    {
+      "name": "6 sigrday2"
+    },
+    {
+      "name": "6 sigrday3"
+    },
+    {
+      "name": "6 sigrford"
+    },
+    {
+      "name": "6 sigrfloat"
+    },
+    {
+      "name": "6 sigrferry"
+    },
+    {
+      "name": "6 sigrdetour"
+    },
+    {
+      "name": "6 sigrproblems"
+    },
+    {
+      "name": "6 sigrcaravan"
+    },
+    {
+      "name": "6 sigrfight"
+    },
+    {
+      "name": "6 fightsummer1"
+    },
+    {
+      "name": "6 fightsummer2"
+    },
+    {
+      "name": "6 gotohaukrtorp"
+    },
+    {
+      "name": "6 hauksman"
+    },
+    {
+      "name": "6 persevere"
+    },
+    {
+      "name": "6 puzzlebox"
+    },
+    {
+      "name": "6 tistelberry"
+    },
+    {
+      "name": "6 dredgebaby"
+    },
+    {
+      "name": "7 iverstart"
+    },
+    {
+      "name": "7 boersday1"
+    },
+    {
+      "name": "7 boersday2"
+    },
+    {
+      "name": "7 boersday3"
+    },
+    {
+      "name": "7 boersday4"
+    },
+    {
+      "name": "7 boersday5"
+    },
+    {
+      "name": "7 junoarrives"
+    },
+    {
+      "name": "7 alettedoomed"
+    },
+    {
+      "name": "7 stravhsbad"
+    },
+    {
+      "name": "7 bellowerdied"
+    },
+    {
+      "name": "7 stravhstone"
+    },
+    {
+      "name": "rookdied"
+    },
+    {
+      "name": "alettedied"
+    },
+    {
+      "name": "bridgefight0"
+    },
+    {
+      "name": "bridgefight1"
+    },
+    {
+      "name": "bridgefight2"
+    },
+    {
+      "name": "bridgevarl"
+    },
+    {
+      "name": "2 einariverfights"
+    },
+    {
+      "name": "start_page_music_disable",
+      "transient": true
+    },
+    {
+      "name": "7 boersfight1"
+    },
+    {
+      "name": "7 boersfight2"
+    },
+    {
+      "name": "7 boersfight3"
+    },
+    {
+      "name": "7 boersfight4"
+    },
+    {
+      "name": "7 boersfighthorn"
+    },
+    {
+      "name": "7 boerskeephorn"
+    },
+    {
+      "name": "7 boersgavehorn"
+    },
+    {
+      "name": "rdm_refugees"
+    },
+    {
+      "name": "rdm_blizzard"
+    },
+    {
+      "name": "rdm_wildfruit"
+    },
+    {
+      "name": "rdm_baby"
+    },
+    {
+      "name": "rdm_bribery"
+    },
+    {
+      "name": "rdm_bribery_fight"
+    },
+    {
+      "name": "rdm_corneredvarl"
+    },
+    {
+      "name": "rdm_farmstead"
+    },
+    {
+      "name": "rdm_fireincamp"
+    },
+    {
+      "name": "rdm_humanambush"
+    },
+    {
+      "name": "rdm_humanambush_fight"
+    },
+    {
+      "name": "rdm_woundedvarl"
+    },
+    {
+      "name": "rdm_lowmorale"
+    },
+    {
+      "name": "rdm_overpop"
+    },
+    {
+      "name": "rdm_varlfidget"
+    },
+    {
+      "name": "rdm_abandoned"
+    },
+    {
+      "name": "rdm_poetry"
+    },
+    {
+      "name": "rdm_lostchild1"
+    },
+    {
+      "name": "rdm_lostchild2"
+    },
+    {
+      "name": "rdm_lostchild3"
+    },
+    {
+      "name": "rdm_lostchild_fight"
+    },
+    {
+      "name": "rdm_quirky1"
+    },
+    {
+      "name": "rdm_quirky2"
+    },
+    {
+      "name": "rdm_outlaws1"
+    },
+    {
+      "name": "rdm_outlaws2"
+    },
+    {
+      "name": "rdm_missingsup1"
+    },
+    {
+      "name": "rdm_missingsup2"
+    },
+    {
+      "name": "rdm_missingsup3"
+    },
+    {
+      "name": "rdm_familyfeud1"
+    },
+    {
+      "name": "rdm_familyfeud2"
+    },
+    {
+      "name": "4 ekkilljoins"
+    },
+    {
+      "name": "4 ekkillprisoners"
+    },
+    {
+      "name": "2 confrontekkill"
+    },
+    {
+      "name": "1 vedrheroes"
+    },
+    {
+      "name": "1 vedrmap"
+    },
+    {
+      "name": "1 vedrrest"
+    },
+    {
+      "name": "1 vedrleave"
+    },
+    {
+      "name": "1 vedrcamped"
+    },
+    {
+      "name": "1 rhadds"
+    },
+    {
+      "name": "krumrdied"
+    },
+    {
+      "name": "niddied"
+    },
+    {
+      "name": "6 onefstrikes"
+    },
+    {
+      "name": "6 sigstein"
+    },
+    {
+      "name": "6 nidjoins"
+    },
+    {
+      "name": "6 nidfight"
+    },
+    {
+      "name": "6 dundrglove"
+    },
+    {
+      "name": "sav_finale"
+    },
+    {
+      "name": "6 sigreyvind"
+    },
+    {
+      "name": "2 krumrjoins"
+    },
+    {
+      "name": "7 breachimmune"
+    },
+    {
+      "name": "7 breachgate"
+    },
+    {
+      "name": "7 breachravens"
+    },
+    {
+      "name": "7 breachclansmen"
+    },
+    {
+      "name": "7 breachcharge"
+    },
+    {
+      "name": "7 krumrleads"
+    },
+    {
+      "name": "7 bleedimmune"
+    },
+    {
+      "name": "7 bellowerwounded"
+    },
+    {
+      "name": "junotip1"
+    },
+    {
+      "name": "junotip2"
+    },
+    {
+      "name": "junotip3"
+    },
+    {
+      "name": "junotip4"
+    },
+    {
+      "name": "junotip5"
+    },
+    {
+      "name": "junotip6"
+    },
+    {
+      "name": "junotip7"
+    },
+    {
+      "name": "junotip8"
+    },
+    {
+      "name": "junotip9"
+    },
+    {
+      "name": "junotip10"
+    },
+    {
+      "name": "junotip11"
+    },
+    {
+      "name": "junotip12"
+    },
+    {
+      "name": "junotip13"
+    },
+    {
+      "name": "junotip14"
+    },
+    {
+      "name": "junoarcherdied"
+    },
+    {
+      "name": "camptrained"
+    },
+    {
+      "name": "3 serpentfirst"
+    },
+    {
+      "name": "frostvellrdredge"
+    },
+    {
+      "name": "7 ivertalk"
+    },
+    {
+      "name": "7 boerscaravan"
+    },
+    {
+      "name": "7 boerscaravan1"
+    },
+    {
+      "name": "7 boerscaravan2"
+    },
+    {
+      "name": "7 boerscaravan3"
+    },
+    {
+      "name": "7 boerscaravan4"
+    },
+    {
+      "name": "7 boerscaravanlost"
+    },
+    {
+      "name": "7_bellowercomes"
+    },
+    {
+      "name": "7 boersfood"
+    },
+    {
+      "name": "7 boersfood1"
+    },
+    {
+      "name": "grissdied"
+    },
+    {
+      "name": "eirikdied"
+    }
+  ],
+  "voUrl": "",
+  "warPoppeningContinueUrl": "saga1/convo/war/cnv_war_decide.json.z",
+  "warPoppeningImpl": "Action_War_Impl_1",
+  "warPoppeningUrl": "saga1/convo/war/cnv_war.json.z"
+}

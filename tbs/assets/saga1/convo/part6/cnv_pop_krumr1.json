@@ -1,0 +1,28 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"convoyYoureMakin": {
+				"content": [
+					"[convoy] You're making the usual rounds when you hear a rather loud debate coming from the area where varl have gathered. Iver joins you as you approach.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "convoyYoureMakin",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "jbgf"
+}

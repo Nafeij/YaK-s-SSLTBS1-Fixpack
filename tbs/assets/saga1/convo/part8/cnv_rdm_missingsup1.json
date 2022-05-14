@@ -1,0 +1,94 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"convoySomeonesBe": {
+				"content": [
+					"[convoy] “Someone’s been nicking extra goods from the supplies,” a concerned woman tells you. “Counted these myself yesterday, no mistake. This keeps up, we’ll all be starving before long.”",
+					{
+						"linkPath": "toDeterAnyFurthe",
+						"option": "Post a few extra guards to watch the supplies"
+					},
+					{
+						"linkPath": "noticedAnythingU",
+						"option": "Ask clansmen if they've seen anything suspicious"
+					},
+					{
+						"linkPath": "convoyYourClansm",
+						"option": "Announce that any more missing supplies results in rationing"
+					},
+					{
+						"linkPath": "convoyTheWomanIs",
+						"option": "\"Tell me if you see it again.\""
+					},
+					{
+						"flagName": "supplies-5"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyTheWomanIs": {
+				"content": [
+					"[convoy] The woman is visibly irritated by your lack of concern, but drops the issue. The caravan continues on unawares.",
+					{
+						"flagName": "rdm_missingsup2"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyYourClansm": {
+				"content": [
+					"[convoy] Your clansmen loathe the idea of even more stringent meals. Accusations abound and two different fights erupt before you regain some sense of order, but you at least the message got through.",
+					{
+						"flagName": "morale-5"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"noticedAnythingU": {
+				"content": [
+					"“Noticed anything unusual around the wagons?” you ask several groups in the caravan. To a man, they shake their heads. Though they ask no questions, you can tell concern is spreading throughout.",
+					{
+						"flagName": "morale-5"
+					},
+					{
+						"flagName": "rdm_missingsup2"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "convoySomeonesBe",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"toDeterAnyFurthe": {
+				"content": [
+					"To deter any further theft, you discreetly place some trusted guards by the caravans. You hear a few people casually point out the extra manpower, but nobody seems to raise an alarm for now.",
+					{
+						"flagName": "rdm_missingsup2"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "jxv9"
+}

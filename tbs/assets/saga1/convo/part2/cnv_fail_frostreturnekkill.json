@@ -1,0 +1,80 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"rookAsYoureUncer": {
+				"content": [
+					"[rook] As you're unceremoniously dumped outside the gates of Frostvellr you count your blessings that Ekkill left the fight to his men, as he would have surely slit your throats, himself. You stagger to your feet and come up with a plan.",
+					{
+						"divert": "rookAsYoureUncer1"
+					},
+					{
+						"flagName": "morale-10"
+					},
+					{
+						"flagName": "onefdied"
+					},
+					{
+						"flagName": "ekkilldied"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "2_frostsupplyfight"
+					}
+				]
+			},
+			"rookAsYoureUncer1": {
+				"content": [
+					"[rook] As you're unceremoniously dumped outside the gates of Frostvellr you count your blessings that Ekkill left the fight to his men, as he would have surely slit your throats, himself.",
+					{
+						"divert": "rookOnefIsNowher"
+					},
+					{
+						"flagName": "morale-10"
+					},
+					{
+						"flagName": "onefdied"
+					},
+					{
+						"flagName": "ekkilldied"
+					},
+					{
+						"flagName": "supplies-140"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "2_frostsupplyfight"
+					}
+				]
+			},
+			"rookOnefIsNowher": {
+				"content": [
+					"[rook] Onef is nowhere to be seen, either being congratulated for a job well done, or being mercilessly tortured. You can't be sure whether he was part of Ekkill's plan or not. You stagger to your feet and consider what to do next.",
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "2_frostsupplyfight"
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "rookAsYoureUncer",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "3c9h"
+}

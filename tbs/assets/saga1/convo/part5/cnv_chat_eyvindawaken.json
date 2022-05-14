@@ -1,0 +1,654 @@
+{
+	"data": {
+		"initial": "skipMarkrookMark",
+		"stitches": {
+			"aletteAndLetTheV": {
+				"content": [
+					"[alette] And let the varl die to give us a head start?",
+					{
+						"divert": "eyvindItsNotMyFi"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteEyvindCont": {
+				"content": [
+					"[alette eyvind] Contacted you how?",
+					{
+						"divert": "eyvindShesNotLik"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteEyvindItMu": {
+				"content": [
+					"[alette eyvind] It must have something to do with the dredge returning.",
+					{
+						"divert": "eyvindThatSeemsL"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteEyvindWere": {
+				"content": [
+					"[alette eyvind] We're from a very small town in the woods.",
+					{
+						"divert": "eyvindIllKeepItS"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteJustKeepin": {
+				"content": [
+					"[alette] Just keeping an eye on him. It's not like that, dad. He saved Iver. He might save the rest of us.",
+					{
+						"divert": "rookAletteCanHeH"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteThereHasTo": {
+				"content": [
+					"[alette] There has to be some way to... I can't believe the varl would be so stubborn!",
+					{
+						"divert": "eyvindSpeakToJor"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteWhatAboutT": {
+				"content": [
+					"[alette] What about the serpent?",
+					{
+						"divert": "eyvindThatsAnoth"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindAndTheVarl": {
+				"content": [
+					"[eyvind] And the varl will try to stop me. It could mean holding off both the dredge and the varl.",
+					{
+						"divert": "youConsiderYourO"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindEitherWayW": {
+				"content": [
+					"[eyvind] Either way we can't stay. We have to make it to Sigrholm. Juno will know what to do.",
+					{
+						"flagName": "option1=0"
+					},
+					{
+						"flagName": "option2=0"
+					},
+					{
+						"flagName": "option3=0"
+					},
+					{
+						"flagName": "option4=0"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindForTheMost": {
+				"content": [
+					"[eyvind] For the most part the dredge haven't tried to return since. Well, until now.",
+					{
+						"divert": "eyvindThoseMende"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindHellLetThe": {
+				"content": [
+					"[eyvind] He'll let the city, and the rest of the world, fall before that damned bridge.",
+					{
+						"divert": "youConsiderYourO"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindHowLongWas": {
+				"content": [
+					"[eyvind] How long was I..?",
+					{
+						"divert": "rookYouWereOutFo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindHumanityWa": {
+				"content": [
+					"[eyvind] Humanity was on the brink of extinction when the inner circle of menders went forth, and finally sent the Sundr and the dredge deep underground.",
+					{
+						"divert": "eyvindForTheMost"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindICantCompl": {
+				"content": [
+					"[eyvind] I can't completely understand it myself. The last time I mentioned it he made his mind very clear.",
+					{
+						"divert": "eyvindHellLetThe"
+					},
+					{
+						"flagName": "option1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindICantStopH": {
+				"content": [
+					"[eyvind] I can't stop him, but I believe Juno can. That's why we need to go. We could just leave...",
+					{
+						"divert": "aletteAndLetTheV"
+					},
+					{
+						"flagName": "option3"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindIllKeepItS": {
+				"content": [
+					"[eyvind] I'll keep it short.",
+					{
+						"divert": "eyvindYouKnowHow"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindInTheFirst": {
+				"content": [
+					"[eyvind] In the first great war, the armies of men and varl hated each other, they fought bitterly for land and dominance.",
+					{
+						"divert": "eyvindThenOneOfT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindItsNotMyFi": {
+				"content": [
+					"[eyvind] It's not my first choice. I've done everything I can on my own.",
+					{
+						"divert": "youConsiderYourO"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindIUnderstan": {
+				"content": [
+					"[eyvind] I understand. Be quick, Rook.",
+					{
+						"divert": "aletteThereHasTo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindJunoShesAl": {
+				"content": [
+					"[eyvind] Juno. She's alive! I need to meet her in Sigrholm.",
+					{
+						"divert": "rookHoldOnSlowDo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindLookIKnowT": {
+				"content": [
+					"[eyvind] Look, I know things are... it's, it's a long story. How well do you know history?",
+					{
+						"divert": "aletteEyvindWere"
+					},
+					{
+						"flagName": "option4"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindMaybeOrNoI": {
+				"content": [
+					"[eyvind] Maybe, or... no, I could destroy that god-forsaken bridge myself. That would delay the immediate threat, but... Jorundr will never agree to it.",
+					{
+						"divert": "rookINeedToUnder"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindNotByMysel": {
+				"content": [
+					"[eyvind] Not by myself. I could blast it apart, but this bridge wasn't made to fall. It'll take time, and concentration.",
+					{
+						"divert": "eyvindThatsWhyIN"
+					},
+					{
+						"flagName": "option2"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindRookIfIDid": {
+				"content": [
+					"[eyvind rook] If I didn't think the world was ending it would be incredible. Ancient history is playing out before us.",
+					{
+						"divert": "aletteWhatAboutT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindRookIHateT": {
+				"content": [
+					"[eyvind] Rook, I hate to put all this on your shoulders but I've got few friends here. Come to a decision quickly.",
+					{
+						"divert": "eyvindEitherWayW"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindRookINeedY": {
+				"content": [
+					"[eyvind] Rook, I need your help. Take me to Sigrholm. Juno is going to meet us there.",
+					{
+						"divert": "rookEyvindSigrho"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindShesMyMent": {
+				"content": [
+					"[eyvind] She's my mentor... on the mender council. She contacted me.",
+					{
+						"divert": "aletteEyvindCont"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindShesNotLik": {
+				"content": [
+					"[eyvind] She's not like most menders. What happened here since I passed out?",
+					{
+						"divert": "rookTheVarlAreHo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindSoTheyDidT": {
+				"content": [
+					"[eyvind] So they did. They ended the war, pushed the dredge into the north and formed an alliance that has held ever since.",
+					{
+						"divert": "eyvindTheSecondG"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindSpeakToJor": {
+				"content": [
+					"[eyvind] Speak to Jorundr yourself. He's in the great hall. Maybe you'll have more luck. Or maybe he'll put your head on a spike.",
+					{
+						"divert": "eyvindRookIHateT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindThatsAnoth": {
+				"content": [
+					"[eyvind] That's another story. I... there's nothing in the menders' libraries about that thing.",
+					{
+						"divert": "aletteEyvindItMu"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindThatSeemsL": {
+				"content": [
+					"[eyvind] That seems likely.",
+					{
+						"divert": "youConsiderYourO"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindThatsWhyIN": {
+				"content": [
+					"[eyvind] That's why I need your help.",
+					{
+						"divert": "eyvindAndTheVarl"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindThenOneOfT": {
+				"content": [
+					"[eyvind] Then one of the gods created the dredge, and they were such a threat that unless men and varl set aside their differences, they threatened to wipe out both races.",
+					{
+						"divert": "eyvindSoTheyDidT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindTheSecondG": {
+				"content": [
+					"[eyvind] The second great war began generations later. The dredge rallied their forces, defeated the varl who watched the borders and laid waste to unsuspecting settlements throughout the world.",
+					{
+						"divert": "eyvindTheyWereLe"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindTheyWereLe": {
+				"content": [
+					"[eyvind] They were led by Sundr, powerful dredge warlords and weavers, like Bellower. He was there in the second great war.",
+					{
+						"divert": "eyvindHumanityWa"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindThoseMende": {
+				"content": [
+					"[eyvind] Those menders were called Valka. Juno wasn't there herself, but she's from their bloodline.",
+					{
+						"divert": "rookSoAnotherGre"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindYouKnowHow": {
+				"content": [
+					"[eyvind] You know how men and varl were made... the Loom-mother, the other gods.",
+					{
+						"divert": "eyvindInTheFirst"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookAletteCanHeH": {
+				"content": [
+					"[rook alette] Can he hear us? He just moved...",
+					{
+						"divert": "eyvindHowLongWas"
+					},
+					{
+						"flagName": "@show=eyvind"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookEyvindSigrho": {
+				"content": [
+					"[rook eyvind] Sigrholm? That's got to be a week away, at least. And just abandon Einartoft?",
+					{
+						"divert": "eyvindMaybeOrNoI"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookHoldOnSlowDo": {
+				"content": [
+					"[rook] Hold on, slow down. Who's Juno?",
+					{
+						"divert": "eyvindShesMyMent"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookINeedToUnder": {
+				"content": [
+					"[rook] I need to understand a few things, Eyvind.",
+					{
+						"divert": "youConsiderYourO"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookJorundrSentH": {
+				"content": [
+					"[rook] Jorundr sent Hakon and a couple hundred varl away to Arberrang. I don't know how long we'll be able to hold out here.",
+					{
+						"divert": "rookJorundrSentH1"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "ludindied"
+					}
+				]
+			},
+			"rookJorundrSentH1": {
+				"content": [
+					"[rook] Jorundr sent Hakon, Ludin and a couple hundred varl away to Arberrang. I don't know how long we'll be able to hold out here.",
+					{
+						"divert": "eyvindRookINeedY"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "ludindied"
+					}
+				]
+			},
+			"rookSoAnotherGre": {
+				"content": [
+					"[rook] So another great war has begun.",
+					{
+						"divert": "eyvindRookIfIDid"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookTheVarlAreHo": {
+				"content": [
+					"[rook] The varl are holding the dredge back, just barely. Bellower has disappeared. Iver is still out of it.",
+					{
+						"divert": "rookJorundrSentH"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookYouveSpentAL": {
+				"content": [
+					"[rook] You've spent a lot of time next to him since he passed out.",
+					{
+						"divert": "aletteJustKeepin"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookYouWereOutFo": {
+				"content": [
+					"[rook] You were out for a couple days. How do you feel?",
+					{
+						"divert": "eyvindJunoShesAl"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"divert": "rookYouveSpentAL"
+					},
+					{
+						"flagName": "@hide=eyvind"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skipMarkrookMark": {
+				"content": [
+					"{skip} mark1=rook mark2=eyvind mark3=alette",
+					{
+						"linkPath": "skip",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"youConsiderYourO": {
+				"content": [
+					"/=You consider your options.=/",
+					{
+						"linkPath": "eyvindICantCompl",
+						"notIfConditions": [
+							{
+								"notIfCondition": "option1"
+							}
+						],
+						"option": "Why won't the varl king destroy the bridge? "
+					},
+					{
+						"linkPath": "eyvindNotByMysel",
+						"notIfConditions": [
+							{
+								"notIfCondition": "option2"
+							}
+						],
+						"option": "How would you collapse that bridge by yourself?"
+					},
+					{
+						"linkPath": "eyvindICantStopH",
+						"notIfConditions": [
+							{
+								"notIfCondition": "option3"
+							}
+						],
+						"option": "What do we do about Bellower?"
+					},
+					{
+						"linkPath": "eyvindIUnderstan",
+						"ifConditions": [
+							{
+								"ifCondition": "option4"
+							},
+							{
+								"ifCondition": "option3"
+							},
+							{
+								"ifCondition": "option2"
+							},
+							{
+								"ifCondition": "option1"
+							}
+						],
+						"option": "I need time to think about this"
+					},
+					{
+						"linkPath": "eyvindLookIKnowT",
+						"notIfConditions": [
+							{
+								"notIfCondition": "option4"
+							}
+						],
+						"option": "What is going on around here? That serpent? Bellower?"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "2vv2"
+}

@@ -1,0 +1,92 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"convoyAnOldManSi": {
+				"content": [
+					"[convoy] An old man sits astride an overgrown portion of the trail. “You lost?” you ask. He adjusts the leather strap on his head, and says, “No. Are you?” He jumps up and shuffles toward the caravan, his tattered clothes revealing no weapons.",
+					{
+						"divert": "convoyWellIveSee"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyCallMeUnna": {
+				"content": [
+					"[convoy] “Call me Unnarr or anything else you like,” the old man says. “A man goes where he pleases, doesn't he?” His stern look is more comical than intimidating, but you stop looking for answers.",
+					{
+						"linkPath": "convoyFeigningSh",
+						"option": "\"We've already got enough mouths to feed\""
+					},
+					{
+						"linkPath": "convoyKeepPaceTh",
+						"option": "\"You're welcome to join if you can keep pace\""
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyFeigningSh": {
+				"content": [
+					"[convoy] Feigning shock, the old man addresses a few of the children. “Careful you don’t grow up like them. Unnarr never forgets.” The old man looks at you, adjusts his leather head strap, and harrumphs. He kicks a wagon wheel, winces, and limps away.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyKeepPaceTh": {
+				"content": [
+					"[convoy] “Keep pace?” The old man puffs through his moustache. “No fleeter than old Unnarr! And husbands, mind your wives; I’m cursed with the golden tongue. Not silver.” The caravan enjoys a good laugh as they start moving once again.",
+					{
+						"flagName": "morale+5"
+					},
+					{
+						"flagName": "num_peasants+1"
+					},
+					{
+						"flagName": "rdm_quirky2"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyWellIveSee": {
+				"content": [
+					"[convoy] “Well, I’ve seen better,” the old man says, peering into the supply wagons, “but I’ll join you.” He stands next to a fighter, throws his beard over his shoulder and puffs up his chest. The fighter grins and the stranger exhales, asking, “What are we waiting for? Lead the way!”",
+					{
+						"linkPath": "convoyFeigningSh",
+						"option": "\"We've already got enough mouths to feed\""
+					},
+					{
+						"linkPath": "convoyKeepPaceTh",
+						"option": "\"You're welcome to join if you can keep pace\""
+					},
+					{
+						"linkPath": "convoyCallMeUnna",
+						"option": "\"Who are you and what are you doing out here?\""
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "convoyAnOldManSi",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "q6rn"
+}

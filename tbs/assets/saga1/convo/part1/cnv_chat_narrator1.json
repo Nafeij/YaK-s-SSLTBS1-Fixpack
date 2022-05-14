@@ -1,0 +1,447 @@
+{
+	"data": {
+		"initial": "skipMarkhakonMar",
+		"stitches": {
+			"hakonHah": {
+				"content": [
+					"[hakon] Hah!",
+					{
+						"divert": "youConsiderWhatT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonHahYouRelic": {
+				"content": [
+					"[hakon] Hah, you relic. The gods have been dead a long time.",
+					{
+						"divert": "narratorHakonOhH"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonICouldUseHe": {
+				"content": [
+					"[hakon] I could use help there.",
+					{
+						"divert": "theScrivenerLean"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonLongerThanI": {
+				"content": [
+					"[hakon] Longer than I did, in any case.",
+					{
+						"divert": "narratorISuppose"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonNarratorAre": {
+				"content": [
+					"[hakon narrator] Are you worried? Some of the varl in the caravan think the world's coming to an end.",
+					{
+						"divert": "narratorOthersTh"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonNarratorDar": {
+				"content": [
+					"[hakon narrator] Dare I ask?",
+					{
+						"divert": "narratorImCompet"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonNarratorHen": {
+				"content": [
+					"[hakon narrator] Hence the journal?",
+					{
+						"divert": "narratorHenceDon"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonNarratorNo": {
+				"content": [
+					"[hakon narrator] No?",
+					{
+						"divert": "narratorItTellsA"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonNarratorThe": {
+				"content": [
+					"[hakon narrator] They've got a banner in Arberrang for that, you know.",
+					{
+						"divert": "narratorYouMeanT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonNarratorWha": {
+				"content": [
+					"[hakon narrator] What about the rest of us?",
+					{
+						"divert": "narratorToTheDep"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonOkIWont": {
+				"content": [
+					"[hakon] Ok, I won't.",
+					{
+						"divert": "youConsiderWhatT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonYouKnewHimW": {
+				"content": [
+					"[hakon] You knew him well, didn't you?",
+					{
+						"divert": "narratorVognirNo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorAlwaysRu": {
+				"content": [
+					"[narrator] Always rushing around with some important business, but I never /=knew=/ him. Never got a chance to talk much.",
+					{
+						"divert": "hakonLongerThanI"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorAnotherO": {
+				"content": [
+					"[narrator] Another one named Krumr is close, I think, but the addled son of a bitch still welcomes a fight. He'll probably be offed before I am. Although...",
+					{
+						"divert": "theScrivenerGest"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorAnywayPo": {
+				"content": [
+					"[narrator] Anyway, point is what difference does it make? I'm just a delivery bairn for Jorundr now. Can't remember half what I've done.",
+					{
+						"divert": "hakonNarratorHen"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorButYoure": {
+				"content": [
+					"[narrator] But you're not talking to the right varl. Mogr's got some skill there. Most I can do is hold a quill.",
+					{
+						"divert": "youConsiderWhatT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorDoYouKno": {
+				"content": [
+					"[narrator] Do you know how old I am?",
+					{
+						"divert": "hakonNarratorDar"
+					},
+					{
+						"flagName": "narrator2"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorGodsHowS": {
+				"content": [
+					"[narrator] Gods, how should I know? Never seen something like this before.",
+					{
+						"divert": "hakonNarratorAre"
+					},
+					{
+						"flagName": "narrator3"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorHakonOhH": {
+				"content": [
+					"[narrator hakon] Oh, have they? \"Old habits\", I suppose.",
+					{
+						"divert": "youConsiderWhatT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorHenceDon": {
+				"content": [
+					"[narrator] Hence? Don't get fancy on my behalf, Hakon.",
+					{
+						"divert": "hakonOkIWont"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorHowDoYou": {
+				"content": [
+					"[narrator] How do you mean? What do I write? I write what happens.",
+					{
+						"divert": "hakonNarratorThe"
+					},
+					{
+						"flagName": "narrator1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorIllTakeI": {
+				"content": [
+					"[narrator] I'll take it. If it's the end, I'm ready.",
+					{
+						"divert": "hakonNarratorWha"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorImCompet": {
+				"content": [
+					"[narrator] I'm competing, you know. Nobody knows how old we varl can get. Naturally.",
+					{
+						"divert": "narratorTheresOn"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorISuppose": {
+				"content": [
+					"[narrator] I suppose so. When he spoke, varl listened. I knew that.",
+					{
+						"divert": "hakonICouldUseHe"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorItTellsA": {
+				"content": [
+					"[narrator] It tells a broad story. I think there's some value in the narrow. Whose story does it write? Mine? Theirs? Ludin's? ...Gods forbid.",
+					{
+						"divert": "hakonHahYouRelic"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorIveHoofe": {
+				"content": [
+					"[narrator] I've hoofed more hills than a horseborn with a grudge. Don't worry about me.",
+					{
+						"flagName": "narrator1=0"
+					},
+					{
+						"flagName": "narrator2=0"
+					},
+					{
+						"flagName": "narrator3=0"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorIveSeenW": {
+				"content": [
+					"[narrator] I've seen worse. They respect you for your ability to swing an axe. They need to respect you for your actions.",
+					{
+						"divert": "narratorButYoure"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorOthersTh": {
+				"content": [
+					"[narrator] Others think it's the best thing that could happen. No more black months.",
+					{
+						"divert": "narratorIllTakeI"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorTheresOn": {
+				"content": [
+					"[narrator] There's one by the name of Snorri. He's got a few years on me, just hunkers in Grofheim collecting rime. Bastard might actually beat me.",
+					{
+						"divert": "narratorAnotherO"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorToTheDep": {
+				"content": [
+					"[narrator] To the depths with you.",
+					{
+						"divert": "hakonHah"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorVognirNo": {
+				"content": [
+					"[narrator] Vognir? No. Ah, well... I don't know. I remember him.",
+					{
+						"divert": "narratorAlwaysRu"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorYouMeanT": {
+				"content": [
+					"[narrator] You mean the Long Banner? Yes, the menders wove up something that writes its own history. You want my opinion? I don't trust it.",
+					{
+						"divert": "hakonNarratorNo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skipMarkhakonMar": {
+				"content": [
+					"{skip} mark1=hakon mark2=narrator",
+					{
+						"divert": "hakonYouKnewHimW"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"theScrivenerGest": {
+				"content": [
+					"/=The scrivener gestures around him as if to remind you of the current situation. You chuckle.=/",
+					{
+						"divert": "narratorAnywayPo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"theScrivenerLean": {
+				"content": [
+					"/=The scrivener leans back, considering the sentiment.=/",
+					{
+						"divert": "narratorIveSeenW"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"youConsiderWhatT": {
+				"content": [
+					"/=You consider what to say next.=/",
+					{
+						"linkPath": "narratorHowDoYou",
+						"notIfConditions": [
+							{
+								"notIfCondition": "narrator1"
+							}
+						],
+						"option": "What are you always putting down in that journal?"
+					},
+					{
+						"linkPath": "narratorDoYouKno",
+						"notIfConditions": [
+							{
+								"notIfCondition": "narrator2"
+							}
+						],
+						"option": "I heard you were a terror in your day"
+					},
+					{
+						"linkPath": "narratorGodsHowS",
+						"notIfConditions": [
+							{
+								"notIfCondition": "narrator3"
+							}
+						],
+						"option": "What do you suppose happened to the sun?"
+					},
+					{
+						"linkPath": "narratorIveHoofe",
+						"option": "Get some rest. Always more marching to do."
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "4zq9"
+}

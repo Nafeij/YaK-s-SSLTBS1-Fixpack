@@ -1,0 +1,369 @@
+{
+	"data": {
+		"initial": "skipMarkrookMark",
+		"stitches": {
+			"krumrAfterTheSec": {
+				"content": [
+					"[krumr] After the second great war, wasn't much for me left to do, so I started training other varl to fight.",
+					{
+						"divert": "krumrGotTiredOfT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrAndIfYouSee": {
+				"content": [
+					"[krumr] And if you see one bang his axe like a tuning fork, try to kill him quick. Sometimes the slag he's calling won't even show up.",
+					{
+						"divert": "whatDoYouAsk"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrAndIfYouWan": {
+				"content": [
+					"[krumr] And if you want to know why he changed his name, best ask him yourself.",
+					{
+						"divert": "krumrImTooOldToP"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrAndWhy": {
+				"content": [
+					"[krumr] And why.",
+					{
+						"divert": "whatDoYouAsk"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrAskMeAgainS": {
+				"content": [
+					"[krumr] Ask me again someday, might tell you about the time we filled a dead yox with whale teeth.",
+					{
+						"divert": "krumrAndWhy"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrDependsHowM": {
+				"content": [
+					"[krumr] Depends how much you know.",
+					{
+						"divert": "krumrTheyreAllAr"
+					},
+					{
+						"flagName": "krumrtalk4"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrGotTiredOfT": {
+				"content": [
+					"[krumr] Got tired of that, made a place in Wyrmtoe.",
+					{
+						"divert": "krumrTheyStillCo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrHahImNotSur": {
+				"content": [
+					"[krumr] Hah! I'm not surprised he never told you.",
+					{
+						"divert": "krumrImJustSupri"
+					},
+					{
+						"flagName": "krumrtalk2"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrIMightIMigh": {
+				"content": [
+					"[krumr] I might, I might.",
+					{
+						"divert": "krumrOrICouldBeT"
+					},
+					{
+						"flagName": "krumrtalk3"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrImJustSupri": {
+				"content": [
+					"[krumr] I'm just surprised he can stand being around anyone at all.",
+					{
+						"divert": "krumrYourFriendW"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrImTooOldToP": {
+				"content": [
+					"[krumr] I'm too old to peddle in gossip.",
+					{
+						"divert": "whatDoYouAsk"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrISupposeYou": {
+				"content": [
+					"[krumr] I suppose you should.",
+					{
+						"divert": "krumrTakeCareFri"
+					},
+					{
+						"flagName": "krumrtalk1=0"
+					},
+					{
+						"flagName": "krumrtalk2=0"
+					},
+					{
+						"flagName": "krumrtalk3=0"
+					},
+					{
+						"flagName": "krumrtalk4=0"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrLineUpAWhol": {
+				"content": [
+					"[krumr] Line up a whole row of slag and they'll explode on each other all the way down.",
+					{
+						"divert": "krumrYouGetInABi"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrMostlyNoBut": {
+				"content": [
+					"[krumr] Mostly no, but I'll try.",
+					{
+						"divert": "rookINeverHadAMo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrOrICouldBeT": {
+				"content": [
+					"[krumr] Or I could be the most boring varl you ever met. Depends on how much you like killing dredge.",
+					{
+						"divert": "krumrAskMeAgainS"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrRespectYoun": {
+				"content": [
+					"[krumr] Respect, young one.",
+					{
+						"divert": "krumrAfterTheSec"
+					},
+					{
+						"flagName": "krumrtalk1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrRookConside": {
+				"content": [
+					"[krumr rook] Consider it done, then.",
+					{
+						"divert": "whatDoYouAsk"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrSeemsLikeTh": {
+				"content": [
+					"[krumr] Seems like that might be changing, though, don't it?",
+					{
+						"divert": "whatDoYouAsk"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrTakeCareFri": {
+				"content": [
+					"[krumr] Take care, friend of Yngvar.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrTheyreAllAr": {
+				"content": [
+					"[krumr] They're all armor. Tap 'em hard enough though and it'll shatter.",
+					{
+						"divert": "krumrLineUpAWhol"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrTheyStillCo": {
+				"content": [
+					"[krumr] They still come calling, even with no wars to speak of.",
+					{
+						"divert": "krumrSeemsLikeTh"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrYouGetInABi": {
+				"content": [
+					"[krumr] You get in a big brawl, half your time is spent setting them up for it.",
+					{
+						"divert": "krumrAndIfYouSee"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrYourFriendW": {
+				"content": [
+					"[krumr] Your friend was one of us, long ago. I mean, the dredge-bashing type. He was called Yngvar then.",
+					{
+						"divert": "krumrAndIfYouWan"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookINeverHadAMo": {
+				"content": [
+					"[rook] I never had a moment to thank you for your hospitality.",
+					{
+						"divert": "krumrRookConside"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookKrumrCanYouS": {
+				"content": [
+					"[rook] Krumr, can you spare a moment?",
+					{
+						"divert": "krumrMostlyNoBut"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skipMarkrookMark": {
+				"content": [
+					"{skip} mark1=rook mark2=krumr",
+					{
+						"linkPath": "rookKrumrCanYouS",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"whatDoYouAsk": {
+				"content": [
+					"What do you ask?",
+					{
+						"linkPath": "krumrRespectYoun",
+						"notIfConditions": [
+							{
+								"notIfCondition": "krumrtalk1"
+							}
+						],
+						"option": "How did you get all these varl to follow you?"
+					},
+					{
+						"linkPath": "krumrHahImNotSur",
+						"notIfConditions": [
+							{
+								"notIfCondition": "krumrtalk2"
+							}
+						],
+						"option": "So who is Yngvar?"
+					},
+					{
+						"linkPath": "krumrIMightIMigh",
+						"notIfConditions": [
+							{
+								"notIfCondition": "krumrtalk3"
+							}
+						],
+						"option": "I bet you have some incredible stories"
+					},
+					{
+						"linkPath": "krumrDependsHowM",
+						"notIfConditions": [
+							{
+								"notIfCondition": "krumrtalk4"
+							}
+						],
+						"ifConditions": [
+							{
+								"ifCondition": "krumrtalk1"
+							}
+						],
+						"option": "Any wisdom on fighting dredge?"
+					},
+					{
+						"linkPath": "krumrISupposeYou",
+						"option": "I best leave you to your business"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "cbqw"
+}

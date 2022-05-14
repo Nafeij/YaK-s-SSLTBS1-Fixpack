@@ -1,0 +1,87 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"aStrangePoemButT": {
+				"content": [
+					"A strange poem, but the caravan is happy for a change of pace. Unnarr bows and turns to assist the cooks. The evening’s meal is larger than ever, yet the supply wagons seem more full than before. You look to thank Unnarr, but he is gone.",
+					{
+						"flagName": "num_peasants-1"
+					},
+					{
+						"flagName": "supplies+20"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyHmmphHeSay": {
+				"content": [
+					"[convoy] “Hmmph!” he says and puffs out his mustache. “Unnarr has seen a lot of things, but this paranoid lot…” You watch the man slowly walk away; he looks older than ever. The next day, there is no trace of his whereabouts.",
+					{
+						"flagName": "num_peasants-1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyThatEvenin": {
+				"content": [
+					"[convoy] That evening, Unnarr clears his throat and loudly recites a tale of travelers, ending with: \"War and death behind them, seeking hope instead, they carried on with courage, using heart and head.\"",
+					{
+						"divert": "aStrangePoemButT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyUnnarrsSmi": {
+				"content": [
+					"[convoy] Unnarr’s smile fades. “I said no questions and what’s the first thing out of your mouth?“ He shakes his head and shouts, ”Forget it! Forget the lot of you!” He storms off and the next day, there is no trace of his whereabouts.",
+					{
+						"flagName": "num_peasants-1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyUnnarrTheQ": {
+				"content": [
+					"[convoy] Unnarr, the quirky old man with the leather headband says, “If there’s one thing I know better than women and mead, it’s…well…” He smiles. “Well, nothing. But I know when a group could use some help. Just nod and let old Unnarr make everything better. No questions now.”",
+					{
+						"linkPath": "convoyThatEvenin",
+						"option": "\"We'd appreciate any help.\""
+					},
+					{
+						"linkPath": "convoyHmmphHeSay",
+						"option": "\"I'd rather not have any surprises\""
+					},
+					{
+						"linkPath": "convoyUnnarrsSmi",
+						"option": "\"What are you talking about?\""
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "convoyUnnarrTheQ",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "4dxp"
+}

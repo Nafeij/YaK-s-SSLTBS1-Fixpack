@@ -1,0 +1,458 @@
+{
+	"data": {
+		"initial": "skipMarkrookMark",
+		"stitches": {
+			"aletteButGil": {
+				"content": [
+					"[alette] But Gil...",
+					{
+						"divert": "aletteShakesHerH"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "egildied"
+					}
+				]
+			},
+			"aletteDad": {
+				"content": [
+					"[alette] Dad!",
+					{
+						"divert": "aletteStopsHerse"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteHesGoingTo": {
+				"content": [
+					"[alette] He's going to make it?",
+					{
+						"divert": "yourEyesOpenToTh"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteNobodyExpe": {
+				"content": [
+					"[alette] Nobody expects you to raise the dead.",
+					{
+						"divert": "eyvindFrownsDeep"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteShakesHerH": {
+				"content": [
+					"/=Alette shakes her head, looking away.=/",
+					{
+						"divert": "eyvindHeDiedAlmo"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "egildied"
+					}
+				]
+			},
+			"aletteStopsHerse": {
+				"content": [
+					"/=Alette stops herself from hugging your bandaged chest, pulling your head to her instead. The words come out easier than you expected.=/",
+					{
+						"divert": "rookOddleifGil"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteYouDidEver": {
+				"content": [
+					"[alette] You did everything you could, Eyvind.",
+					{
+						"divert": "aletteNobodyExpe"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindFrownsDeep": {
+				"content": [
+					"/=Eyvind frowns deeply, putting a hand to his forehead.=/",
+					{
+						"divert": "eyvindWhyDidOnef"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindHeDiedAlmo": {
+				"content": [
+					"[eyvind] He died almost instantly. By the time I found him...",
+					{
+						"divert": "eyvindThereWereA"
+					},
+					{
+						"flagName": "egildied=1"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "egildied"
+					}
+				]
+			},
+			"eyvindNormallyAW": {
+				"content": [
+					"[eyvind] Normally, a wound like that... I only hope I did enough.",
+					{
+						"divert": "rookIllSurvive"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindRookWhyDid": {
+				"content": [
+					"[eyvind rook] Why did Onef do this, Rook? He was talking to you right before it happened.",
+					{
+						"linkPath": "iverIThinkThatMu",
+						"option": "He had been planning it all along"
+					},
+					{
+						"linkPath": "iverUtterBastard",
+						"option": "He thought my leadership would get us killed"
+					},
+					{
+						"linkPath": "iverIHaveAGoodId",
+						"option": "I don't know"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindThereWereA": {
+				"content": [
+					"[eyvind] There were a lot of people I couldn't save...",
+					{
+						"divert": "aletteYouDidEver"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindWhyDidOnef": {
+				"content": [
+					"[eyvind] Why did Onef do this, Rook? He was talking to you right before it happened.",
+					{
+						"divert": "eyvindRookWhyDid"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverEkkillKilled": {
+				"content": [
+					"[iver] Ekkill killed a good half-dozen of Onef's men, by himself. He told me Onef was running Frostvellr the whole time.",
+					{
+						"divert": "iverHeLeftFrostv"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "ekkilldied"
+					}
+				]
+			},
+			"iverEkkillWasAlw": {
+				"content": [
+					"[iver] Ekkill was always just the barking dog you put in the yard to find out who your enemies are.",
+					{
+						"divert": "iverItWasNoAccid"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverHeLeftFrostv": {
+				"content": [
+					"[iver] He left Frostvellr behind when he saw a better opportunity. Guess that relationship is over.",
+					{
+						"divert": "iverEkkillWasAlw"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "ekkilldied"
+					}
+				]
+			},
+			"iverIDontKnowRoo": {
+				"content": [
+					"[iver] I don't know, Rook. I really don't.",
+					{
+						"divert": "iverNoneOfThisCh"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverIHaveAGoodId": {
+				"content": [
+					"[iver] I have a good idea.",
+					{
+						"divert": "iverIThinkOnefWa"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverIThinkOnefWa": {
+				"content": [
+					"[iver] I think Onef was running Frostvellr the whole time.",
+					{
+						"divert": "iverEkkillKilled"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "ekkilldied"
+					}
+				]
+			},
+			"iverIThinkThatMu": {
+				"content": [
+					"[iver] I think that much is clear.",
+					{
+						"divert": "iverIThinkOnefWa"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverItsAGoodThin": {
+				"content": [
+					"[iver] It's a good thing Eyvind was here. She's going to pull through, though it was a nasty wound.",
+					{
+						"divert": "iverWeManagedToK"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverItWasNoAccid": {
+				"content": [
+					"[iver] It was no accident Onef went after those of us from Skogr.",
+					{
+						"divert": "rookHeMustHaveTh"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverNoneOfThisCh": {
+				"content": [
+					"[iver] None of this changes the fact that Bellower is out there somewhere, following us.",
+					{
+						"divert": "iverThatSwampAro"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverOrAtWorstThe": {
+				"content": [
+					"[iver] Or at worst they'd take all the supplies for themselves and leave the rest as dredge bait.",
+					{
+						"divert": "iverWeHaveToBeMo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverRookWeHaveTo": {
+				"content": [
+					"[iver rook] We have to be more careful. We can't just let anyone join the caravan anymore...",
+					{
+						"linkPath": "iverYoureABetter",
+						"option": "No, nothing changes. We're not like him."
+					},
+					{
+						"linkPath": "iverIDontKnowRoo",
+						"option": "Where do you draw the line, Iver?"
+					},
+					{
+						"linkPath": "iverNoneOfThisCh",
+						"option": "We'll be more cautious"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverThatSwampAro": {
+				"content": [
+					"[iver] That swamp around Sigrholm might buy us some time, but we've got to keep moving.",
+					{
+						"divert": "yourBodyAchesAll"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverUtterBastard": {
+				"content": [
+					"[iver] Utter bastard. All this time we had no idea.",
+					{
+						"divert": "iverIThinkOnefWa"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverWeHaveToBeMo": {
+				"content": [
+					"[iver] We have to be more careful. We can't just let anyone join the caravan anymore...",
+					{
+						"divert": "iverRookWeHaveTo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverWeManagedToK": {
+				"content": [
+					"[iver] We managed to kill most of those traitorous sons of bitches and the rest fled into the woods.",
+					{
+						"divert": "aletteButGil"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverYoureABetter": {
+				"content": [
+					"[iver] You're a better person than I, Rook.",
+					{
+						"divert": "iverNoneOfThisCh"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookHeMustHaveTh": {
+				"content": [
+					"[rook] He must have thought with us gone, he'd take the banner and the rest would fall in line.",
+					{
+						"divert": "iverOrAtWorstThe"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookIllSurvive": {
+				"content": [
+					"[rook] I'll survive.",
+					{
+						"divert": "aletteDad"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookOddleif": {
+				"content": [
+					"[rook] Oddleif?",
+					{
+						"divert": "iverItsAGoodThin"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "egildied"
+					}
+				]
+			},
+			"rookOddleifGil": {
+				"content": [
+					"[rook] Oddleif? Gil?",
+					{
+						"divert": "rookOddleif"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "egildied"
+					}
+				]
+			},
+			"skipMarkrookMark": {
+				"content": [
+					"{skip} mark1=rook mark2=iver mark3=alette mark4=eyvind",
+					{
+						"linkPath": "aletteHesGoingTo",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"yourBodyAchesAll": {
+				"content": [
+					"/=Your body aches all over, but Iver's right. The road calls. The caravan is already starting to pack up camp.=/",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"yourEyesOpenToTh": {
+				"content": [
+					"/=Your eyes open to the sound of Alette's voice.=/",
+					{
+						"divert": "eyvindNormallyAW"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "2r84"
+}

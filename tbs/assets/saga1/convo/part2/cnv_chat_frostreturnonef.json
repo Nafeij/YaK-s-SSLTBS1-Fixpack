@@ -1,0 +1,533 @@
+{
+	"data": {
+		"initial": "skipMarkrookMark",
+		"stitches": {
+			"aletteDadPleaseL": {
+				"content": [
+					"[alette] Dad, please... let's just get out of here. Anywhere...",
+					{
+						"divert": "ivershieldByNowT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteIvershield": {
+				"content": [
+					"[alette iver_shield] Where can we go?",
+					{
+						"divert": "ivershieldByNowT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteOnefThatsT": {
+				"content": [
+					"[alette onef] That's... the worst thing...",
+					{
+						"divert": "onefGetTheSuppli"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteOnefWhyWou": {
+				"content": [
+					"[alette onef] Why would he do that?",
+					{
+						"divert": "onefIfTheDredgeF"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"aletteUhDadIThin": {
+				"content": [
+					"[alette] Uh... dad. I think he's still alive.",
+					{
+						"divert": "iverLiftsHimToHi"
+					},
+					{
+						"flagName": "@show=onef"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverLiftsHimToHi": {
+				"content": [
+					"/=Iver lifts him to his feet by his tunic. He groans from the pain.=/",
+					{
+						"divert": "rookAletteThisGu"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverPunchesHimIn": {
+				"content": [
+					"/=Iver punches him in the face. He crumbles.=/",
+					{
+						"divert": "ivershieldAlrigh"
+					},
+					{
+						"flagName": "onefdied"
+					},
+					{
+						"flagName": "ekkilldied"
+					},
+					{
+						"flagName": "@hide=onef"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldAlrigh": {
+				"content": [
+					"[iver_shield] Alright, we get to Wyrmtoe, we find varl who won't try to kill us, we find safety.",
+					{
+						"divert": "rookIvershieldGa"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldAndThe": {
+				"content": [
+					"[iver_shield] And the dredge probably won't follow us out into the wastes. They didn't in the great wars.",
+					{
+						"divert": "rookIvershieldBe"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldByNowT": {
+				"content": [
+					"[iver_shield] By now the dredge have already flooded the south, I'm sure.",
+					{
+						"divert": "ivershieldWyrmto"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldCantSa": {
+				"content": [
+					"[iver_shield] Can't say I'm too surprised. This whole place is a death trap.",
+					{
+						"divert": "aletteIvershield"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldEither": {
+				"content": [
+					"[iver_shield] Either way he's going to feel it. Suddenly running out of food might change his plans a bit.",
+					{
+						"divert": "ivershieldOnefWh"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldHateTo": {
+				"content": [
+					"[iver_shield] Hate to admit it, Rook, but you're right. We can't stay here.",
+					{
+						"divert": "rookIvershieldIf"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldIfNoth": {
+				"content": [
+					"[iver_shield] If nothing else, Ekkill's going to feel it when his food suddenly vanishes.",
+					{
+						"divert": "ivershieldOnefWh"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldJustWa": {
+				"content": [
+					"[iver_shield] Just wanted to know whose face I'm going to break if things go wrong.",
+					{
+						"flagName": "2 frostsupply"
+					},
+					{
+						"flagName": "2 onefjoins"
+					},
+					{
+						"flagName": "2 frostsupplies"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldOnefTh": {
+				"content": [
+					"[iver_shield onef] That might solve a few problems.",
+					{
+						"divert": "ivershieldRookTh"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldOnefWh": {
+				"content": [
+					"[iver_shield onef] What's your name?",
+					{
+						"divert": "onefOnefWhyDoYou"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldRookTh": {
+				"content": [
+					"[iver_shield rook] That might solve a few problems.",
+					{
+						"linkPath": "ivershieldIfNoth",
+						"option": "It's worth the risk."
+					},
+					{
+						"linkPath": "ivershieldEither",
+						"option": "If we're lucky I'll get a chance to put a dagger in Ekkill."
+					},
+					{
+						"linkPath": "iverPunchesHimIn",
+						"option": "No deal. Shut him up and let's get out of here."
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldWhyDid": {
+				"content": [
+					"[iver_shield] Why did Ekkill try to kill us?",
+					{
+						"divert": "onefHesADamnedLu"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldWyrmto": {
+				"content": [
+					"[iver_shield] Wyrmtoe's the only thing that makes sense, across the wastes. I might know someone there who can help us.",
+					{
+						"divert": "ivershieldAndThe"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefEkkillWouldH": {
+				"content": [
+					"[onef] Ekkill would have us bring scraps to the refugees.",
+					{
+						"divert": "aletteOnefWhyWou"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefGetTheSuppli": {
+				"content": [
+					"[onef] Get the supplies and there are plenty of fighters who are desperate to get out of here.",
+					{
+						"divert": "ivershieldOnefTh"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefHesADamnedLu": {
+				"content": [
+					"[onef] He's a damned lunatic! Figure that, yet?",
+					{
+						"divert": "rookOnefWhyWould"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefIfTheDredgeF": {
+				"content": [
+					"[onef] If the dredge found live bodies he thought they'd leave the city alone.",
+					{
+						"divert": "aletteOnefThatsT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefIfYouTakeMeW": {
+				"content": [
+					"[onef] If you take me with you.",
+					{
+						"divert": "onefRookIfYouTak"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefIKnowWhereEk": {
+				"content": [
+					"[onef] I know where Ekkill keeps his supplies. I'll tell you.",
+					{
+						"divert": "onefIfYouTakeMeW"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefImNotTheOnly": {
+				"content": [
+					"[onef] I'm not the only one.",
+					{
+						"divert": "onefGetTheSuppli"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefNoCatchIWant": {
+				"content": [
+					"[onef] No catch. I want out of here as much as you do, just never had anywhere to go.",
+					{
+						"divert": "onefImNotTheOnly"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefOnefWhyDoYou": {
+				"content": [
+					"[onef] Onef. Why do you...",
+					{
+						"divert": "ivershieldJustWa"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefRookIfYouTak": {
+				"content": [
+					"[onef rook] If you take me with you.",
+					{
+						"linkPath": "onefWait",
+						"option": "Shut that guy up"
+					},
+					{
+						"linkPath": "onefNoCatchIWant",
+						"option": "What's the catch?"
+					},
+					{
+						"linkPath": "onefEkkillWouldH",
+						"option": "How do you know where the supplies are?"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefRookSawItMys": {
+				"content": [
+					"[onef rook] Saw it myself. Ekkill wasn't a captain, look at him.",
+					{
+						"linkPath": "ivershieldCantSa",
+						"option": "He was playing us."
+					},
+					{
+						"linkPath": "aletteDadPleaseL",
+						"option": "I'll kill that bastard."
+					},
+					{
+						"linkPath": "aletteIvershield",
+						"option": "Enough of this. It's time to go."
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefSawItMyselfE": {
+				"content": [
+					"[onef] Saw it myself. Ekkill wasn't a captain, look at him.",
+					{
+						"divert": "onefRookSawItMys"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefSoonAsThoseG": {
+				"content": [
+					"[onef] Soon as those gates were shut Ekkill walked into the great hall and sliced open the chieftain like a narwhal.",
+					{
+						"divert": "onefSawItMyselfE"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefThatWhatHeTo": {
+				"content": [
+					"[onef] That what he told you? He never put Ekkill in charge.",
+					{
+						"divert": "onefSoonAsThoseG"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"onefWait": {
+				"content": [
+					"[onef] Wait!",
+					{
+						"divert": "onefImNotTheOnly"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookAletteThisGu": {
+				"content": [
+					"[rook alette] This guy again?",
+					{
+						"divert": "ivershieldWhyDid"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "2_frostcartdeal"
+					}
+				]
+			},
+			"rookIvershieldBe": {
+				"content": [
+					"[rook iver_shield] Because it's a death sentence? Food's already running low.",
+					{
+						"divert": "onefIKnowWhereEk"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookIvershieldGa": {
+				"content": [
+					"[rook iver_shield] Gather everybody up and we'll make a break for it.",
+					{
+						"flagName": "2 frostleave"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookIvershieldIf": {
+				"content": [
+					"[rook iver_shield] If we're not murdered in our sleep it's only a matter of time before the dredge find their way in. There's nobody defending these walls.",
+					{
+						"divert": "youSpotAletteLoo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookOnefWhyWould": {
+				"content": [
+					"[rook onef] Why would Frostvellr's chieftain put a madman in charge of his guards?",
+					{
+						"divert": "onefThatWhatHeTo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"divert": "ivershieldHateTo"
+					},
+					{
+						"flagName": "@hide=onef"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skipMarkrookMark": {
+				"content": [
+					"{skip} mark1=rook mark2=alette mark3=onef mark4=iver_shield",
+					{
+						"linkPath": "skip",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"youSpotAletteLoo": {
+				"content": [
+					"/=You spot Alette looking at one of the thugs. She cocks her head to the side.=/",
+					{
+						"divert": "aletteUhDadIThin"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "m8n3"
+}

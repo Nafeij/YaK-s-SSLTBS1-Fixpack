@@ -1,0 +1,515 @@
+{
+	"data": {
+		"initial": "skipMarkhakonMar",
+		"stitches": {
+			"hakonGoodEnoughM": {
+				"content": [
+					"[hakon] Good enough. Much resistance from the governor?",
+					{
+						"divert": "hakonItllHaveToD"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "1_eirikdissed"
+					}
+				]
+			},
+			"hakonICouldCrush": {
+				"content": [
+					"[hakon] I could crush that boy's skull with one hand...",
+					{
+						"divert": "narratorHakonIfL"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonItllHaveToD": {
+				"content": [
+					"[hakon] It'll have to do. Much resistance from the governor?",
+					{
+						"divert": "mogrSomeIDontThi"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "1_eirikdissed"
+					}
+				]
+			},
+			"hakonLudinIfThey": {
+				"content": [
+					"[hakon ludin] If they're here then something has gone wrong at Schlid. And you shouldn't be here.",
+					{
+						"divert": "ludinWeWouldOnly"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonLudinWereNo": {
+				"content": [
+					"[hakon ludin] We're not watchmen for the world. Watch your tone.",
+					{
+						"divert": "hakonLudinIfThey"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonNarratorLet": {
+				"content": [
+					"[hakon narrator] Let's go. I'm sick of looking at this dump.",
+					{
+						"divert": "mogrHakonWhatDoI"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonRegardlessT": {
+				"content": [
+					"[hakon] Regardless, the governor will have to get over it unless he wants dredge crawling through his streets.",
+					{
+						"divert": "hakonWevePutDown"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonWevePutDown": {
+				"content": [
+					"[hakon] We've put down every slag that has wandered through here while you were gone.",
+					{
+						"divert": "ludinEnoughFlapp"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ludinEitherTakeU": {
+				"content": [
+					"[ludin] Either take us through the Wandering Road, or do your job and slaughter some dredge.",
+					{
+						"divert": "ludinTurnsAbrupt"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ludinEnoughFlapp": {
+				"content": [
+					"[ludin] Enough flapping of mouths, then.",
+					{
+						"divert": "mogrLudinYoureSu"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ludinMogrToTheDe": {
+				"content": [
+					"[ludin mogr] To the depths with that old bastard and his lackeys.",
+					{
+						"divert": "mogrHeAlsoInsist"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "1_eirikdissed"
+					}
+				]
+			},
+			"ludinTurnsAbrupt": {
+				"content": [
+					"/=Ludin turns abruptly with a scowl. He stamps back to his ring of tents and followers.=/",
+					{
+						"divert": "mogrHakonWanderi"
+					},
+					{
+						"flagName": "@hide=ludin"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ludinWeWouldOnly": {
+				"content": [
+					"[ludin] We would only be made to do this again later. And I will not suffer it all a second time.",
+					{
+						"divert": "ludinEitherTakeU"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ludinWhatDoYouEx": {
+				"content": [
+					"[ludin] What do you expect me to do? Go back to my father and tell him one varl died, so the alliance is over?",
+					{
+						"divert": "narratorHeHasAPo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ludinWhyArentYou": {
+				"content": [
+					"[ludin] Why? Aren't you the fabled dredge killers? How did you let them get this far south?",
+					{
+						"divert": "hakonLudinWereNo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrGladToHearIt": {
+				"content": [
+					"[mogr] Glad to hear it. Give the word and we'll set off.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrGoodGiveTheW": {
+				"content": [
+					"[mogr] Good. Give the word and we'll set off.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrGotTheImpres": {
+				"content": [
+					"[mogr] Got the impression he wasn't too impressed by our visit. A man named Eirik had something to say about each request I made.",
+					{
+						"divert": "ludinMogrToTheDe"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "1_eirikdissed"
+					}
+				]
+			},
+			"mogrHakon": {
+				"content": [
+					"[mogr] Hakon?",
+					{
+						"divert": "mogrHakonHakon"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHakonHakon": {
+				"content": [
+					"[mogr hakon] Hakon?",
+					{
+						"linkPath": "mogrIWasSayingTh",
+						"option": "I heard you"
+					},
+					{
+						"linkPath": "mogrIWasSayingTh",
+						"option": "What were you saying?"
+					},
+					{
+						"linkPath": "mogrIWasSayingTh",
+						"option": "Sorry, just tired. Go on."
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHakonWanderi": {
+				"content": [
+					"[mogr hakon] Wandering Road's not an option with this many.",
+					{
+						"divert": "hakonICouldCrush"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHakonWereBac": {
+				"content": [
+					"[mogr] Hakon. We're back.",
+					{
+						"divert": "mogrIWasAbleToGe"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHakonWhatDoI": {
+				"content": [
+					"[mogr hakon] What do I tell the warriors, Hakon?",
+					{
+						"divert": "mogrHakonWhatDoI1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHakonWhatDoI1": {
+				"content": [
+					"[mogr hakon] What do I tell the warriors, Hakon?",
+					{
+						"linkPath": "mogrWillDoGiveTh",
+						"option": "Tell them to be cautious. No more losses."
+					},
+					{
+						"linkPath": "mogrGoodGiveTheW",
+						"option": "Tell them we cover the mountainside in dredge bodies."
+					},
+					{
+						"linkPath": "mogrGladToHearIt",
+						"option": "Tell them we don't stop until Schlid is retaken. "
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrHeAlsoInsist": {
+				"content": [
+					"[mogr] He also insisted we take on a lackey of his to watch over his \"property\". A man named Eirik.",
+					{
+						"divert": "narratorEirikIMe"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "1_eirikdissed"
+					}
+				]
+			},
+			"mogrIWasAbleToGe": {
+				"content": [
+					"[mogr] I was able to get about as many warriors from Strand as you wanted, and more weapons. Extra supplies, too.",
+					{
+						"divert": "mogrIWasntAbleTo"
+					},
+					{
+						"flagName": "num_varl+100"
+					},
+					{
+						"flagName": "num_fighters+100"
+					},
+					{
+						"flagName": "supplies+200"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "1_eirikdissed"
+					}
+				]
+			},
+			"mogrIWasntAbleTo": {
+				"content": [
+					"[mogr] I wasn't able to get as many warriors from Strand as you wanted, and only half as many weapons.",
+					{
+						"divert": "youPerkUpJustNow"
+					},
+					{
+						"flagName": "num_varl+50"
+					},
+					{
+						"flagName": "num_fighters+35"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "1_eirikdissed"
+					}
+				]
+			},
+			"mogrIWasSayingTh": {
+				"content": [
+					"[mogr] I was saying the varl we sent to Strand have returned. The governor gave us most of what we wanted.",
+					{
+						"divert": "hakonGoodEnoughM"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrLudinYoureSu": {
+				"content": [
+					"[mogr ludin] You're sure that wound has healed, Ludin?",
+					{
+						"divert": "narratorIAgreeEn"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrSomeIDontThi": {
+				"content": [
+					"[mogr] Some. I don't think he was happy about us buying his fighters using his own money.",
+					{
+						"divert": "mogrGotTheImpres"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "1_eirikdissed"
+					}
+				]
+			},
+			"mogrWillDoGiveTh": {
+				"content": [
+					"[mogr] Will do. Give the word and we'll set off.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorEirikIMe": {
+				"content": [
+					"[narrator] Eirik? I met him. He seemed competent enough.",
+					{
+						"divert": "narratorEirikIMe1"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "1_eirikdissed"
+					}
+				]
+			},
+			"narratorEirikIMe1": {
+				"content": [
+					"[narrator] Eirik? I met him. Didn't care for him.",
+					{
+						"divert": "hakonRegardlessT"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "1_eirikdissed"
+					}
+				]
+			},
+			"narratorHakonIfL": {
+				"content": [
+					"[narrator hakon] If Ludin won't be deterred, you'll have to deal with it. Don't let Ludin get to you.",
+					{
+						"divert": "hakonNarratorLet"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorHakonOrW": {
+				"content": [
+					"[narrator hakon] Or worse.",
+					{
+						"linkPath": "ludinWhyArentYou",
+						"option": "They're right, Ludin. Return to Strand. Go home."
+					},
+					{
+						"linkPath": "ludinWeWouldOnly",
+						"option": "Ludin makes his own decisions"
+					},
+					{
+						"linkPath": "ludinWhatDoYouEx",
+						"option": "Vognir's dead. There's no reason to stay."
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorHeHasAPo": {
+				"content": [
+					"[narrator] He has a point. As Vognir's kendr you have the same responsibilities, Hakon.",
+					{
+						"divert": "ludinWeWouldOnly"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorIAgreeEn": {
+				"content": [
+					"[narrator] I agree. Enough has already gone wrong. If something happens to the prince on a mission of peace... the alliance would rot.",
+					{
+						"divert": "narratorOrWorse"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorOrWorse": {
+				"content": [
+					"[narrator] Or worse.",
+					{
+						"divert": "narratorHakonOrW"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skipMarkhakonMar": {
+				"content": [
+					"{skip} mark1=hakon mark2=mogr mark3=narrator mark4=ludin",
+					{
+						"linkPath": "mogrHakonWereBac",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"youPerkUpJustNow": {
+				"content": [
+					"/=You perk up, just now realizing Mogr has been talking to you. Since Vognir died everyone has been looking to you to make the decisions. It's exhausting.=/",
+					{
+						"divert": "mogrHakon"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "hp2m"
+}
