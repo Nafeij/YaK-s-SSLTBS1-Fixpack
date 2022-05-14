@@ -87,7 +87,7 @@
 			},
 			"eyvindFrownsDeep": {
 				"content": [
-					"/=Eyvind frowns deeply, putting a hand to his forehead.=/",
+					"/=Eyvind's frown deepens, and he puts a hand to his forehead.=/",
 					{
 						"divert": "eyvindWhyDidOnef"
 					},
@@ -101,9 +101,6 @@
 					"[eyvind] He died almost instantly. By the time I found him...",
 					{
 						"divert": "eyvindThereWereA"
-					},
-					{
-						"flagName": "egildied=1"
 					},
 					{
 						"pageNum": 0
@@ -149,6 +146,9 @@
 					"[eyvind] There were a lot of people I couldn't save...",
 					{
 						"divert": "aletteYouDidEver"
+					},
+                    {
+						"flagName": "egildied=1"
 					},
 					{
 						"pageNum": 0
