@@ -6,6 +6,9 @@
 				"content": [
 					"[alette] Onef clutches Alette's wrist amidst the commotion, tosses her bow aside and pulls her into the deep woods. Her eyes meet yours across the campsite. \"No...\" her lips say, though you can't hear the words. A dozen men appear between you as Iver steps into view, as fearsome as you've ever seen him.",
 					{
+						"flagName": "egildied=1"
+					},
+                    {
 						"pageNum": 0
 					}
 				]
@@ -15,6 +18,9 @@
 					"[onef] As Oddleif turns to fire on the men, Onef runs her through, and pulls the blade from her back without even breaking his stride. She drops like a sack of flour. In one clean motion, his blade then takes Egil in the throat before the boy can grab his shield. Onef heads straight for Alette, who freezes in unbridled terror.",
 					{
 						"divert": "onefAsOddleifTur1"
+					},
+					{
+						"flagName": "onefkillegil=1"
 					},
 					{
 						"pageNum": 0

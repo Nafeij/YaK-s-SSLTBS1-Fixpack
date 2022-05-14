@@ -12,7 +12,7 @@
 						"pageNum": 0
 					},
 					{
-						"notIfCondition": "egildied"
+						"ifCondition": "onefkillegil"
 					}
 				]
 			},
@@ -59,7 +59,7 @@
 						"pageNum": 0
 					},
 					{
-						"notIfCondition": "egildied"
+						"ifCondition": "onefkillegil"
 					}
 				]
 			},
@@ -106,7 +106,7 @@
 						"pageNum": 0
 					},
 					{
-						"notIfCondition": "egildied"
+						"ifCondition": "onefkillegil"
 					}
 				]
 			},
@@ -146,9 +146,6 @@
 					"[eyvind] There were a lot of people I couldn't save...",
 					{
 						"divert": "aletteYouDidEver"
-					},
-                    {
-						"flagName": "egildied=1"
 					},
 					{
 						"pageNum": 0
@@ -403,7 +400,7 @@
 						"pageNum": 0
 					},
 					{
-						"ifCondition": "egildied"
+						"notIfCondition": "onefkillegil"
 					}
 				]
 			},
@@ -417,7 +414,7 @@
 						"pageNum": 0
 					},
 					{
-						"notIfCondition": "egildied"
+						"ifCondition": "onefkillegil"
 					}
 				]
 			},
