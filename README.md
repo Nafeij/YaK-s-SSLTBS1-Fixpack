@@ -65,9 +65,26 @@
         `saga roster_add bolverk`
         
 ------------------------------------------------------------------
+
+Spare Some Love To Banner Saga 1 - version 3.0
+[This version is ONLY for BS1 2.58.17]
+
+This is the active branch of the original SSLTBS1 Fixpack for Banner Saga 1, by YaK of all Trades (YaK#2186).
+
+This corrects all the previous nasty bugs, inconsistencies and typos in the video game Banner Saga 1 by Stoic Studios!
+
+Many thanks to:
+Gestaltzerfall, who updated TBSDecompiler - http://www.mediafire.com/file/wun36alp6ojlkjk/TBS_Decompiler3.2.3.air/file
+Ratatoskr
+Drake713
+Nafeij
+Aleo
+
+Please report any bugs in Issues.
+
+------------------------------------------------------------------
 INSTALLATION:
     Just uncompress the .zip in your "../steamapps/common" folder. It will ask you to overwrite some files, it's all right! The archive comes with backups just in case! (the ones with a .orig extension).
 UNINSTALLATION:
     Just delete the files and rename the backups OR verify the integrity of game files in Steam.
-------------------------------------------------------------------
-This mod is up to date with the latest version of the game - 2.58.17
+    
