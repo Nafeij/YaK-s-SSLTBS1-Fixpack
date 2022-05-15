@@ -1985,6 +1985,12 @@
         },
         {
           "happening": "bellower_fight_completed",
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 1
+            }
+          ],
           "instant": true,
           "restore_scene": false,
           "scene": "saga1/scene/part5/vlg_boersgard/vlg_boersgard.json.z",
