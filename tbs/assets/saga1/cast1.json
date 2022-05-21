@@ -3150,8 +3150,8 @@
           "stat": "INJURY_DAYS"
         },
         {
-          "max": 0,
-          "min": 0,
+          "max": 2,
+          "min": 2,
           "stat": "BASE_UPGRADES"
         }
       ],

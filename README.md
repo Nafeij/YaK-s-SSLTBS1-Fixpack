@@ -1,4 +1,8 @@
  
+ 3.1 (Unreleased)
+ 
+    [FIXED] Importing a save using a version of Saga 2 with the BS2 fixpack installed causes discrepancies with Nid's upgrade points. She receives 8 more points than she's supposed to and her base version has -2 points.
+ 
  3.0
     
     [FIXED] Due to complicated dialogue interactions, Alette's dialogue about Egil's death still does not appear after he is killed by Onef, whereas it DOES appear if he was already previously dead. Egil is literally dying so much it's breaking the causality of the game. This has hopefully been fixed for good this time round.
