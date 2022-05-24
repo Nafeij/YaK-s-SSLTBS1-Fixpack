@@ -1,5 +1,5 @@
  
- 3.1 (Unreleased)
+ 3.1
  
     [FIXED] Importing a save using a version of Saga 2 with the BS2 fixpack installed causes discrepancies with Nid's upgrade points. She receives 8 more points than she's supposed to and her base version has -2 points.
  
