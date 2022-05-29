@@ -1,15 +1,13 @@
  
- 3.1
+ 3.0
  
     [FIXED] Importing a save using a version of Saga 2 with the BS2 fixpack installed causes discrepancies with Nid's upgrade points. She receives 8 more points than she's supposed to and her base version has -2 points.
-    
-    [TWEAKED] Gave Stonesingers +1 range
- 
- 3.0
     
     [FIXED] Due to complicated dialogue interactions, Alette's dialogue about Egil's death still does not appear after he is killed by Onef, whereas it DOES appear if he was already previously dead. Egil is literally dying so much it's breaking the causality of the game. This has hopefully been fixed for good this time round.
     
     [FIXED] When losing to Bellower after the arrow is fired, the win cutscene (Alette/Rook and Iver talking about the death) triggers regardless, due to the saga1 "bellower_fight_completed" happening shadowing the "battle_lost" happening. Added a battle victory check to circumvent this.
+    
+    [TWEAKED] Gave Stonesingers +1 range
     
  2.2
     
