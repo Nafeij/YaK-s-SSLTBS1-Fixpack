@@ -4416,6 +4416,10 @@
         },
         {
           "stat": "RANGE",
+          "value": 2
+        },
+        {
+          "stat": "RANGEMOD_MELEE",
           "value": 1
         },
         {
