@@ -37,6 +37,9 @@
 				"content": [
 					"[convoy] On the next morning, one of the men presents a gleaming coat of mail to you. \"We made this from the scales,\" he says, grinning. You graciously accept the gift and the caravan gets back to travel.",
 					{
+						"flagName": "camped=0"
+					},
+					{
 						"pageNum": 0
 					}
 				]
@@ -44,6 +47,9 @@
 			"convoyPerhapsThe": {
 				"content": [
 					"[convoy] \"Perhaps they'll bring us luck,\" you overhear, and before long the caravan has become obsessed with gathering the shining scales.",
+					{
+						"flagName": "camped"
+					},
 					{
 						"linkPath": "rookByTheEndOfTh",
 						"option": "Let the caravan take their time"
@@ -95,6 +101,9 @@
 				"content": [
 					"[rook] When you awake to find people still searching through snow and shrubs you call it off. \"We can't spend another day here,\" you tell them. \"Be glad for the luck you've found and let's go before it runs out.\" They fret and moan but eventually you get them back on the trail.",
 					{
+						"flagName": "camped=0"
+					},
+					{
 						"flagName": "morale-10"
 					},
 					{
@@ -105,6 +114,9 @@
 			"rookYouStartToWo": {
 				"content": [
 					"[rook] You start to wonder if something unnatural has a hold on their minds when the call to leave is met with open aggression. Iver helps you get them moving again and you wonder how long they would have kept searching if you let them.",
+					{
+						"flagName": "camped=0"
+					},
 					{
 						"pageNum": 0
 					}
