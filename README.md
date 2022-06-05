@@ -1,6 +1,6 @@
  3.1
  
-    [FIXED] At certain godstones, the game enters a state where you can pass days and lose morale despite not travelling.
+    [FIXED] At certain godstones and events, the game enters a state where you can pass days and lose morale despite not travelling.
  
  3.0
  

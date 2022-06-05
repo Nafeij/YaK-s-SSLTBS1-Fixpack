@@ -1,0 +1,88 @@
+{
+	"data": {
+		"initial": "convoyAScoutRetu",
+		"stitches": {
+			"asTheCaravansTen": {
+				"content": [
+					"As the caravan’s tents rise, a fire is built beside the girl who is covered in furs and ointments. Progress is slow, but soon you see the girl alive enough to swallow water and some heated broth. When you wake the next day, a healer tells you the girl should be fine in time.",
+					{
+						"flagName": "rdm_lostchild2"
+					},
+					{
+						"flagName": "morale+5"
+					},
+					{
+						"flagName": "day+1"
+					},
+					{
+						"flagName": "camped=0"
+					},
+					{
+						"flagName": "num_peasants+1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyAScoutRetu": {
+				"content": [
+					"[convoy] A scout returns with a nearly-frozen child. “I almost stepped on her in the snow. Looks like she must’ve been running from something,” he says. Patches of blue mottle her pale skin, but her chest rises and falls ever so slightly. \"Even just carrying her along could kill her in a state like this,\" says a woman. \"We could be in danger here,\" points out another.",
+					{
+						"flagName": "camped"
+					},
+					{
+						"linkPath": "rookFightersStay",
+						"option": "Keep moving, but let the healers tend to her"
+					},
+					{
+						"linkPath": "asTheCaravansTen",
+						"option": "Stop the caravan for a rest and tend to the girl"
+					},
+					{
+						"linkPath": "rookOneHourYouSh",
+						"option": "Stop and look for other survivors"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"rookFightersStay": {
+				"content": [
+					"[rook] Fighters stay alert for any threat while the caravan moves on. The healers rub the girl’s arms and legs under blankets to no avail. An hour later, one healer approaches you with tears in her eyes. She says nothing, only shakes her head.",
+					{
+						"flagName": "camped=0"
+					},
+					{
+						"flagName": "morale-5"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookOneHourYouSh": {
+				"content": [
+					"[rook] “One hour,” you shout. “Look for any other survivors. Healers, do what you can.” A fire flares to life as you follow the scout’s lead. Your search is fruitless and you return to a fully settled camp. The healers still fuss with the girl’s blankets but it looks hopeful that she'll pull through. The next day you set out again.",
+					{
+						"flagName": "rdm_lostchild2"
+					},
+					{
+						"flagName": "day+1"
+					},
+					{
+						"flagName": "camped=0"
+					},
+					{
+						"flagName": "num_peasants+1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "82n5"
+}
