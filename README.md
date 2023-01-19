@@ -155,7 +155,7 @@ Please report any bugs in Issues.
 
 ------------------------------------------------------------------
 INSTALLATION:
-    Select 'CODE > Download ZIP'. Uncompress the zip archive and place the /tbs folder in your "../steamapps/common" folder. It will ask you to overwrite some files.
+    Go to Releases and download. Uncompress the zip archive and place the /tbs folder in your "../steamapps/common" folder. It will ask you to overwrite some files.
 
 UNINSTALLATION:
     Just delete the files and rename the backups OR verify the integrity of game files in Steam.
