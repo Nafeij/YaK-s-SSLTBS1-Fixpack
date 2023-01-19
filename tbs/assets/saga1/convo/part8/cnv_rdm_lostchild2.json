@@ -1,0 +1,91 @@
+{
+	"data": {
+		"initial": "convoySeveralWom",
+		"stitches": {
+			"convoySeveralWom": {
+				"content": [
+					"[convoy] Several women are talking expressively at the young girl found nearly frozen to death, now called Aukfrosta. The quiet child's face expresses terror, aggressively jabbing at the dirt with a stick with which she clearly used to draw on the ground.",
+					{
+						"linkPath": "rookTheMarkingsA",
+						"option": "Study Aukfrosta's drawings"
+					},
+					{
+						"linkPath": "convoyWereDoingO",
+						"option": "\"We don't need a panic, keep her from making a scene.\""
+					},
+					{
+						"linkPath": "rookYoureSafeAuk",
+						"option": "Try to talk to Aukfrosta"
+					},
+					{
+						"linkPath": "rookYouGlanceAtT",
+						"option": "Leave the child alone"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"convoyWereDoingO": {
+				"content": [
+					"[convoy] “We’re doing our best,” says one woman. “Yeah,” says another, “but the girl might be a bit touched.” A third woman picks up Aukfrosta and holds her toward you, saying, “You’re welcome to care for her if you’d like.” All three laugh as you walk away.",
+					{
+						"flagName": "rdm_lostchild3"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookTheMarkingsA": {
+				"content": [
+					"[rook] The markings are somewhat intricate. The squares and circles could be wagons including a depiction of yox in front. A line from the yox leads to deeper gouges where Aukfrosta has jabbed the stick repeatedly. Depending on how you look at it, though, it could be almost anything.",
+					{
+						"linkPath": "convoyWereDoingO",
+						"option": "\"We don't need a panic, keep her from making a scene.\""
+					},
+					{
+						"linkPath": "rookYoureSafeAuk",
+						"option": "Try to talk to Aukfrosta"
+					},
+					{
+						"linkPath": "rookYouGlanceAtT",
+						"option": "Leave the child alone"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookYouGlanceAtT": {
+				"content": [
+					"[rook] You glance at the girl and her drawings and go back to your business without another thought. The following morning, the same drawing is found scrawled all around camp, leaving everyone feeling a bit disturbed.",
+					{
+						"flagName": "morale-5"
+					},
+					{
+						"flagName": "rdm_lostchild3"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookYoureSafeAuk": {
+				"content": [
+					"[rook] “You’re safe, Aukfrosta,” you say, looking into the girl’s blue eyes. She calms a bit before stepping towards you. Using her stick to point at the deep gouges in the ground she previously made, she whispers, “Edj, edj, edj.”. It doesn't mean anything to you, but you feel like you connected with her a bit.",
+					{
+						"flagName": "morale+5"
+					},
+					{
+						"flagName": "rdm_lostchild3"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "d9j6"
+}

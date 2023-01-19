@@ -1,31 +1,36 @@
+ 3.2
+
+    [FIXED] Shifted the character sprites around in the first Vognir conversation so that Hakon isn't blocked by Ubin's fat ~~ass~~ arm.
+    [FIXED] Miscellaneous typos. Thanks ingman112!
+
  3.1
- 
+
     [FIXED] At certain godstones and events, the game enters a state where you can pass days and lose morale despite not travelling.
- 
+
  3.0
- 
+
     [FIXED] Importing a save using a version of Saga 2 with the BS2 fixpack installed causes discrepancies with Nid's upgrade points. She receives 8 more points than she's supposed to and her base version has -2 points.
-    
+
     [FIXED] Due to complicated dialogue interactions, Alette's dialogue about Egil's death still does not appear after he is killed by Onef, whereas it DOES appear if he was already previously dead. Egil is literally dying so much it's breaking the causality of the game. This has hopefully been fixed for good this time round.
-    
+
     [FIXED] When losing to Bellower after the arrow is fired, the win cutscene (Alette/Rook and Iver talking about the death) triggers regardless, due to the saga1 "bellower_fight_completed" happening shadowing the "battle_lost" happening. Added a battle victory check to circumvent this.
-    
+
     [TWEAKED] Gave Stonesingers +1 range
-    
+
  2.2
-    
+
     [FIXED]: Very nasty bug that caused issues on Eirik, Griss and Ekkill when importing saves to BS2 (which will transfer to BS3 too);
-    
+
     [FIXED]: Valgard lost his white tunic in the last patch, luckily he found it again and now doesn't wear the orange tunic of a common raider anymore;
-    
+
     [FIXED] Bellower final battle correctly awards renown and shows the ending screen again, using a different and better solution;
-    
+
     [TWEAKED] Eyvind's kills (14), Nid's (2, that joins at Rank 2) and Sigbjorn's (14), just to make promotions in Banner Saga 2 easier and more consistent;
 
     [FIXED(ENG)] Several typos in the dialogues and in the descriptions (string.json).
- 
+
  2.0
- 
+
     [FIXED] The importing of BS1 save into BS2 being inconsistent. Now you will not lose anymore the wrong item equipped by the hero killed by Bellower, nor lose promoting done before the last fight, renown gained/spent or items bought in the market JUST before the last fight and, of course, kills done in last fight. What i have changed, in further details:
 
         1) The save done just after you choose who will shot the arrow is now called "sav_crafters", with a proper description "The Silver Arrow: A treacherous trick" (ENG);
@@ -126,10 +131,10 @@
 
     [FIXED](ENG) Lots of typos/missing words in the dialogues. For a detailed list, ordered by file edited, look here);
 
-    [BONUS] As a bonus, i set in place the correct values to have a working Bolverk in Saga1, just for fun. To add him enable developer mode and type in the console: 
+    [BONUS] As a bonus, i set in place the correct values to have a working Bolverk in Saga1, just for fun. To add him enable developer mode and type in the console:
 
         `saga roster_add bolverk`
-        
+
 ------------------------------------------------------------------
 
 Spare Some Love To Banner Saga 1 - version 3.0
@@ -151,8 +156,8 @@ Please report any bugs in Issues.
 ------------------------------------------------------------------
 INSTALLATION:
     Select 'CODE > Download ZIP'. Uncompress the zip archive and place the /tbs folder in your "../steamapps/common" folder. It will ask you to overwrite some files.
-    
+
 UNINSTALLATION:
     Just delete the files and rename the backups OR verify the integrity of game files in Steam.
-    
+
 ------------------------------------------------------------------

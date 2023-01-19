@@ -1,0 +1,92 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"convoyTheCaravan": {
+				"content": [
+					"[convoy] The caravan stops at a split in the road. Ahead, the path leading to Sigrholm veers off into the hills, which are now swimming with familiar black shapes.",
+					{
+						"divert": "eyvindDredgeThat"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindDredgeThat": {
+				"content": [
+					"[eyvind] \"Dredge that way, too?\" grimaces Eyvind. The Summer Path leads straight to Sigrholm, while taking the main road will add several days. \"They're every way by now,\" replies Ubin. \"I suggest we go around, past Haukstorp.\"",
+					{
+						"linkPath": "rookYouSendTwoSc",
+						"option": "Send scouts to see how dangerous the Summer Path looks"
+					},
+					{
+						"linkPath": "rookCourageYouTe",
+						"option": "Start cutting a path through the dredge"
+					},
+					{
+						"linkPath": "rookIHateToSayIt",
+						"option": "Go around, past Haukstorp"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookCourageYouTe": {
+				"content": [
+					"[rook] \"Courage,\" you tell your fighters. \"We've fought dredge before and we won't find peace again until we reach Sigrholm.\" The caravan turns toward the Summer Path, where you immediately find yourself face to face with foes.",
+					{
+						"flagName": "6 fightsummer1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookIHateToSayIt": {
+				"content": [
+					"[rook] \"I hate to say it,\" you tell Eyvind, \"But I'm not willing to walk into swarms of dredge anymore. Juno will have to wait.\" You turn toward the long way around Haukstorp instead, hoping you've saved lives in the process.",
+					{
+						"flagName": "renown+5"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookYouSendTwoSc": {
+				"content": [
+					"[rook] You send two scouts. Only one returns. \"I'll put it this way,\" he says, \"We're not getting through that way. It's like they're emerging from the rock itself.\"",
+					{
+						"linkPath": "rookCourageYouTe",
+						"option": "Fight your way through regardless"
+					},
+					{
+						"linkPath": "rookIHateToSayIt",
+						"option": "Take the main road past Haukstorp"
+					},
+					{
+						"flagName": "num_fighters-1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "convoyTheCaravan",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "4j6g"
+}

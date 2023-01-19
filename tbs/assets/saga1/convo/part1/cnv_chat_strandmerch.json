@@ -1,0 +1,531 @@
+{
+	"data": {
+		"initial": "skipMarknarrator",
+		"stitches": {
+			"eirikHaddIHadACh": {
+				"content": [
+					"[eirik] Hadd, I've had a change of heart. I hope you do give us a hard time.",
+					{
+						"divert": "haddSweatsVisibl"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikHaddImNotIn": {
+				"content": [
+					"[eirik] Hadd, I'm not in the mood today.",
+					{
+						"divert": "peasantmaleForFo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikIllRemindHi": {
+				"content": [
+					"[eirik] I'll remind him.",
+					{
+						"flagName": "1 strandmeadhouse"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikNarratorABl": {
+				"content": [
+					"[eirik narrator] A blind dog wouldn't trust Hadd, but he used to be Skalfing. If they're licking their wounds, they've probably gone to old haunts, not new ones.",
+					{
+						"divert": "narratorNobleman"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikNarratorBes": {
+				"content": [
+					"[eirik narrator] Best I can tell, the name's ironic.",
+					{
+						"divert": "eirikNarratorLis"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikNarratorIts": {
+				"content": [
+					"[eirik narrator] It's not up to me, my friend.",
+					{
+						"divert": "narratorJustMake"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikNarratorLet": {
+				"content": [
+					"[eirik narrator] Let me handle this.",
+					{
+						"divert": "youMeanderThroug"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikNarratorLis": {
+				"content": [
+					"[eirik narrator] Listen, I know a guy who would love to put a few of these skals in the ground. I'm going to find him. I'll meet you there.",
+					{
+						"divert": "eirikNarratorLis1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikNarratorLis1": {
+				"content": [
+					"[eirik narrator] Listen, I know a guy who would love to put a few of these skals in the ground. I'm going to find him. I'll meet you there.",
+					{
+						"linkPath": "eirikNarratorWha",
+						"option": "Shouldn't we have an approach of some sort?"
+					},
+					{
+						"linkPath": "eirikNarratorNob",
+						"option": "Where is this place again?"
+					},
+					{
+						"linkPath": "eirikNarratorIts",
+						"option": "After this I'm done here."
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikNarratorNob": {
+				"content": [
+					"[eirik narrator] Nobleman is halfway up the hill, towards the great hall. You won't miss it.",
+					{
+						"divert": "narratorJustMake"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikNarratorWha": {
+				"content": [
+					"[eirik narrator] What a luxury. C'mon, you've already mopped up worse today.",
+					{
+						"divert": "narratorJustMake"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikOverturnsHi": {
+				"content": [
+					"/=Eirik overturns his flimsy table, scattering Hadd's assortment of junk across the ground.=/",
+					{
+						"divert": "peasantmaleGodsE"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikPeasantmale": {
+				"content": [
+					"[eirik peasant_male2] Talking to an idiot.",
+					{
+						"divert": "eirikPeasantmale1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikPeasantmale1": {
+				"content": [
+					"[eirik peasant_male2] The Skalfing's chieftain bled out about an hour ago, Hadd. So when you tell me what rat anus the rest of them crawled back into, nobody's going to try to kill you this time.",
+					{
+						"divert": "peasantmaleIDont"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikPeasantmale2": {
+				"content": [
+					"[eirik peasant_male2] Where are the Skalfings?",
+					{
+						"divert": "peasantmaleNoble"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eirikPeasantmale3": {
+				"content": [
+					"[eirik peasant_male2] Only thing I'd like is the name of a place.",
+					{
+						"divert": "peasantmaleNoble"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"gunnulfAreWeDone": {
+				"content": [
+					"[gunnulf] Are we done here?",
+					{
+						"divert": "narratorGunnulfW"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"gunnulfBetterTha": {
+				"content": [
+					"[gunnulf] Better than an eggplant.",
+					{
+						"divert": "gunnulfGoesOffTo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"gunnulfGoesOffTo": {
+				"content": [
+					"/=Gunnulf goes off to look at more stalls.=/",
+					{
+						"divert": "narratorEirikTha"
+					},
+					{
+						"flagName": "@hide=gunnulf"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"gunnulfImGladYou": {
+				"content": [
+					"[gunnulf] I'm glad you care.",
+					{
+						"divert": "gunnulfGoesOffTo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"gunnulfNarratorN": {
+				"content": [
+					"[gunnulf narrator] No. Just bought 'em while you were walking around. Why?",
+					{
+						"linkPath": "gunnulfBetterTha",
+						"option": "You look like a frog"
+					},
+					{
+						"linkPath": "gunnulfGoesOffTo",
+						"option": "No reason"
+					},
+					{
+						"linkPath": "gunnulfImGladYou",
+						"option": "They look good"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"gunnulfNoJustBou": {
+				"content": [
+					"[gunnulf] No. Just bought 'em while you were walking around. Why?",
+					{
+						"divert": "gunnulfNarratorN"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"haddSkulksAwayWi": {
+				"content": [
+					"/=Hadd skulks away with a wave of Eirik's hand, gathering things from his hovel. Disappearing for a while until this blows over, you figure. Your bodyguard steps forward.=/",
+					{
+						"divert": "gunnulfAreWeDone"
+					},
+					{
+						"flagName": "@hide=peasant_male2"
+					},
+					{
+						"flagName": "@show=gunnulf"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"haddSweatsVisibl": {
+				"content": [
+					"/=Hadd sweats visibly, fumbling with some dirty trinkets on his table.=/",
+					{
+						"divert": "peasantmaleWaitJ"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorEirikTha": {
+				"content": [
+					"[narrator] Eirik, that man of yours seemed unreliable at best.",
+					{
+						"divert": "eirikNarratorABl"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorGunnulfW": {
+				"content": [
+					"[narrator] Gunnulf, were you wearing green back at the great hall?",
+					{
+						"divert": "gunnulfNoJustBou"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorJustMake": {
+				"content": [
+					"[narrator] Just make sure the governor remembers his promise. Double the usual tithe.",
+					{
+						"divert": "eirikIllRemindHi"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorNobleman": {
+				"content": [
+					"[narrator] Nobleman is a mead hall?",
+					{
+						"divert": "eirikNarratorBes"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleForFo": {
+				"content": [
+					"[peasant_male2] For... for what?",
+					{
+						"divert": "eirikPeasantmale"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleGodsE": {
+				"content": [
+					"[peasant_male2] Gods! Eirik, laying it on a bit heavy, don't you think?",
+					{
+						"divert": "eirikPeasantmale2"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleIDont": {
+				"content": [
+					"[peasant_male2] I don't talk to... they don't talk to me!",
+					{
+						"divert": "peasantmaleNarra"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleJustA": {
+				"content": [
+					"[peasant_male2] Just a little food money, yeah?",
+					{
+						"divert": "peasantmaleNarra1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleNarra": {
+				"content": [
+					"[peasant_male2 narrator] I don't talk to... they don't talk to me!",
+					{
+						"linkPath": "eirikHaddIHadACh",
+						"option": "Eirik, need some help here?"
+					},
+					{
+						"linkPath": "haddSweatsVisibl",
+						"option": "I don't have the patience for this"
+					},
+					{
+						"linkPath": "eirikOverturnsHi",
+						"option": "Say nothing"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleNarra1": {
+				"content": [
+					"[peasant_male2 narrator] Just a little food money, yeah?",
+					{
+						"linkPath": "youMotionToGunnu",
+						"option": "Intimidate him"
+					},
+					{
+						"linkPath": "youTossASliverOf",
+						"option": "Pay him"
+					},
+					{
+						"linkPath": "eirikOverturnsHi",
+						"option": "Do nothing"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleNoble": {
+				"content": [
+					"[peasant_male2] Nobleman, up by east wall! But that was months ago, last I knew.",
+					{
+						"divert": "haddSkulksAwayWi"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleTakeW": {
+				"content": [
+					"[peasant_male2] Take whatever you like.",
+					{
+						"divert": "eirikPeasantmale3"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"peasantmaleWaitJ": {
+				"content": [
+					"[peasant_male2] Wait, just... buy one of these. If everybody thinks I'm getting worked over every week how am I supposed to know much?",
+					{
+						"divert": "peasantmaleJustA"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"divert": "eirikNarratorLet"
+					},
+					{
+						"flagName": "@hide=peasant_male2"
+					},
+					{
+						"flagName": "@hide=gunnulf"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skipMarknarrator": {
+				"content": [
+					"{skip} mark1=narrator mark2=gunnulf mark3=eirik mark4=peasant_male2",
+					{
+						"linkPath": "skip",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"youMeanderThroug": {
+				"content": [
+					"/=You meander through rows of open-face houses and eroded stalls. Colored canvases flap on a briny current. One man in particular blanches as you approach.=/",
+					{
+						"divert": "eirikHaddImNotIn"
+					},
+					{
+						"flagName": "@show=peasant_male2"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"youMotionToGunnu": {
+				"content": [
+					"/=You motion to Gunnulf, your enormous bodyguard, who looms over the man like a snake over a mouse.=/",
+					{
+						"divert": "peasantmaleGodsE"
+					},
+					{
+						"flagName": "@show=gunnulf"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"youTossASliverOf": {
+				"content": [
+					"/=You toss a sliver of silver on the table. Both men look at you with surprise. Hadd gestures meekly to a variety of junk from his stall.=/",
+					{
+						"divert": "peasantmaleTakeW"
+					},
+					{
+						"flagName": "@show=gunnulf"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "xzq9"
+}
