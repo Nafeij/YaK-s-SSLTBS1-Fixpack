@@ -1,6 +1,6 @@
  3.2
 
-    [FIXED] Shifted the character sprites around in the first Vognir conversation so that Hakon isn't blocked by Ubin's fat ~~ass~~ arm.
+    [FIXED] Shifted the character sprites around in the first Vognir conversation so that Hakon isn't blocked by Ubin's  arm.
     [FIXED] Miscellaneous typos. Thanks ingman112!
 
  3.1
