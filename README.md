@@ -13,7 +13,7 @@ Many thanks to:
  - Nafeij
  - Aleo
 
-Please report any bugs in [Issues](issues).
+Please report any bugs in [Issues](./issues).
 
 # Latest release
 
