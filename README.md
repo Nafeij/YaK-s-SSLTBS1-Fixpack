@@ -18,7 +18,7 @@ Please report any bugs in [Issues](../../issues).
 # Latest release
 
 > ## 3.2
-> 26 Feb 2023
+> 26 Jan 2023
 > - Shifted the character sprites around in the first Vognir conversation so that Hakon isn't blocked by Ubin's fat arm.
 > - Miscellaneous typos. Thanks ingman112!
 
