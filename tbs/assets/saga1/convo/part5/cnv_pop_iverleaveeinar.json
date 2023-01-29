@@ -29,7 +29,18 @@
 			},
 			"jorundrYouveGott": {
 				"content": [
-					"[jorundr] \"You've gotten what you wanted,\" says Jorundr. \"Now leave. If I ever see man or mender again it will be too soon.\" Eyvind tells you \"Juno will be waiting for us in Sigrholm.\" Despite the end of the immediate threat, several varl choose to join Iver instead of following Jorundr. You depart with a long caravan at your heels.",
+					"[jorundr] \"You've gotten what you wanted,\" says Jorundr. \"Now leave. If I ever see man or mender again it will be too soon.\"",
+					{
+						"divert": "eyvindJunoWill"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindJunoWill": {
+				"content": [
+					"[eyvind] \"Juno will be waiting for us in Sigrholm,\" Eyvind tells you. Despite the end of the immediate threat, several varl choose to join Iver instead of following Jorundr. You depart with a long caravan at your heels.",
 					{
 						"flagName": "num_varl+42"
 					},
