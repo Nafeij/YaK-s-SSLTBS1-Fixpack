@@ -57,3 +57,7 @@ Simply place the extracted root folder (**NOT** the `/tbs2` folder) in the confi
 
 `Properties -> Verify the integrity of game files` in Steam or `Manage installation -> Verify / Repair...` in GOG.
 
+# See also
+
+- [Drake's & YaK's Fixpack for BS2](../../../Drake-s-and-YaK-s-Unofficial-Fixpack-for-BS2)
+- [Nafeij's BS3 Fixpack](../../../Nafeij-s-BS3-Fixpack)
