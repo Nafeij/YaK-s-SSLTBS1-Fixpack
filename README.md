@@ -24,7 +24,7 @@ Please report any bugs in [Issues](../../issues).
 > ## 3.3
 > 1 Feb 2023
 > - Added **Nafeij's Pillager Submod** option. Enables pillage mode at battle start.
-> - Resturctured folder directory to accomodate submod
+> - Restructured folder directory to accommodate submod.
 
 > ## 3.2
 > 26 Jan 2023
