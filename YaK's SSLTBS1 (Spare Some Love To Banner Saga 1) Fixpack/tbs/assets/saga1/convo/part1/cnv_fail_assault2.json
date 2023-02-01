@@ -1,0 +1,48 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"grissAsYouSkirtT": {
+				"content": [
+					"[griss] As you skirt the town you spot the bodies of allies who fell in the fight, including Griss, the varl who had given you hard a time earlier. It hits you harder than you expected.",
+					{
+						"flagName": "grissdied"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonTheAssaultO": {
+				"content": [
+					"[hakon] The assault on the town is a disaster. Varl quickly start losing ground, and you're overwhelmed. Many warriors fall in the retreat. \"It will take longer, but we'll have to go around the village,\" says Mogr. You regrettably agree. It takes a full day to navigate around the remaining dredge.",
+					{
+						"divert": "grissAsYouSkirtT"
+					},
+					{
+						"flagName": "day+1"
+					},
+					{
+						"flagName": "morale-10"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "hakonTheAssaultO",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "6zfx"
+}

@@ -1,0 +1,3001 @@
+{
+  "ambientParameter": 15,
+  "cameraAnchorSpeed": 3200,
+  "cameraDrift": 0,
+  "cameraMaxHeight": 1162,
+  "cameraMaxWidth": 2731,
+  "cameraMinHeight": 1162,
+  "cameraMinWidth": 2048,
+  "cinemascope": true,
+  "happenings": [
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part1/1m1",
+          "type": "MUSIC_START"
+        }
+      ],
+      "id": "music_1m1",
+      "triggers": [
+        {
+          "location": "music_1m1",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part1/1m2",
+          "type": "MUSIC_START"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_camp_enabled",
+          "varvalue": 1
+        },
+        {
+          "id": "saga1/scene/battle/music/chapter_3.btlmusic.json.z",
+          "type": "BATTLE_MUSIC"
+        }
+      ],
+      "id": "music_1m2_start",
+      "triggers": [
+        {
+          "location": "music_1m2_start",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "id": "bookmark",
+      "triggers": [
+        {
+          "location": "bookmark",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_drinking.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_chatvognir2",
+              "varvalue": 1
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_wilderness_snow/stg_wilderness_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_vognir2.json.z"
+        },
+        {
+          "instant": true,
+          "type": "CAMP"
+        },
+        {
+          "id": "camp_first",
+          "type": "GA_PAGE"
+        },
+        {
+          "time": 1,
+          "type": "WAIT_READY"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_camp_enabled",
+          "varvalue": 1
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_groggy.json.z"
+        },
+        {
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_directions2.json.z"
+        },
+        {
+          "restore_scene": false,
+          "type": "CAMP_MAP"
+        },
+        {
+          "id": "saga1/music/part1/1m1",
+          "type": "MUSIC_OUTRO"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_map_enabled",
+          "varvalue": 1
+        },
+        {
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_directions.json.z"
+        },
+        {
+          "instant": true,
+          "type": "CAMP"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_travel_hidden",
+          "varvalue": 1
+        },
+        {
+          "id": "click_training",
+          "type": "ENABLE_CLICKABLE"
+        },
+        {
+          "id": "click_rest",
+          "type": "ENABLE_CLICKABLE"
+        },
+        {
+          "id": "click_leave",
+          "type": "ENABLE_CLICKABLE"
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_tutorial_days.json.z"
+        },
+        {
+          "anchor": "ScenePage|scene_view|landscapeView|:layer_4_click.single_red_pixel",
+          "msg": "$saga1_wld_ridgehorn_click_heroes",
+          "type": "TUTORIAL_POPUP"
+        },
+        {
+          "id": "saga1/music/part1/1mT3_world_oneshot",
+          "type": "MUSIC_ONESHOT"
+        }
+      ],
+      "id": "chat_directions",
+      "triggers": [
+        {
+          "location": "chat_directions",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "happening": "start",
+          "location": "start",
+          "scene": "saga1/scene/part1/cls_vedrfell/cls_vedrfell.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "id": "prg_vedrfell",
+          "type": "GMA_EVENT"
+        }
+      ],
+      "id": "close_vedrfell",
+      "triggers": [
+        {
+          "location": "close_vedrfell",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_quickfight.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 7
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_grunts",
+          "prereqs": [
+            {
+              "varname": "1_quickfight",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_fail_quickfight.json.z"
+        }
+      ],
+      "id": "pop_quickfight",
+      "triggers": [
+        {
+          "location": "pop_quickfight",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "also_party": true,
+          "id": "ludin",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "yrsa",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "bersi",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "yrsa.talk",
+          "varvalue": 3
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "bersi.talk",
+          "varvalue": 3
+        },
+        {
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_wilderness_snow/stg_wilderness_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_ludin2.json.z"
+        },
+        {
+          "instant": true,
+          "scene": "saga1/scene/camp/cmp_snow/cmp_snow.json.z",
+          "type": "CAMP"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part8/cnv_tut_exertion.json.z"
+        }
+      ],
+      "id": "chat_ludin2",
+      "triggers": [
+        {
+          "location": "chat_ludin2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_dissension1.json.z"
+        }
+      ],
+      "id": "pop_dissension",
+      "triggers": [
+        {
+          "location": "pop_dissension",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_merchants.json.z"
+        }
+      ],
+      "id": "pop_merchants",
+      "triggers": [
+        {
+          "location": "pop_merchants",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_firstfight.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 7
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_easy",
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "WAR"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_fail_firstfight.json.z"
+        }
+      ],
+      "id": "pop_firstfight",
+      "triggers": [
+        {
+          "location": "pop_firstfight",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "1_badfood",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_sickvarl1.json.z"
+        }
+      ],
+      "id": "pop_sickvarl1",
+      "triggers": [
+        {
+          "location": "pop_sickvarl1",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_assault.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_assaultsplit",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 7
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_easy",
+          "prereqs": [
+            {
+              "varname": "1_assaultsplit",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "WAR"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_fail_assault1.json.z"
+        }
+      ],
+      "id": "pop_assault",
+      "triggers": [
+        {
+          "location": "pop_assault",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_dissension2.json.z"
+        },
+        {
+          "id": "griss",
+          "prereqs": [
+            {
+              "varname": "1_grissjoins1",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_ADD"
+        }
+      ],
+      "id": "pop_dissension2",
+      "triggers": [
+        {
+          "location": "pop_dissension2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_assault2.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_assaultsplit",
+              "varvalue": 0
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 10
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_assaultsplit",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 7
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_assaultfight",
+              "varvalue": 0
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory"
+        },
+        {
+          "bucket": "1_dredge_med",
+          "prereqs": [
+            {
+              "varname": "1_assaultfight",
+              "varvalue": 1
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "WAR"
+        },
+        {
+          "location": "pop_assault2",
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 1
+            },
+            {
+              "varname": "1_assaultfight",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/part1/wld_ridgehorn/wld_ridgehorn.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "location": "skirt_village",
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "scene": "saga1/scene/part1/wld_ridgehorn/wld_ridgehorn.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_assault3.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_assaultfight",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_fail_assault2.json.z"
+        },
+        {
+          "id": "griss",
+          "prereqs": [
+            {
+              "varname": "1_grissjoins2",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "griss",
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            },
+            {
+              "varname": "1_assaultfight",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        }
+      ],
+      "id": "pop_assault2",
+      "triggers": [
+        {
+          "location": "pop_assault2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "MARKET_RESET_ITEMS"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "camp_music_suppressed",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "market_available_supplies",
+          "varvalue": 4
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "market_supplies_per_renown",
+          "varvalue": 1
+        },
+        {
+          "instant": true,
+          "scene": "saga1/scene/part1/vlg_part1_a/vlg_part1_a.json.z",
+          "type": "CAMP"
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_abandoned.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "camp_music_suppressed"
+        },
+        {
+          "id": "eirik",
+          "prereqs": [
+            {
+              "varname": "1_eirikgone",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        }
+      ],
+      "id": "close_village",
+      "triggers": [
+        {
+          "location": "close_village",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part1/1m2",
+          "param": "layer2",
+          "type": "MUSIC_PARAM",
+          "varvalue": 1
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_fasoltapproach.json.z"
+        },
+        {
+          "id": "fasolt",
+          "type": "ROSTER_ADD"
+        },
+        {
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_wilderness_snow/stg_wilderness_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_reinforcements.json.z"
+        },
+        {
+          "id": "ludin",
+          "prereqs": [
+            {
+              "varname": "1_ludingone",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "yrsa",
+          "prereqs": [
+            {
+              "varname": "1_ludingone",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "bersi",
+          "prereqs": [
+            {
+              "varname": "1_ludingone",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "location": "chat_reinforcements",
+          "scene": "saga1/scene/part1/wld_ridgehorn/wld_ridgehorn.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "chat_reinforcements",
+      "triggers": [
+        {
+          "location": "chat_reinforcements",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "1_badfood",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_sickvarl2.json.z"
+        }
+      ],
+      "id": "pop_sickvarl2",
+      "triggers": [
+        {
+          "location": "pop_sickvarl2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_slingers.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 8
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_slingers",
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "WAR"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_treasure1.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_fail_slingers.json.z"
+        },
+        {
+          "id": "gunnulf",
+          "prereqs": [
+            {
+              "varname": "gunnulfdied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_leftgold",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "narrator.talk",
+          "varvalue": 3
+        }
+      ],
+      "id": "pop_slingers",
+      "triggers": [
+        {
+          "location": "pop_slingers",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "location": "start",
+          "scene": "saga1/scene/part1/cls_godstone/cls_godstone.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "id": "prg_godstone_denglr",
+          "type": "GMA_EVENT"
+        },
+        {
+          "id": "godstone_denglr",
+          "type": "GA_PAGE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "game_progress",
+          "varvalue": 24
+        },
+        {
+          "id": "sav_denglr",
+          "type": "SAVE_STORE"
+        }
+      ],
+      "id": "close_godstone",
+      "triggers": [
+        {
+          "location": "close_godstone",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_distancefire.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 8
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_med",
+          "prereqs": [
+            {
+              "varname": "1_firefight",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_firefight",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_distancefire2.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_firefight",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_fail_firefight.json.z"
+        }
+      ],
+      "id": "pop_distancefire",
+      "triggers": [
+        {
+          "location": "pop_distancefire",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "1_leftgold",
+              "varvalue": 1
+            },
+            {
+              "varname": "1_ludingone",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_treasure2.json.z"
+        }
+      ],
+      "id": "pop_treasure2",
+      "triggers": [
+        {
+          "location": "pop_treasure2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_followed1.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_forestfight1",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 8
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_forestfight1",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_med",
+          "prereqs": [
+            {
+              "varname": "1_forestfight1",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "WAR"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_forestfight1",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_fail_followed1.json.z"
+        }
+      ],
+      "id": "pop_followed1",
+      "triggers": [
+        {
+          "location": "pop_followed1",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "1_forestfight1",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 8
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_forestfight1",
+              "varvalue": 0
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 9
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_followed2.json.z"
+        },
+        {
+          "id": "yrsa",
+          "prereqs": [
+            {
+              "varname": "yrsadied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_med",
+          "prereqs": [
+            {
+              "varname": "1_forestfight2",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "WAR"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "WAIT_READY"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_fail_followed2.json.z"
+        },
+        {
+          "id": "yrsa",
+          "prereqs": [
+            {
+              "varname": "yrsadied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "1_forestfire",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/stage/stg_wilderness_snow/stg_wilderness_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_forestfire.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            },
+            {
+              "varname": "1_ludingone",
+              "varvalue": 0
+            }
+          ],
+          "scene": "saga1/scene/stage/stg_wilderness_snow/stg_wilderness_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part1/cnv_chat_forestfire.json.z"
+        }
+      ],
+      "id": "pop_followed2",
+      "triggers": [
+        {
+          "location": "pop_followed2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_junodream2.json.z"
+        },
+        {
+          "instant": true,
+          "type": "CAMP"
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_pop_junodream2b.json.z"
+        }
+      ],
+      "id": "pop_junodream2",
+      "triggers": [
+        {
+          "location": "pop_junodream2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "location": "start",
+          "scene": "saga1/scene/part1/cls_ridgehorn/cls_ridgehorn.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "camp_music_suppressed",
+          "varvalue": 1
+        },
+        {
+          "id": "prg_ridgehorn",
+          "type": "GMA_EVENT"
+        },
+        {
+          "id": "ridgehorn_arrive",
+          "type": "GA_PAGE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "game_progress",
+          "varvalue": 28
+        },
+        {
+          "id": "sav_ridgehorn",
+          "type": "SAVE_STORE"
+        },
+        {
+          "type": "DRIVING_SPEED",
+          "varvalue": 1
+        }
+      ],
+      "id": "close_ridgehorn",
+      "triggers": [
+        {
+          "location": "close_ridgehorn",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part1/1m2",
+          "type": "MUSIC_OUTRO"
+        }
+      ],
+      "id": "music_1m2_outro",
+      "triggers": [
+        {
+          "location": "music_1m2_outro",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "id": "addmorale",
+      "triggers": [
+        {
+          "location": "addmorale",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1_vo/vo/vo_vedrfell",
+          "subtitle": "saga1/locale/en/vo_vedrfell.sbv.z",
+          "type": "VO"
+        }
+      ],
+      "id": "vo_vedrfell",
+      "triggers": [
+        {
+          "location": "vo_vedrfell",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "enabled": false,
+          "type": "DRIVING_SPEED",
+          "varvalue": 0.4
+        },
+        {
+          "id": "saga1/music/part1/1m5",
+          "type": "MUSIC_ONESHOT"
+        },
+        {
+          "enabled": false,
+          "time": 30,
+          "type": "WAIT"
+        },
+        {
+          "enabled": false,
+          "type": "DRIVING_SPEED",
+          "varvalue": 0.25
+        }
+      ],
+      "id": "vo_ridgehorn",
+      "transcendent": false,
+      "triggers": [
+        {
+          "location": "vo_ridgehorn",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/folk/1mT4",
+          "type": "MUSIC_START"
+        }
+      ],
+      "id": "music_1mT4",
+      "triggers": [
+        {
+          "location": "music_1mT4",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "world/ambience_oneshots/thunder",
+          "location": "common",
+          "type": "SOUND_PLAY_EVENT"
+        }
+      ],
+      "id": "thunderclap",
+      "triggers": [
+        {
+          "location": "thunderclap",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "vfx_rh_tower_lightning",
+          "type": "ANIM_PLAY"
+        }
+      ],
+      "id": "start_lightning",
+      "triggers": [
+        {
+          "location": "start_lightning",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part1/1m2b",
+          "type": "MUSIC_START"
+        }
+      ],
+      "id": "music_1m2b",
+      "triggers": [
+        {
+          "location": "music_1m2b",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "biome",
+          "varvalue": 1
+        },
+        {
+          "type": "SHOW_CARAVAN",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "1_hakoncaravan",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "2_rookcaravan"
+        }
+      ],
+      "automatic": true,
+      "id": "GLOBAL"
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_MODIFY",
+          "varname": "weather_snow_density",
+          "varvalue": 2
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "weather_snow_gravity",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "weather_wind",
+          "varvalue": -2
+        }
+      ],
+      "id": "snow1",
+      "triggers": [
+        {
+          "location": "snow1",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_MODIFY",
+          "varname": "weather_snow_density",
+          "varvalue": 2
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "weather_snow_gravity",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "weather_wind",
+          "varvalue": -2
+        }
+      ],
+      "id": "snow2",
+      "triggers": [
+        {
+          "location": "snow2",
+          "type": "LOCATION"
+        }
+      ]
+    }
+  ],
+  "landscape": {
+    "boundary": {
+      "height": 1162,
+      "width": 14782.312290579031,
+      "x": -1365.5,
+      "y": -581
+    },
+    "layers": [
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/7_sky.png",
+            "localrect": {
+              "height": 497,
+              "width": 1,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky_1",
+            "scale": {
+              "x": 2731,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_7_sky",
+        "offset": {
+          "x": -1365,
+          "y": -581
+        },
+        "speed": 0
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/6_back_left.png",
+            "localrect": {
+              "height": 628,
+              "width": 752,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_left_1",
+            "offset": {
+              "x": -1,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/6_back_left2.png",
+            "localrect": {
+              "height": 628,
+              "width": 857,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_left2_1",
+            "offset": {
+              "x": 751,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/6_back_left3.png",
+            "localrect": {
+              "height": 628,
+              "width": 802,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_left3_1",
+            "offset": {
+              "x": 1608,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/6_back_mid.png",
+            "localrect": {
+              "height": 921,
+              "width": 827,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_mid_1",
+            "offset": {
+              "x": 2024,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/6_back_mid2.png",
+            "localrect": {
+              "height": 921,
+              "width": 807,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_mid2_1",
+            "offset": {
+              "x": 2851,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/6_back_mid3.png",
+            "localrect": {
+              "height": 921,
+              "width": 710,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_mid3_1",
+            "offset": {
+              "x": 3658,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/6_back_right.png",
+            "localrect": {
+              "height": 670,
+              "width": 524,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_right_1",
+            "offset": {
+              "x": 4554.15,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/6_back_right3.png",
+            "localrect": {
+              "height": 670,
+              "width": 390,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_right3_1",
+            "offset": {
+              "x": 5991,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/6_back_right2.png",
+            "localrect": {
+              "height": 673,
+              "width": 913,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_right2_1",
+            "offset": {
+              "x": 5078,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "saga1/scene/part1/wld_ridgehorn/vfx.wld_ridgehorn/vfx_rh_tower_lightning.clip",
+            "autoplay": false,
+            "bmp": "",
+            "localrect": {
+              "height": 632,
+              "width": 332,
+              "x": -163,
+              "y": -628
+            },
+            "nameId": "vfx_rh_tower_lightning",
+            "offset": {
+              "x": 5112,
+              "y": 346
+            },
+            "smoothing": true,
+            "visible": false
+          }
+        ],
+        "nameId": "layer_6_back",
+        "offset": {
+          "x": -1365,
+          "y": -581
+        },
+        "speed": 0.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/5_back_left.png",
+            "localrect": {
+              "height": 781,
+              "width": 434,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_left_1",
+            "offset": {
+              "x": 0,
+              "y": 111
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/5_back_left2.png",
+            "localrect": {
+              "height": 464,
+              "width": 476,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_left2_1",
+            "offset": {
+              "x": 434,
+              "y": 429
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/5_back_mid_0x0.png",
+            "localrect": {
+              "height": 993,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_mid_1_0x0",
+            "offset": {
+              "x": 1204.25,
+              "y": -4
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/5_back_mid_2048x0.png",
+            "localrect": {
+              "height": 993,
+              "width": 632,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_mid_1_2048x0",
+            "offset": {
+              "x": 3252.25,
+              "y": -4
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/5_back_mid2.png",
+            "localrect": {
+              "height": 559,
+              "width": 1063,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_mid2_1",
+            "offset": {
+              "x": 3884,
+              "y": 429
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/5_back_right.png",
+            "localrect": {
+              "height": 313,
+              "width": 1176,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_right_1",
+            "offset": {
+              "x": 3762.35,
+              "y": 654
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/5_back_right2_0x0.png",
+            "localrect": {
+              "height": 967,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_right2_1_0x0",
+            "offset": {
+              "x": 4938,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/5_back_right2_2048x0.png",
+            "localrect": {
+              "height": 967,
+              "width": 257,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_right2_1_2048x0",
+            "offset": {
+              "x": 6986,
+              "y": 0
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_5_back",
+        "offset": {
+          "x": -1365,
+          "y": -581
+        },
+        "speed": 0.5
+      },
+      {
+        "layerSprites": [
+          {
+            "anim": "saga1/scene/part1/wld_ridgehorn/vfx.wld_ridgehorn/vfx_birds_tiny.clip",
+            "anim_path": {
+              "nodes": [
+                {
+                  "duration_secs": 40,
+                  "start": {
+                    "x": 154,
+                    "y": 1058
+                  },
+                  "target": {
+                    "x": 3187.15,
+                    "y": 201.45
+                  },
+                  "type": "MOVE"
+                }
+              ]
+            },
+            "bmp": "",
+            "localrect": {
+              "height": 97,
+              "width": 254,
+              "x": -137,
+              "y": -91
+            },
+            "nameId": "vfx_birds_tiny",
+            "offset": {
+              "x": 1470.65,
+              "y": 783.25
+            },
+            "smoothing": true
+          },
+          {
+            "anim_path": {
+              "nodes": [
+                {
+                  "duration_secs": 40,
+                  "start": {
+                    "x": 1923.4,
+                    "y": 836.7
+                  },
+                  "target": {
+                    "x": -526.7,
+                    "y": 836.7
+                  },
+                  "type": "MOVE"
+                }
+              ]
+            },
+            "bmp": "saga1/scene/part1/wld_ridgehorn/fog_thick2.png",
+            "localrect": {
+              "height": 266,
+              "width": 858,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "fog_thick2_1",
+            "offset": {
+              "x": 1847,
+              "y": 742
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/4_back_left_0x0.png",
+            "localrect": {
+              "height": 996,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_left_1_0x0",
+            "offset": {
+              "x": 1657,
+              "y": -2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/4_back_left_2048x0.png",
+            "localrect": {
+              "height": 996,
+              "width": 196,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_left_1_2048x0",
+            "offset": {
+              "x": 3705,
+              "y": -2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/4_back_left2.png",
+            "localrect": {
+              "height": 996,
+              "width": 1881,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_left2_1",
+            "offset": {
+              "x": 3901,
+              "y": -2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/4_back_right.png",
+            "localrect": {
+              "height": 434,
+              "width": 879,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_right_1",
+            "offset": {
+              "x": 6221.2,
+              "y": 529
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/4_back_right2_0x0.png",
+            "localrect": {
+              "height": 676,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_right2_1_0x0",
+            "offset": {
+              "x": 7100,
+              "y": 143
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/4_back_right2_2048x0.png",
+            "localrect": {
+              "height": 676,
+              "width": 900,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_right2_1_2048x0",
+            "offset": {
+              "x": 9148,
+              "y": 143
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "saga1/scene/part1/wld_ridgehorn/vfx.wld_ridgehorn/vfx_smoke.clip",
+            "bmp": "",
+            "localrect": {
+              "height": 352,
+              "width": 179,
+              "x": -38,
+              "y": -308
+            },
+            "nameId": "vfx_smoke_1",
+            "offset": {
+              "x": 7801,
+              "y": 357
+            },
+            "scale": {
+              "x": 1.5,
+              "y": 1.5
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_4_back",
+        "offset": {
+          "x": -1365,
+          "y": -581
+        },
+        "speed": 0.7
+      },
+      {
+        "layerSprites": [
+          {
+            "anim_path": {
+              "nodes": [
+                {
+                  "duration_secs": 15,
+                  "start": {
+                    "x": 4635.1,
+                    "y": 880
+                  },
+                  "target": {
+                    "x": 3688,
+                    "y": 732
+                  },
+                  "type": "MOVE"
+                },
+                {
+                  "duration_secs": 80,
+                  "start": {
+                    "x": 3688,
+                    "y": 732
+                  },
+                  "target": {
+                    "x": -720.05,
+                    "y": 803.35
+                  },
+                  "type": "MOVE"
+                }
+              ]
+            },
+            "bmp": "saga1/scene/part1/wld_ridgehorn/fog_thick1.png",
+            "localrect": {
+              "height": 264,
+              "width": 1266,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "fog_thick1_1",
+            "offset": {
+              "x": 4530,
+              "y": 858
+            },
+            "smoothing": true
+          },
+          {
+            "anim_path": {
+              "nodes": [
+                {
+                  "duration_secs": 15,
+                  "start": {
+                    "x": 8780.35,
+                    "y": 655
+                  },
+                  "target": {
+                    "x": 7802.65,
+                    "y": 737.5
+                  },
+                  "type": "MOVE"
+                },
+                {
+                  "duration_secs": 25,
+                  "start": {
+                    "x": 7802.65,
+                    "y": 737.5
+                  },
+                  "target": {
+                    "x": 5730.25,
+                    "y": 816.7
+                  },
+                  "type": "MOVE"
+                }
+              ]
+            },
+            "bmp": "saga1/scene/part1/wld_ridgehorn/fog_thick1.png",
+            "localrect": {
+              "height": 264,
+              "width": 1266,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "fog_thick1_2",
+            "offset": {
+              "x": 8641,
+              "y": 655
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_back_0x0.png",
+            "localrect": {
+              "height": 495,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back_1_0x0",
+            "offset": {
+              "x": -1,
+              "y": 547
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_back_2048x0.png",
+            "localrect": {
+              "height": 495,
+              "width": 1515,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back_1_2048x0",
+            "offset": {
+              "x": 2047,
+              "y": 547
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_back_b_0x0.png",
+            "localrect": {
+              "height": 299,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back_b_1_0x0",
+            "offset": {
+              "x": 3562,
+              "y": 636
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_back_b_2048x0.png",
+            "localrect": {
+              "height": 299,
+              "width": 1203,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back_b_1_2048x0",
+            "offset": {
+              "x": 5610,
+              "y": 636
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_back2.png",
+            "localrect": {
+              "height": 245,
+              "width": 1964,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back2_1",
+            "offset": {
+              "x": 6813,
+              "y": 717
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_back2_b.png",
+            "localrect": {
+              "height": 219,
+              "width": 1826,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back2_b_1",
+            "offset": {
+              "x": 10765,
+              "y": 586
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_back2_a.png",
+            "localrect": {
+              "height": 394,
+              "width": 1988,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back2_a_1",
+            "offset": {
+              "x": 8777,
+              "y": 376
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_back2_b2_0x0.png",
+            "localrect": {
+              "height": 393,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back2_b2_1_0x0",
+            "offset": {
+              "x": 12591,
+              "y": 375
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_back2_b2_2048x0.png",
+            "localrect": {
+              "height": 59,
+              "width": 174,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back2_b2_1_2048x0",
+            "offset": {
+              "x": 14639,
+              "y": 375
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/locale/zh/lettering/lettering_strand.png",
+            "langs": "zh",
+            "localrect": {
+              "height": 54,
+              "width": 134,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "zh_lettering_strand_1",
+            "offset": {
+              "x": 1048,
+              "y": 713
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/locale/zh/lettering/lettering_vedrfell.png",
+            "langs": "zh",
+            "localrect": {
+              "height": 60,
+              "width": 133,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "zh_lettering_vedrfell_1",
+            "offset": {
+              "x": 3280,
+              "y": 756
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_3_walk_back",
+        "offset": {
+          "x": -1365,
+          "y": -581
+        },
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_front_0x0.png",
+            "localrect": {
+              "height": 333,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front_1_0x0",
+            "offset": {
+              "x": -1,
+              "y": 829
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_front_2048x0.png",
+            "localrect": {
+              "height": 333,
+              "width": 611,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front_1_2048x0",
+            "offset": {
+              "x": 2047,
+              "y": 829
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_front2_0x0.png",
+            "localrect": {
+              "height": 464,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front2_1_0x0",
+            "offset": {
+              "x": 6813,
+              "y": 698
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_front2_2048x0.png",
+            "localrect": {
+              "height": 464,
+              "width": 25,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front2_1_2048x0",
+            "offset": {
+              "x": 8861,
+              "y": 698
+            },
+            "smoothing": true
+          },
+          {
+            "anim_path": {
+              "nodes": [
+                {
+                  "duration_secs": 30,
+                  "start": {
+                    "x": 5023.55,
+                    "y": 1240.05
+                  },
+                  "target": {
+                    "x": 2910.05,
+                    "y": 1050
+                  },
+                  "type": "MOVE"
+                },
+                {
+                  "duration_secs": 50,
+                  "start": {
+                    "x": 2910.05,
+                    "y": 1050
+                  },
+                  "target": {
+                    "x": -1770.05,
+                    "y": 1050
+                  },
+                  "type": "MOVE"
+                }
+              ]
+            },
+            "bmp": "saga1/scene/part1/wld_ridgehorn/fog_thin1.png",
+            "localrect": {
+              "height": 121,
+              "width": 1962,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "fog_thin1_1",
+            "offset": {
+              "x": 2246,
+              "y": 1001
+            },
+            "smoothing": true
+          },
+          {
+            "anim_path": {
+              "nodes": [
+                {
+                  "duration_secs": 200,
+                  "start": {
+                    "x": 14887.25,
+                    "y": 193.35
+                  },
+                  "target": {
+                    "x": -1675.05,
+                    "y": 193.35
+                  },
+                  "type": "MOVE"
+                }
+              ]
+            },
+            "bmp": "saga1/scene/part1/wld_ridgehorn/fog_thin1.png",
+            "localrect": {
+              "height": 121,
+              "width": 1962,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "fog_thin1_2",
+            "offset": {
+              "x": 14785,
+              "y": 316
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_front2b_0x0.png",
+            "localrect": {
+              "height": 789,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front2b_1_0x0",
+            "offset": {
+              "x": 10975,
+              "y": 373
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_front2b_2048x0.png",
+            "localrect": {
+              "height": 789,
+              "width": 1790,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front2b_1_2048x0",
+            "offset": {
+              "x": 13023,
+              "y": 373
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_front_b_0x0.png",
+            "localrect": {
+              "height": 329,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front_b_1_0x0",
+            "offset": {
+              "x": 2658,
+              "y": 833
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_front_b_2048x0.png",
+            "localrect": {
+              "height": 329,
+              "width": 79,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front_b_1_2048x0",
+            "offset": {
+              "x": 4706,
+              "y": 833
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_front_b2.png",
+            "localrect": {
+              "height": 365,
+              "width": 2028,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front_b2_1",
+            "offset": {
+              "x": 4785,
+              "y": 797
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_front2_2_0x0.png",
+            "localrect": {
+              "height": 691,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front2_2_1_0x0",
+            "offset": {
+              "x": 8886,
+              "y": 471
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/3_walk_front2_2_2048x0.png",
+            "localrect": {
+              "height": 577,
+              "width": 41,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front2_2_1_2048x0",
+            "offset": {
+              "x": 10934,
+              "y": 585
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_3_walk_front",
+        "offset": {
+          "x": -1365,
+          "y": -581
+        },
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/2_close_left.png",
+            "localrect": {
+              "height": 77,
+              "width": 823,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_left_1",
+            "offset": {
+              "x": 7147,
+              "y": 1008
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/2_close_mid.png",
+            "localrect": {
+              "height": 71,
+              "width": 347,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_mid_1",
+            "offset": {
+              "x": 10887.35,
+              "y": 1019
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/2_close_right.png",
+            "localrect": {
+              "height": 151,
+              "width": 718,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_right_1",
+            "offset": {
+              "x": 13408.8,
+              "y": 863
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/2_close_right2.png",
+            "localrect": {
+              "height": 134,
+              "width": 60,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_right2_1",
+            "offset": {
+              "x": 13609,
+              "y": 866
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "saga1/scene/part1/wld_ridgehorn/vfx.wld_ridgehorn/vfx_aerial1.clip",
+            "bmp": "",
+            "localrect": {
+              "height": 274,
+              "width": 520,
+              "x": -276,
+              "y": -155
+            },
+            "nameId": "vfx_aerial1_1",
+            "offset": {
+              "x": 5883,
+              "y": 310
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "saga1/scene/part1/wld_ridgehorn/vfx.wld_ridgehorn/vfx_aerial1.clip",
+            "bmp": "",
+            "localrect": {
+              "height": 274,
+              "width": 520,
+              "x": -276,
+              "y": -155
+            },
+            "nameId": "vfx_aerial1_2",
+            "offset": {
+              "x": 2747,
+              "y": 787
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "saga1/scene/part1/wld_ridgehorn/vfx.wld_ridgehorn/vfx_aerial2.clip",
+            "bmp": "",
+            "localrect": {
+              "height": 245,
+              "width": 779,
+              "x": -319,
+              "y": -173
+            },
+            "nameId": "vfx_aerial2_1",
+            "offset": {
+              "x": 11421,
+              "y": 496
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_2_close",
+        "offset": {
+          "x": -1365,
+          "y": -581
+        },
+        "speed": 1.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/1_close_leftmid.png",
+            "localrect": {
+              "height": 551,
+              "width": 132,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_leftmid_1",
+            "offset": {
+              "x": 5814,
+              "y": 0
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/1_close_leftmid2.png",
+            "localrect": {
+              "height": 68,
+              "width": 361,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_leftmid2_1",
+            "offset": {
+              "x": 5280,
+              "y": 1026
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/1_close_leftmid3.png",
+            "localrect": {
+              "height": 435,
+              "width": 629,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_leftmid3_1",
+            "offset": {
+              "x": 6981,
+              "y": 293
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/1_close_right.png",
+            "localrect": {
+              "height": 240,
+              "width": 1509,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_right_1",
+            "offset": {
+              "x": 17749.15,
+              "y": 690.25
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/1_close_right2.png",
+            "localrect": {
+              "height": 532,
+              "width": 119,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_right2_1",
+            "offset": {
+              "x": 20181,
+              "y": 0
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/1_close_rightmid.png",
+            "localrect": {
+              "height": 135,
+              "width": 592,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_rightmid_1",
+            "offset": {
+              "x": 11564.1,
+              "y": 894
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/1_close_left.png",
+            "localrect": {
+              "height": 572,
+              "width": 352,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_left_1",
+            "offset": {
+              "x": 3593,
+              "y": 20
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_1_close",
+        "offset": {
+          "x": -1365,
+          "y": -581
+        },
+        "speed": 1.6
+      }
+    ],
+    "travels": [
+      {
+        "locations": [
+          {
+            "id": "start",
+            "position": 551
+          },
+          {
+            "id": "music_1m1",
+            "position": 676
+          },
+          {
+            "id": "chat_directions",
+            "loadBarrier": true,
+            "position": 2275
+          },
+          {
+            "id": "vo_vedrfell",
+            "position": 2382
+          },
+          {
+            "id": "close_vedrfell",
+            "loadBarrier": true,
+            "mapkey": true,
+            "position": 2792
+          },
+          {
+            "id": "depart_vedrfell",
+            "position": 2917
+          },
+          {
+            "id": "music_1m2_start",
+            "position": 2950
+          },
+          {
+            "id": "pop_quickfight",
+            "position": 3368
+          },
+          {
+            "id": "bookmark",
+            "position": 3468
+          },
+          {
+            "id": "chat_ludin2",
+            "loadBarrier": true,
+            "position": 3552
+          },
+          {
+            "id": "pop_dissension",
+            "position": 3911
+          },
+          {
+            "id": "pop_merchants",
+            "position": 4285
+          },
+          {
+            "id": "pop_firstfight",
+            "loadBarrier": true,
+            "position": 4847
+          },
+          {
+            "id": "pop_sickvarl1",
+            "position": 5327
+          },
+          {
+            "id": "pop_assault",
+            "loadBarrier": true,
+            "position": 5890
+          },
+          {
+            "id": "pop_dissension2",
+            "position": 6334
+          },
+          {
+            "id": "pop_assault2",
+            "loadBarrier": true,
+            "position": 6738
+          },
+          {
+            "id": "close_village",
+            "position": 6968
+          },
+          {
+            "id": "skirt_village",
+            "position": 7157
+          },
+          {
+            "id": "chat_reinforcements",
+            "position": 7569
+          },
+          {
+            "id": "pop_sickvarl2",
+            "position": 7839
+          },
+          {
+            "id": "music_1m2_outro",
+            "position": 7900
+          },
+          {
+            "id": "pop_slingers",
+            "position": 8298
+          },
+          {
+            "id": "music_1mT4",
+            "position": 8754
+          },
+          {
+            "id": "close_godstone",
+            "loadBarrier": true,
+            "position": 9112
+          },
+          {
+            "id": "depart_godstone",
+            "position": 9271
+          },
+          {
+            "id": "music_1m2b",
+            "position": 9694
+          },
+          {
+            "id": "pop_distancefire",
+            "position": 10088
+          },
+          {
+            "id": "snow1",
+            "position": 10304
+          },
+          {
+            "id": "pop_treasure2",
+            "position": 10462
+          },
+          {
+            "id": "pop_junodream2",
+            "loadBarrier": true,
+            "position": 10689
+          },
+          {
+            "id": "snow2",
+            "position": 10942
+          },
+          {
+            "id": "pop_followed1",
+            "position": 11063
+          },
+          {
+            "id": "pop_followed2",
+            "position": 11753
+          },
+          {
+            "id": "vo_ridgehorn",
+            "position": 11800
+          },
+          {
+            "id": "start_lightning",
+            "position": 12101
+          },
+          {
+            "id": "thunderclap",
+            "position": 12109
+          },
+          {
+            "id": "thunderclap",
+            "position": 12553
+          },
+          {
+            "id": "thunderclap",
+            "position": 12847
+          },
+          {
+            "id": "thunderclap",
+            "position": 12923
+          },
+          {
+            "id": "thunderclap",
+            "position": 13023
+          },
+          {
+            "id": "thunderclap",
+            "position": 13123
+          },
+          {
+            "id": "thunderclap",
+            "position": 13308
+          },
+          {
+            "id": "close_ridgehorn",
+            "position": 13415
+          }
+        ],
+        "splinex": [
+          "-909 453",
+          "-766 452",
+          "111 454",
+          "309 445",
+          "564 416",
+          "741 389",
+          "966 357",
+          "1040 360",
+          "1096 350",
+          "1139 349",
+          "1192 360",
+          "1264 354",
+          "1377 326",
+          "1509 299",
+          "1673 290",
+          "1840 312",
+          "1974 342",
+          "2089 342",
+          "2191 330",
+          "2302 305",
+          "2410 304",
+          "2508 307",
+          "2621 294",
+          "2748 296",
+          "2842 321",
+          "2982 351",
+          "3111 339",
+          "3220 303",
+          "3315 265",
+          "3409 253",
+          "3493 257",
+          "3572 271",
+          "3686 299",
+          "3781 302",
+          "3894 282",
+          "3986 249",
+          "4092 238",
+          "4251 243",
+          "4357 257",
+          "4527 250",
+          "4772 245",
+          "4932 224",
+          "5075 225",
+          "5159 241",
+          "5229 265",
+          "5370 312",
+          "5661 338",
+          "5836 337",
+          "5902 338",
+          "6003 354",
+          "6185 373",
+          "6403 378",
+          "6683 362",
+          "6943 321",
+          "7140 274",
+          "7442 172",
+          "7733 51",
+          "7961 -58",
+          "8150 -92",
+          "8290 -86",
+          "8431 -72",
+          "8613 -56",
+          "9013 -23",
+          "9541 17",
+          "9604 18",
+          "9718 40",
+          "9802 67",
+          "10112 172",
+          "10358 199",
+          "10509 201",
+          "10894 208",
+          "11004 199",
+          "11123 182",
+          "11209 180",
+          "11301 183",
+          "11414 170",
+          "11523 148",
+          "11719 89",
+          "11991 6",
+          "12203 -59",
+          "12453 -128",
+          "12660 -166",
+          "12751 -168",
+          "12840 -156",
+          "13009 -160",
+          "13118 -176"
+        ]
+      }
+    ]
+  },
+  "loadAudio": true,
+  "reverb": "battles_ext",
+  "soundLibrary": {
+    "sku": "common",
+    "sounds": []
+  },
+  "split_happenings": true
+}

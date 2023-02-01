@@ -1,0 +1,278 @@
+{
+	"data": {
+		"initial": "skipMarkiverMark",
+		"stitches": {
+			"eyvindItDoesntMa": {
+				"content": [
+					"[eyvind] It doesn't matter. Our only chance is to get to Sigrholm. Juno will know what to do.",
+					{
+						"divert": "narratorWellJoin"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverIKnowYouUbin": {
+				"content": [
+					"[iver] I know you. Ubin? Never imagined you to be one to defy the king. What made you leave?",
+					{
+						"divert": "narratorIverSome"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverMustBeMeThen": {
+				"content": [
+					"[iver] Must be me, then.",
+					{
+						"divert": "narratorIverIsTh"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverNarratorAlre": {
+				"content": [
+					"[iver narrator] Already? How is that possible?",
+					{
+						"divert": "narratorAGroupOf"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverNarratorDont": {
+				"content": [
+					"[iver narrator] Don't let anyone tell you the dredge aren't clever. Einartoft will fall within a day.",
+					{
+						"divert": "narratorMaybeNot"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorAGroupOf": {
+				"content": [
+					"[narrator] A group of varl from Wyrmtoe showed up around the back of Einartoft. The long way.",
+					{
+						"divert": "narratorBellower1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorBellower": {
+				"content": [
+					"[narrator] Bellower is heading this way.",
+					{
+						"divert": "iverNarratorAlre"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorBellower1": {
+				"content": [
+					"[narrator] Bellower and his army chased them across the Summer Path, they said.",
+					{
+						"divert": "rookPastWyrmtoeT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorEyvindIT": {
+				"content": [
+					"[narrator eyvind] I thought one of you might know why.",
+					{
+						"divert": "youExchangeNervo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorGreeting": {
+				"content": [
+					"[narrator] Greetings, Iver. It's been quite a while since we talked, hasn't it?",
+					{
+						"divert": "iverIKnowYouUbin"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorHeMustHa": {
+				"content": [
+					"[narrator] He must have doubled back after that serpent appeared.",
+					{
+						"divert": "narratorWhileWeF"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorIverIsTh": {
+				"content": [
+					"[narrator iver] Is there something I don't know? That's quite a grudge he's holding if he's coming for you, Iver.",
+					{
+						"divert": "eyvindItDoesntMa"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorIverSome": {
+				"content": [
+					"[narrator iver] Someone had to.",
+					{
+						"divert": "rookWhatDoYouMea"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorMaybeNot": {
+				"content": [
+					"[narrator] Maybe not. He's following you.",
+					{
+						"divert": "narratorEyvindIT"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorWellJoin": {
+				"content": [
+					"[narrator] We'll join you. I bring supplies and warriors, and my friend Gunnulf here bears a heavy sword. I believe he'd be happy to swing it for you.",
+					{
+						"divert": "narratorWellJoin1"
+					},
+					{
+						"flagName": "supplies+40"
+					},
+					{
+						"flagName": "num_fighters+15"
+					},
+					{
+						"flagName": "num_varl+5"
+					},
+					{
+						"flagName": "renown+15"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "gunnulfdied"
+					}
+				]
+			},
+			"narratorWellJoin1": {
+				"content": [
+					"[narrator] We'll join you. I come bearing supplies and warriors who would be happy to kill a dredge or two, I believe.",
+					{
+						"flagName": "supplies+40"
+					},
+					{
+						"flagName": "num_fighters+15"
+					},
+					{
+						"flagName": "num_varl+5"
+					},
+					{
+						"flagName": "renown+10"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "gunnulfdied"
+					}
+				]
+			},
+			"narratorWhileWeF": {
+				"content": [
+					"[narrator] While we fought on the bridge he led half his forces around to approach Einartoft from behind.",
+					{
+						"divert": "rookNarratorTheA"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookNarratorTheA": {
+				"content": [
+					"[rook narrator] The attack on the bridge was a feint?",
+					{
+						"divert": "iverNarratorDont"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookPastWyrmtoeT": {
+				"content": [
+					"[rook] Past Wyrmtoe? That doesn't make sense. Bellower was at the bridge.",
+					{
+						"divert": "narratorHeMustHa"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookWhatDoYouMea": {
+				"content": [
+					"[rook] What do you mean?",
+					{
+						"divert": "narratorBellower"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skipMarkiverMark": {
+				"content": [
+					"{skip} mark1=iver mark2=narrator mark3=rook mark4=eyvind",
+					{
+						"linkPath": "narratorGreeting",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"youExchangeNervo": {
+				"content": [
+					"/=You exchange nervous glances but nobody speaks up.=/",
+					{
+						"divert": "iverMustBeMeThen"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "8q2r"
+}

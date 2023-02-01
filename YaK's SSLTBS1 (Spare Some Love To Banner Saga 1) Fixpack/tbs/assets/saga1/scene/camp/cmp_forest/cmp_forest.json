@@ -1,0 +1,1356 @@
+{
+  "ambientParameter": 0,
+  "cameraAnchor": {
+    "x": 456,
+    "y": 0
+  },
+  "cameraAnchorSpeed": 4000,
+  "cameraDrift": 0,
+  "cameraMaxHeight": 1162,
+  "cameraMaxWidth": 2731,
+  "cameraMinHeight": 1162,
+  "cameraMinWidth": 2048,
+  "cameraStart": {
+    "x": -351,
+    "y": 0
+  },
+  "landscape": {
+    "boundary": {
+      "height": 1162,
+      "width": 4199.666666666667,
+      "x": -1716.5,
+      "y": -581
+    },
+    "layers": [
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/7_sky_c_0x0.png",
+            "localrect": {
+              "height": 284,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky_c_2_0x0",
+            "offset": {
+              "x": -1363,
+              "y": -583
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/7_sky_c_2048x0.png",
+            "localrect": {
+              "height": 284,
+              "width": 683,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky_c_2_2048x0",
+            "offset": {
+              "x": 685,
+              "y": -583
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_7_sky_c",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_7_sky",
+        "speed": 0
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/7_sky_b_0x0.png",
+            "localrect": {
+              "height": 284,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky_b_1_0x0",
+            "offset": {
+              "x": -1365,
+              "y": -582
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/7_sky_b_2048x0.png",
+            "localrect": {
+              "height": 284,
+              "width": 683,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky_b_1_2048x0",
+            "offset": {
+              "x": 683,
+              "y": -582
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_7_sky_b",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_7_sky",
+        "speed": 0
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/7_sky_0x0.png",
+            "localrect": {
+              "height": 287,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky_1_0x0",
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/7_sky_2048x0.png",
+            "localrect": {
+              "height": 287,
+              "width": 683,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky_1_2048x0",
+            "offset": {
+              "x": 2048,
+              "y": 0
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_7_sky_a",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "randomGroup": "layer_7_sky",
+        "speed": 0
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/6_back_c_0x0.png",
+            "localrect": {
+              "height": 590,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_c_2_0x0",
+            "offset": {
+              "x": -1573,
+              "y": -583
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/6_back_c_2048x0.png",
+            "localrect": {
+              "height": 590,
+              "width": 1229,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_c_2_2048x0",
+            "offset": {
+              "x": 475,
+              "y": -583
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_6_back_c",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_6_back",
+        "speed": 0.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/6_back_b_0x0.png",
+            "localrect": {
+              "height": 590,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_b_2_0x0",
+            "offset": {
+              "x": -1574,
+              "y": -582
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/6_back_b_2048x0.png",
+            "localrect": {
+              "height": 590,
+              "width": 1229,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_b_2_2048x0",
+            "offset": {
+              "x": 474,
+              "y": -582
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_6_back_b",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_6_back",
+        "speed": 0.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/6_back_0x0.png",
+            "localrect": {
+              "height": 590,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_2_0x0",
+            "offset": {
+              "x": -18,
+              "y": -3
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/6_back_2048x0.png",
+            "localrect": {
+              "height": 590,
+              "width": 1040,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_2_2048x0",
+            "offset": {
+              "x": 2030,
+              "y": -3
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_6_back_a",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "randomGroup": "layer_6_back",
+        "speed": 0.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/5_back_c_0x0.png",
+            "localrect": {
+              "height": 891,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_c_2_0x0",
+            "offset": {
+              "x": -1581,
+              "y": -582
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/5_back_c_2048x0.png",
+            "localrect": {
+              "height": 891,
+              "width": 1474,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_c_2_2048x0",
+            "offset": {
+              "x": 467,
+              "y": -582
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_5_back_c",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_5_back",
+        "speed": 0.5
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/5_back_b_0x0.png",
+            "localrect": {
+              "height": 890,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_b_2_0x0",
+            "offset": {
+              "x": -1581,
+              "y": -582
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/5_back_b_2048x0.png",
+            "localrect": {
+              "height": 890,
+              "width": 1474,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_b_2_2048x0",
+            "offset": {
+              "x": 467,
+              "y": -582
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_5_back_b",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_5_back",
+        "speed": 0.5
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/5_back_0x0.png",
+            "localrect": {
+              "height": 890,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_2_0x0",
+            "offset": {
+              "x": -216,
+              "y": -1
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/5_back_2048x0.png",
+            "localrect": {
+              "height": 890,
+              "width": 1474,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_2_2048x0",
+            "offset": {
+              "x": 1832,
+              "y": -1
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_5_back_a",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "randomGroup": "layer_5_back",
+        "speed": 0.5
+      },
+      {
+        "layerSprites": [
+          {
+            "anchor": true,
+            "bmp": "",
+            "nameId": "talk_right10_1",
+            "offset": {
+              "x": -154.5,
+              "y": -208
+            },
+            "smoothing": true
+          },
+          {
+            "anchor": true,
+            "bmp": "",
+            "nameId": "talk_left9_1",
+            "offset": {
+              "x": 139.5,
+              "y": -172
+            },
+            "smoothing": true
+          },
+          {
+            "anchor": true,
+            "bmp": "",
+            "nameId": "talk_left8_1",
+            "offset": {
+              "x": -268.5,
+              "y": 25
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_shared/training_click.png",
+            "clickable": true,
+            "hover": "saga1/scene/camp/cmp_shared/training_hover.png",
+            "localrect": {
+              "height": 207,
+              "width": 597,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "click_training",
+            "offset": {
+              "x": -400,
+              "y": -243
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/scene/lettering_training.png",
+            "localrect": {
+              "height": 51,
+              "width": 159,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "lettering_training_1",
+            "offset": {
+              "x": -95,
+              "y": -238
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_5_click",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "speed": 0.5
+      },
+      {
+        "ifCondition": "camp_num_med",
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/5_back_med_pop_right.png",
+            "localrect": {
+              "height": 253,
+              "width": 1347,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_med_pop_right_2",
+            "offset": {
+              "x": -211,
+              "y": -360
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_5_back_med_pop",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "speed": 0.5
+      },
+      {
+        "ifCondition": "camp_num_lrg",
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/5_back_lrg_pop_right.png",
+            "localrect": {
+              "height": 265,
+              "width": 1229,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_lrg_pop_right_2",
+            "offset": {
+              "x": -705,
+              "y": -431
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_5_back_lrg_pop",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "speed": 0.5
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/4_back_c_0x0.png",
+            "localrect": {
+              "height": 990,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_c_2_0x0",
+            "offset": {
+              "x": -1729,
+              "y": -584
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/4_back_c_2048x0.png",
+            "localrect": {
+              "height": 990,
+              "width": 1833,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_c_2_2048x0",
+            "offset": {
+              "x": 319,
+              "y": -584
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_4_back_c",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_4_back",
+        "speed": 0.7
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/4_back_b_0x0.png",
+            "localrect": {
+              "height": 989,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_b_2_0x0",
+            "offset": {
+              "x": -623,
+              "y": -584
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/4_back_b_2048x0.png",
+            "localrect": {
+              "height": 989,
+              "width": 728,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_b_2_2048x0",
+            "offset": {
+              "x": 1425,
+              "y": -584
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_4_back_b",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_4_back",
+        "speed": 0.7
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/4_back_0x0.png",
+            "localrect": {
+              "height": 990,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_2_0x0",
+            "offset": {
+              "x": 740,
+              "y": -3
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/4_back_2048x0.png",
+            "localrect": {
+              "height": 990,
+              "width": 730,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_2_2048x0",
+            "offset": {
+              "x": 2788,
+              "y": -3
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_4_back_a",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "randomGroup": "layer_4_back",
+        "speed": 0.7
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_shared/heroes_click.png",
+            "clickable": true,
+            "hover": "saga1/scene/camp/cmp_shared/heroes_hover.png",
+            "localrect": {
+              "height": 286,
+              "width": 574,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "click_heroes",
+            "offset": {
+              "x": 750,
+              "y": -175
+            },
+            "smoothing": true
+          },
+          {
+            "anchor": true,
+            "bmp": "",
+            "nameId": "talk_right7_1",
+            "offset": {
+              "x": 1261.5,
+              "y": -81
+            },
+            "smoothing": true
+          },
+          {
+            "anchor": true,
+            "bmp": "",
+            "nameId": "talk_right6_1",
+            "offset": {
+              "x": 835.5,
+              "y": -68
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_4_click",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "speed": 0.7
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/3_walk_c_0x0.png",
+            "localrect": {
+              "height": 1162,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_c_2_0x0",
+            "offset": {
+              "x": -1757,
+              "y": -581
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/3_walk_c_2048x0.png",
+            "localrect": {
+              "height": 554,
+              "width": 109,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_c_2_2048x0",
+            "offset": {
+              "x": 291,
+              "y": 27
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/3_walk_c2_0x0.png",
+            "localrect": {
+              "height": 1162,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_c2_1_0x0",
+            "offset": {
+              "x": 400,
+              "y": -581
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/3_walk_c2_2048x0.png",
+            "localrect": {
+              "height": 538,
+              "width": 36,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_c2_1_2048x0",
+            "offset": {
+              "x": 2448,
+              "y": 43
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_3_walk_c",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_3_walk",
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/3_walk_b_0x0.png",
+            "localrect": {
+              "height": 1162,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_b_2_0x0",
+            "offset": {
+              "x": -1757,
+              "y": -581
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/3_walk_b_2048x0.png",
+            "localrect": {
+              "height": 1162,
+              "width": 340,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_b_2_2048x0",
+            "offset": {
+              "x": 291,
+              "y": -581
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/3_walk_b2.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1853,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_b2_1",
+            "offset": {
+              "x": 631,
+              "y": -581
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_3_walk_b",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_3_walk",
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/3_walk.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1596,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_2",
+            "offset": {
+              "x": -1757,
+              "y": -581
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/3_walk2_0x0.png",
+            "localrect": {
+              "height": 1162,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk2_1_0x0",
+            "offset": {
+              "x": -161,
+              "y": -581
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_forest/3_walk2_2048x0.png",
+            "localrect": {
+              "height": 1162,
+              "width": 597,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk2_1_2048x0",
+            "offset": {
+              "x": 1887,
+              "y": -581
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_3_walk_a",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_3_walk",
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "anchor": true,
+            "bmp": "",
+            "nameId": "talk_right5_1",
+            "offset": {
+              "x": 1170,
+              "y": 324.8
+            },
+            "smoothing": true
+          },
+          {
+            "anchor": true,
+            "bmp": "",
+            "nameId": "talk_left4_1",
+            "offset": {
+              "x": 1302.5,
+              "y": 153
+            },
+            "smoothing": true
+          },
+          {
+            "anchor": true,
+            "bmp": "",
+            "nameId": "talk_left3_1",
+            "offset": {
+              "x": 681.2,
+              "y": 35.1
+            },
+            "smoothing": true
+          },
+          {
+            "anchor": true,
+            "bmp": "",
+            "nameId": "talk_right2_1",
+            "offset": {
+              "x": 225.5,
+              "y": 154
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_shared/rest_click.png",
+            "clickable": true,
+            "hover": "saga1/scene/camp/cmp_shared/rest_hover.png",
+            "localrect": {
+              "height": 409,
+              "width": 841,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "click_rest",
+            "offset": {
+              "x": 205,
+              "y": -73
+            },
+            "smoothing": true
+          },
+          {
+            "anchor": true,
+            "bmp": "",
+            "nameId": "talk_left1_1",
+            "offset": {
+              "x": 62.5,
+              "y": 341
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/click_leave.png",
+            "clickable": true,
+            "hover": "saga1/scene/camp/cmp_snow/hover_leave.png",
+            "localrect": {
+              "height": 235,
+              "width": 526,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "click_leave",
+            "offset": {
+              "x": 553,
+              "y": 346
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/scene/lettering_leave.png",
+            "localrect": {
+              "height": 117,
+              "width": 177,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "lettering_leave_1",
+            "offset": {
+              "x": 553,
+              "y": 367
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_3_click",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "anchor": true,
+            "bmp": "",
+            "nameId": "anchor_heraldry_small",
+            "offset": {
+              "x": 812.1,
+              "y": 9
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/camp/cmp_shared/heraldry_pole.png",
+            "localrect": {
+              "height": 204,
+              "width": 81,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "heraldry_pole",
+            "offset": {
+              "x": 771,
+              "y": 0
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "3_walk_heraldry",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/2_close_right_c.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1509,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_right_c_1",
+            "offset": {
+              "x": 1339,
+              "y": -580
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_2_right_c",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_2_right",
+        "speed": 1.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/2_close_right_b.png",
+            "localrect": {
+              "height": 581,
+              "width": 1083,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_right_b_1",
+            "offset": {
+              "x": 675,
+              "y": -583
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_2_right_b",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_2_right",
+        "speed": 1.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/2_close_right.png",
+            "localrect": {
+              "height": 581,
+              "width": 1026,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_right_1",
+            "offset": {
+              "x": 2195,
+              "y": 0
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_2_right_a",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "randomGroup": "layer_2_right",
+        "speed": 1.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/2_close_left_c.png",
+            "localrect": {
+              "height": 1165,
+              "width": 1551,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_left_c_1",
+            "offset": {
+              "x": -1220,
+              "y": -581
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_2_left_c",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_2_left",
+        "speed": 1.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/2_close_left_b.png",
+            "localrect": {
+              "height": 581,
+              "width": 1479,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_left_b_1",
+            "offset": {
+              "x": -2546,
+              "y": -581
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_2_left_b",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_2_left",
+        "speed": 1.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/2_close_left.png",
+            "localrect": {
+              "height": 581,
+              "width": 1213,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_left_1",
+            "offset": {
+              "x": -2015,
+              "y": -582
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_2_left_a",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_2_left",
+        "speed": 1.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/1_close_right_c.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1332,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_right_c_1",
+            "offset": {
+              "x": 1858,
+              "y": -580
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_1_right_c",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_1_right",
+        "speed": 1.6
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/1_close_right_b.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1522,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_right_b_1",
+            "offset": {
+              "x": 1750,
+              "y": -582
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_1_right_b",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_1_right",
+        "speed": 1.6
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/1_close_right.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1793,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_right_1",
+            "offset": {
+              "x": 1391,
+              "y": -581
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_1_right_a",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_1_right",
+        "speed": 1.6
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/1_close_left_c.png",
+            "localrect": {
+              "height": 281,
+              "width": 1122,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_left_c_1",
+            "offset": {
+              "x": -1559,
+              "y": 21
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_1_left_c",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_1_left",
+        "speed": 1.6
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/1_close_left_b.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1601,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_left_b_1",
+            "offset": {
+              "x": -1816,
+              "y": -578
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_1_left_b",
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "randomGroup": "layer_1_left",
+        "speed": 1.6
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/camp/cmp_snow/1_close_left.png",
+            "localrect": {
+              "height": 581,
+              "width": 1025,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_left_1",
+            "offset": {
+              "x": -1145,
+              "y": 0
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_1_left_a",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "randomGroup": "layer_1_left",
+        "speed": 1.6
+      }
+    ]
+  },
+  "loadAudio": true,
+  "reverb": "",
+  "soundLibrary": {
+    "sku": "common",
+    "sounds": []
+  },
+  "split_happenings": false
+}

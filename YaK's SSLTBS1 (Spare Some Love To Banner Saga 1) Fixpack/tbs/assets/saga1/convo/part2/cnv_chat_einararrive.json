@@ -1,0 +1,194 @@
+{
+	"data": {
+		"initial": "skipMarkrookMark",
+		"stitches": {
+			"ivershieldItsIve": {
+				"content": [
+					"[iver_shield] It's Iver. Yeah, I remember it.",
+					{
+						"divert": "rookIvershieldWh"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldKrumrI": {
+				"content": [
+					"[iver_shield krumr] In fact, keep them invisible. Jorundr won't be happy you're here.",
+					{
+						"divert": "youreShownToQuar"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"ivershieldKrumrW": {
+				"content": [
+					"[iver_shield krumr] What did they tell you?",
+					{
+						"divert": "krumrByAllAccoun"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrAllTheseWar": {
+				"content": [
+					"[krumr] All these warriors... another great war is upon us.",
+					{
+						"divert": "krumrItIsTheThir"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrByAllAccoun": {
+				"content": [
+					"[krumr] By all accounts the dredge are coming here. Looks like they plan to end the varl for good this time.",
+					{
+						"divert": "krumrThisPlaceWi"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrHeadsUpTheS": {
+				"content": [
+					"/=Krumr heads up the stairs to the great hall, and returns shortly after speaking to some varl.=/",
+					{
+						"divert": "ivershieldKrumrW"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrInAnyCaseWe": {
+				"content": [
+					"[krumr] In any case, we'll be given no audience today. You remember the last time you were here, Yngvar?",
+					{
+						"divert": "ivershieldItsIve"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrItIsTheThir": {
+				"content": [
+					"[krumr] It is the third time I have seen such a thing. There are far fewer of us now than there once were.",
+					{
+						"divert": "krumrHeadsUpTheS"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrTheySayOneO": {
+				"content": [
+					"[krumr] They say one of the menders is here. They didn't know which.",
+					{
+						"divert": "krumrInAnyCaseWe"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "ludindied"
+					}
+				]
+			},
+			"krumrTheySayTheP": {
+				"content": [
+					"[krumr] They say the prince of men is here. They've got a mender, too.",
+					{
+						"divert": "rookKrumrPrinceL"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "ludindied"
+					}
+				]
+			},
+			"krumrThisPlaceWi": {
+				"content": [
+					"[krumr] This place will become a killing field soon.",
+					{
+						"divert": "krumrTheySayTheP"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"krumrWeFindSomew": {
+				"content": [
+					"[krumr] We find somewhere to rest. I'd recommend keeping your people out of trouble while you're here, Rook.",
+					{
+						"divert": "ivershieldKrumrI"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookIvershieldWh": {
+				"content": [
+					"[rook iver_shield] What now?",
+					{
+						"divert": "krumrWeFindSomew"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookKrumrPrinceL": {
+				"content": [
+					"[rook krumr] Prince Ludin is here? From Arberrang?",
+					{
+						"divert": "krumrTheySayOneO"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "ludindied"
+					}
+				]
+			},
+			"skipMarkrookMark": {
+				"content": [
+					"{skip} mark1=rook mark3=iver_shield mark4=krumr",
+					{
+						"linkPath": "krumrAllTheseWar",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"youreShownToQuar": {
+				"content": [
+					"/=You're shown to quarters, but could wander the city while you wait for an audience. You feel like you could sleep for a week straight.=/",
+					{
+						"flagName": "2 einarrest"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "zrgw"
+}

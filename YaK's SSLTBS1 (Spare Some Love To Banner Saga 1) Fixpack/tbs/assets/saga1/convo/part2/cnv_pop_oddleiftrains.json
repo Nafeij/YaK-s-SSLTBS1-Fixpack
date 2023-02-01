@@ -1,0 +1,110 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"convoyAGroupOfMe": {
+				"content": [
+					"[convoy] A group of men from the caravan approach. \"Listen here,\" says one, \"Practice all your want, my wife isn't fighting dredge!\" The other men agree in chorus. \"We don't want to see a battlefield full of dead wives and daughters!\"",
+					{
+						"linkPath": "oddleifToBeHones",
+						"option": "Encourage Oddleif to train even more archers"
+					},
+					{
+						"linkPath": "oddleifTheMenArg",
+						"option": "Stand by the women becoming fighters"
+					},
+					{
+						"linkPath": "convoyYouTryToEx",
+						"option": "\"I'm having second thoughts, Oddleif\""
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyYouTryToEx": {
+				"content": [
+					"[convoy] You try to explain to Oddleif that the men raise a good point, you want the women to stay safe. She argues her side passionately. Eventually she gives up, exasperated, and the women return to camp in frustration.",
+					{
+						"flagName": "morale-5"
+					},
+					{
+						"flagName": "niddied"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"nidOneWomanStill": {
+				"content": [
+					"[nid] One woman still hasn't shot her arrow. She stands perfectly still. The others watch. Just as the winds shift she lets go, and her arrow flies not into one of the trees, but a snow rabbit that had scurried out from underneath. \"Dinner,\" she says, smiling.",
+					{
+						"divert": "convoyAGroupOfMe"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"oddleifOddleifCa": {
+				"content": [
+					"[oddleif] Oddleif calls you over, grinning. A row of women holding bows, of differing age and experience, line up before a row of trees in the distance. They fire, doing an impressive job of hitting the trunks. \"I think they're ready to fill some dredge with feathers.\"",
+					{
+						"divert": "nidOneWomanStill"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"oddleifTheMenArg": {
+				"content": [
+					"[oddleif] The men argue their point but eventually relent. \"Thanks,\" says Oddleif. \"To be honest, it was harder than I expected. But the more people who can hold their own, the better.\" The women return to camp not just as clansmen, but as fighters.",
+					{
+						"flagName": "num_fighters+25"
+					},
+					{
+						"flagName": "morale+10"
+					},
+					{
+						"flagName": "num_peasants-25"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"oddleifToBeHones": {
+				"content": [
+					"[oddleif] \"To be honest,\" says Oddleif. \"this was already harder than I expected. I don't know how many more would really take to it. But the more people who can hold their own, the better.\" The men continue to complain. The women return to camp not just as clansmen, but as fighters.",
+					{
+						"flagName": "num_peasants-25"
+					},
+					{
+						"flagName": "num_fighters+25"
+					},
+					{
+						"flagName": "morale+10"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "oddleifOddleifCa",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "nr84"
+}

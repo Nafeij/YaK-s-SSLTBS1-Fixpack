@@ -1,0 +1,7917 @@
+{
+  "defs": [
+    {
+      "appearance": {
+        "acquire_id": "var_warhawks",
+        "anims": "common/character/warrior/warhawk_v1.anim.json.z",
+        "backPortrait": "common/character/warrior/gunnulf.portrait_back.png",
+        "icon": "common/character/warrior/warhawk_v1.icon.png",
+        "portrait": "common/character/warrior/warhawk_v1.portrait/portrait.clipq",
+        "promotePortrait": "common/character/warrior/warhawk_v1.icon.promotion.png",
+        "sounds": "common/character/warrior/warhawk.sound.json.z",
+        "versusPortrait": "common/character/warrior/warhawk_v1.icon.versus.png",
+        "vfx": "common/character/warrior/warhawk.vfx.json.z"
+      },
+      "appearance_index": 1,
+      "entityClass": "warhawk",
+      "id": "gunnulf",
+      "name_token": "ent_gunnulf",
+      "stat_ranges": [
+        {
+          "max": 18,
+          "min": 15,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 12,
+          "min": 7,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 11,
+          "min": 3,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 2,
+          "min": 0,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 15
+        },
+        {
+          "stat": "ARMOR",
+          "value": 7
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 3
+        },
+        {
+          "stat": "EXERTION",
+          "value": 0
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "KILLS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "warden",
+      "id": "eirik",
+      "name_token": "ent_eirik",
+      "stat_ranges": [
+        {
+          "max": 11,
+          "min": 8,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 11,
+          "min": 9,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 10,
+          "min": 5,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "acquire_id": "var_axemasters",
+        "anims": "common/character/axeman/valgard.anim.json.z",
+        "backPortrait": "common/character/axeman/valgard.portrait_back.png",
+        "backPortraitOffset": -472,
+        "icon": "common/character/axeman/valgard.icon.png",
+        "portrait": "common/character/axeman/valgard.portrait/portrait.clipq",
+        "promotePortrait": "common/character/axeman/valgard.icon.promotion.png",
+        "sounds": "common/character/axeman/axemaster.sound.json.z",
+        "unlock_id": "var_axemasters",
+        "versusPortrait": "common/character/axeman/valgard.icon.versus.png",
+        "vfx": "common/character/axeman/axemaster.vfx.json.z"
+      },
+      "appearance_index": 2,
+      "entityClass": "axemaster",
+      "id": "valgard",
+      "name_token": "ent_valgard",
+      "saves": false,
+      "stat_ranges": [
+        {
+          "max": 12,
+          "min": 10,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 12,
+          "min": 12,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 11,
+          "min": 6,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 12
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "KILLS",
+          "value": 10
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "warmaster",
+      "id": "vognir",
+      "name_token": "ent_vognir",
+      "stat_ranges": [
+        {
+          "max": 17,
+          "min": 12,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 11,
+          "min": 9,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 10,
+          "min": 5,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 4,
+      "entityClass": "warmaster",
+      "id": "hakon",
+      "name_token": "ent_hakon",
+      "stat_ranges": [
+        {
+          "max": 18,
+          "min": 14,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 12,
+          "min": 9,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 8,
+          "min": 4,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 14
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/shieldbanger/mogr.anim.json.z",
+        "backPortrait": "common/character/shieldbanger/mogr.portrait_back.png",
+        "icon": "common/character/shieldbanger/mogr.icon.png",
+        "portrait": "common/character/shieldbanger/mogr.portrait/portrait.clipq",
+        "promotePortrait": "common/character/shieldbanger/shieldmaster_v0.icon.promotion.png",
+        "sounds": "common/character/shieldbanger/shieldmaster.sound.json.z",
+        "versusPortrait": "common/character/shieldbanger/mogr.icon.versus.png",
+        "vfx": "common/character/shieldbanger/shieldmaster.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "shieldmaster",
+      "id": "mogr",
+      "name_token": "ent_mogr",
+      "stat_ranges": [
+        {
+          "max": 14,
+          "min": 10,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 18,
+          "min": 14,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 9,
+          "min": 4,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 4,
+          "min": 2,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 14
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "spearmaster",
+      "id": "ludin",
+      "name_token": "ent_ludin",
+      "stat_ranges": [
+        {
+          "max": 12,
+          "min": 10,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 12,
+          "min": 8,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 10,
+          "min": 5,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGEMOD_MELEE"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 2
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "RANGEMOD_MELEE",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "siegearcher",
+      "id": "yrsa",
+      "name_token": "ent_yrsa",
+      "stat_ranges": [
+        {
+          "max": 7,
+          "min": 6,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 10,
+          "min": 6,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 13,
+          "min": 6,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 5,
+          "min": 5,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 6
+        },
+        {
+          "stat": "ARMOR",
+          "value": 6
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 5
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "KILLS",
+          "value": 0
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/warrior/bersi.anim.json.z",
+        "backPortrait": "common/character/warrior/bersi.portrait_back.png",
+        "icon": "common/character/warrior/bersi.icon.png",
+        "portrait": "common/character/warrior/bersi.portrait/portrait.clipq",
+        "promotePortrait": "common/character/warrior/warhawk_v0.icon.promotion.png",
+        "sounds": "common/character/warrior/warhawk.sound.json.z",
+        "versusPortrait": "common/character/warrior/bersi.icon.versus.png",
+        "vfx": "common/character/warrior/warhawk.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "warhawk",
+      "id": "bersi",
+      "name_token": "ent_bersi",
+      "stat_ranges": [
+        {
+          "max": 16,
+          "min": 12,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 12,
+          "min": 9,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 11,
+          "min": 4,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "strongarm",
+      "id": "griss",
+      "name_token": "ent_griss",
+      "stat_ranges": [
+        {
+          "max": 15,
+          "min": 12,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 15,
+          "min": 12,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 10,
+          "min": 4,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 4,
+          "min": 2,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 4,
+          "min": 2,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 12
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 2
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "provoker",
+      "id": "fasolt",
+      "name_token": "ent_fasolt",
+      "stat_ranges": [
+        {
+          "max": 13,
+          "min": 10,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 19,
+          "min": 15,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 9,
+          "min": 4,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 15
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/mender/eyvind.anim.json.z",
+        "backPortrait": "common/character/mender/eyvind.portrait_back.png",
+        "backPortraitOffset": -200,
+        "icon": "common/character/mender/eyvind.icon.png",
+        "portrait": "common/character/mender/eyvind.portrait/portrait.clipq",
+        "promotePortrait": "",
+        "sounds": "common/character/mender/mender_male.sound.json.z",
+        "versusPortrait": "common/character/mender/eyvind.icon.versus.png",
+        "vfx": "common/character/mender/mender_male.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "mender_male",
+      "id": "eyvind",
+      "name_token": "ent_eyvind",
+      "stat_ranges": [
+        {
+          "max": 9,
+          "min": 7,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 9,
+          "min": 6,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 12,
+          "min": 8,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 6,
+          "stat": "RANK"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 8,
+          "min": 8,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 7
+        },
+        {
+          "stat": "ARMOR",
+          "value": 6
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 8
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 3
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 6
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 8
+        },
+        {
+          "stat": "KILLS",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/landsman/hunter_v0.anim.json.z",
+        "backPortrait": "common/character/landsman/rook.portrait_back.png",
+        "backPortraitOffset": -200,
+        "icon": "common/character/landsman/rook.icon.png",
+        "portrait": "common/character/landsman/rook.portrait/portrait.clipq",
+        "promotePortrait": "common/character/landsman/hunter_v0.icon.promotion.png",
+        "sounds": "common/character/landsman/hunter.sound.json.z",
+        "versusPortrait": "common/character/landsman/hunter_v0.icon.versus.png",
+        "vfx": "common/character/landsman/landsman.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "hunter",
+      "id": "rook",
+      "name_token": "ent_rook",
+      "stat_ranges": [
+        {
+          "max": 12,
+          "min": 10,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 11,
+          "min": 8,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 8,
+          "min": 4,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "eagleeye",
+      "id": "alette",
+      "name_token": "ent_alette",
+      "stat_ranges": [
+        {
+          "max": 10,
+          "min": 7,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 9,
+          "min": 7,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 12,
+          "min": 6,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 5,
+          "min": 5,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 7
+        },
+        {
+          "stat": "ARMOR",
+          "value": 7
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 5
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "eagleeye",
+      "id": "alette_hood",
+      "name_token": "ent_alette_hood",
+      "stat_ranges": [
+        {
+          "max": 10,
+          "min": 7,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 9,
+          "min": 7,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 12,
+          "min": 6,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 5,
+          "min": 5,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 7
+        },
+        {
+          "stat": "ARMOR",
+          "value": 7
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 5
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/shieldbanger/iver_shield.anim.json.z",
+        "backPortrait": "common/character/shieldbanger/iver_shield.portrait_back.png",
+        "icon": "common/character/shieldbanger/iver_shield.icon.png",
+        "portrait": "common/character/shieldbanger/iver_shield.portrait/portrait.clipq",
+        "promotePortrait": "common/character/shieldbanger/strongarm_v0.icon.promotion.png",
+        "sounds": "common/character/shieldbanger/strongarm.sound.json.z",
+        "versusPortrait": "common/character/shieldbanger/iver_shield.icon.versus.png",
+        "vfx": "common/character/shieldbanger/strongarm.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "strongarm",
+      "id": "iver_shield",
+      "name_token": "ent_iver_shield",
+      "stat_ranges": [
+        {
+          "max": 15,
+          "min": 12,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 17,
+          "min": 14,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 10,
+          "min": 4,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 4,
+          "min": 2,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 14
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/shieldbanger/iver_armloss.anim.json.z",
+        "backPortrait": "common/character/shieldbanger/iver_shield.portrait_back.png",
+        "icon": "common/character/shieldbanger/iver_shield.icon.png",
+        "portrait": "common/character/shieldbanger/iver_shield.portrait/portrait.clipq",
+        "promotePortrait": "common/character/shieldbanger/strongarm_v0.icon.promotion.png",
+        "sounds": "common/character/shieldbanger/strongarm.sound.json.z",
+        "versusPortrait": "common/character/shieldbanger/iver_shield.icon.versus.png",
+        "vfx": "common/character/shieldbanger/strongarm.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "strongarm",
+      "id": "iver_armloss",
+      "name_token": "ent_iver_armloss",
+      "stat_ranges": [
+        {
+          "max": 15,
+          "min": 12,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 17,
+          "min": 14,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 10,
+          "min": 4,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 4,
+          "min": 2,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 14
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/warrior/iver_war.anim.json.z",
+        "backPortrait": "common/character/warrior/iver.portrait_back.png",
+        "icon": "common/character/warrior/iver.icon.png",
+        "portrait": "common/character/warrior/iver.portrait/portrait.clipq",
+        "promotePortrait": "common/character/shieldbanger/strongarm_v0.icon.promotion.png",
+        "sounds": "common/character/warrior/wardog.sound.json.z",
+        "versusPortrait": "common/character/warrior/iver.icon.versus.png",
+        "vfx": "common/character/shieldbanger/strongarm.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "iver",
+      "id": "iver",
+      "name_token": "ent_iver",
+      "stat_ranges": [
+        {
+          "max": 17,
+          "min": 12,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 16,
+          "min": 12,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 10,
+          "min": 8,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 12
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 8
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/axeman/egil.anim.json.z",
+        "backPortrait": "common/character/axeman/egil.portrait_back.png",
+        "backPortraitOffset": -200,
+        "icon": "common/character/axeman/egil.icon.png",
+        "portrait": "common/character/axeman/egil.portrait/portrait.clipq",
+        "promotePortrait": "common/character/axeman/axemaster_v0.icon.promotion.png",
+        "sounds": "common/character/axeman/axemaster.sound.json.z",
+        "versusPortrait": "common/character/axeman/egil.icon.versus.png",
+        "vfx": "common/character/axeman/axemaster.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "axemaster",
+      "id": "egil",
+      "name_token": "ent_egil",
+      "stat_ranges": [
+        {
+          "max": 12,
+          "min": 9,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 16,
+          "min": 10,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 11,
+          "min": 5,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 10
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "spearmaster",
+      "id": "tryggvi",
+      "name_token": "ent_tryggvi",
+      "stat_ranges": [
+        {
+          "max": 12,
+          "min": 10,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 12,
+          "min": 8,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 10,
+          "min": 5,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGEMOD_MELEE"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 2
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "RANGEMOD_MELEE",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "skystriker",
+      "id": "oddleif",
+      "name_token": "ent_oddleif",
+      "stat_ranges": [
+        {
+          "max": 9,
+          "min": 7,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 9,
+          "min": 8,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 13,
+          "min": 5,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 5,
+          "min": 5,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 7
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 5
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 4,
+      "entityClass": "thrasher",
+      "id": "hogun",
+      "name_token": "ent_hogun",
+      "stat_ranges": [
+        {
+          "max": 11,
+          "min": 8,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 12,
+          "min": 10,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 13,
+          "min": 5,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 10
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 5,
+      "entityClass": "thrasher",
+      "id": "mogun",
+      "name_token": "ent_mogun",
+      "stat_ranges": [
+        {
+          "max": 12,
+          "min": 10,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 11,
+          "min": 8,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 13,
+          "min": 5,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "acquire_id": "var_backbiters",
+        "anims": "common/character/axeman/backbiter_v2.anim.json.z",
+        "backPortrait": "common/character/axeman/onef.portrait_back.png",
+        "backPortraitOffset": -200,
+        "icon": "common/character/axeman/backbiter_v2.icon.png",
+        "portrait": "common/character/axeman/backbiter_v2.portrait/portrait.clipq",
+        "promotePortrait": "common/character/axeman/backbiter_v2.icon.promotion.png",
+        "sounds": "common/character/axeman/backbiter.sound.json.z",
+        "unlock_id": "var_backbiters",
+        "versusPortrait": "common/character/axeman/backbiter_v2.icon.versus.png",
+        "vfx": "common/character/axeman/backbiter.vfx.json.z"
+      },
+      "appearance_index": 2,
+      "entityClass": "backbiter",
+      "id": "onef",
+      "name_token": "ent_onef",
+      "stat_ranges": [
+        {
+          "max": 10,
+          "min": 9,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 12,
+          "min": 9,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 13,
+          "min": 6,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "grudgewielder",
+      "id": "ekkill",
+      "name_token": "ent_ekkill",
+      "stat_ranges": [
+        {
+          "max": 12,
+          "min": 11,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 14,
+          "min": 10,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 13,
+          "min": 5,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 11
+        },
+        {
+          "stat": "ARMOR",
+          "value": 10
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "warleader",
+      "id": "krumr",
+      "name_token": "ent_krumr",
+      "stat_ranges": [
+        {
+          "max": 17,
+          "min": 13,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 13,
+          "min": 11,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 9,
+          "min": 4,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 4,
+          "min": 2,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 2,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 0,
+          "min": 0,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 13
+        },
+        {
+          "stat": "ARMOR",
+          "value": 11
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 0
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "bowmaster",
+      "id": "nid",
+      "name_token": "ent_nid",
+      "stat_ranges": [
+        {
+          "max": 10,
+          "min": 7,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 8,
+          "min": 6,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 12,
+          "min": 7,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 2,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 1,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 5,
+          "min": 5,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 3,
+          "stat": "RANK"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 7
+        },
+        {
+          "stat": "ARMOR",
+          "value": 6
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 7
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 5
+        },
+        {
+          "stat": "RANK",
+          "value": 3
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 2
+        },
+        {
+          "stat": "KILLS",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "warhawk",
+      "id": "sigbjorn",
+      "name_token": "ent_sigbjorn",
+      "stat_ranges": [
+        {
+          "max": 16,
+          "min": 14,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 12,
+          "min": 10,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 11,
+          "min": 4,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 2,
+          "min": 2,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "ABILITY_0"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 1,
+          "min": 1,
+          "stat": "RANGE"
+        },
+        {
+          "max": 6,
+          "min": 6,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 8,
+          "min": 8,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 14
+        },
+        {
+          "stat": "ARMOR",
+          "value": 10
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 8
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 3
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 6
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 4
+        },
+        {
+          "stat": "KILLS",
+          "value": 14
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "berserk",
+      "id": "bolverk",
+      "name_token": "ent_bolverk",
+      "stat_ranges": [
+        {
+          "max": 13,
+          "min": 10,
+          "stat": "STRENGTH"
+        },
+        {
+          "max": 14,
+          "min": 11,
+          "stat": "ARMOR"
+        },
+        {
+          "max": 10,
+          "min": 3,
+          "stat": "WILLPOWER"
+        },
+        {
+          "max": 3,
+          "min": 2,
+          "stat": "EXERTION"
+        },
+        {
+          "max": 4,
+          "min": 1,
+          "stat": "ARMOR_BREAK"
+        },
+        {
+          "max": 4,
+          "min": 4,
+          "stat": "MOVEMENT"
+        },
+        {
+          "max": 6,
+          "min": 6,
+          "stat": "RANK"
+        },
+        {
+          "max": 3,
+          "min": 3,
+          "stat": "INJURY_DAYS"
+        },
+        {
+          "max": 8,
+          "min": 8,
+          "stat": "BASE_UPGRADES"
+        }
+      ],
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 11
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 3
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 6
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 8
+        },
+        {
+          "stat": "KILLS",
+          "value": 10
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "shieldbanger",
+      "id": "shieldbanger_tut",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "ARMOR",
+          "value": 11
+        },
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        },
+        {
+          "stat": "KILLS",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "warhawk",
+      "id": "warhawk_tut",
+      "name_token": "ent_warhawk_tut",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 13
+        },
+        {
+          "stat": "ARMOR",
+          "value": 7
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 3
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        },
+        {
+          "stat": "KILLS",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/axeman/axeman.anim.json.z",
+        "backPortrait": "common/character/npc/peasant_male1.portrait_back.png",
+        "icon": "common/character/npc/peasant_male1.icon.png",
+        "portrait": "common/character/npc/peasant_male1.portrait/portrait.clipq",
+        "promotePortrait": "common/character/axeman/axeman.icon.promotion.png",
+        "sounds": "common/character/axeman/axeman.sound.json.z",
+        "versusPortrait": "common/character/axeman/axeman.icon.versus.png",
+        "vfx": "common/character/axeman/axeman.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "axeman",
+      "id": "peasant_male1",
+      "name_token": "ent_peasant_male1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/axeman/axeman.anim.json.z",
+        "backPortrait": "common/character/npc/peasant_male2.portrait_back.png",
+        "icon": "common/character/npc/peasant_male2.icon.png",
+        "portrait": "common/character/npc/peasant_male2.portrait/portrait.clipq",
+        "promotePortrait": "common/character/axeman/axeman.icon.promotion.png",
+        "sounds": "common/character/axeman/axeman.sound.json.z",
+        "versusPortrait": "common/character/axeman/axeman.icon.versus.png",
+        "vfx": "common/character/axeman/axeman.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "axeman",
+      "id": "peasant_male2",
+      "name_token": "ent_peasant_male2",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/axeman/axeman.anim.json.z",
+        "backPortrait": "common/character/npc/peasant_male3.portrait_back.png",
+        "icon": "common/character/npc/peasant_male3.icon.png",
+        "portrait": "common/character/npc/peasant_male3.portrait/portrait.clipq",
+        "promotePortrait": "common/character/axeman/axeman.icon.promotion.png",
+        "sounds": "common/character/axeman/axeman.sound.json.z",
+        "versusPortrait": "common/character/axeman/axeman.icon.versus.png",
+        "vfx": "common/character/axeman/axeman.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "axeman",
+      "id": "peasant_male3",
+      "name_token": "ent_peasant_male3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/axeman/axeman.anim.json.z",
+        "backPortrait": "saga1/character/npc/skogr_chieftain.portrait_back.png",
+        "icon": "saga1/character/npc/skogr_chieftain.icon.png",
+        "portrait": "saga1/character/npc/skogr_chieftain.portrait/portrait.clipq",
+        "promotePortrait": "common/character/axeman/axeman.icon.promotion.png",
+        "sounds": "common/character/axeman/axeman.sound.json.z",
+        "versusPortrait": "common/character/axeman/axeman.icon.versus.png",
+        "vfx": "common/character/axeman/axeman.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "axeman",
+      "id": "skogr_chieftain",
+      "name_token": "ent_skogr_chieftain",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "actives": [
+        {
+          "enabled": false,
+          "id": "abl_dredge_tremble",
+          "level": 0
+        }
+      ],
+      "appearance_index": 2,
+      "entityClass": "dredge_scourge",
+      "id": "dredge_scourge_tutorial_vedrfell",
+      "name_token": "ent_dredge_scourge_tutorial_vedrfell",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 16
+        },
+        {
+          "stat": "ARMOR",
+          "value": 15
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 3
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "dredge_scourge",
+      "id": "dredge_scourge_tutorial_rook",
+      "name_token": "ent_dredge_scourge_tutorial_rook",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 0
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_grunt",
+      "id": "dredge_grunt_a",
+      "name_token": "ent_dredge_grunt_a",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 1
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_bellower",
+      "id": "dredge_bellower_a1",
+      "name_token": "ent_dredge_bellower_a1",
+      "passives": [
+        {
+          "id": "pas_dredge_indomitable",
+          "level": 1
+        }
+      ],
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 17
+        },
+        {
+          "stat": "ARMOR",
+          "value": 17
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "KILL_STOP",
+          "value": 5
+        },
+        {
+          "stat": "IMMORTAL",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_bellower",
+      "id": "dredge_bellower_a2",
+      "name_token": "ent_dredge_bellower_a2",
+      "passives": [
+        {
+          "id": "pas_dredge_indomitable",
+          "level": 2
+        }
+      ],
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 20
+        },
+        {
+          "stat": "ARMOR",
+          "value": 20
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 4
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "KILL_STOP",
+          "value": 5
+        },
+        {
+          "stat": "IMMORTAL",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_bellower",
+      "id": "dredge_bellower_a3",
+      "name_token": "ent_dredge_bellower_a3",
+      "passives": [
+        {
+          "id": "pas_dredge_indomitable",
+          "level": 3
+        }
+      ],
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 19
+        },
+        {
+          "stat": "ARMOR",
+          "value": 19
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 4
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "KILL_STOP",
+          "value": 5
+        },
+        {
+          "stat": "IMMORTAL",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_bellower",
+      "id": "dredge_bellower_b1",
+      "name_token": "ent_dredge_bellower_b1",
+      "passives": [
+        {
+          "id": "pas_dredge_indomitable",
+          "level": 0
+        },
+        {
+          "id": "pas_dredge_enraged",
+          "level": 1
+        }
+      ],
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 16
+        },
+        {
+          "stat": "ARMOR",
+          "value": 16
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 11
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_bellower",
+      "id": "dredge_bellower_b2",
+      "name_token": "ent_dredge_bellower_b2",
+      "passives": [
+        {
+          "id": "pas_dredge_indomitable",
+          "level": 0
+        },
+        {
+          "id": "pas_dredge_enraged",
+          "level": 1
+        }
+      ],
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 18
+        },
+        {
+          "stat": "ARMOR",
+          "value": 18
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 4
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 11
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_bellower",
+      "id": "dredge_bellower_b3",
+      "name_token": "ent_dredge_bellower_b3",
+      "passives": [
+        {
+          "id": "pas_dredge_indomitable",
+          "level": 0
+        },
+        {
+          "id": "pas_dredge_enraged",
+          "level": 1
+        }
+      ],
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 19
+        },
+        {
+          "stat": "ARMOR",
+          "value": 19
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 4
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 11
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_stonesinger",
+      "id": "dredge_stonesinger_a",
+      "name_token": "ent_dredge_stonesinger_a",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 13
+        },
+        {
+          "stat": "ARMOR",
+          "value": 10
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 8
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 2
+        },
+        {
+          "stat": "RANGE",
+          "value": 2
+        },
+        {
+          "stat": "RANGEMOD_MELEE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "dredge_grunt",
+      "id": "dredge_grunt_b",
+      "name_token": "ent_dredge_grunt_b",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 1
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "dredge_grunt",
+      "id": "dredge_grunt_c",
+      "name_token": "ent_dredge_grunt_c",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 1
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "dredge_grunt",
+      "id": "dredge_grunt_2",
+      "name_token": "ent_dredge_grunt_2",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 2
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "dredge_grunt",
+      "id": "dredge_grunt_3",
+      "name_token": "ent_dredge_grunt_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 11
+        },
+        {
+          "stat": "ARMOR",
+          "value": 10
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 3
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_scourge",
+      "id": "dredge_scourge_1",
+      "name_token": "ent_dredge_scourge_1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 15
+        },
+        {
+          "stat": "ARMOR",
+          "value": 10
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 2
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "dredge_scourge",
+      "id": "dredge_scourge_2",
+      "name_token": "ent_dredge_scourge_2",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 18
+        },
+        {
+          "stat": "ARMOR",
+          "value": 12
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 2
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "dredge_scourge",
+      "id": "dredge_scourge_3",
+      "name_token": "ent_dredge_scourge_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 22
+        },
+        {
+          "stat": "ARMOR",
+          "value": 13
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 3
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 3
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_stoneguard",
+      "id": "dredge_stoneguard_1",
+      "name_token": "ent_dredge_stoneguard_1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 11
+        },
+        {
+          "stat": "ARMOR",
+          "value": 16
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 2
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "dredge_stoneguard",
+      "id": "dredge_stoneguard_2",
+      "name_token": "ent_dredge_stoneguard_2",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 11
+        },
+        {
+          "stat": "ARMOR",
+          "value": 19
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 2
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "dredge_stoneguard",
+      "id": "dredge_stoneguard_3",
+      "name_token": "ent_dredge_stoneguard_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 13
+        },
+        {
+          "stat": "ARMOR",
+          "value": 21
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 3
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 4
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 3
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_slag_slinger",
+      "id": "dredge_slag_slinger_a",
+      "name_token": "ent_dredge_slag_slinger_a",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 1
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "dredge_slag_slinger",
+      "id": "dredge_slag_slinger_b",
+      "name_token": "ent_dredge_slag_slinger_b",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 1
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "dredge_slag_slinger",
+      "id": "dredge_slag_slinger_c",
+      "name_token": "ent_dredge_slag_slinger_c",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 1
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "dredge_slag_slinger",
+      "id": "dredge_slag_slinger_2",
+      "name_token": "ent_dredge_slag_slinger_2",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 2
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "dredge_slag_slinger",
+      "id": "dredge_slag_slinger_3",
+      "name_token": "ent_dredge_slag_slinger_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 3
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_fire_slinger",
+      "id": "dredge_fire_slinger_1",
+      "name_token": "ent_dredge_fire_slinger_1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "dredge_fire_slinger",
+      "id": "dredge_fire_slinger_2",
+      "name_token": "ent_dredge_fire_slinger_2",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "dredge_fire_slinger",
+      "id": "dredge_fire_slinger_3",
+      "name_token": "ent_dredge_fire_slinger_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "dredge_sun_slinger",
+      "id": "dredge_sun_slinger_1",
+      "name_token": "ent_dredge_sun_slinger_1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "dredge_sun_slinger",
+      "id": "dredge_sun_slinger_2",
+      "name_token": "ent_dredge_sun_slinger_2",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "dredge_sun_slinger",
+      "id": "dredge_sun_slinger_3",
+      "name_token": "ent_dredge_sun_slinger_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "thrasher",
+      "id": "thug_thrasher",
+      "name_token": "ent_thug_thrasher",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 5
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 3
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/axeman/tutorial_raider.anim.json.z",
+        "backPortrait": "",
+        "icon": "common/character/axeman/tutorial_raider.icon.png",
+        "portrait": "common/character/axeman/axeman.portrait/portrait.clipq",
+        "promotePortrait": "common/character/axeman/axeman.icon.promotion.png",
+        "sounds": "common/character/axeman/axeman.sound.json.z",
+        "versusPortrait": "common/character/axeman/axeman.icon.versus.png",
+        "vfx": "common/character/axeman/axeman.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "axeman",
+      "id": "thug_raider_a",
+      "name_token": "ent_thug_raider_a",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 6
+        },
+        {
+          "stat": "ARMOR",
+          "value": 6
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/axeman/tutorial_raider.anim.json.z",
+        "backPortrait": "",
+        "icon": "common/character/axeman/tutorial_raider.icon.png",
+        "portrait": "common/character/axeman/axeman.portrait/portrait.clipq",
+        "promotePortrait": "common/character/axeman/axeman.icon.promotion.png",
+        "sounds": "common/character/axeman/axeman.sound.json.z",
+        "versusPortrait": "common/character/axeman/axeman.icon.versus.png",
+        "vfx": "common/character/axeman/axeman.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "axeman",
+      "id": "thug_raider_b",
+      "name_token": "ent_thug_raider_b",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 6
+        },
+        {
+          "stat": "ARMOR",
+          "value": 6
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "backbiter",
+      "id": "thug_backbiter",
+      "name_token": "ent_thug_backbiter",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 5
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "axeman",
+      "id": "fighter_raider_a",
+      "name_token": "ent_fighter_raider_a",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 7
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "axeman",
+      "id": "fighter_raider_b",
+      "name_token": "ent_fighter_raider_b",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "axeman",
+      "id": "fighter_raider_c",
+      "name_token": "ent_fighter_raider_c",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "archer",
+      "id": "fighter_archer_a",
+      "name_token": "ent_fighter_archer_a",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 7
+        },
+        {
+          "stat": "ARMOR",
+          "value": 6
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 5
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "archer",
+      "id": "fighter_archer_b",
+      "name_token": "ent_fighter_archer_b",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 6
+        },
+        {
+          "stat": "ARMOR",
+          "value": 7
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 5
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "thrasher",
+      "id": "fighter_thrasher_1",
+      "name_token": "ent_fighter_thrasher_1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 11
+        },
+        {
+          "stat": "ARMOR",
+          "value": 10
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "thrasher",
+      "id": "fighter_thrasher_2",
+      "name_token": "ent_fighter_thrasher_2",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 11
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "thrasher",
+      "id": "fighter_thrasher_3",
+      "name_token": "ent_fighter_thrasher_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 11
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 8
+        },
+        {
+          "stat": "EXERTION",
+          "value": 3
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 2
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 3
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "backbiter",
+      "id": "fighter_backbiter_1",
+      "name_token": "ent_fighter_backbiter_1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 11
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "backbiter",
+      "id": "fighter_backbiter_2",
+      "name_token": "ent_fighter_backbiter_2",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 10
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "backbiter",
+      "id": "fighter_backbiter_3",
+      "name_token": "ent_fighter_backbiter_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 12
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 8
+        },
+        {
+          "stat": "EXERTION",
+          "value": 3
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 2
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 3
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "bowmaster",
+      "id": "fighter_bowmaster_1",
+      "name_token": "ent_fighter_bowmaster_1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 6
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 7
+        },
+        {
+          "stat": "EXERTION",
+          "value": 3
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 5
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "bowmaster",
+      "id": "fighter_bowmaster_2",
+      "name_token": "ent_fighter_bowmaster_2",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 7
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 7
+        },
+        {
+          "stat": "EXERTION",
+          "value": 3
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 5
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "bowmaster",
+      "id": "fighter_bowmaster_3",
+      "name_token": "ent_fighter_bowmaster_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 8
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 10
+        },
+        {
+          "stat": "EXERTION",
+          "value": 3
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 2
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 5
+        },
+        {
+          "stat": "RANK",
+          "value": 3
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "axemaster",
+      "id": "fighter_raidmaster_1",
+      "name_token": "ent_fighter_raidmaster_1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 7
+        },
+        {
+          "stat": "ARMOR",
+          "value": 12
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 3
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "axemaster",
+      "id": "fighter_raidmaster_2",
+      "name_token": "ent_fighter_raidmaster_2",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 9
+        },
+        {
+          "stat": "ARMOR",
+          "value": 11
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "axemaster",
+      "id": "fighter_raidmaster_3",
+      "name_token": "ent_fighter_raidmaster_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 12
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 3
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 2
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 3
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 2
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "shieldbanger",
+      "id": "varl_shieldbanger_a",
+      "name_token": "ent_varl_shieldbanger_a",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 12
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 3
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "shieldbanger",
+      "id": "varl_shieldbanger_b",
+      "name_token": "ent_varl_shieldbanger_b",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 13
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "warrior",
+      "id": "varl_warrior_a",
+      "name_token": "ent_varl_warrior_a",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 11
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "warrior",
+      "id": "varl_warrior_b",
+      "name_token": "ent_varl_warrior_b",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "warrior",
+      "id": "varl_warrior_3",
+      "name_token": "ent_varl_warrior_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 1
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "warhawk",
+      "id": "varl_warhawk_1",
+      "name_token": "ent_varl_warhawk_1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 14
+        },
+        {
+          "stat": "ARMOR",
+          "value": 10
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "warhawk",
+      "id": "varl_warhawk_3",
+      "name_token": "ent_varl_warhawk_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 16
+        },
+        {
+          "stat": "ARMOR",
+          "value": 12
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 8
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 2
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 3
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "warmaster",
+      "id": "varl_warmaster_1",
+      "name_token": "ent_varl_warmaster_1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 16
+        },
+        {
+          "stat": "ARMOR",
+          "value": 10
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 1,
+      "entityClass": "warmaster",
+      "id": "varl_warmaster_3",
+      "name_token": "ent_varl_warmaster_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 17
+        },
+        {
+          "stat": "ARMOR",
+          "value": 11
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 10
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 3
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 2
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 3
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "shieldmaster",
+      "id": "varl_shieldmaster_1",
+      "name_token": "ent_varl_shieldmaster_1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 11
+        },
+        {
+          "stat": "ARMOR",
+          "value": 15
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 4
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "shieldmaster",
+      "id": "varl_shieldmaster_3",
+      "name_token": "ent_varl_shieldmaster_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 13
+        },
+        {
+          "stat": "ARMOR",
+          "value": 16
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 4
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 2
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 3
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "appearance_index": 0,
+      "entityClass": "strongarm",
+      "id": "varl_strongarm_1",
+      "name_token": "ent_varl_strongarm_1",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 13
+        },
+        {
+          "stat": "ARMOR",
+          "value": 14
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 2
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance_index": 2,
+      "entityClass": "strongarm",
+      "id": "varl_strongarm_3",
+      "name_token": "ent_varl_strongarm_3",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 15
+        },
+        {
+          "stat": "ARMOR",
+          "value": 15
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 6
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 2
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 3
+        },
+        {
+          "stat": "RANGE",
+          "value": 2
+        },
+        {
+          "stat": "RANK",
+          "value": 3
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 3
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/landsman/hunter_v0.anim.json.z",
+        "backPortrait": "common/character/serpent/serpent.portrait_back.png",
+        "backPortraitOffset": -200,
+        "icon": "common/character/serpent/serpent.icon.png",
+        "portrait": "common/character/serpent/serpent.portrait/portrait.clipq",
+        "promotePortrait": "common/character/landsman/hunter_v0.icon.promotion.png",
+        "sounds": "common/character/landsman/hunter.sound.json.z",
+        "versusPortrait": "common/character/landsman/hunter_v0.icon.versus.png",
+        "vfx": "common/character/landsman/landsman.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "entityClass": "hunter",
+      "id": "serpent",
+      "name_token": "ent_serpent",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 10
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/axeman/axeman.anim.json.z",
+        "backPortrait": "common/character/mender/juno.portrait_back.png",
+        "icon": "common/character/mender/juno.icon.png",
+        "portrait": "common/character/mender/juno.portrait/portrait.clipq",
+        "promotePortrait": "common/character/axeman/axeman.icon.promotion.png",
+        "sounds": "common/character/axeman/axeman.sound.json.z",
+        "versusPortrait": "common/character/axeman/axeman.icon.versus.png",
+        "vfx": "common/character/axeman/axeman.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "combatant": false,
+      "entityClass": "juno",
+      "id": "juno",
+      "name_token": "ent_juno",
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 7
+        },
+        {
+          "stat": "ARMOR",
+          "value": 8
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 4
+        },
+        {
+          "stat": "EXERTION",
+          "value": 1
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 1
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 0
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/warrior/warleader_v1.anim.json.z",
+        "backPortrait": "common/character/npc/narrator.portrait_back.png",
+        "icon": "common/character/npc/narrator.icon.png",
+        "portrait": "common/character/npc/narrator.portrait/portrait.clipq",
+        "promotePortrait": "common/character/warrior/warrior.icon.promotion.png",
+        "sounds": "common/character/warrior/warrior.sound.json.z",
+        "versusPortrait": "common/character/warrior/warrior.icon.versus.png",
+        "vfx": "common/character/warrior/warrior.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "combatant": false,
+      "entityClass": "scrivener",
+      "id": "narrator",
+      "name_token": "ent_narrator",
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/warrior/warleader_v1.anim.json.z",
+        "backPortrait": "common/character/npc/jorundr.portrait_back.png",
+        "icon": "common/character/npc/jorundr.icon.png",
+        "portrait": "common/character/npc/jorundr.portrait/portrait.clipq",
+        "promotePortrait": "common/character/warrior/warrior.icon.promotion.png",
+        "sounds": "common/character/warrior/warrior.sound.json.z",
+        "versusPortrait": "common/character/warrior/warrior.icon.versus.png",
+        "vfx": "common/character/warrior/warrior.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "combatant": false,
+      "entityClass": "scrivener",
+      "id": "jorundr",
+      "name_token": "ent_jorundr",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/warrior/warleader_v1.anim.json.z",
+        "backPortrait": "common/character/npc/narrator.portrait_back.png",
+        "icon": "common/caravan/caravan.icon.png",
+        "portrait": "common/character/npc/narrator.portrait/portrait.clipq",
+        "promotePortrait": "common/character/warrior/warrior.icon.promotion.png",
+        "sounds": "common/character/warrior/warrior.sound.json.z",
+        "versusPortrait": "common/character/warrior/warrior.icon.versus.png",
+        "vfx": "common/character/warrior/warrior.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "combatant": false,
+      "entityClass": "scrivener",
+      "id": "convoy",
+      "name_token": "ent_convoy",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    },
+    {
+      "appearance": {
+        "anims": "common/character/warrior/warleader_v1.anim.json.z",
+        "backPortrait": "common/character/npc/narrator.portrait_back.png",
+        "icon": "saga1/convo/war/war.icon.png",
+        "portrait": "common/character/npc/narrator.portrait/portrait.clipq",
+        "promotePortrait": "common/character/warrior/warrior.icon.promotion.png",
+        "sounds": "common/character/warrior/warrior.sound.json.z",
+        "versusPortrait": "common/character/warrior/warrior.icon.versus.png",
+        "vfx": "common/character/warrior/warrior.vfx.json.z"
+      },
+      "appearance_index": 0,
+      "combatant": false,
+      "entityClass": "scrivener",
+      "id": "waricon",
+      "name_token": "ent_waricon",
+      "saves": false,
+      "stats": [
+        {
+          "stat": "STRENGTH",
+          "value": 12
+        },
+        {
+          "stat": "ARMOR",
+          "value": 9
+        },
+        {
+          "stat": "WILLPOWER",
+          "value": 5
+        },
+        {
+          "stat": "EXERTION",
+          "value": 2
+        },
+        {
+          "stat": "ARMOR_BREAK",
+          "value": 2
+        },
+        {
+          "stat": "ABILITY_0",
+          "value": 1
+        },
+        {
+          "stat": "MOVEMENT",
+          "value": 4
+        },
+        {
+          "stat": "RANGE",
+          "value": 1
+        },
+        {
+          "stat": "RANK",
+          "value": 2
+        },
+        {
+          "stat": "INJURY",
+          "value": 0
+        },
+        {
+          "stat": "INJURY_DAYS",
+          "value": 1
+        },
+        {
+          "stat": "BASE_UPGRADES",
+          "value": 9
+        }
+      ]
+    }
+  ]
+}

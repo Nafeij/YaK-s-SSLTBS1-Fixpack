@@ -1,0 +1,81 @@
+{
+	"data": {
+		"initial": "mogrTheCaravanSt",
+		"stitches": {
+			"mogrTheCaravanSt": {
+				"content": [
+					"[mogr] The caravan stops for the day. \"A gift,\" says Mogr, cracking open mead casks, \"From our gracious friend, the governor of Strand.\" Hours pass with raucous laughter as the mead is passed throughout camp.",
+					{
+						"linkPath": "narratorYouGoEas",
+						"option": "Drink a little"
+					},
+					{
+						"linkPath": "narratorItsNotOf",
+						"option": "Drink a lot"
+					},
+					{
+						"linkPath": "narratorYouRaise",
+						"option": "Toast to Vognir"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"narratorItsNotOf": {
+				"content": [
+					"[narrator] It's not often you get the chance to relax on the road. The odds of something happening to the treasure cart are low, especially in this company. So you take advantage.",
+					{
+						"flagName": "morale+10"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorYouGoEas": {
+				"content": [
+					"[narrator] You go easy. You've nothing against a good drink but if anyone is going to keep an eye on things it may as well be you. The revelers eventually fall asleep without incident.",
+					{
+						"flagName": "morale+5"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorYouRaise": {
+				"content": [
+					"[narrator] You raise your drink, toasting the alliance between man and varl. The others join in. Ludin's expression is like a stone wall, but the others laugh at your exaggerations. Eventually you sit down beside Vognir.",
+					{
+						"linkPath": "vognirThanksForT",
+						"option": "Chat with Vognir"
+					},
+					{
+						"linkPath": "narratorItsNotOf",
+						"option": "Drink merrily"
+					},
+					{
+						"linkPath": "narratorYouGoEas",
+						"option": "Go easy on the drink"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"vognirThanksForT": {
+				"content": [
+					"[vognir] \"Thanks for the speech,\" slurs Vognir...",
+					{
+						"flagName": "1 chatvognir2"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "mngw"
+}

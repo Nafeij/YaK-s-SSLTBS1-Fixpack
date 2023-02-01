@@ -1,0 +1,4023 @@
+{
+  "ambientParameter": 0,
+  "cameraAnchorSpeed": 500,
+  "cameraDrift": 0,
+  "cameraMaxHeight": 1162,
+  "cameraMaxWidth": 2731,
+  "cameraMinHeight": 1161.9858156028367,
+  "cameraMinWidth": 2048,
+  "cinemascope": true,
+  "happenings": [
+    {
+      "actions": [],
+      "id": "bookmark",
+      "triggers": [
+        {
+          "location": "bookmark",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_lefteinar.json.z"
+        },
+        {
+          "id": "gunnulf",
+          "prereqs": [
+            {
+              "varname": "gunnulfdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_ADD"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "gunnulf.talk",
+          "varvalue": 3
+        },
+        {
+          "scene": "saga1/scene/stage/stg_wilderness_snow/stg_wilderness_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part6/cnv_chat_lefteinar.json.z"
+        },
+        {
+          "type": "DRIVING_SPEED",
+          "varvalue": 1
+        }
+      ],
+      "id": "pop_lefteinar",
+      "triggers": [
+        {
+          "location": "pop_lefteinar",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 11
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_summerpath1.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 fightsummer1",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_MODIFY",
+          "varname": "danger",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_all",
+          "prereqs": [
+            {
+              "varname": "6 fightsummer1",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "WAR"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 fightsummer1",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_summerpath2.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 fightsummer2",
+              "varvalue": 1
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "danger",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_all",
+          "prereqs": [
+            {
+              "varname": "6 fightsummer2",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "WAR"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 fightsummer2",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_summerpath3.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_fail_summerpath.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 11
+        },
+        {
+          "id": "hogun",
+          "prereqs": [
+            {
+              "varname": "hogundied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        }
+      ],
+      "id": "pop_summerpath",
+      "triggers": [
+        {
+          "location": "pop_summerpath",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "MARKET_RESET_ITEMS"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "market_available_supplies",
+          "varvalue": 85
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "market_supplies_per_renown",
+          "varvalue": 6
+        },
+        {
+          "instant": true,
+          "scene": "saga1/scene/village/vlg_snow/vlg_snow.json.z",
+          "type": "CAMP"
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_village1.json.z"
+        }
+      ],
+      "id": "close_village1",
+      "triggers": [
+        {
+          "location": "close_village1",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "2 oddleiftrains",
+              "varvalue": 1
+            },
+            {
+              "varname": "niddied",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_bowmaster.json.z"
+        },
+        {
+          "id": "nid",
+          "prereqs": [
+            {
+              "varname": "6 nidjoins",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_ADD"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 11
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "nid.party_required",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_hard",
+          "prereqs": [
+            {
+              "varname": "6 nidfight",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/battle/btl_snow_wilderness/btl_snow_wilderness.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 nidfight",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_nidfight.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "nid.party_required"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 nidfight",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_fail_bowmaster.json.z"
+        },
+        {
+          "id": "nid",
+          "prereqs": [
+            {
+              "varname": "6 nidfight",
+              "varvalue": 1
+            },
+            {
+              "varname": "niddied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "also_party": true,
+          "id": "nid",
+          "prereqs": [
+            {
+              "varname": "6 nidjoins",
+              "varvalue": 1
+            },
+            {
+              "varname": "niddied",
+              "varvalue": 0
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "nid.talk",
+          "varvalue": 3
+        }
+      ],
+      "id": "pop_bowmaster",
+      "triggers": [
+        {
+          "location": "pop_bowmaster",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "instant": true,
+          "location": "start",
+          "scene": "saga1/scene/part4/cls_godstone_dundr/cls_godstone_dundr.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "close_dundr",
+      "triggers": [
+        {
+          "location": "close_dundr",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "HALT"
+        },
+        {
+          "id": "saga1/music/battle/WIN",
+          "type": "MUSIC_ONESHOT"
+        },
+        {
+          "msg": "Thanks for playing\nthe Playstation 4 demo of\n\n<font size='+30'>The Banner Saga</font>\n\nWe hope you enjoyed it!",
+          "prereqs": [
+            {
+              "varname": "playstation_demo",
+              "varvalue": 1
+            }
+          ],
+          "time": 30,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.text_page_vinque"
+        },
+        {
+          "happening": "playstation_demo",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "playstation_demo",
+              "varvalue": 1
+            }
+          ],
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "playstation_demo_end",
+      "triggers": [
+        {
+          "location": "playstation_demo_end",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_haukrtorp.json.z"
+        },
+        {
+          "happening": "_goto_haukrtorp",
+          "instant": true,
+          "prereq": "6_gotohaukrtorp",
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "close_haukrtorp",
+      "triggers": [
+        {
+          "location": "close_haukrtorp",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "instant": true,
+          "restore_scene": false,
+          "scene": "saga1/scene/part2/vlg_part2_a/vlg_part2_a.json.z",
+          "type": "CAMP"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_haukrtorp2.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_all",
+          "restore_scene": false,
+          "scene": "saga1/scene/battle/btl_forest_village/btl_forest_village.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "market_items_min",
+          "varvalue": 3
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "market_items_max",
+          "varvalue": 3
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "market_supplies_per_renown",
+          "varvalue": 10
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "market_available_supplies",
+          "varvalue": 50
+        },
+        {
+          "type": "MARKET_RESET_ITEMS"
+        },
+        {
+          "instant": true,
+          "prereq": "battle_victory",
+          "scene": "saga1/scene/part2/vlg_part2_a/vlg_part2_a.json.z",
+          "type": "CAMP"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "prereq": "battle_victory",
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_haukrtorp3.json.z"
+        },
+        {
+          "prereq": "!battle_victory",
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_fail_haukstorp.json.z"
+        },
+        {
+          "instant": true,
+          "location": "close_haukrtorp",
+          "prereq": "!battle_victory",
+          "scene": "saga1/scene/part4/wld_boersgard/wld_boersgard.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "_goto_haukrtorp"
+    },
+    {
+      "actions": [
+        {
+          "instant": true,
+          "location": "start",
+          "scene": "saga1/scene/part4/cls_godstone_ingrid/cls_godstone_ingrid.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "close_ingrid",
+      "triggers": [
+        {
+          "location": "close_ingrid",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "krumrdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_krumr1.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "krumrdied",
+              "varvalue": 0
+            }
+          ],
+          "scene": "saga1/scene/stage/stg_grasslands/stg_grasslands.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part6/cnv_chat_krumr.json.z"
+        },
+        {
+          "id": "krumr",
+          "prereqs": [
+            {
+              "varname": "krumrdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        }
+      ],
+      "id": "pop_krumr",
+      "triggers": [
+        {
+          "location": "pop_krumr",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "krumrdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_krumr2.json.z"
+        },
+        {
+          "id": "krumr",
+          "prereqs": [
+            {
+              "varname": "krumrdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "itm_str_3",
+          "prereqs": [
+            {
+              "varname": "6 dundrglove",
+              "varvalue": 1
+            }
+          ],
+          "type": "ITEM_ADD"
+        }
+      ],
+      "id": "pop_krumr2",
+      "triggers": [
+        {
+          "location": "pop_krumr2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "instant": true,
+          "location": "start",
+          "scene": "saga1/scene/part4/cls_sigrholm/cls_sigrholm.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "id": "saga1/music/chapter_6/4m6",
+          "type": "MUSIC_START"
+        },
+        {
+          "type": "DRIVING_SPEED",
+          "varvalue": 0.85
+        }
+      ],
+      "id": "close_sigrholm",
+      "triggers": [
+        {
+          "location": "close_sigrholm",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "6 onefstrikes",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "nid.talk"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_onefstrikes.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "scene": "saga1/scene/stage/stg_wilderness_forest/stg_wilderness_forest.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part6/cnv_chat_onefstrikes.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_onefkills1.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "ekkilldied",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_MODIFY",
+          "varname": "danger",
+          "varvalue": 2
+        },
+        {
+          "id": "egil",
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "oddleif",
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "alette",
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "onef",
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "rook",
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "UNIT_INJURE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rook.party_required",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 11
+        },
+        {
+          "bucket": "2_fighters_all",
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "scene": "saga1/scene/battle/btl_forest_wilderness/btl_forest_wilderness.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_onefkills2.json.z"
+        },
+        {
+          "id": "oddleif",
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "alette",
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "ekkill",
+          "prereqs": [
+            {
+              "varname": "6 onefstrikes",
+              "varvalue": 1
+            },
+            {
+              "varname": "4 ekkillprisoners",
+              "varvalue": 1
+            },
+            {
+              "varname": "ekkilldied",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "oddleif",
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "UNIT_INJURE"
+        },
+        {
+          "id": "rook",
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "UNIT_INJURE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rook.party_required"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "ekkilldied",
+              "varvalue": 1
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_MODIFY",
+          "varname": "danger",
+          "varvalue": -2
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "oddleif.talk",
+          "varvalue": 3
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "ekkilldied",
+              "varvalue": 0
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "ekkill.talk",
+          "varvalue": 3
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "ekkilldied",
+              "varvalue": 0
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "6_noleave",
+          "varvalue": 1
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_wilderness_forest/stg_wilderness_forest.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part6/cnv_chat_alettekills1.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "onefdied",
+              "varvalue": 0
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_wilderness_forest/stg_wilderness_forest.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part6/cnv_chat_alettekills2.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 onefstrikes",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "onefdied",
+          "varvalue": 1
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 onefstrikes",
+              "varvalue": 1
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "prg_alette_guilty",
+          "varvalue": 1
+        },
+        {
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "6 onefstrikes",
+              "varvalue": 1
+            }
+          ],
+          "scene": "saga1/scene/camp/cmp_forest/cmp_forest.json.z",
+          "type": "CAMP"
+        }
+      ],
+      "id": "pop_onefstrikes",
+      "triggers": [
+        {
+          "location": "pop_onefstrikes",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "market_items_min",
+          "varvalue": 3
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "market_items_max",
+          "varvalue": 5
+        },
+        {
+          "type": "MARKET_RESET_ITEMS"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "market_available_supplies",
+          "varvalue": 145
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "market_supplies_per_renown",
+          "varvalue": 5
+        },
+        {
+          "instant": true,
+          "scene": "saga1/scene/part2/vlg_part2_a/vlg_part2_a.json.z",
+          "type": "CAMP"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_village2.json.z"
+        }
+      ],
+      "id": "close_village2",
+      "triggers": [
+        {
+          "location": "close_village2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "instant": true,
+          "scene": "saga1/scene/part4/cls_godstone_bjorulf/cls_godstone_bjorulf.json.z",
+          "type": "TRAVEL"
+        }
+      ],
+      "id": "close_bjorulf",
+      "triggers": [
+        {
+          "location": "close_bjorulf",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_reynivik1.json.z"
+        },
+        {
+          "also_party": true,
+          "id": "sigbjorn",
+          "prereqs": [
+            {
+              "varname": "6 reynfight",
+              "varvalue": 1
+            }
+          ],
+          "type": "PARTY_CLEAR"
+        },
+        {
+          "id": "sigbjorn",
+          "prereqs": [
+            {
+              "varname": "6 reynfight",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "itm_mov_2",
+          "prereqs": [
+            {
+              "varname": "6 reynfight",
+              "varvalue": 1
+            }
+          ],
+          "speaker": "sigbjorn",
+          "type": "ITEM_ADD"
+        },
+        {
+          "also_party": true,
+          "id": "sigbjorn",
+          "prereqs": [
+            {
+              "varname": "6 reynfight",
+              "varvalue": 1
+            }
+          ],
+          "type": "PARTY_ADD"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 reynfight",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "sigbjorn.party_required",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 11
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "bucket": "1_dredge_all",
+          "prereqs": [
+            {
+              "varname": "6 reynfight",
+              "varvalue": 1
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/battle/btl_interior/btl_interior.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "bucket": "1_dredge_all",
+          "prereqs": [
+            {
+              "varname": "6 reyndrawaway",
+              "varvalue": 1
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/battle/btl_forest_wilderness/btl_forest_wilderness.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "also_party": true,
+          "id": "sigbjorn",
+          "prereqs": [
+            {
+              "varname": "6 reynfight",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 reynfight",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 1
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_village_interior/stg_village_interior.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part6/cnv_chat_sigbjorn.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 reynfight",
+              "varvalue": 1
+            }
+          ],
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "sigbjorn.party_required"
+        },
+        {
+          "location": "pop_reynivik",
+          "scene": "saga1/scene/part4/wld_boersgard/wld_boersgard.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 reynfight",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_sigbjorn.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 reyndrawaway",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_reynivik2.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 reynfight",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_fail_reynivik.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "6 reyndrawaway",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_fail_reynivik2.json.z"
+        }
+      ],
+      "id": "pop_reynivik",
+      "triggers": [
+        {
+          "location": "pop_reynivik",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "6 bjorulfblessing",
+              "varvalue": 1
+            },
+            {
+              "varname": "sigbjorndied",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_sigdrunk.json.z"
+        },
+        {
+          "id": "itm_knockback_3",
+          "prereqs": [
+            {
+              "varname": "6 sigstein",
+              "varvalue": 1
+            }
+          ],
+          "type": "ITEM_ADD"
+        },
+        {
+          "id": "sigbjorn",
+          "prereqs": [
+            {
+              "varname": "sigbjorndied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        }
+      ],
+      "id": "pop_sigdrunk",
+      "triggers": [
+        {
+          "location": "pop_sigdrunk",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "msg": "$saga1_ch7",
+          "time": 3,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.text_page_vinque"
+        },
+        {
+          "happening": "boersgard_arrive",
+          "instant": true,
+          "scene": "saga1/scene/part5/vlg_boersgard/vlg_boersgard.json.z",
+          "type": "CAMP"
+        }
+      ],
+      "id": "close_boersgard",
+      "triggers": [
+        {
+          "location": "close_boersgard",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "hud_travel_hidden"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_travel_enabled",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "iver.party_required"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "rook.party_required"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "iver_armloss.party_required"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "iver_shield.party_required"
+        },
+        {
+          "id": "fasolt",
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "saga1/music/part4/4m1",
+          "type": "MUSIC_ONESHOT"
+        },
+        {
+          "type": "DRIVING_SPEED",
+          "varvalue": 0.9
+        },
+        {
+          "id": "saga1/scene/battle/music/chapter_6.btlmusic.json.z",
+          "type": "BATTLE_MUSIC"
+        }
+      ],
+      "id": "music_4m1",
+      "triggers": [
+        {
+          "location": "music_4m1",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part4/4m2",
+          "type": "MUSIC_START"
+        }
+      ],
+      "id": "music_4m2",
+      "triggers": [
+        {
+          "location": "music_4m2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part4/4m2",
+          "type": "MUSIC_OUTRO"
+        }
+      ],
+      "id": "music_4m2_outro",
+      "triggers": [
+        {
+          "location": "music_4m2_outro",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part4/4m2-L2_oneshot",
+          "type": "MUSIC_ONESHOT"
+        }
+      ],
+      "id": "music_4m2-L2",
+      "triggers": [
+        {
+          "location": "music_4m2-L2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part4/4m2",
+          "type": "MUSIC_OUTRO"
+        }
+      ],
+      "id": "music_4m2_outro_2",
+      "triggers": [
+        {
+          "location": "music_4m2_outro_2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part4/4m4b-L1_oneshot",
+          "type": "MUSIC_ONESHOT"
+        }
+      ],
+      "id": "music_4m4b-L1_oneshot",
+      "triggers": [
+        {
+          "location": "music_4m4b-L1_oneshot",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part4/4m4b",
+          "type": "MUSIC_START"
+        }
+      ],
+      "id": "music_4m4b",
+      "triggers": [
+        {
+          "location": "music_4m4b",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part4/4m4b",
+          "type": "MUSIC_OUTRO"
+        }
+      ],
+      "id": "music_4m4b_outro",
+      "triggers": [
+        {
+          "location": "music_4m4b_outro",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/chapter_6/4m6-INTRO",
+          "type": "MUSIC_START"
+        }
+      ],
+      "id": "music_4m6-INTRO",
+      "triggers": [
+        {
+          "location": "music_4m6",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "5 lefteinar",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part6/cnv_pop_iverwounded.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "5 lefteinar",
+              "varvalue": 1
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_village_snow/stg_village_snow.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part6/cnv_chat_iverwounded.json.z"
+        },
+        {
+          "id": "iver",
+          "prereqs": [
+            {
+              "varname": "5 lefteinar",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_ADD"
+        },
+        {
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "5 lefteinar",
+              "varvalue": 1
+            }
+          ],
+          "type": "CAMP"
+        }
+      ],
+      "id": "pop_iverwounded",
+      "triggers": [
+        {
+          "location": "pop_iverwounded",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "biome",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_travel_hidden"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "hud_travel_enabled",
+          "varvalue": 1
+        },
+        {
+          "id": "fasolt",
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "game_progress",
+          "varvalue": 64
+        },
+        {
+          "id": "sav_leavingeinartoft",
+          "type": "SAVE_STORE"
+        }
+      ],
+      "id": "save_einar",
+      "triggers": [
+        {
+          "location": "save_einar",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "biome",
+          "varvalue": 2
+        }
+      ],
+      "id": "biome_forest",
+      "triggers": [
+        {
+          "location": "biome_forest",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1_vo/vo/vo_sigrholm",
+          "subtitle": "saga1/locale/en/vo_sigrholm.sbv.z",
+          "type": "VO",
+          "varvalue": 1
+        },
+        {
+          "type": "DRIVING_SPEED",
+          "varvalue": 0.7
+        }
+      ],
+      "id": "vo_sigrholm",
+      "triggers": [
+        {
+          "location": "vo_sigrholm",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1_vo/vo/vo_boersgard",
+          "subtitle": "saga1/locale/en/vo_boersgard.sbv.z",
+          "type": "VO",
+          "varvalue": 1
+        }
+      ],
+      "id": "vo_boersgard",
+      "triggers": [
+        {
+          "location": "vo_boersgard",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1_vo/vo/vo_rynivik",
+          "subtitle": "saga1/locale/en/vo_reynivik.sbv.z",
+          "type": "VO",
+          "varvalue": 1
+        }
+      ],
+      "id": "vo_reynivik",
+      "triggers": [
+        {
+          "location": "vo_reynivik",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "6 sigreyvind"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "eyvind.talk"
+        }
+      ],
+      "id": "sigreyvind",
+      "triggers": [
+        {
+          "location": "sigreyvind",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/folk/1mT15",
+          "type": "MUSIC_START"
+        }
+      ],
+      "id": "music_dundr",
+      "triggers": [
+        {
+          "location": "music_dundr",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/folk/1mT16",
+          "type": "MUSIC_START"
+        }
+      ],
+      "id": "music_ingrid",
+      "triggers": [
+        {
+          "location": "music_ingrid",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/folk/1mT17",
+          "type": "MUSIC_START"
+        }
+      ],
+      "id": "music_bjorulf",
+      "triggers": [
+        {
+          "location": "music_bjorulf",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/chapter_6/4m7",
+          "type": "MUSIC_START"
+        }
+      ],
+      "id": "music_4m7",
+      "triggers": [
+        {
+          "location": "music_4m7",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/chapter_6/4m7",
+          "type": "MUSIC_OUTRO"
+        }
+      ],
+      "id": "outro_4m7",
+      "triggers": [
+        {
+          "location": "outro_4m7",
+          "type": "LOCATION"
+        }
+      ]
+    }
+  ],
+  "landscape": {
+    "boundary": {
+      "height": 1162,
+      "width": 29220,
+      "x": -1365.5,
+      "y": -581
+    },
+    "layers": [
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/7_sky3_0x0.png",
+            "localrect": {
+              "height": 1162,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky3_1_0x0",
+            "offset": {
+              "x": -62,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/7_sky3_2048x0.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky3_1_2048x0",
+            "offset": {
+              "x": 1986,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/7_sky2_0x0.png",
+            "localrect": {
+              "height": 1162,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky2_1_0x0",
+            "offset": {
+              "x": 3538,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/7_sky2_2048x0.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky2_1_2048x0",
+            "offset": {
+              "x": 5586,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/7_sky1_0x0.png",
+            "localrect": {
+              "height": 1162,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky1_1_0x0",
+            "offset": {
+              "x": 7138,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/7_sky1_2048x0.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1538,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky1_1_2048x0",
+            "offset": {
+              "x": 9186,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/7_sky_stars.png",
+            "localrect": {
+              "height": 120,
+              "width": 1262,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky_stars_1",
+            "offset": {
+              "x": 9466,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/7_sky_stars.png",
+            "localrect": {
+              "height": 120,
+              "width": 1262,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky_stars_2",
+            "offset": {
+              "x": 8238,
+              "y": 0
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_7_sky",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 0.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_summerpathmtn.png",
+            "localrect": {
+              "height": 266,
+              "width": 1313,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_summerpathmtn_1",
+            "offset": {
+              "x": 12078,
+              "y": 284
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_oldfather_0x0.png",
+            "localrect": {
+              "height": 537,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_oldfather_1_0x0",
+            "offset": {
+              "x": 10051,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_oldfather_2048x0.png",
+            "localrect": {
+              "height": 537,
+              "width": 791,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_oldfather_1_2048x0",
+            "offset": {
+              "x": 12099,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_sigrmtns_0x0.png",
+            "localrect": {
+              "height": 658,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_sigrmtns_1_0x0",
+            "offset": {
+              "x": 6330,
+              "y": 300
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_sigrmtns_2048x0.png",
+            "localrect": {
+              "height": 658,
+              "width": 971,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_sigrmtns_1_2048x0",
+            "offset": {
+              "x": 8378,
+              "y": 300
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_reykivikhill_0x0.png",
+            "localrect": {
+              "height": 198,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_reykivikhill_1_0x0",
+            "offset": {
+              "x": 1891,
+              "y": 761
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_reykivikhill_2048x0.png",
+            "localrect": {
+              "height": 198,
+              "width": 565,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_reykivikhill_1_2048x0",
+            "offset": {
+              "x": 3939,
+              "y": 761
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_mtns_0x0.png",
+            "localrect": {
+              "height": 925,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_mtns_1_0x0",
+            "offset": {
+              "x": 844,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_mtns_2048x0.png",
+            "localrect": {
+              "height": 925,
+              "width": 1780,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_mtns_1_2048x0",
+            "offset": {
+              "x": 2892,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_boershill.png",
+            "localrect": {
+              "height": 216,
+              "width": 1952,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_boershill_1",
+            "offset": {
+              "x": 124,
+              "y": 678
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_farmtns.png",
+            "localrect": {
+              "height": 384,
+              "width": 1907,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_farmtns_1",
+            "offset": {
+              "x": 12346,
+              "y": 98
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_fillermtns_0x0.png",
+            "localrect": {
+              "height": 367,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_fillermtns_1_0x0",
+            "offset": {
+              "x": 3013,
+              "y": 623
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_fillermtns_2048x0.png",
+            "localrect": {
+              "height": 367,
+              "width": 886,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_fillermtns_1_2048x0",
+            "offset": {
+              "x": 5061,
+              "y": 623
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_mtnfar2_0x0.png",
+            "localrect": {
+              "height": 702,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_mtnfar2_1_0x0",
+            "offset": {
+              "x": 13795,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/6_back_mtnfar2_2048x0.png",
+            "localrect": {
+              "height": 702,
+              "width": 141,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_mtnfar2_1_2048x0",
+            "offset": {
+              "x": 15843,
+              "y": 0
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_6_back",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 0.5
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/5_back_boershill.png",
+            "localrect": {
+              "height": 434,
+              "width": 1854,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_boershill_1",
+            "offset": {
+              "x": -13,
+              "y": 549
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/5_back_reynivikhill.png",
+            "localrect": {
+              "height": 73,
+              "width": 1725,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_reynivikhill_1",
+            "offset": {
+              "x": 3248,
+              "y": 870
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/5_back_langloomhill_0x0.png",
+            "localrect": {
+              "height": 206,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_langloomhill_1_0x0",
+            "offset": {
+              "x": 5619,
+              "y": 765
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/5_back_langloomhill_2048x0.png",
+            "localrect": {
+              "height": 206,
+              "width": 635,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_langloomhill_1_2048x0",
+            "offset": {
+              "x": 7667,
+              "y": 765
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/5_back_sigrmtns.png",
+            "localrect": {
+              "height": 157,
+              "width": 1734,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_sigrmtns_1",
+            "offset": {
+              "x": 9508,
+              "y": 822
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/5_back_highpasshill.png",
+            "localrect": {
+              "height": 497,
+              "width": 1623,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_highpasshill_1",
+            "offset": {
+              "x": 11043,
+              "y": 396
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/5_back_summerpathmtn.png",
+            "localrect": {
+              "height": 353,
+              "width": 1243,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_summerpathmtn_1",
+            "offset": {
+              "x": 16075,
+              "y": 285
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/5_back_summerpathmtn2.png",
+            "localrect": {
+              "height": 307,
+              "width": 1588,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_summerpathmtn2_1",
+            "offset": {
+              "x": 16566,
+              "y": 377
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_5_back",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 0.7
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_boershill_0x0.png",
+            "localrect": {
+              "height": 306,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_boershill_1_0x0",
+            "offset": {
+              "x": -2,
+              "y": 705
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_boershill_2048x0.png",
+            "localrect": {
+              "height": 306,
+              "width": 373,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_boershill_1_2048x0",
+            "offset": {
+              "x": 2046,
+              "y": 705
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_hill.png",
+            "localrect": {
+              "height": 238,
+              "width": 1875,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_hill_1",
+            "offset": {
+              "x": 17200,
+              "y": 205
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_sigrholm2.png",
+            "localrect": {
+              "height": 219,
+              "width": 1356,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_sigrholm2_1",
+            "offset": {
+              "x": 11957,
+              "y": 835
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_ingridhill_0x0.png",
+            "localrect": {
+              "height": 669,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_ingridhill_1_0x0",
+            "offset": {
+              "x": 12701,
+              "y": 345
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_ingridhill_2048x0.png",
+            "localrect": {
+              "height": 669,
+              "width": 1594,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_ingridhill_1_2048x0",
+            "offset": {
+              "x": 14749,
+              "y": 345
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_langloom2_0x0.png",
+            "localrect": {
+              "height": 135,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_langloom2_1_0x0",
+            "offset": {
+              "x": 8694,
+              "y": 884
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_langloom2_2048x0.png",
+            "localrect": {
+              "height": 135,
+              "width": 215,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_langloom2_1_2048x0",
+            "offset": {
+              "x": 10742,
+              "y": 884
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_langloom1_0x0.png",
+            "localrect": {
+              "height": 101,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_langloom1_1_0x0",
+            "offset": {
+              "x": 6356,
+              "y": 918
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_langloom1_2048x0.png",
+            "localrect": {
+              "height": 101,
+              "width": 290,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_langloom1_1_2048x0",
+            "offset": {
+              "x": 8404,
+              "y": 918
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_sigrholm1.png",
+            "localrect": {
+              "height": 132,
+              "width": 1377,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_sigrholm1_1",
+            "offset": {
+              "x": 10580,
+              "y": 922
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_summerpath_0x0.png",
+            "localrect": {
+              "height": 538,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_summerpath_1_0x0",
+            "offset": {
+              "x": 19354,
+              "y": 186
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/4_back_summerpath_2048x0.png",
+            "localrect": {
+              "height": 538,
+              "width": 704,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_summerpath_1_2048x0",
+            "offset": {
+              "x": 21402,
+              "y": 186
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/lettering_sigrholm.png",
+            "localrect": {
+              "height": 105,
+              "width": 196,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "lettering_sigrholm_1",
+            "offset": {
+              "x": 12193,
+              "y": 705
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/locale/zh/lettering/lettering_sigrholm.png",
+            "langs": "zh",
+            "linked": "lettering_sigrholm_1",
+            "nameId": "zh_lettering_sigrholm",
+            "offset": {
+              "x": 12201,
+              "y": 685
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_4_back",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 0.85
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back_0x0.png",
+            "localrect": {
+              "height": 680,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back_1_0x0",
+            "offset": {
+              "x": 24781,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back_2048x0.png",
+            "localrect": {
+              "height": 680,
+              "width": 1441,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back_1_2048x0",
+            "offset": {
+              "x": 26829,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back2_0x0.png",
+            "localrect": {
+              "height": 593,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back2_1_0x0",
+            "offset": {
+              "x": 21181,
+              "y": 149
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back2_2048x0.png",
+            "localrect": {
+              "height": 593,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back2_1_2048x0",
+            "offset": {
+              "x": 23229,
+              "y": 149
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back3_0x0.png",
+            "localrect": {
+              "height": 539,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back3_1_0x0",
+            "offset": {
+              "x": 17581,
+              "y": 120
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back3_2048x0.png",
+            "localrect": {
+              "height": 539,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back3_1_2048x0",
+            "offset": {
+              "x": 19629,
+              "y": 120
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back4_0x0.png",
+            "localrect": {
+              "height": 566,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back4_1_0x0",
+            "offset": {
+              "x": 13981,
+              "y": 488
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back4_2048x0.png",
+            "localrect": {
+              "height": 566,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back4_1_2048x0",
+            "offset": {
+              "x": 16029,
+              "y": 488
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back5_0x0.png",
+            "localrect": {
+              "height": 203,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back5_1_0x0",
+            "offset": {
+              "x": 10381,
+              "y": 857
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back5_2048x0.png",
+            "localrect": {
+              "height": 203,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back5_1_2048x0",
+            "offset": {
+              "x": 12429,
+              "y": 857
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back6_0x0.png",
+            "localrect": {
+              "height": 324,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back6_1_0x0",
+            "offset": {
+              "x": 6781,
+              "y": 686
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back6_2048x0.png",
+            "localrect": {
+              "height": 324,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back6_1_2048x0",
+            "offset": {
+              "x": 8829,
+              "y": 686
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back7_0x0.png",
+            "localrect": {
+              "height": 359,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back7_1_0x0",
+            "offset": {
+              "x": 3181,
+              "y": 697
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back7_2048x0.png",
+            "localrect": {
+              "height": 359,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back7_1_2048x0",
+            "offset": {
+              "x": 5229,
+              "y": 697
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back8_0x0.png",
+            "localrect": {
+              "height": 464,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back8_1_0x0",
+            "offset": {
+              "x": -2,
+              "y": 606
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_back8_2048x0.png",
+            "localrect": {
+              "height": 464,
+              "width": 1135,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back8_1_2048x0",
+            "offset": {
+              "x": 2046,
+              "y": 606
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/lettering_boersgard.png",
+            "localrect": {
+              "height": 122,
+              "width": 345,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "lettering_boersgard_1",
+            "offset": {
+              "x": 946,
+              "y": 692
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/locale/zh/lettering/lettering_boersgard.png",
+            "langs": "zh",
+            "linked": "lettering_boersgard_1",
+            "nameId": "zh_lettering_boersgard",
+            "offset": {
+              "x": 992,
+              "y": 670
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/lettering_reynivik.png",
+            "localrect": {
+              "height": 136,
+              "width": 163,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "lettering_reynivik_1",
+            "offset": {
+              "x": 5054,
+              "y": 693
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/locale/zh/lettering/lettering_reynivik.png",
+            "langs": "zh",
+            "linked": "lettering_reynivik_1",
+            "nameId": "zh_lettering_reynivik",
+            "offset": {
+              "x": 5053,
+              "y": 688
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/lettering_haukstorp.png",
+            "localrect": {
+              "height": 97,
+              "width": 246,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "lettering_haukstorp_1",
+            "offset": {
+              "x": 18436,
+              "y": 383
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/locale/zh/lettering/lettering_haukstorp.png",
+            "langs": "zh",
+            "linked": "lettering_haukstorp_1",
+            "nameId": "zh_lettering_haukstorp",
+            "offset": {
+              "x": 18436,
+              "y": 353
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/scene/lettering_einartoft.png",
+            "localrect": {
+              "height": 75,
+              "width": 249,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "lettering_einartoft_1",
+            "offset": {
+              "x": 27973,
+              "y": 135
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/locale/zh/lettering/lettering_einartoft.png",
+            "langs": "zh",
+            "linked": "lettering_einartoft_1",
+            "nameId": "zh_lettering_einartoft",
+            "offset": {
+              "x": 27982,
+              "y": 116
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_3_walk_back",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front1_0x0.png",
+            "localrect": {
+              "height": 875,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front1_1_0x0",
+            "offset": {
+              "x": 25623,
+              "y": 287
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front1_2048x0.png",
+            "localrect": {
+              "height": 875,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front1_1_2048x0",
+            "offset": {
+              "x": 27671,
+              "y": 287
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front2_0x0.png",
+            "localrect": {
+              "height": 653,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front2_1_0x0",
+            "offset": {
+              "x": 22023,
+              "y": 509
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front2_2048x0.png",
+            "localrect": {
+              "height": 653,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front2_1_2048x0",
+            "offset": {
+              "x": 24071,
+              "y": 509
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front3_0x0.png",
+            "localrect": {
+              "height": 714,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front3_1_0x0",
+            "offset": {
+              "x": 18423,
+              "y": 448
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front3_2048x0.png",
+            "localrect": {
+              "height": 714,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front3_1_2048x0",
+            "offset": {
+              "x": 20471,
+              "y": 448
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front4_0x0.png",
+            "localrect": {
+              "height": 589,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front4_1_0x0",
+            "offset": {
+              "x": 14823,
+              "y": 573
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front4_2048x0.png",
+            "localrect": {
+              "height": 589,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front4_1_2048x0",
+            "offset": {
+              "x": 16871,
+              "y": 573
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front5_0x0.png",
+            "localrect": {
+              "height": 286,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front5_1_0x0",
+            "offset": {
+              "x": 11223,
+              "y": 876
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front5_2048x0.png",
+            "localrect": {
+              "height": 286,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front5_1_2048x0",
+            "offset": {
+              "x": 13271,
+              "y": 876
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front6_0x0.png",
+            "localrect": {
+              "height": 369,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front6_1_0x0",
+            "offset": {
+              "x": 7623,
+              "y": 793
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front6_2048x0.png",
+            "localrect": {
+              "height": 369,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front6_1_2048x0",
+            "offset": {
+              "x": 9671,
+              "y": 793
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front7_0x0.png",
+            "localrect": {
+              "height": 458,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front7_1_0x0",
+            "offset": {
+              "x": 4023,
+              "y": 704
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front7_2048x0.png",
+            "localrect": {
+              "height": 458,
+              "width": 1552,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front7_1_2048x0",
+            "offset": {
+              "x": 6071,
+              "y": 704
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front8.png",
+            "localrect": {
+              "height": 269,
+              "width": 2015,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front8_1",
+            "offset": {
+              "x": -2,
+              "y": 893
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front8b.png",
+            "localrect": {
+              "height": 206,
+              "width": 2010,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front8b_1",
+            "offset": {
+              "x": 2013,
+              "y": 956
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_3_walk_front",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/3_walk_front_bridge.png",
+            "localrect": {
+              "height": 323,
+              "width": 480,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front_bridge_1",
+            "offset": {
+              "x": 28352,
+              "y": 397
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "3_walk_bridge",
+        "notCondition": "5_blewitup",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_summerpathhill.png",
+            "localrect": {
+              "height": 236,
+              "width": 1175,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_summerpathhill_1",
+            "offset": {
+              "x": 26168,
+              "y": 696
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/1_close_einarhill.png",
+            "localrect": {
+              "height": 304,
+              "width": 1995,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_einarhill_1",
+            "offset": {
+              "x": 32661,
+              "y": 635
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_highhill2.png",
+            "localrect": {
+              "height": 409,
+              "width": 1375,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_highhill2_1",
+            "offset": {
+              "x": 21906,
+              "y": 788
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_highpasshill.png",
+            "localrect": {
+              "height": 277,
+              "width": 1301,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_highpasshill_1",
+            "offset": {
+              "x": 22122,
+              "y": 607
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_reynivik.png",
+            "localrect": {
+              "height": 158,
+              "width": 1353,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_reynivik_1",
+            "offset": {
+              "x": 3611,
+              "y": 848
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_langloom.png",
+            "localrect": {
+              "height": 100,
+              "width": 1118,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_langloom_1",
+            "offset": {
+              "x": 10335,
+              "y": 966
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_highhill1.png",
+            "localrect": {
+              "height": 447,
+              "width": 1912,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_highhill1_1",
+            "offset": {
+              "x": 19994,
+              "y": 750
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/2_close_mid.png",
+            "localrect": {
+              "height": 963,
+              "width": 825,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_mid_1",
+            "offset": {
+              "x": 14302,
+              "y": 304
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_langloom2.png",
+            "localrect": {
+              "height": 64,
+              "width": 1055,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_langloom2_1",
+            "offset": {
+              "x": 12570,
+              "y": 1037
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/2_close_mid.png",
+            "localrect": {
+              "height": 963,
+              "width": 825,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_mid_2",
+            "offset": {
+              "x": 13730,
+              "y": 203
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/2_close_mid.png",
+            "localrect": {
+              "height": 963,
+              "width": 825,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_mid_3",
+            "offset": {
+              "x": 13035,
+              "y": 205
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_treehill1.png",
+            "localrect": {
+              "height": 83,
+              "width": 811,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_treehill1_1",
+            "offset": {
+              "x": 16024,
+              "y": 1079
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_treehill2.png",
+            "localrect": {
+              "height": 1162,
+              "width": 446,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_treehill2_1",
+            "offset": {
+              "x": 16835,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_treehill3.png",
+            "localrect": {
+              "height": 108,
+              "width": 534,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_treehill3_1",
+            "offset": {
+              "x": 17281,
+              "y": 1054
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_roundhill.png",
+            "localrect": {
+              "height": 97,
+              "width": 1101,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_roundhill_1",
+            "offset": {
+              "x": 8075,
+              "y": 969
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_boershill3.png",
+            "localrect": {
+              "height": 196,
+              "width": 1042,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_boershill3_1",
+            "offset": {
+              "x": 2766,
+              "y": 967
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_boershill2.png",
+            "localrect": {
+              "height": 432,
+              "width": 148,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_boershill2_1",
+            "offset": {
+              "x": 2618,
+              "y": 731
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_boershill1.png",
+            "localrect": {
+              "height": 129,
+              "width": 864,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_boershill1_1",
+            "offset": {
+              "x": 1754,
+              "y": 1034
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_summerpathhill2.png",
+            "localrect": {
+              "height": 216,
+              "width": 1153,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_summerpathhill2_1",
+            "offset": {
+              "x": 28516,
+              "y": 736
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_2_close",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 1.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_2/1_close_mtns1.png",
+            "localrect": {
+              "height": 142,
+              "width": 1014,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_mtns1_1",
+            "offset": {
+              "x": 39540,
+              "y": 886
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/2_close_einarhill.png",
+            "localrect": {
+              "height": 151,
+              "width": 1652,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_einarhill_1",
+            "offset": {
+              "x": 34230,
+              "y": 1026
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_2/1_close_pines.png",
+            "localrect": {
+              "height": 1162,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_pines_1",
+            "offset": {
+              "x": 32890,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/1_close_trees1.png",
+            "localrect": {
+              "height": 654,
+              "width": 409,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_trees1_1",
+            "offset": {
+              "x": 30236,
+              "y": 511
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/1_close_trees2.png",
+            "localrect": {
+              "height": 559,
+              "width": 725,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_trees2_1",
+            "offset": {
+              "x": 29160,
+              "y": 607
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/1_close_trees1.png",
+            "localrect": {
+              "height": 654,
+              "width": 409,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_trees1_2",
+            "offset": {
+              "x": 26032,
+              "y": 681
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/1_close_trees2.png",
+            "localrect": {
+              "height": 559,
+              "width": 725,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_trees2_2",
+            "offset": {
+              "x": 26307,
+              "y": 672
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/1_close_trees.png",
+            "localrect": {
+              "height": 765,
+              "width": 982,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_trees_1",
+            "offset": {
+              "x": 23078,
+              "y": 399
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/1_close_trees.png",
+            "localrect": {
+              "height": 765,
+              "width": 982,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_trees_2",
+            "offset": {
+              "x": 15201,
+              "y": 576
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/1_close_langloom2.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1113,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_langloom2_1",
+            "offset": {
+              "x": 16142,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/1_close_langloom1.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1599,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_langloom1_1",
+            "offset": {
+              "x": 17259,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/1_close_rightmid.png",
+            "localrect": {
+              "height": 135,
+              "width": 592,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_rightmid_1",
+            "offset": {
+              "x": 8380,
+              "y": 895
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/1_close_left.png",
+            "localrect": {
+              "height": 572,
+              "width": 352,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_left_1",
+            "offset": {
+              "x": 10050,
+              "y": 23
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/1_close_tree.png",
+            "localrect": {
+              "height": 1162,
+              "width": 215,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_tree_1",
+            "offset": {
+              "x": 5281,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part4/wld_boersgard/1_close_langloom1.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1599,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_langloom1_2",
+            "offset": {
+              "x": 3265,
+              "y": 0
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_1_close",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 1.6
+      }
+    ],
+    "travel": {
+      "locations": [
+        {
+          "id": "start",
+          "position": 1348
+        },
+        {
+          "id": "save_einar",
+          "position": 1466
+        },
+        {
+          "id": "music_4m1",
+          "position": 1497
+        },
+        {
+          "id": "pop_iverwounded",
+          "position": 2716
+        },
+        {
+          "id": "random_quests",
+          "position": 2931
+        },
+        {
+          "id": "random_quests",
+          "position": 3623
+        },
+        {
+          "id": "music_4m2",
+          "position": 4180
+        },
+        {
+          "id": "pop_lefteinar",
+          "loadBarrier": true,
+          "position": 4233
+        },
+        {
+          "id": "close_summerpath",
+          "mapkey": true,
+          "position": 5098
+        },
+        {
+          "id": "pop_summerpath",
+          "position": 5133
+        },
+        {
+          "id": "depart_summerpath",
+          "position": 5672
+        },
+        {
+          "id": "music_4m2_outro",
+          "position": 5715
+        },
+        {
+          "id": "random_quests",
+          "position": 6184
+        },
+        {
+          "id": "close_village1",
+          "loadBarrier": true,
+          "position": 6560
+        },
+        {
+          "id": "music_4m2-L2",
+          "position": 6689
+        },
+        {
+          "id": "pop_bowmaster",
+          "position": 7116
+        },
+        {
+          "id": "random_quests",
+          "position": 7924
+        },
+        {
+          "id": "music_dundr",
+          "position": 8685
+        },
+        {
+          "id": "close_dundr",
+          "loadBarrier": true,
+          "position": 8797
+        },
+        {
+          "id": "depart_dundr",
+          "position": 9170
+        },
+        {
+          "id": "biome_forest",
+          "position": 9270
+        },
+        {
+          "id": "playstation_demo_end",
+          "position": 9500
+        },
+        {
+          "id": "random_quests",
+          "position": 9775
+        },
+        {
+          "id": "close_haukrtorp",
+          "mapkey": true,
+          "position": 10567
+        },
+        {
+          "id": "music_4m4b-L1_oneshot",
+          "position": 10621
+        },
+        {
+          "id": "random_quests",
+          "position": 11191
+        },
+        {
+          "id": "music_ingrid",
+          "position": 11666
+        },
+        {
+          "id": "close_ingrid",
+          "loadBarrier": true,
+          "position": 11728
+        },
+        {
+          "id": "depart_ingrid",
+          "position": 11927
+        },
+        {
+          "id": "pop_krumr",
+          "position": 12477
+        },
+        {
+          "id": "music_4m6",
+          "position": 12503
+        },
+        {
+          "id": "random_quests",
+          "position": 13396
+        },
+        {
+          "id": "pop_krumr2",
+          "position": 13783
+        },
+        {
+          "id": "vo_sigrholm",
+          "position": 14223
+        },
+        {
+          "id": "close_sigrholm",
+          "loadBarrier": true,
+          "mapkey": true,
+          "position": 14759
+        },
+        {
+          "id": "depart_sigrholmwalk",
+          "position": 15629
+        },
+        {
+          "id": "depart_sigrholm",
+          "position": 16070
+        },
+        {
+          "id": "music_4m7",
+          "position": 16665
+        },
+        {
+          "id": "random_quests",
+          "position": 17485
+        },
+        {
+          "id": "pop_onefstrikes",
+          "position": 18031
+        },
+        {
+          "id": "random_quests",
+          "position": 18980
+        },
+        {
+          "id": "outro_4m7",
+          "position": 19016
+        },
+        {
+          "id": "close_village2",
+          "loadBarrier": true,
+          "position": 19890
+        },
+        {
+          "id": "random_quests",
+          "position": 20934
+        },
+        {
+          "id": "random_quests",
+          "position": 21373
+        },
+        {
+          "id": "music_bjorulf",
+          "position": 21857
+        },
+        {
+          "id": "close_bjorulf",
+          "loadBarrier": true,
+          "position": 22044
+        },
+        {
+          "id": "depart_bjorulf",
+          "position": 22252
+        },
+        {
+          "id": "music_4m4b",
+          "position": 22351
+        },
+        {
+          "id": "random_quests",
+          "position": 23117
+        },
+        {
+          "id": "vo_reynivik",
+          "position": 23366
+        },
+        {
+          "id": "close_reynivik",
+          "mapkey": true,
+          "position": 24211
+        },
+        {
+          "id": "pop_reynivik",
+          "position": 24298
+        },
+        {
+          "id": "pop_sigdrunk",
+          "position": 25104
+        },
+        {
+          "id": "random_quests",
+          "position": 25926
+        },
+        {
+          "id": "music_4m4b_outro",
+          "position": 26169
+        },
+        {
+          "id": "random_quests",
+          "position": 26724
+        },
+        {
+          "id": "sigreyvind",
+          "position": 26837
+        },
+        {
+          "id": "vo_boersgard",
+          "position": 27009
+        },
+        {
+          "id": "bookmark",
+          "position": 27883
+        },
+        {
+          "id": "close_boersgard",
+          "mapkey": true,
+          "position": 28045
+        },
+        {
+          "id": "end",
+          "position": 28306
+        }
+      ],
+      "splinex": [
+        "27942 -188",
+        "27842 -165",
+        "26904 -177",
+        "26587 -185",
+        "26132 -202",
+        "25168 -176",
+        "24989 -157",
+        "24187 -27",
+        "23609 62",
+        "23165 123",
+        "22954 140",
+        "22812 147",
+        "22679 143",
+        "22461 136",
+        "22350 139",
+        "22132 152",
+        "21884 141",
+        "21774 131",
+        "21659 120",
+        "21208 71",
+        "20936 32",
+        "20448 -51",
+        "20036 -79",
+        "19367 -107",
+        "18979 -100",
+        "18478 -97",
+        "18109 -104",
+        "17750 -136",
+        "17513 -113",
+        "17208 -42",
+        "16908 18",
+        "16681 38",
+        "16484 38",
+        "16336 62",
+        "16197 67",
+        "16078 54",
+        "15815 53",
+        "15484 95",
+        "15116 145",
+        "14977 179",
+        "14871 221",
+        "14655 273",
+        "14440 312",
+        "14198 337",
+        "13867 338",
+        "13705 351",
+        "13504 374",
+        "13235 413",
+        "12644 459",
+        "12119 466",
+        "11765 454",
+        "11381 411",
+        "11157 395",
+        "10901 368",
+        "10691 349",
+        "10512 340",
+        "10275 361",
+        "10082 361",
+        "9904 353",
+        "9209 398",
+        "8844 411",
+        "8289 418",
+        "7711 389",
+        "7487 372",
+        "7291 387",
+        "6950 335",
+        "6634 300",
+        "6439 268",
+        "6241 209",
+        "6024 174",
+        "5671 166",
+        "5368 238",
+        "5045 344",
+        "4694 393",
+        "4245 379",
+        "3959 333",
+        "3746 333",
+        "3343 335",
+        "3011 356",
+        "2525 396",
+        "2146 444",
+        "1762 466",
+        "1413 473",
+        "1051 475",
+        "562 474",
+        "298 474",
+        "159 470",
+        "21 453",
+        "-82 417",
+        "-130 409",
+        "-597 440",
+        "-870 462",
+        "-1753 448"
+      ]
+    }
+  },
+  "loadAudio": true,
+  "reverb": "",
+  "soundLibrary": {
+    "sku": "common",
+    "sounds": []
+  }
+}

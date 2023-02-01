@@ -1,0 +1,157 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"denglrWasAlwaysO": {
+				"content": [
+					"Denglr was always one of the favorites amongst men. God of Good Fortune. They believed he brought luck, wealth, or whatever else you wished you had, but couldn't get on your own. The word \"fortune\" has a lot of meanings. Eventually you move on.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"didntHelpTheBodi": {
+				"content": [
+					"Didn't help the bodies underneath it, though. The earth at the base of the godstone is scarred, like a struggle occurred. Merchants. No dredge. Encircling Denglr are a variety of goods; a barrel of mead - who knows how old, loose silver, a statue made of soapstone. Offerings to a dead god.",
+					{
+						"linkPath": "mogrDontKnowWhat",
+						"option": "Leave the dead and their offerings alone"
+					},
+					{
+						"linkPath": "inTheMidstOfTheP",
+						"option": "Leave the offerings but check for the merchant's brother"
+					},
+					{
+						"linkPath": "hakonWellNeedThe",
+						"option": "Gather whatever you can"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonWellNeedThe": {
+				"content": [
+					"[hakon] \"We'll need these more than the deceased,\" you remark. As others gather anything of use you inspect the bodies. A glitter catches your eye. Around one man's neck you fish out a gold necklace with five rings hanging loosely on it. \"Guess he didn't make it,\" you mutter.",
+					{
+						"linkPath": "mogrYouTossTheNe",
+						"option": "Take the necklace with the intent to return it"
+					},
+					{
+						"linkPath": "youDeftlySlipThe",
+						"option": "Take the necklace for yourself"
+					},
+					{
+						"linkPath": "mogrDontKnowWhat",
+						"option": "Leave it"
+					},
+					{
+						"flagName": "supplies+30"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonYouReturnTo": {
+				"content": [
+					"[hakon] You return to travel.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"inTheMidstOfTheP": {
+				"content": [
+					"In the midst of the pile of bodies a glitter catches your eye. You fish a gold necklace out from a jerkin to find five golden rings strung on it. The merchant's brother. \"Guess he didn't make it,\" you mutter.",
+					{
+						"linkPath": "mogrYouTossTheNe",
+						"option": "Take the necklace with intent to return it"
+					},
+					{
+						"linkPath": "youDeftlySlipThe",
+						"option": "Take the necklace for yourself"
+					},
+					{
+						"linkPath": "mogrDontKnowWhat",
+						"option": "Leave it"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrDontKnowWhat": {
+				"content": [
+					"[mogr] \"Don't know what made them think the godstone'd be safe,\" Mogr grunts. \"We're completely exposed up here,\" he says. \"If we're going to rest I think we ought to do it a little further away.\"",
+					{
+						"linkPath": "denglrWasAlwaysO",
+						"option": "Examine the godstone"
+					},
+					{
+						"linkPath": "hakonYouReturnTo",
+						"option": "Move on"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"mogrYouTossTheNe": {
+				"content": [
+					"[mogr] You toss the necklace to Mogr and tell him to hang on to it. If anyone can be trusted, it's him.",
+					{
+						"divert": "mogrDontKnowWhat"
+					},
+					{
+						"flagName": "renown+10"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "theCaravanStopsG",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"theCaravanStopsG": {
+				"content": [
+					"The caravan stops, godstone looming overhead, for a short rest. The warriors are glad for it, and the stone gives you an ancient sense of being watched over, in a comforting way.",
+					{
+						"divert": "didntHelpTheBodi"
+					},
+					{
+						"flagName": "morale+100"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"youDeftlySlipThe": {
+				"content": [
+					"You deftly slip the necklace off the man's neck and tuck it into your clothes. No use in leaving it to waste. You suddenly notice Mogr has been watching the whole time. He makes no mention of it; he either doesn't care or keeps his opinion to himself.",
+					{
+						"divert": "mogrDontKnowWhat"
+					},
+					{
+						"flagName": "1 giftdenglr"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "h5fx"
+}

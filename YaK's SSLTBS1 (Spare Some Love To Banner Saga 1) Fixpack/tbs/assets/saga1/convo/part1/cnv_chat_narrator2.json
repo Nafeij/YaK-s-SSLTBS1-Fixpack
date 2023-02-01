@@ -1,0 +1,306 @@
+{
+	"data": {
+		"initial": "skipMarkhakonMar",
+		"stitches": {
+			"hakonIfTheyComeB": {
+				"content": [
+					"[hakon] If they come back from the dead...",
+					{
+						"divert": "narratorThenIfYo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonIGetYourMea": {
+				"content": [
+					"[hakon] I get your meaning.",
+					{
+						"divert": "whatDoYouTalkAbo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonISeeYourPoi": {
+				"content": [
+					"[hakon] I see your point.",
+					{
+						"divert": "whatDoYouTalkAbo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonIsThatWhatY": {
+				"content": [
+					"[hakon] Is that what you'd say to Vognir?",
+					{
+						"divert": "narratorHakonNoI"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonItWasDumbQu": {
+				"content": [
+					"[hakon] It was dumb question.",
+					{
+						"divert": "narratorButWereP"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonNarratorEye": {
+				"content": [
+					"[hakon narrator] Eyeless?",
+					{
+						"divert": "narratorAndBragg"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonTheFewerWor": {
+				"content": [
+					"[hakon] The fewer words you say the more I'm concerned.",
+					{
+						"divert": "narratorThinkFor"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonThingsAreGe": {
+				"content": [
+					"[hakon] Things are getting rough out here.",
+					{
+						"divert": "narratorGunnulfW"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonWasntYourFa": {
+				"content": [
+					"[hakon] Wasn't your fault.",
+					{
+						"divert": "narratorNowThatI"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"heThinksALongWhi": {
+				"content": [
+					"He thinks a long while, his frown ever deepening.",
+					{
+						"divert": "narratorYes"
+					},
+					{
+						"flagName": "narrator4"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorAndBragg": {
+				"content": [
+					"[narrator] And Braggart, and Bellower, and Walker and the rest. Gods, maybe new ones.",
+					{
+						"divert": "hakonIfTheyComeB"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorButWereP": {
+				"content": [
+					"[narrator] But we're past it now.",
+					{
+						"divert": "whatDoYouTalkAbo"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorDoYourDu": {
+				"content": [
+					"[narrator] Do your duty. See what is happening. Bring it to Jorundr. Don't take the whole burden on yourself, that will not make you more of a champion. That will not buy the others' respect. Doing the right thing will.",
+					{
+						"divert": "hakonIsThatWhatY"
+					},
+					{
+						"flagName": "narrator5"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorFineAdvi": {
+				"content": [
+					"[narrator] Fine advice.",
+					{
+						"flagName": "narrator4=0"
+					},
+					{
+						"flagName": "narrator5=0"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorGunnulfW": {
+				"content": [
+					"[narrator] Gunnulf was a... serious blow. The varl saved my life on more than one occasion, and I couldn't return the favor. And pray to Denglr the other territories don't hear that we lost the treasure cart.",
+					{
+						"divert": "narratorIveHadRo"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"ifCondition": "gunnulfdied"
+					}
+				]
+			},
+			"narratorHakonNoI": {
+				"content": [
+					"[narrator hakon] No, I'd tell him to take on a dredge army by himself.",
+					{
+						"divert": "hakonItWasDumbQu"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorIveHadRo": {
+				"content": [
+					"[narrator] I've had rougher. Not often. Probably worse still when we show up in Grofheim, empty-handed. Pray to Denglr the other territories don't hear about it.",
+					{
+						"divert": "hakonWasntYourFa"
+					},
+					{
+						"pageNum": 0
+					},
+					{
+						"notIfCondition": "gunnulfdied"
+					}
+				]
+			},
+			"narratorNowThatI": {
+				"content": [
+					"[narrator] Now that I think on it, ironic we lost the cart right under his nose, isn't it? The gods truly are dead. I know it wasn't my fault, Hakon. It was my duty.",
+					{
+						"divert": "hakonISeeYourPoi"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorThenIfYo": {
+				"content": [
+					"[narrator] Then if you want mankind and menders to throw in, keep Ludin alive and see the alliance through. Cretin though he is.",
+					{
+						"divert": "narratorYoureGoi"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorThinkFor": {
+				"content": [
+					"[narrator] Think for yourself. If you want to look over the side of Ridgehorn I'll come and write what I see, but... damnation. It could get out of hand. Even the Sundr could return.",
+					{
+						"divert": "hakonNarratorEye"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorYes": {
+				"content": [
+					"[narrator] Yes.",
+					{
+						"divert": "hakonTheFewerWor"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"narratorYoureGoi": {
+				"content": [
+					"[narrator] You're going to have to steer this ship.",
+					{
+						"divert": "hakonIGetYourMea"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skipMarkhakonMar": {
+				"content": [
+					"{skip} mark1=hakon mark2=narrator",
+					{
+						"divert": "hakonThingsAreGe"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"whatDoYouTalkAbo": {
+				"content": [
+					"What do you talk about?",
+					{
+						"linkPath": "heThinksALongWhi",
+						"notIfConditions": [
+							{
+								"notIfCondition": "narrator4"
+							}
+						],
+						"option": "Think there's another war coming our way?"
+					},
+					{
+						"linkPath": "narratorDoYourDu",
+						"notIfConditions": [
+							{
+								"notIfCondition": "narrator5"
+							}
+						],
+						"option": "What would you do in my place?"
+					},
+					{
+						"linkPath": "narratorFineAdvi",
+						"option": "I'll leave you to get ready."
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "gbv2"
+}

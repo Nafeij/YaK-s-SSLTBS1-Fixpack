@@ -1,0 +1,67 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"eyvindBeforeLong": {
+				"content": [
+					"[eyvind] Before long, the masonry is a shattered mess and begins to give under its own weight. Varl and dredge alike race to escape the collapse. When the dust clears there's a gulf between you and the furious dredge. They won't be crossing this way.",
+					{
+						"divert": "jorundrYouveGott"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"iverLedByIverThe": {
+				"content": [
+					"[iver] Led by Iver, the varl push hard one last time against the dredge until there is room enough for Eyvind to take position and start raining down lightning bolts on the bridge supports.",
+					{
+						"divert": "eyvindBeforeLong"
+					},
+					{
+						"flagName": "5_blewitup"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"jorundrYouveGott": {
+				"content": [
+					"[jorundr] \"You've gotten what you wanted,\" says Jorundr. \"Now leave. If I ever see man or mender again it will be too soon.\"",
+					{
+						"divert": "eyvindJunoWill"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"eyvindJunoWill": {
+				"content": [
+					"[eyvind] \"Juno will be waiting for us in Sigrholm,\" Eyvind tells you. Despite the end of the immediate threat, several varl choose to join Iver instead of following Jorundr. You depart with a long caravan at your heels.",
+					{
+						"flagName": "num_varl+42"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "iverLedByIverThe",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "39wh"
+}

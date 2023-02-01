@@ -1,0 +1,108 @@
+{
+	"data": {
+		"initial": "skip",
+		"stitches": {
+			"convoyABoyHasGon": {
+				"content": [
+					"[convoy] A boy has gone missing from the caravan, along with a good number of supplies. The boy’s younger brother begins to sob, “Some men in the woods made us. Said we had to give them food or they’d kill us, and don't tell nobody. My brother went over there,” he points.",
+					{
+						"linkPath": "convoySeveralCla",
+						"option": "Lead a search party"
+					},
+					{
+						"linkPath": "convoyTwoGroupsO",
+						"option": "Lead a war party"
+					},
+					{
+						"linkPath": "rookYouGoInTheDi",
+						"option": "Try to make a trade for the boy"
+					},
+					{
+						"linkPath": "convoyThatEvenin1",
+						"option": "Send the younger brother and ambush them on the next trade"
+					},
+					{
+						"flagName": "supplies-20"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoySeveralCla": {
+				"content": [
+					"[convoy] Several clansmen join you in the direction the younger brother pointed. You find frantic tracks and eventually the boy’s cold body dead in the snow. \"They said to tell nobody,\" one of the scouts recalls. \"Heartless bastards.\"",
+					{
+						"flagName": "num_peasants-1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyThatEvenin": {
+				"content": [
+					"[convoy] That evening, the younger brother sets out with a bag of supplies, silently flanked by fighters. Within an hour, the sounds of a skirmish ring out. Soon, both boys return along with fighters laden with supplies.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyThatEvenin1": {
+				"content": [
+					"[convoy] That evening, the younger brother sets out with a bag of supplies, silently surrounded by fighters. Within an hour, the sounds of a skirmish ring out. Soon, both boys return along with cheerful fighters laden with supplies.",
+					{
+						"flagName": "morale+10"
+					},
+					{
+						"flagName": "supplies+30"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"convoyTwoGroupsO": {
+				"content": [
+					"[convoy] “Two groups, one on each side,” you instruct. They head out as you try to calm the parents. Much later, the fighters return, bloody and with the boy’s body. “We cut them down,” says an archer. “But we couldn't save the boy.”",
+					{
+						"flagName": "supplies+20"
+					},
+					{
+						"flagName": "num_peasants-1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"rookYouGoInTheDi": {
+				"content": [
+					"[rook] You go in the direction the boy indicated and shout “Return the boy, and a wagon of supplies is yours.” The caravan waits patiently for a good part of the day, but neither the boy or the bandits appear.",
+					{
+						"flagName": "morale-10"
+					},
+					{
+						"flagName": "num_peasants-1"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"skip": {
+				"content": [
+					"{skip}",
+					{
+						"linkPath": "convoyABoyHasGon",
+						"option": "{skip}"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			}
+		}
+	},
+	"url_key": "3n4m"
+}

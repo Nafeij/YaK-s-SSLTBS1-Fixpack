@@ -1,0 +1,1757 @@
+{
+  "ambientParameter": 0,
+  "cameraAnchorSpeed": 500,
+  "cameraDrift": 0,
+  "cameraMaxHeight": 1162,
+  "cameraMaxWidth": 2731,
+  "cameraMinHeight": 1162,
+  "cameraMinWidth": 2048,
+  "cinemascope": true,
+  "happenings": [
+    {
+      "actions": [
+        {
+          "scene": "saga1/scene/part1/cin_rook_alette/cin_rook_alette.json.z",
+          "type": "SCENE"
+        }
+      ],
+      "id": "dredgeintro",
+      "triggers": [
+        {
+          "location": "dredgeintro",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "SHOW_CARAVAN",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "hud_camp_enabled",
+          "varvalue": 1
+        },
+        {
+          "location": "start",
+          "scene": "saga1/scene/part2/cls_skogr/cls_skogr.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "id": "prg_skogr",
+          "type": "GMA_EVENT"
+        },
+        {
+          "id": "skogr_arrive",
+          "type": "GA_PAGE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "game_progress",
+          "varvalue": 8
+        },
+        {
+          "id": "sav_skogr",
+          "type": "SAVE_STORE"
+        }
+      ],
+      "id": "close_skogr",
+      "triggers": [
+        {
+          "location": "close_skogr",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "2 savedcart",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_chat_alettedredge1.json.z"
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part1/cnv_tutorial_supplies.json.z"
+        },
+        {
+          "id": "vfx_birds_tiny_black_1",
+          "type": "ANIM_PATH_START"
+        },
+        {
+          "id": "vfx_birds_close_black_1",
+          "type": "ANIM_PATH_START"
+        },
+        {
+          "id": "vfx_birds_med_black_1",
+          "type": "ANIM_PATH_START"
+        },
+        {
+          "id": "vfx_birds_tiny_black_2",
+          "type": "ANIM_PATH_START"
+        },
+        {
+          "id": "saga1/music/part2/2m1a_oneshot",
+          "time": 3,
+          "type": "MUSIC_ONESHOT"
+        }
+      ],
+      "id": "supply_tutorial"
+    },
+    {
+      "actions": [
+        {
+          "location": "start",
+          "scene": "saga1/scene/part2/cls_godstone_hridvaldyr/cls_godstone_hridvaldyr.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "game_progress",
+          "varvalue": 12
+        },
+        {
+          "id": "sav_hridvaldyr",
+          "type": "SAVE_STORE"
+        }
+      ],
+      "id": "close_godstonehrid",
+      "triggers": [
+        {
+          "location": "close_godstonehrid",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "market_available_supplies",
+          "varvalue": 24
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "market_supplies_per_renown",
+          "varvalue": 3
+        },
+        {
+          "type": "MARKET_RESET_ITEMS"
+        },
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_pop_village1intro.json.z"
+        },
+        {
+          "instant": true,
+          "scene": "saga1/scene/part2/vlg_part2_a/vlg_part2_a.json.z",
+          "type": "CAMP"
+        }
+      ],
+      "id": "close_village1",
+      "triggers": [
+        {
+          "location": "close_village1",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_pop_village1leaving.json.z"
+        },
+        {
+          "id": "saga1/music/part2/2m2e-L2",
+          "type": "MUSIC_ONESHOT"
+        },
+        {
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_wilderness_forest/stg_wilderness_forest.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part2/cnv_chat_hogunmogun.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "2 village1fight",
+              "varvalue": 1
+            }
+          ],
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 6
+        },
+        {
+          "id": "alette",
+          "prereqs": [
+            {
+              "varname": "2 village1fight",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "hogun",
+          "prereqs": [
+            {
+              "varname": "2 village1betray",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_ADD"
+        },
+        {
+          "id": "mogun",
+          "prereqs": [
+            {
+              "varname": "2 village1betray",
+              "varvalue": 0
+            }
+          ],
+          "type": "ROSTER_ADD"
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "battle_victory",
+          "varvalue": 1
+        },
+        {
+          "id": "saga1/music/battle/LOSE",
+          "type": "MUSIC_ONESHOT"
+        },
+        {
+          "bucket": "2_fighters_easy",
+          "prereqs": [
+            {
+              "varname": "2 village1fight",
+              "varvalue": 1
+            }
+          ],
+          "restore_scene": false,
+          "scene": "saga1/scene/battle/btl_forest_wilderness/btl_forest_wilderness.json.z",
+          "type": "BATTLE"
+        },
+        {
+          "also_party": true,
+          "id": "hogun",
+          "prereqs": [
+            {
+              "varname": "hogundied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "mogun",
+          "prereqs": [
+            {
+              "varname": "mogundied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "alette",
+          "prereqs": [
+            {
+              "varname": "2 village1fight",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_ADD"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "danger",
+          "varvalue": 5
+        },
+        {
+          "location": "left_village",
+          "scene": "saga1/scene/part2/wld_einartoft_1/wld_einartoft_1.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "battle_victory",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_pop_hogunmogun.json.z"
+        },
+        {
+          "prereqs": [
+            {
+              "varname": "2 village1fight",
+              "varvalue": 1
+            },
+            {
+              "varname": "battle_victory",
+              "varvalue": 0
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_fail_hogunmogun.json.z"
+        },
+        {
+          "id": "hogun",
+          "prereqs": [
+            {
+              "varname": "hogundied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        },
+        {
+          "id": "mogun",
+          "prereqs": [
+            {
+              "varname": "mogundied",
+              "varvalue": 1
+            }
+          ],
+          "type": "ROSTER_REMOVE"
+        }
+      ],
+      "id": "left_village",
+      "triggers": [
+        {
+          "location": "left_village",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "happening": "FA_end_exec",
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "fa2013",
+              "varvalue": 1
+            }
+          ],
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "FA_end",
+      "triggers": [
+        {
+          "location": "FA_end",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "time": 15,
+          "type": "FLASH_PAGE",
+          "url": "saga_titles.swf/assets.pax2013_end"
+        },
+        {
+          "happening": "bk_fa2013_tutorial",
+          "type": "BOOKMARK"
+        }
+      ],
+      "id": "FA_end_exec"
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_pop_alettebanner.json.z"
+        },
+        {
+          "id": "saga1/music/part2/2m2a",
+          "type": "MUSIC_ONESHOT"
+        },
+        {
+          "restore_scene": false,
+          "scene": "saga1/scene/stage/stg_wilderness_forest/stg_wilderness_forest.json.z",
+          "type": "CONVO",
+          "url": "saga1/convo/part2/cnv_chat_alettebanner.json.z"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "oddleif.talk",
+          "varvalue": 3
+        },
+        {
+          "instant": true,
+          "type": "CAMP"
+        }
+      ],
+      "id": "chat_alettebanner",
+      "triggers": [
+        {
+          "location": "chat_alettebanner",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "camp_music_suppressed",
+          "varvalue": 1
+        },
+        {
+          "location": "start",
+          "scene": "saga1/scene/part2/cls_frostvellr/cls_frostvellr.json.z",
+          "type": "TRAVEL"
+        },
+        {
+          "id": "prg_frostvellr",
+          "type": "GMA_EVENT"
+        },
+        {
+          "id": "frostvellr_arrive",
+          "type": "GA_PAGE"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "game_progress",
+          "varvalue": 16
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "id": "sav_frostvellr",
+          "type": "SAVE_STORE"
+        }
+      ],
+      "id": "close_frostvellr",
+      "triggers": [
+        {
+          "location": "close_frostvellr",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_travel_caravanspread.json.z"
+        },
+        {
+          "instant": true,
+          "prereqs": [
+            {
+              "varname": "travelcamped",
+              "varvalue": 1
+            }
+          ],
+          "type": "CAMP"
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "travelcamped"
+        }
+      ],
+      "id": "travel_caravanspread",
+      "triggers": [
+        {
+          "location": "travel_caravanspread",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/scene/battle/music/frostvellr.btlmusic.json.z",
+          "type": "BATTLE_MUSIC"
+        }
+      ],
+      "id": "btl_default_frostvellr",
+      "triggers": [
+        {
+          "location": "btl_default_frostvellr",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_travel_riverwash.json.z"
+        }
+      ],
+      "id": "travel_riverwash",
+      "triggers": [
+        {
+          "location": "travel_riverwash",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_travel_huntingboon.json.z"
+        }
+      ],
+      "id": "travel_huntingboon",
+      "triggers": [
+        {
+          "location": "travel_huntingboon",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_travel_kinwarning.json.z"
+        }
+      ],
+      "id": "travel_kinwarning",
+      "triggers": [
+        {
+          "location": "travel_kinwarning",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_travel_drunkard1.json.z"
+        }
+      ],
+      "id": "travel_drunkard1",
+      "triggers": [
+        {
+          "location": "travel_drunkard1",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "2 traveldrunkard2",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_travel_drunkard2.json.z"
+        }
+      ],
+      "id": "travel_drunkard2",
+      "triggers": [
+        {
+          "location": "travel_drunkard2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "prereqs": [
+            {
+              "varname": "2 traveldrunkard3",
+              "varvalue": 1
+            }
+          ],
+          "type": "POPUP",
+          "url": "saga1/convo/part2/cnv_travel_drunkard3.json.z"
+        }
+      ],
+      "id": "travel_drunkard3",
+      "triggers": [
+        {
+          "location": "travel_drunkard3",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "weather_snow_density",
+          "varvalue": 2
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "weather_snow_gravity",
+          "varvalue": 2
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "weather_wind",
+          "varvalue": 3
+        }
+      ],
+      "id": "snow1",
+      "triggers": [
+        {
+          "location": "snow1",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "weather_snow_density",
+          "varvalue": 3
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "weather_snow_gravity",
+          "varvalue": 3
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "weather_wind",
+          "varvalue": 4
+        }
+      ],
+      "id": "snow2",
+      "triggers": [
+        {
+          "location": "snow2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [],
+      "id": "music_1m2",
+      "triggers": [
+        {
+          "location": "music_1m2",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part2/2m2e-L1",
+          "type": "MUSIC_START"
+        }
+      ],
+      "id": "music_2m2e-L1",
+      "triggers": [
+        {
+          "location": "music_2m2e-L1",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "biome",
+          "varvalue": 2
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "2 rookcaravan",
+          "varvalue": 1
+        },
+        {
+          "suppress_flytext": true,
+          "type": "VARIABLE_SET",
+          "varname": "1 hakoncaravan"
+        }
+      ],
+      "automatic": true,
+      "id": "biome"
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1_vo/vo/vo_frostvellr",
+          "subtitle": "saga1/locale/en/vo_frostvellr.sbv.z",
+          "type": "VO",
+          "varvalue": 1
+        }
+      ],
+      "id": "vo_frostvellr",
+      "triggers": [
+        {
+          "location": "vo_frostvellr",
+          "type": "LOCATION"
+        }
+      ]
+    },
+    {
+      "actions": [
+        {
+          "id": "saga1/music/part2/2m2e-L1",
+          "type": "MUSIC_OUTRO"
+        }
+      ],
+      "id": "outro_2m2e-L1",
+      "triggers": [
+        {
+          "location": "outro_2m2e-L1",
+          "type": "LOCATION"
+        }
+      ]
+    }
+  ],
+  "landscape": {
+    "boundary": {
+      "height": 1162,
+      "width": 8442.05,
+      "x": -1365.5,
+      "y": -581
+    },
+    "layers": [
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/7_sky.png",
+            "localrect": {
+              "height": 581,
+              "width": 2035,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "7_sky_1",
+            "offset": {
+              "x": -189,
+              "y": 0
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_7_sky",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 0.2
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/6_back_3mtns_0x0.png",
+            "localrect": {
+              "height": 687,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_3mtns_1_0x0",
+            "offset": {
+              "x": -402,
+              "y": 291
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/6_back_3mtns_2048x0.png",
+            "localrect": {
+              "height": 687,
+              "width": 417,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "6_back_3mtns_1_2048x0",
+            "offset": {
+              "x": 1646,
+              "y": 291
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_6_back",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 0.3
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/5_back_right_0x0.png",
+            "localrect": {
+              "height": 740,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_right_1_0x0",
+            "offset": {
+              "x": 1543,
+              "y": 278
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/5_back_right_2048x0.png",
+            "localrect": {
+              "height": 740,
+              "width": 301,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_right_1_2048x0",
+            "offset": {
+              "x": 3591,
+              "y": 278
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/5_back_right2.png",
+            "localrect": {
+              "height": 1008,
+              "width": 1862,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "5_back_right2_1",
+            "offset": {
+              "x": 3734,
+              "y": 0
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_5_back",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 0.5
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/4_back_right_0x0.png",
+            "localrect": {
+              "height": 392,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_right_1_0x0",
+            "offset": {
+              "x": -109,
+              "y": 651
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/4_back_right_2048x0.png",
+            "localrect": {
+              "height": 392,
+              "width": 1004,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_right_1_2048x0",
+            "offset": {
+              "x": 1939,
+              "y": 651
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/4_back_rightb_0x0.png",
+            "localrect": {
+              "height": 693,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_rightb_1_0x0",
+            "offset": {
+              "x": 2943,
+              "y": 350
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/4_back_rightb_2048x0.png",
+            "localrect": {
+              "height": 693,
+              "width": 1743,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_rightb_1_2048x0",
+            "offset": {
+              "x": 4991,
+              "y": 350
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/4_back_wastes_0x0.png",
+            "localrect": {
+              "height": 154,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_wastes_1_0x0",
+            "offset": {
+              "x": -182,
+              "y": 898
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/4_back_wastes_2048x0.png",
+            "localrect": {
+              "height": 154,
+              "width": 299,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "4_back_wastes_1_2048x0",
+            "offset": {
+              "x": 1866,
+              "y": 898
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_4_back",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 0.7
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_back.png",
+            "localrect": {
+              "height": 288,
+              "width": 1832,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back_1",
+            "offset": {
+              "x": 4445,
+              "y": 753
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_back2.png",
+            "localrect": {
+              "height": 121,
+              "width": 1370,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back2_1",
+            "offset": {
+              "x": -2,
+              "y": 916
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "saga1/scene/part1/wld_ridgehorn/vfx.wld_ridgehorn/vfx_birds_tiny_black.clip",
+            "anim_path": {
+              "autostart": false,
+              "looping": false,
+              "nodes": [
+                {
+                  "duration_secs": 40,
+                  "start": {
+                    "x": 8058.6,
+                    "y": 978.55
+                  },
+                  "target": {
+                    "x": 4796,
+                    "y": 542
+                  },
+                  "type": "MOVE"
+                }
+              ]
+            },
+            "bmp": "",
+            "localrect": {
+              "height": 113,
+              "width": 134,
+              "x": -97,
+              "y": -53
+            },
+            "nameId": "vfx_birds_tiny_black_1",
+            "offset": {
+              "x": 7697,
+              "y": 1069
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "saga1/scene/part1/wld_ridgehorn/vfx.wld_ridgehorn/vfx_birds_tiny_black.clip",
+            "anim_path": {
+              "autostart": false,
+              "looping": false,
+              "nodes": [
+                {
+                  "duration_secs": 39,
+                  "start": {
+                    "x": 8108.45,
+                    "y": 1025
+                  },
+                  "target": {
+                    "x": 4692,
+                    "y": 596
+                  },
+                  "type": "MOVE"
+                }
+              ]
+            },
+            "bmp": "",
+            "localrect": {
+              "height": 113,
+              "width": 134,
+              "x": -97,
+              "y": -53
+            },
+            "nameId": "vfx_birds_tiny_black_2",
+            "offset": {
+              "x": 8126,
+              "y": 937
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/scene/lettering_frostvellr.png",
+            "localrect": {
+              "height": 216,
+              "width": 287,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "lettering_frostvellr_1",
+            "offset": {
+              "x": 1818,
+              "y": 587
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/locale/zh/lettering/lettering_frostvellr.png",
+            "langs": "zh",
+            "linked": "lettering_frostvellr_1",
+            "nameId": "zh_lettering_frostvellr",
+            "offset": {
+              "x": 1839,
+              "y": 630
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/scene/lettering_skogr.png",
+            "localrect": {
+              "height": 144,
+              "width": 217,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "lettering_skogr_1",
+            "offset": {
+              "x": 6484,
+              "y": 727
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/locale/zh/lettering/lettering_skogr.png",
+            "langs": "zh",
+            "linked": "lettering_skogr_1",
+            "nameId": "zh_lettering_skogr",
+            "offset": {
+              "x": 6500,
+              "y": 738
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_back2b_0x0.png",
+            "localrect": {
+              "height": 300,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back2b_1_0x0",
+            "offset": {
+              "x": 1437,
+              "y": 709
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_back2b_2048x0.png",
+            "localrect": {
+              "height": 300,
+              "width": 960,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_back2b_1_2048x0",
+            "offset": {
+              "x": 3485,
+              "y": 709
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_backb_0x0.png",
+            "localrect": {
+              "height": 497,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_backb_1_0x0",
+            "offset": {
+              "x": 6277,
+              "y": 668
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_backb_2048x0.png",
+            "localrect": {
+              "height": 497,
+              "width": 120,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_backb_1_2048x0",
+            "offset": {
+              "x": 8325,
+              "y": 668
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_3_walk_back",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_front.png",
+            "localrect": {
+              "height": 340,
+              "width": 1898,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front_1",
+            "offset": {
+              "x": 4326,
+              "y": 824
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_front1_0x0.png",
+            "localrect": {
+              "height": 271,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front1_1_0x0",
+            "offset": {
+              "x": -8,
+              "y": 893
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_front1_2048x0.png",
+            "localrect": {
+              "height": 271,
+              "width": 64,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front1_1_2048x0",
+            "offset": {
+              "x": 2040,
+              "y": 893
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_front1b_0x0.png",
+            "localrect": {
+              "height": 262,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front1b_1_0x0",
+            "offset": {
+              "x": 2104,
+              "y": 902
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_front1b_2048x0.png",
+            "localrect": {
+              "height": 262,
+              "width": 174,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_front1b_1_2048x0",
+            "offset": {
+              "x": 4152,
+              "y": 902
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_fronta_0x0.png",
+            "localrect": {
+              "height": 171,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_fronta_1_0x0",
+            "offset": {
+              "x": 6224,
+              "y": 993
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/3_walk_fronta_2048x0.png",
+            "localrect": {
+              "height": 171,
+              "width": 54,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "3_walk_fronta_1_2048x0",
+            "offset": {
+              "x": 8272,
+              "y": 993
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_3_walk_front",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "anim": "common/battle/scene/wall01/strand_walls_vfx/vfx_birds_med_black.clip",
+            "anim_path": {
+              "autostart": false,
+              "looping": false,
+              "nodes": [
+                {
+                  "duration_secs": 25,
+                  "start": {
+                    "x": 10286,
+                    "y": 848
+                  },
+                  "target": {
+                    "x": 6173.6,
+                    "y": 640.05
+                  },
+                  "type": "MOVE"
+                }
+              ]
+            },
+            "bmp": "",
+            "localrect": {
+              "height": 174,
+              "width": 168,
+              "x": -115,
+              "y": -174
+            },
+            "nameId": "vfx_birds_med_black_1",
+            "offset": {
+              "x": 10293,
+              "y": 848
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/2_close_right.png",
+            "localrect": {
+              "height": 715,
+              "width": 886,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_right_1",
+            "offset": {
+              "x": 9272,
+              "y": 451
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/2_close_left.png",
+            "localrect": {
+              "height": 746,
+              "width": 1769,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_left_1",
+            "offset": {
+              "x": 5714,
+              "y": 422
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/2_close_left.png",
+            "localrect": {
+              "height": 77,
+              "width": 823,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_left_2",
+            "offset": {
+              "x": 411,
+              "y": 1012
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/2_close_hill.png",
+            "localrect": {
+              "height": 197,
+              "width": 1391,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_hill_1",
+            "offset": {
+              "x": 2664,
+              "y": 1020
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/2_close_hill2.png",
+            "localrect": {
+              "height": 187,
+              "width": 860,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "2_close_hill2_1",
+            "offset": {
+              "x": 5446,
+              "y": 1040
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_2_close",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 1.3
+      },
+      {
+        "layerSprites": [
+          {
+            "anim": "common/battle/scene/wall01/strand_walls_vfx/vfx_birds_close_black.clip",
+            "anim_path": {
+              "autostart": false,
+              "looping": false,
+              "nodes": [
+                {
+                  "duration_secs": 22,
+                  "start": {
+                    "x": 12423.85,
+                    "y": 1020.05
+                  },
+                  "target": {
+                    "x": 6940.1,
+                    "y": 660.05
+                  },
+                  "type": "MOVE"
+                }
+              ]
+            },
+            "bmp": "",
+            "localrect": {
+              "height": 138,
+              "width": 235,
+              "x": -105,
+              "y": -134
+            },
+            "nameId": "vfx_birds_close_black_1",
+            "offset": {
+              "x": 11983,
+              "y": 951
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/1_close_tree.png",
+            "localrect": {
+              "height": 1162,
+              "width": 215,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_tree_1",
+            "offset": {
+              "x": 8734,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/1_close_trees.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1624,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_trees_1",
+            "offset": {
+              "x": 10303,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/1_close_trees1.png",
+            "localrect": {
+              "height": 657,
+              "width": 409,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_trees1_1",
+            "offset": {
+              "x": 8762,
+              "y": 520
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/1_close_trees2.png",
+            "localrect": {
+              "height": 561,
+              "width": 725,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_trees2_1",
+            "offset": {
+              "x": 6936,
+              "y": 613
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/1_close_trees2.png",
+            "localrect": {
+              "height": 561,
+              "width": 725,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_trees2_2",
+            "offset": {
+              "x": 11380,
+              "y": 620
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/1_close_left.png",
+            "localrect": {
+              "height": 572,
+              "width": 352,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_left_1",
+            "offset": {
+              "x": 4004,
+              "y": 74
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part2/wld_einartoft_1/1_close_trees.png",
+            "localrect": {
+              "height": 1162,
+              "width": 1624,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_trees_2",
+            "offset": {
+              "x": 4291,
+              "y": 0
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "saga1/scene/part1/wld_ridgehorn/1_close_rightmid.png",
+            "localrect": {
+              "height": 135,
+              "width": 592,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "1_close_rightmid_1",
+            "offset": {
+              "x": 2547,
+              "y": 895
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_1_close",
+        "offset": {
+          "x": -1365.5,
+          "y": -581
+        },
+        "speed": 1.6
+      }
+    ],
+    "travel": {
+      "locations": [
+        {
+          "id": "start",
+          "position": 0
+        },
+        {
+          "id": "dredgeintro",
+          "position": 201
+        },
+        {
+          "id": "bookmark",
+          "position": 352
+        },
+        {
+          "id": "close_skogr",
+          "loadBarrier": true,
+          "mapkey": true,
+          "position": 1364
+        },
+        {
+          "id": "skogr_depart",
+          "position": 1629
+        },
+        {
+          "id": "btl_default_frostvellr",
+          "position": 1700
+        },
+        {
+          "id": "travel_caravanspread",
+          "position": 2020
+        },
+        {
+          "id": "FA_end",
+          "position": 2123
+        },
+        {
+          "id": "close_godstonehrid",
+          "loadBarrier": true,
+          "position": 2185
+        },
+        {
+          "id": "depart_hridvaldyr",
+          "position": 2298
+        },
+        {
+          "id": "music_2m2b",
+          "position": 2398
+        },
+        {
+          "id": "travel_huntingboon",
+          "position": 2777
+        },
+        {
+          "id": "travel_drunkard1",
+          "position": 3231
+        },
+        {
+          "id": "close_village1",
+          "loadBarrier": true,
+          "position": 3709
+        },
+        {
+          "id": "left_village",
+          "position": 3831
+        },
+        {
+          "id": "chat_alettebanner",
+          "loadBarrier": true,
+          "position": 4243
+        },
+        {
+          "id": "music_2m2e-L1",
+          "position": 4415
+        },
+        {
+          "id": "travel_kinwarning",
+          "position": 4543
+        },
+        {
+          "id": "travel_drunkard2",
+          "position": 4951
+        },
+        {
+          "id": "outro_2m2e-L1",
+          "position": 5051
+        },
+        {
+          "id": "travel_drunkard3",
+          "position": 5241
+        },
+        {
+          "id": "snow1",
+          "position": 5351
+        },
+        {
+          "id": "bk_2_frostvellr",
+          "position": 5500
+        },
+        {
+          "id": "vo_frostvellr",
+          "position": 5612
+        },
+        {
+          "id": "snow2",
+          "position": 5744
+        },
+        {
+          "id": "close_frostvellr",
+          "loadBarrier": true,
+          "position": 5921
+        },
+        {
+          "id": "end",
+          "position": 6119
+        }
+      ],
+      "splinex": [
+        "6880 555",
+        "6680 531",
+        "6433 504",
+        "6320 499",
+        "6076 472",
+        "5934 475",
+        "5802 468",
+        "5672 456",
+        "5323 450",
+        "4881 424",
+        "4672 400",
+        "4463 371",
+        "4370 353",
+        "4203 327",
+        "3809 313",
+        "3386 373",
+        "3163 387",
+        "2468 395",
+        "1498 374",
+        "921 335",
+        "594 324",
+        "86 339"
+      ]
+    }
+  },
+  "loadAudio": true,
+  "reverb": "",
+  "soundLibrary": {
+    "sku": "common",
+    "sounds": []
+  }
+}

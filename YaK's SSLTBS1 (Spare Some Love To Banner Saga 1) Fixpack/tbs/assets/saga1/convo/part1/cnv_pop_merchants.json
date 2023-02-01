@@ -1,0 +1,86 @@
+{
+	"data": {
+		"initial": "hakonASmallGathe",
+		"stitches": {
+			"asYouLikeIfYoure": {
+				"content": [
+					"\"As you like. If you're passing Denglr's stone I have a request, though. My wife's brother stayed behind. You'll know him by the necklace with many gold rings. If you see him say we are safely in Strand.\" You agree, and the merchants continue onward.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"hakonASmallGathe": {
+				"content": [
+					"[hakon] A small gathering of tents come into view; group of merchants, from the look of it. You ask what they're doing here. \"We were camped out at the godstone ahead,\" one tells you. \"Leaving an offering to Denglr, as one does.\" His expression turns. \"Dredge started appearing out of nowhere. Some of us stayed. Thought the godstone'd be safe, but damned if I know why. We been dodging them since we left.\"",
+					{
+						"linkPath": "theyThankYouProf",
+						"option": "Assure them the way to Strand is clear and see them off"
+					},
+					{
+						"linkPath": "notMuchHeReplies",
+						"option": "Ask if they have anything to trade"
+					},
+					{
+						"pageNum": 1
+					}
+				]
+			},
+			"illGiveThemFreel": {
+				"content": [
+					"\"I'll give them freely. Clearing the road is more than we could ask. I have one request, though. My wife's brother stayed at the godstone. You'll know him by a necklace with many gold rings. If you see him say we are safely in Strand.\" You agree, and the merchants continue onward.",
+					{
+						"flagName": "1 badfood"
+					},
+					{
+						"flagName": "supplies+35"
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"notMuchHeReplies": {
+				"content": [
+					"\"Not much,\" he replies. \"Anything of value we left at the godstone. I've never seen this many varl in one place before. You're off to deal with those dredge?\" You nod. \"We could part with some supplies if you need them.\"",
+					{
+						"linkPath": "illGiveThemFreel",
+						"option": "\"We'll take them. How much?\""
+					},
+					{
+						"linkPath": "asYouLikeIfYoure",
+						"option": "\"We have enough. Keep them.\""
+					},
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"theyThankYouProf": {
+				"content": [
+					"They thank you profusely. One stops as he passes. \"If you're passing by Denglr, do me a favor? My wife's brother stayed behind. You'll know him by a necklace with many rings on it. If you see him, say we are safely in Strand.\" You nod. After a short time they continue on.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"youThankTheMerch": {
+				"content": [
+					"You thank the merchant for the supplies and are soon back on the road.",
+					{
+						"pageNum": 0
+					}
+				]
+			},
+			"youThankTheMerch1": {
+				"content": [
+					"You thank the merchant for the supplies and are soon back on the road.",
+					{
+						"pageNum": 0
+					}
+				]
+			}
+		}
+	},
+	"url_key": "zjv2"
+}
