@@ -1,4 +1,10 @@
 # Release Notes
+
+> ## 3.3
+> 1 Feb 2023
+> - Added **Nafeij's Pillager Submod** option. Enables pillage mode at battle start.
+> - Resturctured folder directory to accomodate submod
+
 > ## 3.2
 > 26 Jan 2023
 > - Shifted the character sprites around in the first Vognir conversation so that Hakon isn't blocked by Ubin's fat arm.
