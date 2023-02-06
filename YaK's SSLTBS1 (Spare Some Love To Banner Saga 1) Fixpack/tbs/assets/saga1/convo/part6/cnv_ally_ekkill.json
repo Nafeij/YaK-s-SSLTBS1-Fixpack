@@ -286,9 +286,9 @@
 			},
 			"ekkillSoRookIDon": {
 				"content": [
-					"[ekkill] So, Rook, we don't have to be your prisoners any more?",
+					"[ekkill] So we don't have to be your prisoners any more? You're going to let me walk around with my axe and everything?",
 					{
-						"divert": "ekkillSoYoureGoi"
+						"divert": "rookThatDoesntMe"
 					},
 					{
 						"flagName": "num_fighters+39"
