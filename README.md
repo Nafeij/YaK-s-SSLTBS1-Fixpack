@@ -21,6 +21,10 @@ Please report any bugs in [Issues](../../issues).
 
 # Latest releases
 
+> ## 3.4
+> 6 Feb 2023
+> - Fixed variation of previous Ekkill import bug where his state is not correctly set if you have Ekkill has a prisoner and release him afterwards.
+
 > ## 3.3
 > 1 Feb 2023
 > - Added **Nafeij's Pillager Submod** option. Enables pillage mode at battle start.
