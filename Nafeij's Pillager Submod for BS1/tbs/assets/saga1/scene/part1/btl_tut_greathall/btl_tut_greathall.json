@@ -1,0 +1,1265 @@
+{
+  "ambientParameter": 0,
+  "boards": [
+    {
+      "deploymentAreas": [
+        {
+          "area": {
+            "tilesx": [
+              "0 0",
+              "0 1",
+              "0 10",
+              "0 11",
+              "0 2",
+              "0 3",
+              "0 4",
+              "0 5",
+              "0 6",
+              "0 7",
+              "0 8",
+              "0 9",
+              "1 0",
+              "1 1",
+              "1 10",
+              "1 11",
+              "1 2",
+              "1 3",
+              "1 4",
+              "1 5",
+              "1 6",
+              "1 7",
+              "1 8",
+              "1 9",
+              "2 0",
+              "2 1",
+              "2 10",
+              "2 11",
+              "2 2",
+              "2 3",
+              "2 4",
+              "2 5",
+              "2 6",
+              "2 7",
+              "2 8",
+              "2 9",
+              "3 0",
+              "3 1",
+              "3 10",
+              "3 11",
+              "3 2",
+              "3 3",
+              "3 4",
+              "3 5",
+              "3 6",
+              "3 7",
+              "3 8",
+              "3 9",
+              "4 0",
+              "4 1",
+              "4 10",
+              "4 11",
+              "4 2",
+              "4 3",
+              "4 4",
+              "4 5",
+              "4 6",
+              "4 7",
+              "4 8",
+              "4 9",
+              "5 0",
+              "5 1",
+              "5 10",
+              "5 11",
+              "5 2",
+              "5 3",
+              "5 4",
+              "5 5",
+              "5 6",
+              "5 7",
+              "5 8",
+              "5 9",
+              "6 0",
+              "6 1",
+              "6 10",
+              "6 11",
+              "6 2",
+              "6 3",
+              "6 4",
+              "6 5",
+              "6 6",
+              "6 7",
+              "6 8",
+              "6 9"
+            ]
+          },
+          "facing": "NE",
+          "id": "player0"
+        }
+      ],
+      "id": "board_0",
+      "layer": "layer_walk",
+      "pos": {
+        "x": 1482,
+        "y": 431
+      },
+      "spawners": [
+        {
+          "entityClass": "tutorial_chieftain",
+          "facing": "SW",
+          "location": {
+            "x": 4,
+            "y": 1
+          },
+          "stats": {
+            "stats": [
+              {
+                "stat": "EXERTION",
+                "value": 1
+              },
+              {
+                "stat": "ARMOR_BREAK",
+                "value": 1
+              },
+              {
+                "stat": "MOVEMENT",
+                "value": 4
+              },
+              {
+                "stat": "RANGE",
+                "value": 1
+              },
+              {
+                "stat": "RANK",
+                "value": 2
+              },
+              {
+                "stat": "STRENGTH",
+                "value": 9
+              },
+              {
+                "stat": "ARMOR",
+                "value": 1
+              },
+              {
+                "stat": "WILLPOWER",
+                "value": 2
+              },
+              {
+                "stat": "NEVER_MISS",
+                "value": 1
+              }
+            ]
+          },
+          "team": "npc"
+        },
+        {
+          "entityClass": "tutorial_raider",
+          "facing": "SW",
+          "location": {
+            "x": 1,
+            "y": 1
+          },
+          "stats": {
+            "stats": [
+              {
+                "stat": "STRENGTH",
+                "value": 6
+              },
+              {
+                "stat": "ARMOR",
+                "value": 5
+              },
+              {
+                "stat": "WILLPOWER",
+                "value": 4
+              },
+              {
+                "stat": "EXERTION",
+                "value": 0
+              },
+              {
+                "stat": "ARMOR_BREAK",
+                "value": 1
+              },
+              {
+                "stat": "MOVEMENT",
+                "value": 4
+              },
+              {
+                "stat": "RANGE",
+                "value": 1
+              },
+              {
+                "stat": "RANK",
+                "value": 2
+              }
+            ]
+          },
+          "team": "npc"
+        },
+        {
+          "entityClass": "tutorial_raider",
+          "facing": "SW",
+          "location": {
+            "x": 2,
+            "y": 1
+          },
+          "stats": {
+            "stats": [
+              {
+                "stat": "STRENGTH",
+                "value": 7
+              },
+              {
+                "stat": "ARMOR",
+                "value": 5
+              }
+            ]
+          },
+          "team": "npc"
+        },
+        {
+          "entityClass": "tutorial_raider",
+          "facing": "SW",
+          "location": {
+            "x": 6,
+            "y": 1
+          },
+          "stats": {
+            "stats": [
+              {
+                "stat": "STRENGTH",
+                "value": 5
+              },
+              {
+                "stat": "ARMOR",
+                "value": 4
+              }
+            ]
+          },
+          "team": "npc"
+        },
+        {
+          "character": "shieldbanger_tut",
+          "facing": "NE",
+          "location": {
+            "x": 5,
+            "y": 6
+          },
+          "stats": {
+            "stats": []
+          },
+          "team": "player0"
+        },
+        {
+          "character": "warhawk_tut",
+          "facing": "NE",
+          "location": {
+            "x": 1,
+            "y": 8
+          },
+          "stats": {
+            "stats": []
+          },
+          "team": "player0"
+        }
+      ],
+      "triggers": [],
+      "unwalkableTiles": {
+        "tilesx": []
+      },
+      "walkableTiles": {
+        "tilesx": [
+          "0 0",
+          "0 1",
+          "0 10",
+          "0 11",
+          "0 2",
+          "0 3",
+          "0 4",
+          "0 5",
+          "0 6",
+          "0 7",
+          "0 8",
+          "0 9",
+          "1 0",
+          "1 1",
+          "1 10",
+          "1 11",
+          "1 2",
+          "1 3",
+          "1 4",
+          "1 5",
+          "1 6",
+          "1 7",
+          "1 8",
+          "1 9",
+          "2 0",
+          "2 1",
+          "2 10",
+          "2 11",
+          "2 2",
+          "2 3",
+          "2 4",
+          "2 5",
+          "2 6",
+          "2 7",
+          "2 8",
+          "2 9",
+          "3 0",
+          "3 1",
+          "3 10",
+          "3 11",
+          "3 2",
+          "3 3",
+          "3 4",
+          "3 5",
+          "3 6",
+          "3 7",
+          "3 8",
+          "3 9",
+          "4 0",
+          "4 1",
+          "4 10",
+          "4 11",
+          "4 2",
+          "4 3",
+          "4 4",
+          "4 5",
+          "4 6",
+          "4 7",
+          "4 8",
+          "4 9",
+          "5 0",
+          "5 1",
+          "5 10",
+          "5 11",
+          "5 2",
+          "5 3",
+          "5 4",
+          "5 5",
+          "5 6",
+          "5 7",
+          "5 8",
+          "5 9",
+          "6 0",
+          "6 1",
+          "6 10",
+          "6 11",
+          "6 2",
+          "6 3",
+          "6 4",
+          "6 5",
+          "6 6",
+          "6 7",
+          "6 8",
+          "6 9"
+        ]
+      }
+    }
+  ],
+  "cameraAnchor": {
+    "x": 0,
+    "y": 0
+  },
+  "cameraAnchorSpeed": 800,
+  "cameraDrift": 0,
+  "cameraMaxHeight": 1440,
+  "cameraMaxWidth": 2560,
+  "cameraMinHeight": 720,
+  "cameraMinWidth": 1024,
+  "cameraStart": {
+    "x": 10000,
+    "y": -10000
+  },
+  "happenings": [
+    {
+      "actions": [
+        {
+          "happening": "tut_setup",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "automatic": true,
+      "id": "setup",
+      "transcendent": false
+    },
+    {
+      "actions": [
+        {
+          "type": "VARIABLE_SET",
+          "varname": "achievements_suppressed",
+          "varvalue": 1
+        },
+        {
+          "type": "VARIABLE_SET",
+          "varname": "battle_hud_tips_disabled",
+          "varvalue": 1
+        },
+        {
+          "type": "BATTLE_DIFFICULTY_ENABLE"
+        },
+        {
+          "type": "BATTLE_MORALE_ENABLE"
+        },
+        {
+          "type": "BATTLE_AI_ENABLE"
+        },
+        {
+          "type": "BATTLE_MATCH_RESOLUTION_ENABLE"
+        },
+        {
+          "param": "tiles",
+          "type": "BATTLE_GUI_ENABLE"
+        },
+        {
+          "param": "flytext",
+          "type": "BATTLE_GUI_ENABLE"
+        },
+        {
+          "anchor": "tutorial_chieftain",
+          "id": "tutorial_chieftain",
+          "param": "abl_tutorial_threaten",
+          "type": "BATTLE_UNIT_ABILITY",
+          "varvalue": 1
+        },
+        {
+          "type": "BATTLE_WAIT_DEPLOYMENT_START"
+        },
+        {
+          "type": "WAIT_READY"
+        },
+        {
+          "type": "BATTLE_READY"
+        },
+        {
+          "type": "BATTLE_CAMERA_CENTER"
+        },
+        {
+          "happening": "tut_start",
+          "instant": true,
+          "type": "HAPPENING"
+        }
+      ],
+      "id": "tut_setup",
+      "transcendent": false
+    },
+    {
+      "actions": [
+        {
+          "location": "CENTER",
+          "msg": "$TUTORIAL:tut_battle_intro_mode",
+          "param": "button",
+          "type": "TUTORIAL_POPUP"
+        },
+        {
+          "param": "restrictInput=1",
+          "type": "BATTLE_CONTROLLER_CONFIG"
+        },
+        {
+          "anchor": "ScenePage|BattleHudPage|assets.battle_hud|assets.battle_initiative|activeFrame",
+          "location": "TOP:TOP",
+          "msg": "$TUTORIAL:tut_battle_initiative_mode",
+          "param": "button;arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 0
+        },
+        {
+          "param": "tiles;flytext",
+          "type": "BATTLE_GUI_ENABLE",
+          "varvalue": 1
+        },
+        {
+          "anchor": "ScenePage|scene_view|boards|focusedBoardView|entityViews|0+0+shieldbanger_tut|shadowBitmapWrapper",
+          "location": "LEFT:NONE",
+          "msg": "$TUTORIAL:tut_battle_move_start_mode",
+          "param": "button;arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": -64
+        },
+        {
+          "anchor": "ScenePage|scene_view|boards|focusedBoardView|entityViews|0+0+shieldbanger_tut|shadowBitmapWrapper",
+          "location": "BOTTOM:NONE",
+          "msg": "$TUTORIAL:tut_battle_move_tiles_mode",
+          "param": "button;arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 32
+        },
+        {
+          "param": "@5,2",
+          "type": "BATTLE_TILE_MARKER"
+        },
+        {
+          "param": "restrictInput=1;allowHover=1;allowMoveTile=@5,2",
+          "type": "BATTLE_CONTROLLER_CONFIG"
+        },
+        {
+          "anchor": "ScenePage|scene_view|boards|focusedBoardView|underlay|marker|tile",
+          "instant": true,
+          "location": "TOP:NONE",
+          "msg": "$TUTORIAL:tut_move_click_mode",
+          "param": "arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": -32
+        },
+        {
+          "id": "shieldbanger_tut",
+          "type": "BATTLE_WAIT_MOVE_START"
+        },
+        {
+          "type": "BATTLE_TILE_MARKER"
+        },
+        {
+          "type": "TUTORIAL_REMOVE_ALL"
+        },
+        {
+          "id": "shieldbanger_tut",
+          "type": "BATTLE_WAIT_MOVE_STOP"
+        },
+        {
+          "param": "allowMoveTile=;allowEntities=npc+3+tutorial_raider",
+          "type": "BATTLE_CONTROLLER_CONFIG"
+        },
+        {
+          "param": "selfPopupSpecial=0;selfPopupEnd=0;enemyPopupArmor=0;enemyPopupStrength=0;enemyPopupStars=0",
+          "type": "BATTLE_HUD_CONFIG"
+        },
+        {
+          "type": "BATTLE_SUPPRESS_TURN_END",
+          "varvalue": 1
+        },
+        {
+          "anchor": "ScenePage|scene_view|boards|focusedBoardView|entityViews|npc+3+tutorial_raider|shadowBitmapWrapper",
+          "instant": true,
+          "location": "BOTTOM:NONE",
+          "msg": "$TUTORIAL:tut_attack_target_mode",
+          "param": "arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 16
+        },
+        {
+          "id": "npc+3+tutorial_raider",
+          "type": "BATTLE_WAIT_UNIT_INTERACTED"
+        },
+        {
+          "param": "allowEntities=",
+          "type": "BATTLE_CONTROLLER_CONFIG"
+        },
+        {
+          "param": "enemyPopupWangler=0",
+          "type": "BATTLE_HUD_CONFIG"
+        },
+        {
+          "anchor": "ScenePage|BattleHudPage|assets.enemy_popup|button_str|damage_flag",
+          "instant": true,
+          "location": "BOTTOM:CENTER",
+          "msg": "$TUTORIAL:tut_attack_target_mode",
+          "param": "arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 16
+        },
+        {
+          "anchor": "ScenePage|battle_info_flags|npc+3+tutorial_raider",
+          "instant": true,
+          "location": "RIGHT:RIGHT",
+          "msg": "$TUTORIAL:tut_battle_attack_stats_str_mode",
+          "param": "arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 0
+        },
+        {
+          "anchor": "ScenePage|battle_info_flags|npc+3+tutorial_raider",
+          "instant": true,
+          "location": "LEFT:LEFT",
+          "msg": "$TUTORIAL:tut_battle_attack_stats_arm_mode",
+          "param": "arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 0
+        },
+        {
+          "param": "enemyPopupWangler=1",
+          "type": "BATTLE_HUD_CONFIG"
+        },
+        {
+          "anchor": "ScenePage|BattleHudPage|assets.enemy_popup|button_str|damage_flag",
+          "instant": true,
+          "location": "BOTTOM:CENTER",
+          "msg": "$TUTORIAL:tut_battle_attack_confirm_mode",
+          "param": "arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 16
+        },
+        {
+          "param": "enemyPopupStrength=1",
+          "type": "BATTLE_HUD_CONFIG"
+        },
+        {
+          "id": "npc+3+tutorial_raider",
+          "type": "BATTLE_WAIT_UNIT_KILLED"
+        },
+        {
+          "anchor": "ScenePage|scene_view|boards|focusedBoardView|entityViews|0+0+shieldbanger_tut|shadowBitmapWrapper",
+          "location": "BOTTOM:NONE",
+          "msg": "$TUTORIAL:tut_battle_attack_killed_renown_mode",
+          "param": "button",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 32
+        },
+        {
+          "anchor": "ScenePage|BattleHudPage|assets.battle_hud|assets.battle_initiative|activeFrame",
+          "location": "TOP:TOP",
+          "msg": "$TUTORIAL:tut_battle_pillage_mod_mode",
+          "param": "button;arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 0
+        },
+        {
+          "type": "BATTLE_NEXT_TURN"
+        },
+        {
+          "param": "restrictInput=1;allowHover=0;allowMoveTile=",
+          "type": "BATTLE_CONTROLLER_CONFIG"
+        },
+        {
+          "anchor": "ScenePage|scene_view|boards|focusedBoardView|entityViews|npc+2+tutorial_raider|shadowBitmapWrapper",
+          "location": "BOTTOM:NONE",
+          "msg": "$TUTORIAL:tut_battle_warrior_willpower_mode",
+          "param": "button",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 16
+        },
+        {
+          "param": "@1,2",
+          "type": "BATTLE_TILE_MARKER"
+        },
+        {
+          "anchor": "ScenePage|scene_view|boards|focusedBoardView|underlay|marker|tile",
+          "instant": true,
+          "location": "BOTTOM:NONE",
+          "msg": "$TUTORIAL:tut_battle_warrior_move_click_mode",
+          "param": "arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 32
+        },
+        {
+          "param": "restrictInput=1;allowHover=1;allowMoveTile=@1,2",
+          "type": "BATTLE_CONTROLLER_CONFIG"
+        },
+        {
+          "id": "warhawk_tut",
+          "type": "BATTLE_WAIT_MOVE_START"
+        },
+        {
+          "id": "warhawk_tut",
+          "param": "follow",
+          "type": "BATTLE_CAMERA_CENTER"
+        },
+        {
+          "type": "TUTORIAL_REMOVE_ALL"
+        },
+        {
+          "type": "BATTLE_TILE_MARKER"
+        },
+        {
+          "id": "warhawk_tut",
+          "type": "BATTLE_WAIT_MOVE_STOP"
+        },
+        {
+          "type": "BATTLE_CAMERA_CENTER"
+        },
+        {
+          "param": "selfPopup=1;selfPopupSpecial=0;selfPopupEnd=0;selfPopupAttack=0;enemyPopupStars=0;enemyPopup=0",
+          "type": "BATTLE_HUD_CONFIG"
+        },
+        {
+          "anchor": "ScenePage|scene_view|boards|focusedBoardView|entityViews|0+1+warhawk_tut|shadowBitmapWrapper",
+          "location": "BOTTOM:NONE",
+          "msg": "$TUTORIAL:tut_battle_warrior_special_click_mode",
+          "param": "button",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 32
+        },
+        {
+          "param": "allowHover=;allowEntities=",
+          "type": "BATTLE_CONTROLLER_CONFIG"
+        },
+        {
+          "anchor": "ScenePage|BattleHudPage|assets.self_popup|basic|ability_button|placeholder",
+          "instant": true,
+          "location": "BOTTOM:NONE",
+          "msg": "$TUTORIAL:tut_battle_warrior_self_popup_mode",
+          "param": "arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 32
+        },
+        {
+          "param": "selfPopupSpecial=1",
+          "type": "BATTLE_HUD_CONFIG"
+        },
+        {
+          "id": "warhawk_tut",
+          "param": "abl_tempest",
+          "type": "BATTLE_WAIT_TURN_ABILITY"
+        },
+        {
+          "id": "npc+2+tutorial_raider",
+          "type": "BATTLE_CAMERA_CENTER"
+        },
+        {
+          "anchor": "ScenePage|scene_view|boards|focusedBoardView|entityViews|npc+2+tutorial_raider|shadowBitmapWrapper",
+          "instant": true,
+          "location": "BOTTOM:NONE",
+          "msg": "$TUTORIAL:tut_battle_warrior_tempest_target_mode",
+          "param": "arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 16
+        },
+        {
+          "param": "allowMoveTile=;allowEntities=npc+1+tutorial_raider,npc+2+tutorial_raider",
+          "type": "BATTLE_CONTROLLER_CONFIG"
+        },
+        {
+          "id": "npc+2+tutorial_raider",
+          "type": "BATTLE_WAIT_UNIT_KILLED"
+        },
+        {
+          "time": 1,
+          "type": "WAIT"
+        },
+        {
+          "anchor": "ScenePage|scene_view|boards|focusedBoardView|entityViews|npc+0+tutorial_chieftain|shadowBitmapWrapper",
+          "location": "BOTTOM:NONE",
+          "msg": "$TUTORIAL:tut_battle_chieftain_rest_pre_mode",
+          "param": "button",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 64
+        },
+        {
+          "type": "BATTLE_SUPPRESS_TURN_END",
+          "varvalue": 1
+        },
+        {
+          "id": "tutorial_chieftain",
+          "param": "abl_rest",
+          "type": "BATTLE_UNIT_ABILITY",
+          "varvalue": 1
+        },
+        {
+          "time": 1,
+          "type": "WAIT"
+        },
+        {
+          "type": "BATTLE_NEXT_TURN"
+        },
+        {
+          "param": "@5,1",
+          "type": "BATTLE_TILE_MARKER"
+        },
+        {
+          "param": "restrictInput=1;allowHover=1;allowMoveTile=@5,1",
+          "type": "BATTLE_CONTROLLER_CONFIG"
+        },
+        {
+          "anchor": "ScenePage|scene_view|boards|focusedBoardView|underlay|marker|tile",
+          "instant": true,
+          "location": "TOP:NONE",
+          "msg": "$TUTORIAL:tut_battle_click_chieftain_mode",
+          "param": "arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": -32
+        },
+        {
+          "id": "shieldbanger_tut",
+          "type": "BATTLE_WAIT_MOVE_START"
+        },
+        {
+          "type": "BATTLE_TILE_MARKER"
+        },
+        {
+          "type": "TUTORIAL_REMOVE_ALL"
+        },
+        {
+          "id": "shieldbanger_tut",
+          "type": "BATTLE_WAIT_MOVE_STOP"
+        },
+        {
+          "param": "allowMoveTile=;allowEntities=npc+0+tutorial_chieftain",
+          "type": "BATTLE_CONTROLLER_CONFIG"
+        },
+        {
+          "param": "selfPopup=1;enemyPopup=1;selfPopupSpecial=0;selfPopupEnd=0;selfPopupAttack=1;enemyPopupStars=1;enemyPopupMinStars=1;enemyPopup=1",
+          "type": "BATTLE_HUD_CONFIG"
+        },
+        {
+          "type": "BATTLE_SUPPRESS_TURN_END",
+          "varvalue": 1
+        },
+        {
+          "anchor": "ScenePage|scene_view|boards|focusedBoardView|entityViews|npc+0+tutorial_chieftain|shadowBitmapWrapper",
+          "instant": true,
+          "location": "BOTTOM:NONE",
+          "msg": "$TUTORIAL:tut_battle_click_chieftain_mode",
+          "param": "arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 16
+        },
+        {
+          "id": "shieldbanger_tut",
+          "type": "BATTLE_UNIT_INTERACT"
+        },
+        {
+          "id": "npc+0+tutorial_chieftain",
+          "type": "BATTLE_WAIT_UNIT_INTERACTED"
+        },
+        {
+          "param": "restrictInput=1;allowHover=0;allowMoveTile=",
+          "type": "BATTLE_CONTROLLER_CONFIG"
+        },
+        {
+          "param": "enemyPopupWangler=0",
+          "type": "BATTLE_HUD_CONFIG"
+        },
+        {
+          "anchor": "ScenePage|BattleHudPage|assets.enemy_popup|button_str|damage_flag",
+          "instant": true,
+          "location": "BOTTOM:BOTTOM",
+          "msg": "$TUTORIAL:tut_battle_popup_chieftain_mode",
+          "param": "arrow",
+          "type": "TUTORIAL_POPUP",
+          "varvalue": 16
+        },
+        {
+          "type": "FASTALL"
+        },
+        {
+          "id": "npc+0+tutorial_chieftain",
+          "type": "BATTLE_WAIT_UNIT_KILLED"
+        },
+        {
+          "type": "BATTLE_HALT"
+        },
+        {
+          "type": "BATTLE_WIN_MUSIC"
+        },
+        {
+          "time": 3,
+          "type": "WAIT"
+        },
+        {
+          "time": 1,
+          "type": "FADEOUT"
+        },
+        {
+          "type": "BATTLE_END"
+        }
+      ],
+      "id": "tut_start",
+      "transcendent": false
+    }
+  ],
+  "landscape": {
+    "boundary": {
+      "height": 1875.9999999999995,
+      "width": 3745,
+      "x": -1818,
+      "y": -857
+    },
+    "layers": [
+      {
+        "always": true,
+        "layerSprites": [
+          {
+            "bmp": "common/battle/scene/tutorial/walk_0x0.png",
+            "localrect": {
+              "height": 1987,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "bmp_walk_0x0",
+            "offset": {
+              "x": -419,
+              "y": -564
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/battle/scene/tutorial/walk_2048x0.png",
+            "localrect": {
+              "height": 1987,
+              "width": 1303,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "bmp_walk_2048x0",
+            "offset": {
+              "x": 1629,
+              "y": -564
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/battle/scene/greathall/fire_pit.png",
+            "localrect": {
+              "height": 252,
+              "width": 471,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "bmp_coals",
+            "offset": {
+              "x": 1150,
+              "y": 579
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "common/battle/scene/wall01/strand_walls_vfx/vfx_single_torch1_glow_smoke.clip",
+            "bmp": "",
+            "localrect": {
+              "height": 173.35000000000002,
+              "width": 128.45000000000002,
+              "x": -47.05,
+              "y": -102.25
+            },
+            "nameId": "vfx_single_torch1_glow_smoke_2",
+            "offset": {
+              "x": 1795,
+              "y": 38
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "common/battle/scene/wall01/strand_walls_vfx/vfx_single_torch1_glow_smoke.clip",
+            "bmp": "",
+            "localrect": {
+              "height": 173.35000000000002,
+              "width": 128.45000000000002,
+              "x": -47.05,
+              "y": -102.25
+            },
+            "nameId": "vfx_single_torch1_glow_smoke_3",
+            "offset": {
+              "x": 2786,
+              "y": 538
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "common/battle/scene/wall01/strand_walls_vfx/vfx_single_torch1_flames.clip",
+            "blendMode": "add",
+            "bmp": "",
+            "localrect": {
+              "height": 113.3,
+              "width": 75.80000000000001,
+              "x": -30.65,
+              "y": -50.05
+            },
+            "nameId": "vfx_single_torch1_flames_1",
+            "offset": {
+              "x": 2791,
+              "y": 533
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "common/battle/scene/mead_house/vfx_mead_house/vfx_coals_glow.clip",
+            "blendMode": "add",
+            "bmp": "",
+            "localrect": {
+              "height": 56,
+              "width": 236,
+              "x": -118,
+              "y": -28
+            },
+            "nameId": "vfx_coals_glow_1",
+            "offset": {
+              "x": 1385.45,
+              "y": 705.4
+            },
+            "rotation": -25.51871582915645,
+            "scale": {
+              "x": 2.127134664032647,
+              "y": 2.381587788642932
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "common/battle/scene/wall01/strand_walls_vfx/vfx_single_torch1_glow_smoke.clip",
+            "bmp": "",
+            "localrect": {
+              "height": 173.35000000000002,
+              "width": 128.45000000000002,
+              "x": -47.05,
+              "y": -102.25
+            },
+            "nameId": "vfx_single_torch1_glow_smoke_1",
+            "offset": {
+              "x": 94,
+              "y": 606
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "common/battle/scene/wall01/strand_walls_vfx/vfx_single_torch1_glow_smoke.clip",
+            "bmp": "",
+            "localrect": {
+              "height": 173.35000000000002,
+              "width": 128.45000000000002,
+              "x": -47.05,
+              "y": -102.25
+            },
+            "nameId": "vfx_single_torch1_glow_smoke_4",
+            "offset": {
+              "x": 514,
+              "y": 387
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "common/battle/scene/wall01/strand_walls_vfx/vfx_single_torch1_glow_smoke.clip",
+            "bmp": "",
+            "localrect": {
+              "height": 173.35000000000002,
+              "width": 128.45000000000002,
+              "x": -47.05,
+              "y": -102.25
+            },
+            "nameId": "vfx_single_torch1_glow_smoke_5",
+            "offset": {
+              "x": 1167,
+              "y": 58
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "common/battle/scene/wall01/strand_walls_vfx/vfx_single_torch1_flames.clip",
+            "blendMode": "add",
+            "bmp": "",
+            "localrect": {
+              "height": 113.3,
+              "width": 75.80000000000001,
+              "x": -30.65,
+              "y": -50.05
+            },
+            "nameId": "vfx_single_torch1_flames_2",
+            "offset": {
+              "x": 96,
+              "y": 602
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "common/battle/scene/wall01/strand_walls_vfx/vfx_single_torch1_flames.clip",
+            "blendMode": "add",
+            "bmp": "",
+            "localrect": {
+              "height": 113.3,
+              "width": 75.80000000000001,
+              "x": -30.65,
+              "y": -50.05
+            },
+            "nameId": "vfx_single_torch1_flames_3",
+            "offset": {
+              "x": 517,
+              "y": 382
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "common/battle/scene/wall01/strand_walls_vfx/vfx_single_torch1_flames.clip",
+            "blendMode": "add",
+            "bmp": "",
+            "localrect": {
+              "height": 113.3,
+              "width": 75.80000000000001,
+              "x": -30.65,
+              "y": -50.05
+            },
+            "nameId": "vfx_single_torch1_flames_4",
+            "offset": {
+              "x": 1170,
+              "y": 51
+            },
+            "smoothing": true
+          },
+          {
+            "anim": "common/battle/scene/wall01/strand_walls_vfx/vfx_single_torch1_flames.clip",
+            "blendMode": "add",
+            "bmp": "",
+            "localrect": {
+              "height": 113.3,
+              "width": 75.80000000000001,
+              "x": -30.65,
+              "y": -50.05
+            },
+            "nameId": "vfx_single_torch1_flames_5",
+            "offset": {
+              "x": 1796,
+              "y": 36
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_walk",
+        "offset": {
+          "x": -1155,
+          "y": -397
+        },
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "common/battle/scene/tutorial/close2_left.png",
+            "localrect": {
+              "height": 820,
+              "width": 976,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "bmp_close2_left",
+            "offset": {
+              "x": -665,
+              "y": 583
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/battle/scene/tutorial/close2_pillar.png",
+            "localrect": {
+              "height": 1512,
+              "width": 398,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "bmp_close2_pillar",
+            "offset": {
+              "x": 554,
+              "y": -416
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/battle/scene/tutorial/close2_right.png",
+            "localrect": {
+              "height": 762,
+              "width": 1370,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "bmp_close2_right",
+            "offset": {
+              "x": 849,
+              "y": 647
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_close3",
+        "offset": {
+          "x": -1155,
+          "y": -397
+        },
+        "speed": 1
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "common/battle/scene/tutorial/close3_banners_0x0.png",
+            "localrect": {
+              "height": 1220,
+              "width": 2048,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "bmp_close3_banners_0x0",
+            "offset": {
+              "x": -45,
+              "y": -546
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/battle/scene/tutorial/close3_banners_2048x0.png",
+            "localrect": {
+              "height": 1220,
+              "width": 440,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "bmp_close3_banners_2048x0",
+            "offset": {
+              "x": 2003,
+              "y": -546
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_close2",
+        "offset": {
+          "x": -1155,
+          "y": -397
+        },
+        "speed": 1.15
+      },
+      {
+        "layerSprites": [
+          {
+            "bmp": "common/battle/scene/tutorial/close1_left.png",
+            "localrect": {
+              "height": 989,
+              "width": 1365,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "bmp_close1",
+            "offset": {
+              "x": -1533,
+              "y": -791
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          },
+          {
+            "bmp": "common/battle/scene/tutorial/close1_right.png",
+            "localrect": {
+              "height": 1476,
+              "width": 1382,
+              "x": 0,
+              "y": 0
+            },
+            "nameId": "bmp_close1_right",
+            "offset": {
+              "x": 1174,
+              "y": -820
+            },
+            "scale": {
+              "x": 2,
+              "y": 2
+            },
+            "smoothing": true
+          }
+        ],
+        "nameId": "layer_close1",
+        "offset": {
+          "x": -1155,
+          "y": -397
+        },
+        "speed": 2
+      }
+    ]
+  },
+  "loadAudio": true,
+  "loadBattleMusic": true,
+  "reverb": "battles_ext",
+  "soundLibrary": {
+    "sku": "common",
+    "sounds": []
+  },
+  "split_happenings": true
+}
