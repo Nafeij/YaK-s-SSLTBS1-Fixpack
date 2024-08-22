@@ -1,4 +1,4 @@
-# Spare Some Love To Banner Saga 1 - version 3.3
+# Spare Some Love To Banner Saga 1 - version 3.4
 
 > for Banner Saga 1, Steam version 2.58.17 / GOG version 2.58.17
 
